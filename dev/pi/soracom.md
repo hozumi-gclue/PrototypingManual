@@ -1,0 +1,4 @@
+# Soracom SIMのActivate
+
+
+

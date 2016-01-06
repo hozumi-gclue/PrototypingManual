@@ -1,0 +1,22 @@
+# #303 PhoneJack Serial Brick
+<center>![](/img/300_serial/product/303_phonejack_product.png)
+<!--COLORME-->
+
+iPhone等のイヤホンマイクとやりとりができるBrickです。
+
+## Connecting
+![](/img/300_serial/connect/303_phonejack_connect.png)
+Serialコネクタへ接続します。
+
+## Support
+| Arduino | RaspberryPI | IchigoJam |
+| -- | -- |
+|  |  |  |
+
+## Schematic
+![](/img/300_serial/schematic/303_phonejack_schematic.png)
+
+## Sample Code
+### for Arduino
+
+## Parts

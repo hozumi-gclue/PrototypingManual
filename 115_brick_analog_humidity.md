@@ -1,0 +1,72 @@
+# #115 Humidity Brick
+
+<center>![](/img/100_analog/product/115_humidity_product.png)
+<!--COLORME-->
+
+湿度センサーを使用したBrickです。
+<br>
+I/Oピンより、温度、湿度の情報を取得することができます。
+<br>
+
+## Connecting
+A0コネクタに接続して、湿度を計測します。
+![](/img/100_analog/connect/115_humidity_connect.png)
+
+## Support
+| Arduino | RaspberryPI | IchigoJam |
+| -- | -- |
+| <center>○ | <center>× | <center>○ |
+
+## Schematic
+![](/img/100_analog/schematic/115_humidity_schematic.png)
+
+## Sample Code
+### Arduino
+このサンプルコードでは外部ライブラリを使用します。
+
+https://github.com/adafruit/DHT-sensor-library
+よりDHTライブラリをインストールしてください。
+
+ライブラリの組み込み方法 (https://sites.google.com/a/gclue.jp/iot-docs/shi-du)
+
+
+```c
+//
+// FaBo Brick Sample
+//
+// brick_analog_humidity
+//
+// DHT Library Downloads
+// https://github.com/adafruit/DHT-sensor-library
+
+#include "DHT.h"
+DHT dht(A0, DHT11);
+
+void setup() {
+  Serial.begin(9600);
+  dht.begin();
+}
+
+void loop() {
+
+  delay(1000);
+
+  float h = dht.readHumidity();
+  float t = dht.readTemperature();
+
+  Serial.print("Hum: "); 
+  Serial.print(h);
+  Serial.print(" %");
+  Serial.print("  Temp: "); 
+  Serial.print(t);
+  Serial.println(" *C");
+}
+```
+
+### IchigoJam
+```Basic
+
+```
+
+## Parts
+- 湿温度センサモジュールDHT11

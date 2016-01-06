@@ -1,0 +1,10 @@
+{
+    "plugins": [
+        "facebooktest",
+        "youtube",
+        "akiratest"
+    ],
+    "pluginsConfig": {
+        "facebooktest":{"appKey": "1481092238866545"}
+    }
+}
