@@ -57,9 +57,9 @@ Arduino UNO R3/R2では使用可能です。
 
 | 信号1 | 信号2 | 動作 |
 | -- | -- | -- |
-| HIGH | LOW | 前進 |
-| LOW | HIGH | 後退 |
-| LOW | LOW | 静止 |
+| <font color='#FF0000'>HIGH | <font color='#0000FF'>LOW | 前進 |
+| <font color='#0000FF'>LOW | <font color='#FF0000'>HIGH | 後退 |
+| <font color='#0000FF'>LOW | <font color='#0000FF'>LOW | 静止 |
 
 <font color='#FF0000'> 信号1、信号2の両方をHIGHにすると、部品が壊れる可能性があるので設定しないようにして下さい。
 
