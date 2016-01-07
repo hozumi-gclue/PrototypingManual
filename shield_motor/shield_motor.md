@@ -1,13 +1,9 @@
 #Motor Shield for Arduino
 
+<center>![](../img/600_shield/product/600_motor_product.png)
 
-<br>
 複数のDCモーターを制御することができるシールドです。
 <br>モーターを動かすには外部からの電源供給が必要になります。
-
-また、モーターシールドはAnalogが4つ、I2C、SERIALがそれぞれ1つが接続できるようになっているため、Out/Inシールドを使用せずにBrickを接続することができます。
-<br>
-<center>![](../img/600_shield/product/600_motor_product.png)
 
 ## コネクタ
 
