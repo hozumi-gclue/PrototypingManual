@@ -3,15 +3,12 @@
 <center>![](/img/100_analog/product/104_angle_product.png)
 <!--COLORME-->
 
+## Overview
 ボリューム抵抗を使ったBrickです。
-<br>
 I/Oピンからアナログ値(0〜1023)を取得することができます。
-<br>
 
 ## Connecting
 ![](/img/100_analog/connect/104_angle_connect.png)
-
-A0コネクタにAngleを接続して、デジタル3(PWM)コネクタに接続したLED Brickの明るさ調節に使用しています。
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
@@ -23,6 +20,7 @@ A0コネクタにAngleを接続して、デジタル3(PWM)コネクタに接続�
 
 ## Sample Code
 ### Arduino
+A0コネクタにAngleを接続して、デジタル3(PWM)コネクタに接続したLED Brickの明るさ調節に使用しています。
 ```c
 //
 // FaBo Brick Sample
