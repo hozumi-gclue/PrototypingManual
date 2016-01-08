@@ -3,7 +3,7 @@
 ## Overview
 OUT/IN Shield for Raspberry Piは、Raspberry Piと各種センサーやボタンをケーブルを1本接続するだけで使えるRaspberry Pi対応シールドです。
 
-![](shield_outin_raspberrypi.jpg)
+![](./img/500_outin/product/502_raspberrypi.png)
 
 ## コネクタ
 ### アナログコネクタ
