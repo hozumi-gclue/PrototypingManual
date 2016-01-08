@@ -1,3 +1,4 @@
 #OUT/IN Shield for IchigoJam
 IchigoJamとBrickに対応した各種センサーやボタンを、コネクタに挿すだけで簡単に使いはじめることができるIchigoJam対応シールドです。
 
+![](./img/500_outin/product/503_ichigojam.png)
