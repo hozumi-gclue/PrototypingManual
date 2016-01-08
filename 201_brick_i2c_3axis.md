@@ -3,38 +3,37 @@
 <center>![](/img/200_i2c/product/201_3axis_product.png)
 <!--COLORME-->
 
+## Overview
 3軸加速度センサーを使用したBrickです。
-<br>
-I2Cで、X、Y、Zの3軸のデータを取得することがきます。
+I2Cで3軸の加速度データを取得することがきます。
 
-
-### センサー取得データについて
+## センサー取得データについて
 このBrickでは下の図の3軸の値を取得します。
-<br>
+
 ![](/img/200_i2c/docs/201_3axis_docs_001.png)
 
 それぞれ矢印の方向に力がかかるとプラス、逆方向ではマイナスとなります。
-<br>
+
 なお、このBrickを水平に置いた場合、重力がZ軸にかかっている状態となるので、X軸、Y軸が0に近く、Z軸のみ高い値となります。
 
 ## Connecting
 ![](/img/200_i2c/connect/201_3axis_connect.png)
-<br>
+
 I2Cコネクタへ接続します。
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>○ | <center>○ |
+|:--:|:--:|:--:|
+|◯|◯|◯|
 
 ## Registor
 | I2C Slave Address |
-| -- |
+|:--:|
 | 0x53 |
 
 ## Datasheet
 | Document |
-| -- |
+|:--:|
 | [Datasheet](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) |
 
 ## Schematic
