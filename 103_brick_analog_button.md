@@ -11,6 +11,7 @@ I/OピンよりボタンのON/OFFの状態を取得することができます�
 
 ## Connecting
 ![](/img/100_analog/connect/103_button_connect.png)
+
 A0コネクタに接続したButton Brickの入力により、A1コネクタに接続したLED Brick の点灯/消灯を制御しています。
 
 
