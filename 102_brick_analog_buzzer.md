@@ -3,14 +3,13 @@
 <center>![](/img/100_analog/product/102_buzzer_product.png)
 <!--COLORME-->
 
+## Overview
 圧電ブザーを使ったBrickです。
-<br>
 I/Oピンより、鳴らす音や音の長さを制御することができます。
-<br>
+
 ![](/img/100_analog/connect/102_buzzer_connect.png)
 
 ## Connecting
-A0コネクタにBuzzer Brickを接続し、ビープ音を鳴らしています。
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
@@ -22,6 +21,7 @@ A0コネクタにBuzzer Brickを接続し、ビープ音を鳴らしています
 
 ## Sample Code
 ### for Arduino
+A0コネクタにBuzzer Brickを接続し、ビープ音を鳴らしています。
 ```c
 //
 // FaBo Brick Sample
