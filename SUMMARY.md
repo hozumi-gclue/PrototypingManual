@@ -90,15 +90,15 @@
    * [OUT/IN Shield for KinomaCreate](505_shield_outin_kinomacreate.md)
    * [OUT/IN Shield for Raspberry Pi ZERO](506_shield_outin_raspberrypizero.md)
    * [OUT/IN I2C Expand board](599_shield_outin_i2c_expand.md)
-* [Shield]
+* Shield
    * [Motor Shield for Arduino](shield_motor/shield_motor.md)
    * [Stepping Motor Shield for Arduino](shield_stmotor/shield_stmotor.md)
    * [CT Sensor Shield for Arduino](shield_ct_sensor/shield_ct_sensor.md)
    * [Rom Writer Shield for Arduino](shield_romwriter/shield_romwriter.md)
-* [Brick Breakout]
+* Brick Breakout
    * [Brick Breakout](brick_breakout/brick_breakout.md)
    * [Brick Universal](brick_universal/brick_universal.md)
-* [Kit]
+* Kit
    * [Robot Car Kit](kit/robot_car_kit.md)
 * [Factory 1.0](factory.md)
 * [Servo](servo.md)
