@@ -1,10 +1,10 @@
-# #3001 Robot Car Kit for Arduino
+#Robot Car Kit for Arduino
 
 
-###Arduino、MoterShield無し
+###<center>Arduino、MoterShield無し
 <center>![](../img/kit/product/RobocarNone.png)
 
-###Arduino、MoterShield有り
+###<center>Arduino、MoterShield有り
 <center>![](../img/kit/product/Robo.png)
 
 <!--COLORME-->
@@ -20,6 +20,6 @@ https://sites.google.com/a/gclue.jp/roboka-zuo-cheng/home
 
 
 ### 操作方法
-* motor shield
+* Motor Shield for Arduino
 <br>
 https://fabo.gitbooks.io/module/content/shield_motor/shield_motor.html
