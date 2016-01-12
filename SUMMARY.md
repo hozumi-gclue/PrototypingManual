@@ -98,6 +98,8 @@
 * [Brick Breakout]
    * [Brick Breakout](brick_breakout/brick_breakout.md)
    * [Brick Universal](brick_universal/brick_universal.md)
+* [Kit]
+   * [Robot Car Kit](kit/robot_car_kit.md)
 * [Factory 1.0](factory.md)
 * [Servo](servo.md)
 * [Current measurement](current_measurement.md)
