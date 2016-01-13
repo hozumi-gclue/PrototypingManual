@@ -3,10 +3,10 @@
 <center>![](/img/200_i2c/product/202_9axis_product.png)
 <!--COLORME-->
 
+## Overview
 1チップで3軸加速度、3軸ジャイロ、3軸コンパスを取得できるセンサを使用したBrickです。
-<br>
-I2Cでデータを取得できます。
 
+I2Cでデータを取得できます。
 
 ## Connecting
 ![](/img/200_i2c/connect/202_9axis_connect.png)
