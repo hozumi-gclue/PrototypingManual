@@ -3,8 +3,9 @@
 <center>![](/img/200_i2c/product/212_lcd_product.png)
 <!--COLORME-->
 
+## Overview
 LCDを使用したBrickです。
-<br>
+
 I2Cで表示データを制御できます。
 
 
