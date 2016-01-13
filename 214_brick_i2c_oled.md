@@ -3,8 +3,9 @@
 <center>![](/img/200_i2c/product/214_oled_product.png)
 <!--COLORME-->
 
+## Overview
 有機ELモジュールを使用したBrickです。
-<br>
+
 I2Cで表示データを制御できます。
 
 ## Connecting
