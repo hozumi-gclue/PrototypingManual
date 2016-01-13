@@ -33,7 +33,7 @@
        * [Soracom SIMのActivate](dev/pi/soracom.md)
        * [その他](dev/pi/etc.md)
    * [IchigoJam](dev/IchigoJam導入マニュアル)
-       * [IchigoJam導入準備](dev/ichigojamdao_ru_zhun_bei.md)
+       * [IchigoJam準備](dev/ichigojamdao_ru_zhun_bei.md)
    * [mbed os](dev/mbed.md)
    * [Edison](dev/edison)
    * [Kinoma Create](dev/kinoma.md)
