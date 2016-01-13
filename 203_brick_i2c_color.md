@@ -3,8 +3,9 @@
 <center>![](/img/200_i2c/product/203_color_product.png)
 <!--COLORME-->
 
+## Overview
 カラーセンサを使用したBrickです。
-<br>
+
 センサーより読み取った赤、緑、青、赤外線(明るさ)の4つのデータを、I2Cにて取得することができます。
 
 ## Connecting
