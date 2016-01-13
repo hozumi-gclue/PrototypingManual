@@ -1,6 +1,7 @@
 # #601 Motor Shield for Arduino
 
 <center>![](../img/600_shield/product/600_motor_product.png)
+<!--COLORME-->
 
 ## Overview
 複数のDCモーターを制御することができるシールドです。
