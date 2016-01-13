@@ -17,7 +17,7 @@ OUT/IN Shield for Raspberry Piは、Raspberry Piと各種センサーやボタ�
 - A6
 - A7
 
-SPI接続の10bit ADコンバータがシールド上に実装されております
+SPI接続の10bit ADコンバータがシールド上に実装されています
 
 ### GPIOコネクタ
 - GPIO4
