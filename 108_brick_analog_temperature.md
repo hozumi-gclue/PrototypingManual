@@ -2,10 +2,10 @@
 <center>![](/img/100_analog/product/108_temperature_product.png)
 <!--COLORME-->
 
+## Overview
 温度を計測するBrickです。
-<br>
+
 アナログ値(0〜1023)を取得でき、変換することで−30度から100度までの温度を計測することができます。
-<br>
 
 ## Connecting
 A0コネクタにTemperatureを接続して、温度を計測します。
