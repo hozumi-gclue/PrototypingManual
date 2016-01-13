@@ -1,4 +1,4 @@
-#3Pin LED Brick
+# #401 3Pin LED One
 
 <center>![](/img/400_led/product/401_led_product.png)
 <!--COLORME-->
