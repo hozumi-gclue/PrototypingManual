@@ -3,8 +3,8 @@
 <center>![](/img/200_i2c/product/208_humidity_product.png)
 <!--COLORME-->
 
+## Overview
 湿度センサを使用したBrickです。
-<br>
 I2Cでデータを取得できます。
 
 ## Connecting
