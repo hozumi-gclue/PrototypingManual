@@ -3,8 +3,9 @@
 <center>![](/img/200_i2c/product/204_barometer_product.png)
 <!--COLORME-->
 
+## Overview
 大気圧センサMPL115A2を使用したBrickです。
-<br>
+
 I2Cでデータを取得できます。
 
 ## Connecting
