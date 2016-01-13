@@ -1,9 +1,11 @@
-#Motor Shield for Arduino
+# #601 Motor Shield for Arduino
 
 <center>![](../img/600_shield/product/600_motor_product.png)
 
+## Overview
 複数のDCモーターを制御することができるシールドです。
-<br>モーターを動かすには外部からの電源供給が必要になります。
+
+モーターを動かすには外部からの電源供給が必要になります。
 
 ## コネクタ
 
