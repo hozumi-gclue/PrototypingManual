@@ -1,2 +1,4 @@
-#OUT/IN Shield for IchigoJam
-IchigoJamとBrickに対応した各種センサーやボタンを、コネクタに挿すだけで簡単に使いはじめることができるIchigoJam対応シールドです。
+# #505 OUT/IN Shield for Kinoma Create
+
+## Overview
+Kinoma CreateとBrickに対応した各種センサーやボタンを、コネクタに挿すだけで簡単に使いはじめることができるKinoma Create対応シールドです。
