@@ -21,3 +21,10 @@ BreakoutBrickには6種類あります。
 
 ## Connecting
 
+## Support
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|◯|◯|◯|
+
+## Schematic
+![](/img/700_breakout/schematic/702_breakout_schematic.png)
