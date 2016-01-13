@@ -3,12 +3,12 @@
 <center>![](/img/100_analog/product/110_tilt_product.png)
 <!--COLORME-->
 
+## Overview
 傾斜センサーを使用したBrickです。
-<br>
+
 I/Oピンより傾斜センサーの状態をデジタル値(0〜1)取得することができます。
-<br>
 黒い部分の中に玉が入っていて傾くとデジタル値が変化します。
-<br>
+
 
 ## Connecting
 A0コネクタに接続したTilt Brickの傾きによって、A1コネクタに接続したLED Brickを点灯/消灯させています。
