@@ -1,4 +1,4 @@
-#3Pin LED Brick
+# #403 3Pin LED Bar
 
 <center>![](/img/400_led/product/403_ledbar_product.png)
 <!--COLORME-->
