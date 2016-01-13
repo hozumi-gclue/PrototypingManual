@@ -1,14 +1,14 @@
 # #701 Breakout Brick
 
-<center>![](/img/700_breakout/product/701_breakout.png)
+<center>![](../img/700_breakout/product/breakout.png)
 <!--COLORME-->
 
 ## Overview
-ブレッドボード等に接続することで、Brick以外の部品と接続することができます。
+ブレッドボード等に接続することで、Brick以外のセンサーなどに接続することができます。
 
 
 ## BreakoutBrickの種類
-BreakoutBrickには6種類あります。
+BreakoutBrickは、3pin、I2C、Serialに対して、それぞれに黒(2.54mm)と白(2mm)のコネクタがついたBrickがあります。
 
 |ID|名称|
 |--|--|
@@ -20,6 +20,9 @@ BreakoutBrickには6種類あります。
 |#707|Breakout 2mm Serial|
 
 ## Connecting
+![](../img/700_breakout/connecting/breakout_connecting.png)
+
+Breakout 2.54mm 3pinを使用し、BreadBoard経由で距離センサーを接続しています。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
@@ -27,4 +30,4 @@ BreakoutBrickには6種類あります。
 |◯|◯|◯|
 
 ## Schematic
-![](/img/700_breakout/schematic/702_breakout_schematic.png)
+![](../img/700_breakout/schematic/breakout_schematic.png)
