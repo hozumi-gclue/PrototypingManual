@@ -2,8 +2,9 @@
 <center>![](/img/100_analog/product/106_touch_product.png)
 <!--COLORME-->
 
+## Overview
 圧力センサーを使用したタッチセンサーBrickです。
-<br>
+
 I/Oピンより、感圧部分に加えられた力の大きさの変化をアナログ値(0〜1023)で取得することができます。
 
 ## Connecting
