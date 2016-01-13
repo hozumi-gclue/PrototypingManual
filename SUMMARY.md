@@ -97,8 +97,8 @@
    * [CT Sensor Shield for Arduino](shield_ct_sensor/shield_ct_sensor.md)
    * [Rom Writer Shield for Arduino](shield_romwriter/shield_romwriter.md)
 * Brick Breakout
-   * [Brick Breakout](brick_breakout.md)
-   * [Brick Universal](brick_universal.md)
+   * [Brick Breakout](brick_breakout/brick_breakout.md)
+   * [Brick Universal](brick_breakout/brick_universal.md)
 * Case
    * [Arduino Uno](case/uno.md)
    * [Arduino Mega](case/mega.md)
