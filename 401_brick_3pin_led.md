@@ -1,4 +1,4 @@
-# #401 3Pin LED One
+# #401 ColorLED One
 
 <center>![](/img/400_led/product/401_led_product.png)
 <!--COLORME-->
