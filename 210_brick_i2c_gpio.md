@@ -3,8 +3,9 @@
 <center>![](/img/200_i2c/product/210_gpio_product.png)
 <!--COLORME-->
 
+## Overview
 汎用I/O拡張チップを使用したBrickです。
-<br>
+
 I2Cで8個のLEDを制御できます。
 
 ## Connecting
