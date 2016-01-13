@@ -3,11 +3,11 @@
 <center>![](/img/200_i2c/product/209_ktemp_product.png)
 <!--COLORME-->
 
+## Overview
 K型熱電対を接続できるBrickです。
 I2Cでデータを取得できます。
 
 ## Connecting
-
 ![](/img/200_i2c/connect/209_ktemp_connect.png)
 
 I2Cコネクタへ接続します。
