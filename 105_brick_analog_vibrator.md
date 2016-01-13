@@ -3,8 +3,9 @@
 <center>![](/img/100_analog/product/105_vibrator_product.png)
 <!--COLORME-->
 
+## Overview
 振動モーターを使用したBrickです。
-<br>
+
 I/Oピンから振動モーターのON/OFFを制御することができます。
 
 ## Connecting
