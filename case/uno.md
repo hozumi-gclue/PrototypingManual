@@ -1,7 +1,7 @@
 #Arduino UNO
 
 ケース構成
-![](..img/1100_case/manual/arduino_uno_m20160112.png)
+![](../img/1100_case/manual/arduino_uno_m20160112.png)
 (1)が一番下、(6)が一番上になります。
 使用ネジはM3-20プラネジ４本です。
 重ねる際は方向に注意してください。
