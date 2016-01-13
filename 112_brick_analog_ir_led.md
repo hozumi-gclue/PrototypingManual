@@ -6,7 +6,7 @@
 ## Overview
 赤外線LEDを使ったBrickです。
 
-IOピンからLEDをON/OFFを制御することができます。
+IOピンから赤外線LEDをON/OFFを制御することができます。
 
 ## Connecting
 A0コネクタに赤外線LED Brick、A1コネクタにボタンBrickを接続し、ボタンが押されたら赤外線LEDを発光させます。
