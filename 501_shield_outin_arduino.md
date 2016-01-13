@@ -1,9 +1,10 @@
 # #501 OUT/IN Shield for Arduino
 
+<center>![](./img/500_outin/product/501_arduino.png)
+<!--COLORME-->
+
 ## Overview
 OUT/IN Shield for Arduinoは、Arduinoと各種センサーやボタンをケーブルを1本接続するだけで使えるArduino対応シールドです。
-
-![](./img/500_outin/product/501_arduino.png)
 
 ## コネクタ
 ### アナログコネクタ
