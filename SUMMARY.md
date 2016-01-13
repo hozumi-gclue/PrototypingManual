@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [環境設定](dev/dev.md)
+* [環境設定](dev/ichigojam.md)
    * [Arduino](dev/arduino.md)
        * [ArduinoIDEのインストール](dev/arduino/install.md)
        * [Out/Inシールドの接続方法](dev/arduino/connection.md)
