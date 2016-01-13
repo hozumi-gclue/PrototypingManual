@@ -3,10 +3,10 @@
 <center>![](/img/100_analog/product/113_ir_receiver_product.png)
 <!--COLORME-->
 
+## Overview
 フォトトランジスタを使った赤外線受信Brickです。
-<br>
+
 IOピンから赤外線受信のON/OFFを取得することができます。
-<br>
 
 ## Connecting
 A0コネクタに赤外線受信Brick、A1コネクタにLED Brickを接続し、赤外線を受信したらLEDを発光させます。
