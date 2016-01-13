@@ -12,7 +12,16 @@ UniversalBrickは、3pin、I2C、Serialの３種類のBrickがあります。
 
 |ID|名称|
 |--|--|
-|#708|Breakout 3pin|
-|#709|Breakout I2C|
-|#710|Breakout Serial|
+|#708|Universal 3pin|
+|#709|Universal I2C|
+|#710|Universal Serial|
 
+## Support
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|◯|◯|◯|
+
+## Schematic
+![](../img/700_breakout/schematic/universal_schematic.png)
+
+※Universal 3pinのものになります。
