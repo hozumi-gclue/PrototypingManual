@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [環境設定](dev/ichigojam.md)
+* [環境設定](dev/setting.md)
    * [Arduino](dev/arduino.md)
        * [ArduinoIDEのインストール](dev/arduino/install.md)
        * [Out/Inシールドの接続方法](dev/arduino/connection.md)
@@ -32,7 +32,7 @@
        * [PIとWifiSpotでネットワーク構築](dev/pi/usbwifi.md)
        * [Soracom SIMのActivate](dev/pi/soracom.md)
        * [その他](dev/pi/etc.md)
-   * [IchigoJam]
+   * [IchigoJam](dev/ighigojam.md)
        * [導入]
    * [mbed os](dev/mbed.md)
    * [Edison](dev/edison)
