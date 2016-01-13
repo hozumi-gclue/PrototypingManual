@@ -1,4 +1,4 @@
-#3Pin LED Brick
+# #402 3Pin LED Circle
 
 <center>![](/img/400_led/product/402_ledring_product.png)
 <!--COLORME-->
