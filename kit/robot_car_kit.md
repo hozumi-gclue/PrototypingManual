@@ -5,7 +5,7 @@
 
 <!--COLORME-->
 ## Overview
-Arduinoから制御できるロボットカーのキットです。
+RobotCarKitは、Arduinoから制御できるロボットカーを簡単に作成することができるキットです。
 
 
 ### ロボットカー組み立て
