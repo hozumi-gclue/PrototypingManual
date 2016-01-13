@@ -1,2 +1,4 @@
-#OUT/IN Shield for IchigoJam
-IchigoJamとBrickに対応した各種センサーやボタンを、コネクタに挿すだけで簡単に使いはじめることができるIchigoJam対応シールドです。
+# #504 OUT/IN Shield for Chirimen
+
+## Overview
+ChirimenとBrickに対応した各種センサーやボタンを、コネクタに挿すだけで簡単に使いはじめることができるChirimen対応シールドです。
