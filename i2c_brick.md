@@ -1,11 +1,10 @@
 # [I2C Brick]
 
 I2Cにてデータ取得や制御を行うBrickです。
-<br>
 OUT/INシールドのI２CピンとBrickを4Pinケーブルにて接続して使用します。
 
 I2C通信はデバイスのアドレスにて制御しているため、同じBrickを２つ以上接続して使用することはできません。
-<br>
+
 ※7segmentLEDなど、一部Brickで条件を満たすことで複数使用できるものもあります。
 
 | No | Brick | Image |
