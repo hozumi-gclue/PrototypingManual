@@ -104,7 +104,7 @@
 * Case
    * [Arduino Uno](case/uno.md)
    * [Arduino Mega](case/mega.md)
-   * [Arduino Yun](case/yun.md)
+   * [Arduino YUN](case/yun.md)
    * [RaspberryPI](case/raspberrypi.md)
    * [IchigoJam](case/ichigojam.md)
    * [Edison](case/edison.md)
