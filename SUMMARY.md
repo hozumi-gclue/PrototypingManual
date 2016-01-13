@@ -32,7 +32,7 @@
        * [PIとWifiSpotでネットワーク構築](dev/pi/usbwifi.md)
        * [Soracom SIMのActivate](dev/pi/soracom.md)
        * [その他](dev/pi/etc.md)
-   * [IchigoJam](dev/ichigojam.md)
+   * [IchigoJam](dev/IchigoJam導入マニュアル)
    * [mbed os](dev/mbed.md)
    * [Edison](dev/edison)
    * [Kinoma Create](dev/kinoma.md)
@@ -103,7 +103,7 @@
    * [Brick Breakout I2C(2mm)](brick_breakout/brick_breakout_i2c2.md)
    * [Brick Breakout Serial(2mm)](brick_breakout/brick_breakout_serial2.md)
    * [Brick Universal 3pin](brick_universal/brick_universal_3pin.md)
-   * [Brick Universal I2C](brick_universal/brick_universal_i2c.md)   
+   * [Brick Universal I2C](brick_universal/brick_universal_i2c.md)
    * [Brick Universal Serial](brick_universal/brick_universal_serial.md)
 * Case
    * [Arduino Uno](case/uno.md)
