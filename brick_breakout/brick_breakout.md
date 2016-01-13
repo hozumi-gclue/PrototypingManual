@@ -31,3 +31,5 @@ Breakout 2.54mm 3pinを使用し、BreadBoard経由で距離センサーを接�
 
 ## Schematic
 ![](../img/700_breakout/schematic/breakout_schematic.png)
+
+※Breakout 2.54mm 3pinのものになります。
