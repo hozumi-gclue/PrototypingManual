@@ -1,5 +1,7 @@
 # #206 UV I2C Brick
-![](/img/200_i2c/product/206_uv_product.png)
+
+<CENTER>![](/img/200_i2c/product/206_uv_product.png)
+<!--COLORME-->
 
 紫外線センサーを使ったBrickです。
 
