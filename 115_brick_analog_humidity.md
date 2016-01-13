@@ -3,10 +3,10 @@
 <center>![](/img/100_analog/product/115_humidity_product.png)
 <!--COLORME-->
 
+## Overview
 湿度センサーを使用したBrickです。
-<br>
-I/Oピンより、温度、湿度の情報を取得することができます。
-<br>
+
+温度、湿度の情報を取得することができます。
 
 ## Connecting
 A0コネクタに接続して、湿度を計測します。
