@@ -6,6 +6,7 @@
 ## Overview
 ブレッドボード等に接続することで、Brick以外の部品と接続することができます。
 
+
 ## BreakoutBrickの種類
 BreakoutBrickには6種類あります。
 
@@ -17,4 +18,6 @@ BreakoutBrickには6種類あります。
 |#705|Breakout 2mm 3pin|
 |#706|Breakout 2mm I2C|
 |#707|Breakout 2mm Serial|
+
+## Connecting
 
