@@ -3,10 +3,10 @@
 <center>![](/img/200_i2c/product/213_lcdmini_product.png)
 <!--COLORME-->
 
-8桁×2行のLCDを使用したBrickです。
-<br>
-I2Cで表示データを制御できます。
+## Overview
+8桁×2行のちいさいLCDを使用したBrickです。
 
+I2Cで表示データを制御できます。
 
 ## Connecting
 I2Cコネクタへ接続します。
