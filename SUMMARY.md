@@ -97,15 +97,8 @@
    * [CT Sensor Shield for Arduino](shield_ct_sensor/shield_ct_sensor.md)
    * [Rom Writer Shield for Arduino](shield_romwriter/shield_romwriter.md)
 * Brick Breakout
-   * [Brick Breakout 3pin(2.54mm)](brick_breakout/brick_breakout_3pin1.md)
-   * [Brick Breakout I2C(2.54mm)](brick_breakout/brick_breakout_i2c1.md)
-   * [Brick Breakout Serial(2.54mm)](brick_breakout/brick_breakout_serial1.md)
-   * [Brick Breakout 3pin(2mm)](brick_breakout/brick_breakout_3pin2.md)
-   * [Brick Breakout I2C(2mm)](brick_breakout/brick_breakout_i2c2.md)
-   * [Brick Breakout Serial(2mm)](brick_breakout/brick_breakout_serial2.md)
-   * [Brick Universal 3pin](brick_universal/brick_universal_3pin.md)
-   * [Brick Universal I2C](brick_universal/brick_universal_i2c.md)
-   * [Brick Universal Serial](brick_universal/brick_universal_serial.md)
+   * [Brick Breakout](brick_breakout/brick_breakout.md)
+   * [Brick Universal](brick_universal/brick_universal.md)
 * Case
    * [Arduino Uno](case/uno.md)
    * [Arduino Mega](case/mega.md)
@@ -117,6 +110,7 @@
    * [Mbed](case/mbed.md)
 * Robot Kit
    * [Robot Car Kit](kit/robot_car_kit.md)
+   * [Robot fish Kit](kit/robot_fish_kit.md)
 * [Factory 1.0](factory.md)
 * [Servo](servo.md)
 * [Current measurement](current_measurement.md)
