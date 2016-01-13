@@ -3,8 +3,9 @@
 <center>![](/img/300_serial/product/302_bluetooth_product.png)
 <!--COLORME-->
 
+## Overview
 Bluetooth通信ができるBrickです。
-<br>
+
 PCやスマートフォンなどの端末とシリアル通信することができます。
 
 ## Connecting
