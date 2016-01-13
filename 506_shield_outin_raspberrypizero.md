@@ -1,9 +1,10 @@
 # #506 OUT/IN Shield for Raspberry Pi Zero
 
+![](image)
+<!--COLORME-->
+
 ## Overview
 OUT/IN Shield for Raspberry Pi Zeroは、Raspberry Pi Zeroと各種センサーやボタンをケーブルを1本接続するだけで使えるRaspberry Pi対応シールドです。
-
-![](shield_outin_raspberrypi.jpg)
 
 ## コネクタ
 ### アナログコネクタ
