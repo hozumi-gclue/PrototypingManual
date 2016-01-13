@@ -1,4 +1,4 @@
-# #403 3Pin LED Bar
+# #403 ColorLED Bar
 
 <center>![](/img/400_led/product/403_ledbar_product.png)
 <!--COLORME-->
