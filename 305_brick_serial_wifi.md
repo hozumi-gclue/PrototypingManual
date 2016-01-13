@@ -6,7 +6,6 @@
 ## Overview
 Wifi通信ができるBrickです。
 
-
 ## Connecting
 ![](/img/300_serial/connect/305_wifi_connect.png)
 
