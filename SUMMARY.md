@@ -32,8 +32,8 @@
        * [PIとWifiSpotでネットワーク構築](dev/pi/usbwifi.md)
        * [Soracom SIMのActivate](dev/pi/soracom.md)
        * [その他](dev/pi/etc.md)
-   * [IchigoJam](dev/ichigojam.md)
-       * [導入](dev/)
+   * [IchigoJam]
+       * [導入]
    * [mbed os](dev/mbed.md)
    * [Edison](dev/edison)
    * [Kinoma Create](dev/kinoma.md)
