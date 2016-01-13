@@ -3,8 +3,8 @@
 <center>![](/img/200_i2c/product/215_rtc_product.png)
 <!--COLORME-->
 
+## Overview
 リアルタイムクロックを使用したBrickです。
-<br>
 I2Cでデータを取得できます。
 
 ## Connecting
