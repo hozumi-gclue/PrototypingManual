@@ -3,10 +3,10 @@
 <center>![](/img/200_i2c/product/207_temperature_product.png)
 <!--COLORME-->
 
+## Overview
 温度センサを使用したBrickです。
-<br>
 I2Cでデータを取得できます。
-<br>
+
 計測できる範囲は−55度〜150度です。
 
 
