@@ -1,4 +1,4 @@
-# #306 ZigBee Serial Brick
+# #305 Wifi Serial Brick
 
 <center>![](/img/300_serial/product/305_wifi_product.png)
 <!--COLORME-->
