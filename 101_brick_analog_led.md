@@ -6,6 +6,8 @@
 ## Overview
 LEDのBrickです。I/OピンよりLEDのON/OFFを制御することができます。
 
+※画像はLED Blueのものです。
+
 ## Connecting
 ### Arduino
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のどれかに接続します。
