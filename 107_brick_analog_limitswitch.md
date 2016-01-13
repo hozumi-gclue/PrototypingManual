@@ -3,12 +3,11 @@
 <center>![](/img/100_analog/product/107_limitswitch_product.png)
 <!--COLORME-->
 
+## Overview
 リミットスイッチを使ったBrickです。
-<br>
+
 I/OピンよりスイッチのON/OFFの状態を取得することができます。
-<br>
 機械の自動停止や位置検出の際に使用します。
-<br>
 
 ## Connecting
 ![](/img/100_analog/connect/107_limitswitch_connect.png)
