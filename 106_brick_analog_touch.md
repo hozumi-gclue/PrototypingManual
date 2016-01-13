@@ -8,8 +8,6 @@
 I/Oピンより、感圧部分に加えられた力の大きさの変化をアナログ値(0〜1023)で取得することができます。
 
 ## Connecting
-A0コネクタに接続したTouch Brickの感圧によって、A1コネクタに接続したLED Brickを点灯/消灯させています。
-
 ![](/img/100_analog/connect/106_touch_connect.png)
 
 ## Support
@@ -22,6 +20,8 @@ A0コネクタに接続したTouch Brickの感圧によって、A1コネクタ�
 
 ## Sample Code
 ### Arduino
+A0コネクタに接続したTouch Brickの感圧によって、A1コネクタに接続したLED Brickを点灯/消灯させています。
+
 ```c
 //
 // FaBo Brick Sample
