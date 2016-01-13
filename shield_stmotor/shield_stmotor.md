@@ -1,1 +1,1 @@
-#Stepping Motor Shield for Arduino
+# #602 Stepping Motor Shield for Arduino
