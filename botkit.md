@@ -35,3 +35,22 @@ npm install --save botkit
 ## HelloWorldプログラム
 
 
+```
+var Botkit = require('botkit');
+var controller = Botkit.slackbot();
+var bot = controller.spawn({
+  // ここを取得したAPI Tokenで書き換える
+  token: "xoxb-18479736242-TvtKTRq8Y4xg474FhHCfE32Q"
+})
+bot.startRTM(function(err,bot,payload) {
+  if (err) {
+    throw new Error('Could not connect to Slack');
+  }
+});
+
+// hello/hiの呼びかけに応じる
+controller.hears(['hello','hi'],'direct_message,direct_mention,mention',function(bot, message) {
+  // 単純にHelloを返すだけ
+  bot.reply(message,'Hello.');
+});
+```
