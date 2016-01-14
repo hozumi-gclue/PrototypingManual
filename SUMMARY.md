@@ -117,4 +117,5 @@
    * [2001 Brick Edition](2001.md)
    * [2002 Oscilloscope Edition](2000.md)
    * [2003]
+* Slack
 
