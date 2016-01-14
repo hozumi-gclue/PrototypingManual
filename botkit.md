@@ -21,4 +21,8 @@ npm install --save botkit
 3. Installボタンをクリックする。
  ![](slack-bu-003.png)
 
+4. Botの名前を入力する。
+ ![](slack-bu-004.png)
 
+4. API Tokenを覚えておく。
+ ![](slack-bu-005.png)
