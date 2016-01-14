@@ -3,12 +3,6 @@
 ボットを作成するためのフレームワーク。  
 node.jsで動作する。
 
-## インストール
-
-```
-npm init
-npm install --save botkit
-```
 
 ## BotUserの作成
 
@@ -26,4 +20,18 @@ npm install --save botkit
 
 5. API Tokenを覚えておく。
  ![](slack-bu-005.png)
+
+
+## Botkitのインストール
+
+node.jsとnpmはすでに入っている前提で、任意のフォルダ上で下記コマンドを実行する。
+
+```
+npm init
+npm install --save botkit
+```
+
+
+## HelloWorldプログラム
+
 
