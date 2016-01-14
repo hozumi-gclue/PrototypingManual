@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Slack
 * [環境設定](dev/setting.md)
    * [Arduino](dev/arduino.md)
        * [ArduinoIDEのインストール](dev/arduino/install.md)
