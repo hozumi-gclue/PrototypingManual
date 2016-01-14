@@ -26,3 +26,4 @@ npm install --save botkit
 
 5. API Tokenを覚えておく。
  ![](slack-bu-005.png)
+
