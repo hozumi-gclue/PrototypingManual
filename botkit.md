@@ -27,7 +27,6 @@ node.jsで動作する。
 node.jsとnpmはすでに入っている前提で、任意のフォルダ上で下記コマンドを実行する。
 
 ```
-npm init
 npm install --save botkit
 ```
 
@@ -54,3 +53,4 @@ controller.hears(['hello','hi'],'direct_message,direct_mention,mention',function
   bot.reply(message,'Hello.');
 });
 ```
+
