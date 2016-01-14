@@ -34,7 +34,7 @@ npm install --save botkit
 ## HelloWorldプログラム
 
 
-```
+ ```
 var Botkit = require('botkit');
 var controller = Botkit.slackbot();
 var bot = controller.spawn({
@@ -52,7 +52,7 @@ controller.hears(['hello','hi'],'direct_message,direct_mention,mention',function
   // 単純にHelloを返すだけ
   bot.reply(message,'Hello.');
 });
-```
+ ```
 
 作成したBotに"hi"のダイレクトメッセージを送ると"Hello."と返信する。
-![](slack-bu-008.png)
+ ![](slack-bu-008.png)
