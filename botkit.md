@@ -54,5 +54,5 @@ controller.hears(['hello','hi'],'direct_message,direct_mention,mention',function
 });
  ```
 
-作成したBotに"hi"のダイレクトメッセージを送ると"Hello."と返信する。  
+* 作成したBotに"hi"のダイレクトメッセージを送ると"Hello."と返信する。  
  ![](slack-bu-008.png)
