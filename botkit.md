@@ -56,3 +56,24 @@ controller.hears(['hello','hi'],'direct_message,direct_mention,mention',function
 
 * 作成したBotに"hi"のダイレクトメッセージを送ると"Hello."と返信する。  
  ![](slack-bu-008.png)
+
+
+## 会話をする
+
+ ```
+// hello/hiの呼びかけに応じる
+controller.hears(['hello','hi'],'direct_message,direct_mention,mention',function(bot, message) {
+  // 会話開始
+  bot.startConversation(message,function(err,convo) {
+    // 質問
+    convo.ask('お名前は?',function(response,convo) {
+      // 答え
+      convo.say('こんにちは' + response.text +'さん！');
+      convo.next();
+    });
+  })
+});
+ ```
+
+* helloと呼びかけると会話が始まる。
+ ![](slack-bu-009.png)
