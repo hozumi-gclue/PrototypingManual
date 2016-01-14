@@ -1,4 +1,4 @@
-#編集中
+#RaspberryPi2 model B
 
 ケース構成<br>
 ![](../img/1100_case/manual/raspi2_00.jpg)
