@@ -11,12 +11,12 @@ I2Cで表示データを制御できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/213_lcdmini_connect.png)
+![](/img/200_i2c/connect/213_lcdmini_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>○ | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|○|○|
 
 ## Datasheet
 | Document |
