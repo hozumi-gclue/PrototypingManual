@@ -14,7 +14,7 @@ RGB Color LEDを使ったBrickです。
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|×|×|
+|◯|×|×|
 
 ## Schematic
 ![](/img/400_led/schematic/403_ledbar_schematic.png)
