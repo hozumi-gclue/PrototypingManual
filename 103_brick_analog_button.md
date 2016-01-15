@@ -11,7 +11,7 @@ Starter Kitお求めのお客様は、色のご指定ができません。あら
 Button Brick単品でお求めのお客様は、ご希望の色がありましたら、コメント欄にてお知らせください。ご指定が無い場合は、ランダムに送付させていただきます。
 
 ## Connecting
-![](/img/100_analog/connect/103_button_connect.png)
+![](/img/100_analog/connect/103_button_connect.jpg)
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
@@ -19,7 +19,7 @@ Button Brick単品でお求めのお客様は、ご希望の色がありまし�
 |○|○|○|
 
 ## Schematic
-![](/img/100_analog/schematic/103_button_schematic.jpg)
+![](/img/100_analog/schematic/103_button_schematic.png)
 
 ## Sample Code
 ### Arduino
