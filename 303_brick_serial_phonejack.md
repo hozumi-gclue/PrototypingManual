@@ -6,8 +6,9 @@
 iPhone等のイヤホンマイクとやりとりができるBrickです。
 
 ## Connecting
-![](/img/300_serial/connect/303_phonejack_connect.png)
 Serialコネクタへ接続します。
+
+![](/img/300_serial/connect/303_phonejack_connect.jpg)
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
