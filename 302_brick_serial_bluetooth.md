@@ -16,7 +16,7 @@ Serialコネクタへ接続します。
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|○|○|
+|◯|◯|◯|
 
 ## Schematic
 ![](/img/300_serial/schematic/302_bluetooth_schematic.png)
