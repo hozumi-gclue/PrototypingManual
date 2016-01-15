@@ -16,9 +16,9 @@ I/Oピンより傾斜センサーの状態をデジタル値(0〜1)取得する�
 A0コネクタに接続したTilt Brickの傾きによって、A1コネクタに接続したLED Brickを点灯/消灯させています。
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| :--: | :--: | :--: |
-| ○ | ○ | ○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|○|○|
 
 ## Schematic
 ![](/img/100_analog/schematic/110_tilt_schematic.png)
