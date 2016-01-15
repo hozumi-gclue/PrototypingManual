@@ -7,12 +7,12 @@
 近接センサーを使ったBrickです。
 
 ## Connecting
-![](/img/200_i2c/connect/205_proxomoty_connect.png)
+![](/img/200_i2c/connect/205_proxomoty_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>○ | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|○|○|
 
 ## Schematic
 ![](/img/200_i2c/schematic/205_proxomoty_schematic.png)
