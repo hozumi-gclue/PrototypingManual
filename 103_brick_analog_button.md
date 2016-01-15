@@ -19,7 +19,7 @@ Button Brick単品でお求めのお客様は、ご希望の色がありまし�
 |○|○|○|
 
 ## Schematic
-![](/img/100_analog/schematic/103_button_schematic.png)
+![](/img/100_analog/schematic/103_button_schematic.jpg)
 
 ## Sample Code
 ### Arduino
