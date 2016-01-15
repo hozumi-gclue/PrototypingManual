@@ -9,14 +9,14 @@ Bluetooth通信ができるBrickです。
 PCやスマートフォンなどの端末とシリアル通信することができます。
 
 ## Connecting
-![](/img/300_serial/connect/302_bluetooth_connect.png)
-
 Serialコネクタへ接続します。
 
+![](/img/300_serial/connect/302_bluetooth_connect.jpg)
+
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>○ | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|○|○|
 
 ## Schematic
 ![](/img/300_serial/schematic/302_bluetooth_schematic.png)
