@@ -18,7 +18,7 @@ A0コネクタに接続したTilt Brickの傾きによって、A1コネクタに
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|○|○|
+|◯|◯|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/110_tilt_schematic.png)
