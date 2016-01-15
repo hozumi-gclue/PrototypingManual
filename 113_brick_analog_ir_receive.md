@@ -16,7 +16,7 @@ A0コネクタに赤外線受信Brick、A1コネクタにLED Brickを接続し�
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|×|○|
+|◯|×|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/113_ir_receiver_schematic.png)
