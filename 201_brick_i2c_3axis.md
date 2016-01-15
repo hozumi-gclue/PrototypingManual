@@ -29,7 +29,7 @@ I2Cコネクタへ接続します。
 
 ## Registor
 | I2C Slave Address |
-|:--:|
+| -- |
 | 0x53 |
 
 ## Datasheet
