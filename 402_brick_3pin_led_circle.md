@@ -7,6 +7,8 @@
 RGB Color LEDを使ったBrickです。
 
 ## Connecting
+アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のどれかに接続します。
+
 ![](/img/400_led/connect/402_ledring_connect.jpg)
 
 ## Support
