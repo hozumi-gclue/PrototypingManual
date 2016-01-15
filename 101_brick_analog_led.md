@@ -27,9 +27,6 @@ OUTコネクタのどれかに接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Schematic
-![](/img/100_analog/schematic/101_led_schematic.png)
-
 ## Sample Code
 ### Arduino
 A0コネクタにLED Brickを接続し、一定時間ごとに点灯/消灯（Lチカ）させています。
@@ -156,6 +153,9 @@ Cylon.robot({
         }
 }).start();
 ```
+
+## Schematic
+![](/img/100_analog/schematic/101_led_schematic.png)
 
 ## Parts
 - 5mm LED(各色)
