@@ -8,7 +8,7 @@ Wifi通信ができるBrickです。
 
 ## Connecting
 Serialコネクタに接続します。
-![](/img/300_serial/connect/305_wifi_connect.png)
+![](/img/300_serial/connect/305_wifi_connect.jpg)
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
