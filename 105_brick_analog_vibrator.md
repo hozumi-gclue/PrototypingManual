@@ -10,7 +10,7 @@ I/Oピンから振動モーターのON/OFFを制御することができます�
 
 ## Connecting
 A1コネクタに接続したButtonブリックの入力により、A0コネクタに接続したVibratorブリックをON/OFFさせています。
-![](/img/100_analog/connect/105_vibrator_connect.png)
+![](/img/100_analog/connect/105_vibrator_connect.jpg)
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
