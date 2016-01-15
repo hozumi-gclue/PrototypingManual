@@ -17,7 +17,7 @@ LimitSwitch BrickをA0コネクタに接続し、A1コネクタに接続したLE
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|○|○|
+|◯|◯|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/107_limitswitch_schematic.png)
