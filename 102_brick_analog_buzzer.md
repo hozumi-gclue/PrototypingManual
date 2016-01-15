@@ -7,9 +7,10 @@
 圧電ブザーを使ったBrickです。
 I/Oピンより、鳴らす音や音の長さを制御することができます。
 
-![](/img/100_analog/connect/102_buzzer_connect.png)
 
 ## Connecting
+
+![](/img/100_analog/connect/102_buzzer_connect.png)
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
