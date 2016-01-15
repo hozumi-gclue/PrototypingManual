@@ -7,13 +7,14 @@
 USBシリアル通信ができるBrickです。
 
 ## Connecting
-![](/img/300_serial/connect/304_usbserial_connect.png)
 Serialコネクタへ接続します。
 
+![](/img/300_serial/connect/304_usbserial_connect.jpg)
+
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>○ | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|○|○|
 
 ## Schematic
 ![](/img/300_serial/schematic/304_usbserial_schematic.png)
