@@ -13,7 +13,7 @@ I/Oピンより、感圧部分に加えられた力の大きさの変化をア�
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|◯|○|
+|◯|◯|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/106_touch_schematic.png)
