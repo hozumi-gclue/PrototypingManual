@@ -7,14 +7,12 @@
 RGB Color LEDを使ったBrickです。
 
 ## Connecting
-![](/img/400_led/connect/402_ledring_connect.png)
-
-A0コネクタに接続します。
+![](/img/400_led/connect/402_ledring_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>× | <center>× |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|×|×|
 
 ## Schematic
 ![](/img/400_led/schematic/402_ledring_schematic.png)
