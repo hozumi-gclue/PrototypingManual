@@ -8,7 +8,7 @@
 I/Oピンからアナログ値(0〜1023)を取得することができます。
 
 ## Connecting
-![](/img/100_analog/connect/104_angle_connect.png)
+![](/img/100_analog/connect/104_angle_connect.jpg)
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
