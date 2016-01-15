@@ -10,9 +10,9 @@
 ![](/img/100_analog/connect/111_mic_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| :--: | :--: | :--: |
-| ○ | ○ | ○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|○|○|
 
 ## Schematic
 ![](/img/100_analog/schematic/111_mic_schematic.png)
