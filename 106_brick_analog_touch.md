@@ -8,15 +8,15 @@
 I/Oピンより、感圧部分に加えられた力の大きさの変化をアナログ値(0〜1023)で取得することができます。
 
 ## Connecting
-![](/img/100_analog/connect/106_touch_connect.png)
+![](/img/100_analog/connect/106_touch_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- | -- |
-| <center>○ | <center>◯ | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|◯|○|
 
 ## Schematic
-![](/img/100_analog/schematic/106_touch_schematic.jpg)
+![](/img/100_analog/schematic/106_touch_schematic.png)
 
 ## Sample Code
 ### Arduino
