@@ -9,30 +9,30 @@
 I2Cでデータを取得できます。
 
 ## Connecting
-![](/img/200_i2c/connect/202_9axis_connect.png)
-<br>
 I2Cコネクタへ接続します。
 
+![](/img/200_i2c/connect/202_9axis_connect.png)
+
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>○ | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|--|--|--|
+|○|○|○|
 
 ## Registor
 MPU-9250のデバイスIDは、三軸加速度、ジャイロ用とコンパス用の2つ存在します。
 
 ### MPU-9250(三軸加速度、ジャイロ)
-| PIN AD0 | Slave Address |
-| -- | -- |
-| LOW | 0x68 |
-| HIGHT | 0x69 |
+|PIN AD0|Slave Address|
+|--|--|
+|LOW|0x68|
+|HIGHT|0x69|
 
 FaBo Brickでは、LOW の 0x68に設定されています。
 
 ### AK8963(コンパス)
-| Slave Address |
-| -- | -- |
-| 0x0C |
+|Slave Address |
+|--|--|
+|0x0C|
 
 ## Datasheet
 | Document |
