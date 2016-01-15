@@ -11,7 +11,7 @@ I2Cでデータを取得できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/202_9axis_connect.jpg)
+![](/img/200_i2c/connect/202.jpg)
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
