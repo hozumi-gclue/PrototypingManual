@@ -18,7 +18,7 @@ I/Oピンより、鳴らす音や音の長さを制御することができま�
 |◯|×|◯|
 
 ## Schematic
-![](/img/100_analog/schematic/102_buzzer_schematic.jpg)
+![](/img/100_analog/schematic/102_buzzer_schematic.png)
 
 ## Sample Code
 ### for Arduino
