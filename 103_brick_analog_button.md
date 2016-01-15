@@ -16,7 +16,7 @@ Button Brick単品でお求めのお客様は、ご希望の色がありまし�
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|○|○|
+|◯|◯|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/103_button_schematic.png)
