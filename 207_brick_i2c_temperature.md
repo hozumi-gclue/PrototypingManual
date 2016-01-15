@@ -9,16 +9,15 @@ I2Cでデータを取得できます。
 
 計測できる範囲は−55度〜150度です。
 
-
 ## Connecting
-![](/img/200_i2c/connect/207_temperature_connect.png)
-
 I2Cコネクタへ接続します。
 
+![](/img/200_i2c/connect/207_temperature_connect.jpg)
+
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>○ | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|○|○|
 
 ## Registor
 | Slave Address |
