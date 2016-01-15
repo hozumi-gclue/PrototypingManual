@@ -8,7 +8,7 @@ BLE通信ができるBrickです。
 ## Connecting
 Serialコネクタへ接続します。
 
-![](/img/300_serial/connect/301_ble_connect.png)
+![](/img/300_serial/connect/301_ble_connect.jpg)
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
