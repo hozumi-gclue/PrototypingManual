@@ -8,14 +8,14 @@ K型熱電対を接続できるBrickです。
 I2Cでデータを取得できます。
 
 ## Connecting
-![](/img/200_i2c/connect/209_ktemp_connect.png)
-
 I2Cコネクタへ接続します。
 
+![](/img/200_i2c/connect/209_ktemp_connect.jpg)
+
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>○ | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|○|○|
 
 ## Registor
 | Slave Address |
