@@ -7,10 +7,16 @@
 ZigBee通信ができるBrickです。
 
 ## Connecting
-![](/img/300_serial/connect/306_zigbee_connect.png)
+![](/img/300_serial/connect/306_zigbee_connect.jpg)
+
+## Support
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+| | | |
 
 ## Schematic
 ![](/img/300_serial/schematic/306_zigbee_schematic.png)
+
 
 ## Sample Code
 ### for Arduino
