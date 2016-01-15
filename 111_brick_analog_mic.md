@@ -7,7 +7,7 @@
 マイクを使ったBrickです。
 
 ## Connecting
-![](/img/100_analog/connect/111_mic_connect2.jpg)
+![](/img/100_analog/connect/111_mic_connect.jpg)
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
