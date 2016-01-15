@@ -13,9 +13,9 @@ I/Oピンより、鳴らす音や音の長さを制御することができま�
 ![](/img/100_analog/connect/102_buzzer_connect.png)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>× | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|×|○|
 
 ## Schematic
 ![](/img/100_analog/schematic/102_buzzer_schematic.jpg)
