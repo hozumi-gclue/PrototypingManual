@@ -14,7 +14,7 @@ I2Cコネクタへ接続します。
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|○|○|
+|◯|◯|◯|
 
 ## Schematic
 ![](/img/200_i2c/schematic/205_proxomoty_schematic.png)
