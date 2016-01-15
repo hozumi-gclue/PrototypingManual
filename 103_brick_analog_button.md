@@ -14,7 +14,7 @@ Button Brick単品でお求めのお客様は、ご希望の色がありまし�
 ![](/img/100_analog/connect/103_button_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
+|Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
 |○|○|○|
 
