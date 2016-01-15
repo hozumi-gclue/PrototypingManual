@@ -7,9 +7,9 @@
 RGB Color LEDを使ったBrickです。
 
 ## Connecting
-![](/img/400_led/connect/403_ledbar_connect.png)
+アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のどれかに接続します。
 
-A0コネクタに接続します。
+![](/img/400_led/connect/403_ledbar_connect.jpg)
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
