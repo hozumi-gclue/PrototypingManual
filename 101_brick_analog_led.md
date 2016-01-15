@@ -4,9 +4,11 @@
 <!--COLORME-->
 
 ## Overview
-LEDのBrickです。I/OピンよりLEDのON/OFFを制御することができます。
+LEDのBrickです。
 
-※画像はLED Blueのものです。
+発光色は5色（青・緑・赤・白・黄）あります。Lチカのおともにもどうぞ。
+
+※画像はLED Blueのものです。カートに追加する際には、色違いにご注意ください。
 
 ## Connecting
 ### Arduino
@@ -30,7 +32,7 @@ OUTコネクタのどれかに接続します。
 
 ## Sample Code
 ### Arduino
-A0コネクタにLED Brickを接続し、一定時間ごとに点灯/消灯させています。
+A0コネクタにLED Brickを接続し、一定時間ごとに点灯/消灯（Lチカ）させています。
 ```c
 //
 // FaBo Brick Sample
