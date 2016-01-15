@@ -16,7 +16,7 @@ I/Oピンより、感圧部分に加えられた力の大きさの変化をア�
 | <center>○ | <center>◯ | <center>○ |
 
 ## Schematic
-![](/img/100_analog/schematic/106_touch_schematic.png)
+![](/img/100_analog/schematic/106_touch_schematic.jpg)
 
 ## Sample Code
 ### Arduino
