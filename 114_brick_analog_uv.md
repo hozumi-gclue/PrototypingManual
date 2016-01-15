@@ -14,7 +14,7 @@ A0コネクタにUV Brick接続し、紫外線の強弱をアナログ値で出�
 ![](/img/100_analog/connect/114_uv_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
+|Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
 |○|×|○|
 
