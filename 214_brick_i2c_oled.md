@@ -11,7 +11,7 @@ I2Cで表示データを制御できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/214_oled_connect.jpg)
+![](/img/200_i2c/connect/214.jpg)
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
