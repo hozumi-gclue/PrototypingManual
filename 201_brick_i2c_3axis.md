@@ -19,7 +19,7 @@ I2Cで3軸の加速度データを取得することがきます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/201_3axis_connect.jpg)
+![](/img/200_i2c/connect/201.jpg)
 
 
 ## Support
