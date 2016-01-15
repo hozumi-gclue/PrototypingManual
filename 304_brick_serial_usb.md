@@ -7,7 +7,7 @@
 USBシリアル通信ができるBrickです。
 
 ## Connecting
-Serialコネクタへ接続します。
+Serialコネクタへ接続し、MicroUSBコネクタをPCに接続します。
 
 ![](/img/300_serial/connect/304_usbserial_connect.jpg)
 
