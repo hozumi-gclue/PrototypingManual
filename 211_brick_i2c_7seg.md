@@ -16,7 +16,7 @@ I2C拡張ボードを使用して複数の7セグメントBrickを接続する�
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|○|○|
+|◯|◯|◯|
 
 ## Registor
 | A0 | A1 | A2 | Slave Address |
