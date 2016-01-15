@@ -12,7 +12,7 @@
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|○|○|
+|◯|◯|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/111_mic_schematic.png)

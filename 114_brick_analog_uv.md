@@ -16,7 +16,7 @@ A0コネクタにUV Brick接続し、紫外線の強弱をアナログ値で出�
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|×|○|
+|◯|×|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/114_uv_schematic.png)

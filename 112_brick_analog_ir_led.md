@@ -16,7 +16,7 @@ A0コネクタに赤外線LED Brick、A1コネクタにボタンBrickを接続�
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|×|○|
+|◯|×|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/112_ir_schematic.png)
