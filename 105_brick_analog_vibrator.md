@@ -14,9 +14,9 @@ A1コネクタに接続したButtonブリックの入力により、A0コネク�
 ![](/img/100_analog/connect/105_vibrator_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- | -- |
-| <center>○ | <center>× | <center>x |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|×|×|
 
 ## Schematic
 ![](/img/100_analog/schematic/105_vibrator_schematic.png)
