@@ -9,14 +9,14 @@
 I2Cで8個のLEDを制御できます。
 
 ## Connecting
-![](/img/200_i2c/connect/210_gpio_connect.png)
-
 I2Cコネクタへ接続します。
 
+![](/img/200_i2c/connect/210_gpio_connect.png)
+
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>○ | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|○|○|
 
 ## Registor
 | Slave Address |
