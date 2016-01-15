@@ -15,7 +15,7 @@ A0コネクタにTemperatureを接続して、温度を計測します。
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|◯|○|
+|◯|◯|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/108_temperature_schematic.png)
