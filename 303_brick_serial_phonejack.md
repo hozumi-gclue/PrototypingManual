@@ -16,7 +16,7 @@ Serialコネクタへ接続します。
 | | | |
 
 ## Schematic
-![](/img/300_serial/schematic/303_phonejack_schematic.png)
+![](/img/300_serial/schematic/303_phonejack_schematic.jpg)
 
 ## Sample Code
 ### for Arduino
