@@ -11,6 +11,7 @@ I/OピンよりスイッチのON/OFFの状態を取得することができま�
 
 ## Connecting
 ![](/img/100_analog/connect/107_limitswitch_connect.jpg)
+
 LimitSwitch BrickをA0コネクタに接続し、A1コネクタに接続したLED Brickの点灯/消灯のスイッチとして使用しています。
 
 ## Support
