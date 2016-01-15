@@ -11,12 +11,12 @@ I2Cでデータを取得できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/202.jpg)
+![](/img/200_i2c/connect/202_9axis_connect.jpg)
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
-|--|--|--|
-|○|○|○|
+|:--:|:--:|:--:|
+|◯|◯|◯|
 
 ## Registor
 MPU-9250のデバイスIDは、三軸加速度、ジャイロ用とコンパス用の2つ存在します。
