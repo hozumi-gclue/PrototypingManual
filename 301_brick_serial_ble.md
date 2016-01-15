@@ -6,14 +6,14 @@
 BLE通信ができるBrickです。
 
 ## Connecting
-![](/img/300_serial/connect/301_ble_connect.png)
-
 Serialコネクタへ接続します。
 
+![](/img/300_serial/connect/301_ble_connect.png)
+
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>○ | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|○|○|
 
 ## Schematic
 ![](/img/300_serial/schematic/301_ble_schematic.png)
