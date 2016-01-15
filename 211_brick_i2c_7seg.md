@@ -9,7 +9,7 @@
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/211.jpg)
+![](/img/200_i2c/connect/211_7seg_connect.jpg)
 
 I2C拡張ボードを使用して複数の7セグメントBrickを接続する場合は、Brick裏にあるソルダージャンパーでI2Cアドレスを変更します。
 
