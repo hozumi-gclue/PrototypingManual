@@ -15,7 +15,7 @@
 |○|○|○|
 
 ## Schematic
-![](/img/200_i2c/schematic/206_uv_schematic.png)
+![](/img/200_i2c/schematic/206_uv_connect.png)
 
 ## Sample Code
 ### for Arduino
