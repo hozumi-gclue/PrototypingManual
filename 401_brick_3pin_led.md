@@ -12,9 +12,9 @@ RGB Color LEDを使ったBrickです。
 ![](/img/400_led/connect/401_led_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>× | <center>× |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|×|×|
 
 ## Schematic
 ![](/img/400_led/schematic/401_led_schematic.png)
