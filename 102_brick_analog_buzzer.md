@@ -10,7 +10,7 @@ I/Oピンより、鳴らす音や音の長さを制御することができま�
 
 ## Connecting
 
-![](/img/100_analog/connect/102_buzzer_connect.png)
+![](/img/100_analog/connect/102_buzzer_connect.jpg)
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
