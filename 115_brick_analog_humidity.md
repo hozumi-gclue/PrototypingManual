@@ -10,12 +10,13 @@
 
 ## Connecting
 A0コネクタに接続して、湿度を計測します。
-![](/img/100_analog/connect/115_humidity_connect.png)
+
+![](/img/100_analog/connect/115_humidity_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>× | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|×|○|
 
 ## Schematic
 ![](/img/100_analog/schematic/115_humidity_schematic.png)
