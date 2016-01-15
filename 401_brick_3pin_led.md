@@ -7,9 +7,9 @@
 RGB Color LEDを使ったBrickです。
 
 ## Connecting
-![](/img/400_led/connect/401_led_connect.png)
-
 A0コネクタに接続します。
+
+![](/img/400_led/connect/401_led_connect.jpg)
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
