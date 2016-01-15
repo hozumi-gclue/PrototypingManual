@@ -9,14 +9,14 @@
 センサーより読み取った赤、緑、青、赤外線(明るさ)の4つのデータを、I2Cにて取得することができます。
 
 ## Connecting
-![](/img/200_i2c/connect/203_color_connect.png)
-
 I2Cコネクタへ接続します。
 
+![](/img/200_i2c/connect/203_color_connect.jpg)
+
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>○ | <center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|
+|○|○|○|
 
 ## Registor
 | Slave Address |
