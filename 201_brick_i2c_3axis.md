@@ -17,12 +17,13 @@ I2Cで3軸の加速度データを取得することがきます。
 なお、このBrickを水平に置いた場合、重力がZ軸にかかっている状態となるので、X軸、Y軸が0に近く、Z軸のみ高い値となります。
 
 ## Connecting
-![](/img/200_i2c/connect/201_3axis_connect.png)
-
 I2Cコネクタへ接続します。
 
+![](/img/200_i2c/connect/201_3axis_connect.jpg)
+
+
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
+|Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
