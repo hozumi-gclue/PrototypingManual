@@ -10,13 +10,12 @@ I2Cでデータを取得できます。
 ## Connecting
 I2Cコネクタへ接続します。
 
-<center>![](/img/200_i2c/connect/215_rtc_connect.png)
-
+![](/img/200_i2c/connect/215_rtc_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- | -- |
-| <center>○ | <center>○ |<center>○ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|○|○|○|
 
 ## Registor
 | Slave Address |
