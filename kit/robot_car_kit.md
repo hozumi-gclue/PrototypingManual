@@ -1,6 +1,5 @@
 #Robot Car Kit for Arduino
 
-
 <center>![](../img/kit/product/Robo.png)
 
 <!--COLORME-->
