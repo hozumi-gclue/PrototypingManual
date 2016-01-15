@@ -7,7 +7,7 @@
 RGB Color LEDを使ったBrickです。
 
 ## Connecting
-A0コネクタに接続します。
+アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のどれかに接続します。
 
 ![](/img/400_led/connect/401_led_connect.jpg)
 
