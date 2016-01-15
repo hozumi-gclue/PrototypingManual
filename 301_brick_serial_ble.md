@@ -13,7 +13,7 @@ Serialコネクタへ接続します。
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|○|○|
+|◯|◯|◯|
 
 ## Schematic
 ![](/img/300_serial/schematic/301_ble_schematic.png)
