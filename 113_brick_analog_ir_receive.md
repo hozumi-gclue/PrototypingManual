@@ -10,12 +10,13 @@ IOピンから赤外線受信のON/OFFを取得することができます。
 
 ## Connecting
 A0コネクタに赤外線受信Brick、A1コネクタにLED Brickを接続し、赤外線を受信したらLEDを発光させます。
-![](/img/100_analog/connect/113_ir_receiver_connect.png)
+
+![](/img/100_analog/connect/113_ir_receiver_connect.jpg)
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
-| <center>○ | <center>× | <center>○ |
+| :--: | :--: | :--: |
+| ○ | × | ○ |
 
 ## Schematic
 ![](/img/100_analog/schematic/113_ir_receiver_schematic.png)

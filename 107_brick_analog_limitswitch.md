@@ -10,8 +10,9 @@ I/OピンよりスイッチのON/OFFの状態を取得することができま�
 機械の自動停止や位置検出の際に使用します。
 
 ## Connecting
-![](/img/100_analog/connect/107_limitswitch_connect.png)
 LimitSwitch BrickをA0コネクタに接続し、A1コネクタに接続したLED Brickの点灯/消灯のスイッチとして使用しています。
+
+![](/img/100_analog/connect/107_limitswitch_connect.jpg)
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
