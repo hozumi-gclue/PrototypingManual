@@ -13,7 +13,8 @@ LEDのBrickです。
 ## Connecting
 ### Arduino
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のどれかに接続します。
-![](/img/100_analog/connect/101_led_connect.png)
+
+![](/img/100_analog/connect/101_led_connect.jpg)
 
 ### Raspberry PI
 GPIOコネクタのどれかに接続します。
