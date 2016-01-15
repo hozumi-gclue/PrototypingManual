@@ -14,10 +14,10 @@ Serialコネクタへ接続し、MicroUSBコネクタを他のデバイスに接
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|○|○|○|
+|◯|◯|◯|
 
 ## Schematic
-![](/img/300_serial/schematic/304_usbserial_schematic.png)
+![](/img/300_serial/schematic/304_serialusb_schematic.png)
 
 ## Sample Code
 
