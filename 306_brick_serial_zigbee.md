@@ -15,7 +15,7 @@ ZigBee通信ができるBrickです。
 | | | |
 
 ## Schematic
-![](/img/300_serial/schematic/306_zigbee_schematic.png)
+![](/img/300_serial/schematic/306_zigbee_schematic.jpg)
 
 
 ## Sample Code
