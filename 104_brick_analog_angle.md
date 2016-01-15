@@ -11,9 +11,9 @@ I/Oピンからアナログ値(0〜1023)を取得することができます。
 ![](/img/100_analog/connect/104_angle_connect.jpg)
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- | -- |
-| <center>◯ | <center>◯ | <center>◯ |
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|◯|◯|◯|
 
 ##Schematic
 ![](/img/100_analog/schematic/104_angle_schematic.png)
