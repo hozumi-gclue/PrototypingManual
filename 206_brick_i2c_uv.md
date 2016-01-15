@@ -7,7 +7,7 @@
 紫外線センサーを使ったBrickです。
 
 ## Connecting
-![](/img/200_i2c/connect/206_uv_connect.jpg)
+![](/img/200_i2c/connect/206.jpg)
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
