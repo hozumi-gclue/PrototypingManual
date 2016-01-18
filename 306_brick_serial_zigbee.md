@@ -1,6 +1,6 @@
 # #306 ZigBee Serial Brick
 
-<center>![](/img/300_serial/product/306_zigbee_product.png)
+<center>![](/img/300_serial/product/306_zigbee_product.jpg)
 <!--COLORME-->
 
 ## Overview
