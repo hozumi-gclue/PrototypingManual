@@ -1,6 +1,6 @@
 # #403 ColorLED Bar
 
-<center>![](/img/400_led/product/403_ledbar_product.png)
+<center>![](/img/400_led/product/403_ledbar_product.jpg)
 <!--COLORME-->
 
 ## Overview
