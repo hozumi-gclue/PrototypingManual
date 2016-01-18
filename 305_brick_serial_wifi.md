@@ -1,6 +1,6 @@
 # #305 Wifi Serial Brick
 
-<center>![](/img/300_serial/product/305_wifi_product.png)
+<center>![](/img/300_serial/product/305_wifi_product.jpg)
 <!--COLORME-->
 
 ## Overview
