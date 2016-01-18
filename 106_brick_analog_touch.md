@@ -1,5 +1,5 @@
 # #106 Touch Brick
-<center>![](/img/100_analog/product/106_touch_product.png)
+<center>![](/img/100_analog/product/106_touch_product.jpg)
 <!--COLORME-->
 
 ## Overview
