@@ -1,6 +1,6 @@
 # #112 IR LED Brick
 
-<center>![](/img/100_analog/product/112_ir_product.png)
+<center>![](/img/100_analog/product/112_ir_product.jpg)
 <!--COLORME-->
 
 ## Overview
