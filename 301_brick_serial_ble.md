@@ -1,5 +1,5 @@
 # #301 BLE Serial Brick
-<center>![](/img/300_serial/product/301_ble_product.png)
+<center>![](/img/300_serial/product/301_ble_product.jpg)
 <!--COLORME-->
 
 ## Overview
