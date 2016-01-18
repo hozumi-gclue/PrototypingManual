@@ -1,6 +1,6 @@
 # #302 Bluetooth Serial Brick
 
-<center>![](/img/300_serial/product/302_bluetooth_product.png)
+<center>![](/img/300_serial/product/302_bluetooth_product.jpg)
 <!--COLORME-->
 
 ## Overview
