@@ -1,6 +1,6 @@
 # #103 Button Brick
 
-<center>![](/img/100_analog/product/103_button_product.png)
+<center>![](/img/100_analog/product/103_button_product.jpg)
 <!--COLORME-->
 
 ## Overview
