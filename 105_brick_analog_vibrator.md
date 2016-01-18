@@ -1,6 +1,6 @@
 # #105 Vibrator Brick
 
-<center>![](/img/100_analog/product/105_vibrator_product.png)
+<center>![](/img/100_analog/product/105_vibrator_product.jpg)
 <!--COLORME-->
 
 ## Overview
