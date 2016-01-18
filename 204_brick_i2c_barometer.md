@@ -1,6 +1,6 @@
 # #204 Barometer I2C Brick
 
-<center>![](/img/200_i2c/product/204_barometer_product.png)
+<center>![](/img/200_i2c/product/204_barometer_product.jpg)
 <!--COLORME-->
 
 ## Overview
