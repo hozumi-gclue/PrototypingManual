@@ -1,5 +1,5 @@
 # #303 PhoneJack Serial Brick
-<center>![](/img/300_serial/product/303_phonejack_product.png)
+<center>![](/img/300_serial/product/303_phonejack_product.jpg)
 <!--COLORME-->
 
 ## Overview
