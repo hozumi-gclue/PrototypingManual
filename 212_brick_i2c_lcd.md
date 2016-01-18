@@ -1,6 +1,6 @@
 # #212 LCD I2C Brick
 
-<center>![](/img/200_i2c/product/212_lcd_product.png)
+<center>![](/img/200_i2c/product/212_lcd_product.jpg)
 <!--COLORME-->
 
 ## Overview
