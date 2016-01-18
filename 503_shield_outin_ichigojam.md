@@ -1,6 +1,6 @@
 # #503 OUT/IN Shield for IchigoJam
 
-![](./img/500_outin/product/503_ichigojam.png)
+![](./img/500_outin/product/503_ichigojam.jpg)
 <!--COLORME-->
 
 ## Overview
