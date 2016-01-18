@@ -1,6 +1,6 @@
 # #215 RTC I2C Brick
 
-<center>![](/img/200_i2c/product/215_rtc_product.png)
+<center>![](/img/200_i2c/product/215_rtc_product.jpg)
 <!--COLORME-->
 
 ## Overview
