@@ -1,5 +1,5 @@
 # #108 Temperature Brick
-<center>![](/img/100_analog/product/108_temperature_product.png)
+<center>![](/img/100_analog/product/108_temperature_product.jpg)
 <!--COLORME-->
 
 温度を計測するBrickです。
