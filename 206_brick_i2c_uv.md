@@ -1,6 +1,6 @@
 # #206 UV I2C Brick
 
-<center>![](/img/200_i2c/product/206_uv_product.png)
+<center>![](/img/200_i2c/product/206_uv_product.jpg)
 <!--COLORME-->
 
 ## Overview
