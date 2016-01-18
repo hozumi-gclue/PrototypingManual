@@ -1,6 +1,6 @@
 # #211 7Segment LED I2C Brick
 
-<center>![](/img/200_i2c/product/211_7seg_product.png)
+<center>![](/img/200_i2c/product/211_7seg_product.jpg)
 <!--COLORME-->
 
 ## Overview
