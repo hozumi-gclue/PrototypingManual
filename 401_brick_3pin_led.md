@@ -1,6 +1,6 @@
 # #401 ColorLED One
 
-<center>![](/img/400_led/product/401_led_product.png)
+<center>![](/img/400_led/product/401_led_product.jpg)
 <!--COLORME-->
 
 ## Overview
