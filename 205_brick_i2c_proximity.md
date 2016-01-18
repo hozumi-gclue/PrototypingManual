@@ -1,6 +1,6 @@
 # #205 Proximity I2C Brick
 
-<center>![](/img/200_i2c/product/205_proxomoty_product.png)
+<center>![](/img/200_i2c/product/205_proxomoty_product.jpg)
 <!--COLORME-->
 
 ## Overview
