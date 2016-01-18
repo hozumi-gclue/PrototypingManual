@@ -1,6 +1,6 @@
 # #207 Temperature I2C Brick
 
-<center>![](/img/200_i2c/product/207_temperature_product.png)
+<center>![](/img/200_i2c/product/207_temperature_product.jpg)
 <!--COLORME-->
 
 ## Overview
