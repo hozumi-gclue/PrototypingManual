@@ -1,6 +1,6 @@
 # #209 Ktemp I2C Brick
 
-<center>![](/img/200_i2c/product/209_ktemp_product.png)
+<center>![](/img/200_i2c/product/209_ktemp_product.jpg)
 <!--COLORME-->
 
 ## Overview
