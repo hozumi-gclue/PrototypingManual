@@ -99,7 +99,7 @@
 * Brick Breakout
    * [Brick Breakout](brick_breakout/brick_breakout.md)
    * [Brick Universal](brick_breakout/brick_universal.md)
-* Case
+* [Case](case_top.md)
    * [Arduino Uno](case/uno.md)
    * [Arduino Mega](case/mega.md)
    * [Arduino YUN](case/yun.md)
