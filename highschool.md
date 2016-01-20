@@ -13,6 +13,7 @@
 
 # 風車の組み立て
 
+ * [Propeller Kit](kit/propellerkit.md)
 
 # モーターを制御
 
