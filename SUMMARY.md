@@ -120,4 +120,6 @@
 * [Slack](slack.md)
    * [Incoming Webhooks](incoming_webhooks.md)
    * [Botkit](botkit.md)
+* [Handson](handson.md)
+    * [HighSchool](high_school.md) 
 
