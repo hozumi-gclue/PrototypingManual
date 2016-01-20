@@ -2,6 +2,18 @@
 
 # 基礎トレーニング
 
+* [Buzzer Brick](102_brick_analog_buzzer.md)
+* [Button Brick](103_brick_analog_button.md)
+* [Angle Brick](104_brick_analog_angle.md)
+* [Vibrator Brick](105_brick_analog_vibrator.md)
+* [Temperature Brick](108_brick_analog_temperature.md)
+* [Ambient Light Brick](109_brick_analog_ambientlight.md)
+* [Tilt Brick](110_brick_analog_tilt.md)
+* [Distance Brick](116_brick_analog_distance.md)
+
+# 風車の組み立て
+
+# モーターを制御
 
 
 # 最終課題
@@ -58,4 +70,6 @@ void loop(){
 ```
 
 # 課題
-Angle Brickをつかって回転の速度を調節してみよう
+* [Level1] Angle Brickをつかって回転の速度を調節してみよう
+* [Level2] 温度センサーで、温度が高くなったら回転させよう
+* [Level3] 距離センサーで、手が近づいたら回転させよう
