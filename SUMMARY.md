@@ -111,7 +111,7 @@
 * Robot Kit
    * [Robot Car Kit](kit/robot_car_kit.md)
    * [Robot fish Kit](kit/robot_fish_kit.md)
-   * [Propeller Kit](kit/propeller_kit.md)
+   * [Propeller Kit](kit/propellerkit.md)
 * [Factory 1.0](factory.md)
 * [Servo](servo.md)
 * [Current measurement](current_measurement.md)
