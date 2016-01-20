@@ -13,8 +13,10 @@
 
 # 風車の組み立て
 
+
 # モーターを制御
 
+* [Motor Shield for Arduino](shield_motor/shield_motor.md)
 
 # 最終課題
 
