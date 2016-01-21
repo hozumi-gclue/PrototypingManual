@@ -36,6 +36,34 @@
 
 #完成イメージ
 ![](../img/kit/product/1203_PropellerKit_product.jpg)
-※クリップは付属していません。
+※クリップは付属していません。<br><br><br>
+
+#Arduinoと繋げる
+#パーツ構成
+・プロペラキット本体（上記で作成したもの）<br>
+・ArduinoUNO本体１台<br>
+・FaBo Arduino用シールド1枚<br>
+・FaBo Button Brick１枚<br>
+・モーターシールド１枚<br>
+![](../img/kit/manual/propl_kit06.jpg)
+
+・単三電池２本用電池ボックス<br>
+・単三電池２本<br>
+![](../img/kit/manual/propl_kit07.jpg)
+
+#1.Arduino本体にFaboシールドを取り付け、シールドにボタンブリックを接続する。
+![](../img/kit/manual/propl_kit08.jpg)<br>
+※ヘッダーピンが折れないように注意しましょう。
+
+#2.FaBoシールドの上からモーターシールドを取り付ける。
+![](../img/kit/manual/propl_kit09.jpg)<br>
+※前の手順同様にヘッダーピンが折れないように注意しましょう。
+
+#3.モーターシールドにプロペラキット本体と電池ボックスを取り付ける。
+![](../img/kit/manual/propl_kit10.jpg)
+プロペラキットをMotor1に、電池ボックスを電源（＋ー）に取り付けます。<br>
+
+#電池ボックスの電極は間違えないように!!<br>故障の原因になります!!
+赤がプラスです。
 
 
