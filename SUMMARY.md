@@ -121,7 +121,7 @@
 * [Slack](slack.md)
    * [Incoming Webhooks](incoming_webhooks.md)
    * [Botkit](botkit.md)
-   * Slash Commands
+   * [Slash Commands](slash_commands.md)
 * [Handson](handson.md)
    * [HighSchool](highschool.md)
 
