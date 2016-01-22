@@ -6,21 +6,21 @@ OUT/INシールドのDigitalピン(2〜13)やAnalogピン(A0〜A5)とBrickを、
 
 
 
-|No|Brick|Image|Arduino|PI|IchigoJam|
+|No|Brick|Image|rduino|RaspberryPI|IchigoJam|
 |:--:|:--|:--:|:--:|:--:|:--:|
-|#101|[LED Brick](101_brick_analog_led.md)|<img src="/img/100_analog/product/101_led_product.jpg" width="150"> | ◯ | ◯ | ◯ |
-|#102|[Buzzer Brick](102_brick_analog_buzzer.md)|<img src="/img/100_analog/product/102_buzzer_product.jpg" width="180">|◯|×|◯|
-|#103|[Button Brick](103_brick_analog_button.md)|<img src="/img/100_analog/product/101_led_product.jpg"> |◯|◯|◯ |
-| #104 | [Angle Brick](brick_analog_angle/brick_analog_angle.md)| ![](./img/analogBrick/104pre.jpg) | <center>○ | <center>× | <center>○ |
-| #105 |  [Vibrator Brick](brick_analog_vibrator/brick_analog_vibrator.md) |![](./img/analogBrick/105pre.jpg) | <center>○ | <center>× | <center>○ |
-| #106 |  [Touch Brick](brick_analog_touch/brick_analog_touch.md) |![](./img/analogBrick/106pre.jpg) | <center>○ | <center>○ | <center>○ |
-| #107 | [LimitSwitch Brick](brick_analog_limitswitch/brick_analog_limitswitch.md)| ![](./img/analogBrick/107pre.jpg) | <center>○ | <center>× | <center>○ |
-| #108 |  [Temperature Brick](brick_analog_temp/brick_analog_temp.md) | ![](./img/analogBrick/108pre.jpg) | <center>○ | <center>× | <center>○ |
-| #109 | [Light Brick](brick_analog_light/brick_analog_light.md) |![](./img/analogBrick/109pre.jpg) | <center>○ | <center>× | <center>○ |
-| #110 | [Tilt Brick](brick_analog_tilt/brick_analog_tilt.md) |![](./img/analogBrick/110pre.jpg) | <center>○ | <center>○ | <center>○ |
-| #111 | [Microphone Brick](brick_analog_mic/brick_analog_mic.md) | ![](./img/analogBrick/111pre.jpg) | <center>○ | <center>× | <center>○ |
-| #112 | [IR LED Brick](brick_analog_ir_led/brick_analog_ir_led.md)| ![](./img/analogBrick/112pre.jpg) | <center>○ | <center>× | <center>○ | 
-| #113 | [IR Receiver Brick](brick_analog_ir_receive/brick_analog_ir_receive.md) |![](./img/analogBrick/113pre.jpg) | <center>○ | <center>× | <center>○ |
-| #114 | [UV Brick](brick_analog_uv/brick_analog_uv.md) |![](./img/analogBrick/114pre.jpg) | <center>○ | <center>× | <center>○ |
-| #115 |  [Humidity Brick](brick_analog_humidity/brick_analog_humidity.md) |![](./img/analogBrick/115pre.jpg) | <center>○ | <center>× | <center>○ |
+|#101|[LED Brick](101_brick_analog_led.md)|<img src="/img/100_analog/product/101_led_product.jpg" width="150">|◯|◯|◯|
+|#102|[Buzzer Brick](102_brick_analog_buzzer.md)|<img src="/img/100_analog/product/102_buzzer_product.jpg" width="150">|◯|×|◯|
+|#103|[Button Brick](103_brick_analog_button.md)|<img src="/img/100_analog/product/103_button_product.jpg" width="150">|◯|◯|◯|
+|#104|[Angle Brick](104_brick_analog_angle.md)| <img src="/img/100_analog/product/104_angle_product.jpg" width="150">|◯|×|◯|
+|#105|[Vibrator Brick](105_brick_analog_vibrator.md) |<img src="/img/100_analog/product/105_vibrator_product.jpg" width="150">|◯|×|◯|
+|#106|[Touch Brick](106_brick_analog_touch.md) |<img src="/img/100_analog/product/106_touch_product.jpg" width="150">|◯|◯|◯|
+|#107|[LimitSwitch Brick](107_brick_analog_limitswitch.md)| <img src="/img/100_analog/product/107_angle_product.jpg" width="150">|◯|×|◯|
+|#108|[Temperature Brick](108_brick_analog_temp.md) | ![](./img/analogBrick/108pre.jpg)|◯|×|◯|
+|#109|[Light Brick](109_brick_analog_light.md) |![](./img/analogBrick/109pre.jpg)|◯|×|○|
+|#110|[Tilt Brick](110_brick_analog_tilt.md) |![](./img/analogBrick/110pre.jpg)|◯|◯|◯|
+|#111|[Microphone Brick](111_brick_analog_mic.md) | ![](./img/analogBrick/111pre.jpg)|◯|×|◯|
+|#112|[IR LED Brick](brick_analog_ir_led/brick_analog_ir_led.md)| ![](./img/analogBrick/112pre.jpg)|◯|×|◯| 
+|#113|[IR Receiver Brick](brick_analog_ir_receive/brick_analog_ir_receive.md) |![](./img/analogBrick/113pre.jpg)|◯|×|◯|
+|#114|[UV Brick](brick_analog_uv/brick_analog_uv.md) |![](./img/analogBrick/114pre.jpg) |◯|×|◯|
+|#115|[Humidity Brick](brick_analog_humidity/brick_analog_humidity.md) |![](./img/analogBrick/115pre.jpg)|◯|×|◯|
 
