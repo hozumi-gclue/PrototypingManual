@@ -16,11 +16,11 @@ OUT/INシールドのDigitalピン(2〜13)やAnalogピン(A0〜A5)とBrickを、
 |#106|[Touch Brick](106_brick_analog_touch.md) |<img src="/img/100_analog/product/106_touch_product.jpg" width="150">|◯|◯|◯|
 |#107|[LimitSwitch Brick](107_brick_analog_limitswitch.md)| <img src="/img/100_analog/product/107_limitswitch_product.jpg" width="150">|◯|×|◯|
 |#108|[Temperature Brick](108_brick_analog_temp.md) | <img src="/img/100_analog/product/108_temperature_product.jpg" width="150">|◯|×|◯|
-|#109|[Light Brick](109_brick_analog_light.md) |<img src="/img/100_analog/product/109_angle_light.jpg" width="150">|◯|×|○|
-|#110|[Tilt Brick](110_brick_analog_tilt.md) |![](./img/analogBrick/110pre.jpg)|◯|◯|◯|
-|#111|[Microphone Brick](111_brick_analog_mic.md) | ![](./img/analogBrick/111pre.jpg)|◯|×|◯|
-|#112|[IR LED Brick](brick_analog_ir_led/brick_analog_ir_led.md)| ![](./img/analogBrick/112pre.jpg)|◯|×|◯| 
-|#113|[IR Receiver Brick](brick_analog_ir_receive/brick_analog_ir_receive.md) |![](./img/analogBrick/113pre.jpg)|◯|×|◯|
-|#114|[UV Brick](brick_analog_uv/brick_analog_uv.md) |![](./img/analogBrick/114pre.jpg) |◯|×|◯|
-|#115|[Humidity Brick](brick_analog_humidity/brick_analog_humidity.md) |![](./img/analogBrick/115pre.jpg)|◯|×|◯|
+|#109|[Light Brick](109_brick_analog_light.md) |<img src="/img/100_analog/product/109_ambientlight_product.jpg" width="150">|◯|×|○|
+|#110|[Tilt Brick](110_brick_analog_tilt.md) |<img src="/img/100_analog/product/110_tilt_product.jpg" width="150">|◯|◯|◯|
+|#111|[Microphone Brick](111_brick_analog_mic.md) |<img src="/img/100_analog/product/111_mic_product.jpg" width="150">|◯|×|◯|
+|#112|[IR LED Brick](112_brick_analog_ir_led.md)| <img src="/img/100_analog/product/112_ir_product.jpg" width="150">|◯|×|◯| 
+|#113|[IR Receiver Brick](113_brick_analog_ir_receive.md) |<img src="/img/100_analog/product/113_ir_receiver_product.jpg" width="150">|◯|×|◯|
+|#114|[UV Brick](114_brick_analog_uv.md) |<img src="/img/100_analog/product/114_uv_product.jpg" width="150"> |◯|×|◯|
+|#115|[Humidity Brick](115_brick_analog_humidity.md) |<img src="/img/100_analog/product/115_humidity_product.jpg" width="150">|◯|×|◯|
 
