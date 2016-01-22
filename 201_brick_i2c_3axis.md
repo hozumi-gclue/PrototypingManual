@@ -25,9 +25,9 @@ I2Cコネクタへ接続します。
 
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|◯|◯|
+|Arduino|RaspberryPI|IchigoJam|NRF51|
+|:--:|:--:|:--:|:--:|
+|◯|◯|◯|◯|
 
 ## Registor
 | I2C Slave Address |
