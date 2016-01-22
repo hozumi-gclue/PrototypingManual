@@ -5,7 +5,9 @@
 
 ## Overview
 ボリューム抵抗を使ったBrickです。<br>
+<br>
 I/Oピンからアナログ値(0〜1023)を取得することができます。<br>
+
 LED Brickの明るさを調節する際などに使用します。
 
 ## Connecting
