@@ -7,20 +7,20 @@ I2C通信はデバイスのアドレスにて制御しているため、同じBr
 
 ※7segmentLEDなど、一部Brickで条件を満たすことで複数使用できるものもあります。
 
-| No | Brick | Image |
-| -- | -- | -- |
-| #201 | [3AXIS](brick_i2c_3axis/brick_i2c_3axis.md) |![](./img/i2cBrick/201pre.jpg)|
-| #202 | [9AXIS](brick_i2c_9axis/brick_i2c_9axis.md) |![](./img/i2cBrick/202pre.jpg)|
-| #203 |[Color Sensor](brick_i2c_color/brick_i2c_color.md) |![](./img/i2cBrick/203pre.jpg)| 
-| #204 | [Barometer](brick_i2c_barometer/brick_i2c_barometer.md) |![](./img/i2cBrick/204pre.jpg)|
-| #205 | [Proximity](brick_i2c_proximity/brick_i2c_proximity.md) | ![](./img/ic2Brick/205pre.jpg) | 
-| #206 | [UV](brick_i2c_uv/brick_i2c_uv.md) |![](./img/i2cBrick/206pre.jpg) |
-| #207 | [Temperature](brick_i2c_temperature/brick_i2c_temperature.md) |![](./img/i2cBrick/207pre.jpg)|
-| #208 | [Humidity](brick_i2c_humidity/brick_i2c_humidity.md) |![](./img/i2cBrick/208pre.jpg)|
-| #209 | [Ktemp](brick_i2c_ktemp/brick_i2c_ktemp.md) |![](./img/i2cBrick/209pre.jpg)|
-| #210 | [GPIO](brick_i2c_gpio/brick_i2c_gpio.md) |![](./img/i2cBrick/210pre.jpg)|
-| #211 |[7segment LED](brick_i2c_7seg/brick_i2c_7seg.md) |![](./img/i2cBrick/211pre.jpg)| 
-| #212 | [LCD](brick_i2c_lcd/brick_i2c_lcd.md) |![](./img/i2cBrick/212pre.jpg)|
-| #213 |[LCD Mini](brick_i2c_lcd_mini/brick_i2c_lcd_mini.md) |![](./img/i2cBrick/213pre.jpg)| 
-| #214 | [OLED](brick_i2c_oled/brick_i2c_oled.md) |![](./img/i2cBrick/214pre.jpg)|
-| #215 | [RTC](brick_i2c_rtc/brick_i2c_rtc.md) |![](./img/i2cBrick/215pre.jpg)|
+|No|Brick|Image|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--|:--:|:--:|:--:|:--:|
+|#201|[3AXIS](201_brick_i2c_3axis.md)|<img src="/img/200_i2c/product/201_3axis_product.jpg" width="150">|◯|◯|◯|
+|#202|[9AXIS](202_brick_i2c_9axis.md)|<img src="/img/200_i2c/product/202_9axis_product.jpg" width="150"> 
+|#203|[Color](203_brick_i2c_color.md)|<img src="/img/200_i2c/product/203_color_product.jpg" width="150"> 
+|#204|[Barometer](204_brick_i2c_barometer.md)|<img src="/img/200_i2c/product/204_barometer_product.jpg" width="150">|
+|#205|[Proximity](205_brick_i2c_proximity.md)|<img src="/img/200_i2c/product/205_proximity_product.jpg" width="150">
+|#206|[UV](206_brick_i2c_uv.md)|<img src="/img/200_i2c/product/201__product.jpg" width="150">
+|#207|[Temperature](207_brick_i2c_temperature.md) |<img src="/img/200_i2c/product/201__product.jpg" width="150">
+|#208|[Humidity](208_brick_i2c_humidity.md)|<img src="/img/200_i2c/product/201__product.jpg" width="150">
+|#209|[Ktemp](209_brick_i2c_ktemp.md)|<img src="/img/200_i2c/product/201__product.jpg" width="150">
+|#210|[GPIO](210_brick_i2c_gpio.md)|<img src="/img/200_i2c/product/201__product.jpg" width="150">
+|#211|[7segment LED](211_brick_i2c_7seg.md)|<img src="/img/200_i2c/product/201__product.jpg" width="150">
+|#212|[LCD](212_brick_i2c_lcd.md)|<img src="/img/200_i2c/product/201__product.jpg" width="150">
+|#213|[LCD Mini](213_brick_i2c_lcd_mini.md)|<img src="/img/200_i2c/product/201__product.jpg" width="150">
+|#214|[OLED](214_brick_i2c_oled.md)|<img src="/img/200_i2c/product/201__product.jpg" width="150">
+|#215|[RTC](215_brick_i2c_rtc.md)|<img src="/img/200_i2c/product/201__product.jpg" width="150">
