@@ -18,8 +18,14 @@ I2Cで3軸の加速度データを取得することがきます。
 なお、このBrickを水平に置いた場合、重力がZ軸にかかっている状態となるので、X軸、Y軸が0に近く、Z軸のみ高い値となります。
 
 ## Connecting
-I2Cコネクタへ接続します。
+4Pinケーブルで、OUT/INシールドのI2Cコネクタへ接続します。
 
+Arduino用、RaspberryPi用のOUT/INシールドは、I2Cコネクタが3箇所ありますので、いずれかに接続します。IchigoJam用のOUT/INシールドはI2C
+コネクタは1箇所のみです。
+
+写真はArduinoにArduino用OUT/INシールドとケース、4Pinケーブル、市販のUSB TypeBを接続してあります。
+
+※4Pinケーブル、各種OUT/INシールド、各種ケースは別売です。
 
 ![](/img/200_i2c/connect/201_3axis_connect.jpg)
 
