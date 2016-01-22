@@ -6,7 +6,7 @@ OUT/INシールドのDigitalピン(2〜13)やAnalogピン(A0〜A5)とBrickを、
 
 
 
-|No|Brick|Image|rduino|RaspberryPI|IchigoJam|
+|No|Brick|Image|Arduino|RaspberryPI|IchigoJam|
 |:--:|:--|:--:|:--:|:--:|:--:|
 |#101|[LED Brick](101_brick_analog_led.md)|<img src="/img/100_analog/product/101_led_product.jpg" width="150">|◯|◯|◯|
 |#102|[Buzzer Brick](102_brick_analog_buzzer.md)|<img src="/img/100_analog/product/102_buzzer_product.jpg" width="150">|◯|×|◯|
