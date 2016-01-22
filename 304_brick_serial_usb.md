@@ -12,9 +12,9 @@ Serialコネクタへ接続し、MicroUSBコネクタを他のデバイスに接
 ![](/img/300_serial/connect/304_usbserial_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|◯|◯|
+|Arduino|RaspberryPI|IchigoJam|NRF51|
+|:--:|:--:|:--:|:--:|
+|◯|◯|◯|◯|
 
 ## Schematic
 ![](/img/300_serial/schematic/304_serialusb_schematic.png)
@@ -31,8 +31,8 @@ Serialコネクタへ接続し、MicroUSBコネクタを他のデバイスに接
 //
 #include <SoftwareSerial.h>
 
-int serialusbRx = 10;  // RX-I pin  Arduino D10
-int serialusbTx = 11;  // TX-O pin  Arduino D11
+int serialusbRx = 12;  // RX-I pin  Arduino D10
+int serialusbTx = 13;  // TX-O pin  Arduino D11
 
 SoftwareSerial mySerial(serialusbRx, serialusbTx); // RX, TX
 
