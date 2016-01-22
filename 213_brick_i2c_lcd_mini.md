@@ -4,7 +4,7 @@
 <!--COLORME-->
 
 ## Overview
-8桁×2行のちいさいLCDを使用したBrickです。
+8桁×2行の小さいLCDを使用したBrickです。
 
 I2Cで表示データを制御できます。
 
