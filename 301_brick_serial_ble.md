@@ -28,7 +28,7 @@ Serialコネクタへ接続します。
 //
 #include <SoftwareSerial.h>
 
-SoftwareSerial bleShield(10, 11);
+SoftwareSerial bleShield(12, 13);
 
 long previousMillis = 0;
 long interval = 1000; 
