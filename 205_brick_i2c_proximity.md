@@ -1,6 +1,6 @@
 # #205 Proximity I2C Brick
 
-<center>![](/img/200_i2c/product/205_proxomoty_product.jpg)
+<center>![](/img/200_i2c/product/205_proximity_product.jpg)
 <!--COLORME-->
 
 ## Overview
@@ -9,7 +9,7 @@
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/205_proxomoty_connect.jpg)
+![](/img/200_i2c/connect/205_proximity_connect.jpg)
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
@@ -17,7 +17,7 @@ I2Cコネクタへ接続します。
 |◯|◯|◯|
 
 ## Schematic
-![](/img/200_i2c/schematic/205_proxomoty_schematic.png)
+![](/img/200_i2c/schematic/205_proximity_schematic.png)
 
 ## Sample Code
 ### for Arduino
