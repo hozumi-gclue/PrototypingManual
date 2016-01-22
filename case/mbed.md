@@ -1,4 +1,4 @@
-#MBED
+#Mbed
 
 #パーツ構成
 ![](../img/1100_case/manual/mbed_00.jpg)
