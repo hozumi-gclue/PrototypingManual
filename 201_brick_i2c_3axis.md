@@ -31,12 +31,12 @@ I2Cコネクタへ接続します。
 
 ## Registor
 | I2C Slave Address |
-| -- |
+|:-- |
 | 0x53 |
 
 ## Datasheet
 | Document |
-|:--:|
+|:--|
 | [Datasheet](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) |
 
 ## Schematic
