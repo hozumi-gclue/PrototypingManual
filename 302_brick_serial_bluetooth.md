@@ -33,8 +33,8 @@ Serialコネクタへ接続します。
 //
 #include <SoftwareSerial.h>
 
-int bluetoothRx = 10;  // RX-I pin of bluetooth mate, Arduino D11
-int bluetoothTx = 11;  // TX-O pin of bluetooth mate, Arduino D10
+int bluetoothRx = 12;  // RX-I pin of bluetooth mate, Arduino D11
+int bluetoothTx = 13;  // TX-O pin of bluetooth mate, Arduino D10
 
 SoftwareSerial mySerial(bluetoothRx, bluetoothTx); // RX, TX
 
