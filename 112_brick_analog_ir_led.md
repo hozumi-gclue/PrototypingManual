@@ -56,8 +56,11 @@ void loop() {
 
 ## Connecting 2(#113 IR Reciver Brickを使用した動作確認)
 A0 コネクタにIR LED Brick
+
 A1 コネクタにIR Reciver Brick
+
 A2 コネクタにLED Brick
+
 A0からA2に上記のBrickを接続し,IR LED Brickから出る赤外線をIR Reciver Brickで受信できるかを確認します。LED Brickが光れば正常に動作しています。
 
 ![](/img/100_analog/connect/112_ir_connect.jpg)
