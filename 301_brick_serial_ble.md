@@ -5,6 +5,8 @@
 ## Overview
 BLE通信ができるBrickです。
 
+BLEの転送レートは9600bpsに設定してあります。
+
 ## Connecting
 Serialコネクタへ接続します。
 
@@ -19,7 +21,7 @@ Serialコネクタへ接続します。
 ![](/img/300_serial/schematic/301_ble_schematic.png)
 
 ## Sample Code
-### for Arduino
+### for Arduino(Advertise)
 ```c
 //
 // FaBo Brick Sample
@@ -72,7 +74,7 @@ void loop()
 //
 // FaBo Brick Sample
 //
-// Scan
+// brick_serial_ble_scan
 //
 #include <SoftwareSerial.h>
 
@@ -87,7 +89,7 @@ void setup()
   bleShield.begin(9600);
   // ログ出力用
   Serial.begin(9600);
-  Serial.write("Scan start!");
+  Serial.write("start!");
 }
 
 void loop()
@@ -99,50 +101,40 @@ void loop()
 
     previousMillis = currentMillis;   
 
-    //***Set Scan Parameters***
-    //Byte
-    bleShield.write((byte)0x09);
-    //hilen
-    bleShield.write((byte)0x00);
-    //lolen
+    // 検索開始 (02620が返って来れば成功、BLEを検索します。)
     bleShield.write((byte)0x05);
-    //class
-    bleShield.write((byte)0x06);
-    //method
-    bleShield.write((byte)0x07);
-    //scan_interval 0x4 -0x4000
-    bleShield.write((byte)0x40);
     bleShield.write((byte)0x00);
-    //scan_window 0x4 - 0x4000
-    bleShield.write((byte)0x40);
-    bleShield.write((byte)0x00);
-    //active 0 Passive scanning,1 Active scanning
     bleShield.write((byte)0x01);
-    //***Discover***
-    //Byte
-    bleShield.write((byte)0x05);
-    //hilen
-    bleShield.write((byte)0x00);
-    //lolen
-    bleShield.write((byte)0x01);
-    //class
     bleShield.write((byte)0x06);
-    //method
     bleShield.write((byte)0x02);
-    //mode GAP DiscoverMode
-    //gap_non_discoverable      0
-    //gap_limited_discoverable  1
-    //gap_general_discoverable  2
-    //gap_broadcast             3
-    //gap_user_data             4
-    //gap_enhanced_broadcasting 0x80
     bleShield.write((byte)0x02);
+    delay(1000);
+  }
+  int count = 0;
+  // 返答を出力
+  while (bleShield.available()) {
+    if (count==5){
+      Serial.write('\n');
+    }    
+    Serial.print(bleShield.read(), HEX);
+    count++;
 
   }
+  delay(100);
+  
+  // 検索終了 (02640が返って来れば成功、検索を終了します)
+  bleShield.write((byte)0x04);
+  bleShield.write((byte)0x00);
+  bleShield.write((byte)0x00);
+  bleShield.write((byte)0x06);
+  bleShield.write((byte)0x04);
+  delay(100);
   // 返答を出力
+  Serial.write('\n');
   while (bleShield.available()) {
     Serial.print(bleShield.read(), HEX);
   }
+  Serial.write('\n');
 }
 ```
 
