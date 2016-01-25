@@ -52,21 +52,6 @@ void loop() {
 
 }
 ```
-
-
-void loop() {
-  buttonState = digitalRead(buttonPin);
-
-  if (buttonState == HIGH) {        
-    digitalWrite(ir_ledPin, HIGH);  
-  } 
-  else {
-    digitalWrite(ir_ledPin, LOW); 
-  }
-
-}
-```
-
 ### for IchigoJam
 
 ## Connecting 2(#113 IR Reciver Brickを使用した動作確認)
