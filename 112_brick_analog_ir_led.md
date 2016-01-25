@@ -61,9 +61,13 @@ A1 コネクタにIR Reciver Brick
 
 A2 コネクタにLED Brick
 
-A0からA2に上記のBrickを接続し,IR LED Brickから出る赤外線をIR Reciver Brickで受信できるかを確認します。LED Brickが光れば正常に動作しています。
+A0からA2に上記のBrickを接続し,IR LED Brickから出る赤外線をIR Reciver Brickで受信できるかを確認します。
 
 ![](/img/100_analog/connect/112_ir_connect_2.jpg)
+
+下の写真のようにLEDが光れば正常に動作しています。
+![](/img/100_analog/connect/112_ir_connect_lecture_2.jpg)
+
 
 ### for Arduino
 ```c
