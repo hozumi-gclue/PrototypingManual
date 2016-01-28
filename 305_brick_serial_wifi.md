@@ -18,6 +18,36 @@ Serialコネクタに接続します。
 ## Schematic
 ![](/img/300_serial/schematic/305_wifi_schematic.png)
 
+ATコマンド（基本コマンド）
+
+| AT | テストコマンド |
+| AT+RST |　モジュールリセット |
+| AT+GMR | ViewVisionInfo |
+| AT+GSLP | スリープコマンド |
+| ATE | エコーコマンド |
+| AT+RFPOWER | RF TXパワー設定 |
+| AT+RESTORE | 工場設定にリセット |
+| AT+SLEEP | スリープモード |
+| 0:8 | 1:8 |
+| 0:9 | 1:9 |
+| 0:10 | 1:10 |
+
+ATコマンド(Wifiコマンド）
+
+| AT+CWMODE | WIFI mode |
+| -- | -- |
+| 0:2 | 1:2 |
+| 0:3 | 1:3 |
+| 0:4 | 1:4 |
+| 0:5 | 1:5 |
+| 0:6 | 1:6 |
+| 0:7 | 1:7 |
+| 0:8 | 1:8 |
+| 0:9 | 1:9 |
+| 0:10 | 1:10 |
+
+
+
 ## Sample Code
 ### for Arduino
 
