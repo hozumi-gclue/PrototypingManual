@@ -50,7 +50,7 @@ ATコマンド(Wifiコマンド）
 
 ## Sample Code
 ### for Arduino
-
+Arduino IDEでコマンド入力できる。
 ```
 #include <SoftwareSerial.h>
 
@@ -82,6 +82,94 @@ void loop() // run over and over
   }
   if (Serial.available())
     mySerial.write(Serial.read());
+}
+```
+
+### for Arduino
+305 Wifi BrickとArduinoShield間の通信速度を9600bpsにする。
+```
+#include <SoftwareSerial.h>
+
+int bluetoothRx = 13;  // RX-I pin of bluetooth mate, Arduino D11
+int bluetoothTx = 12;  // TX-O pin of bluetooth mate, Arduino D10
+
+SoftwareSerial mySerial(bluetoothRx, bluetoothTx); // RX, TX
+
+void setup()  
+{
+  // Open serial communications and wait for port to open:
+  Serial.begin(115200);
+  while (!Serial) {
+    ; // wait for serial port to connect. Needed for Leonardo only
+  }
+
+  Serial.println("Goodnight moon!");
+
+  // set the data rate for the SoftwareSerial port
+  mySerial.begin(115200);
+}
+int c = 0;
+void loop() // run over and over
+{
+  if (mySerial.available()){
+    char c = mySerial.read();
+    Serial.write(c);
+
+  }
+  if (Serial.available())
+    mySerial.write(Serial.read());
+}
+```
+
+```
+//
+// FaBo Brick Sample
+//
+// Wifi Brick
+// Command Input
+#include <SoftwareSerial.h>
+#define TimeInterval 2000
+#define ComminucationSpeed_Arduino 9600
+#define ComminucationSpeed_bleShield 115200
+
+int bluetoothRx = 13; 
+int bluetoothTx = 12; 
+
+SoftwareSerial bleShield(bluetoothRx, bluetoothTx);
+
+
+
+void setup()
+{
+  Serial.begin(ComminucationSpeed_Arduino);
+  while (!Serial) {
+  }
+
+  Serial.println("bps changed!");
+
+  // set the data rate for the SoftwareSerial port
+  bleShield.begin(ComminucationSpeed_bleShield);
+}
+
+void ResposeCatch(){
+  while(bleShield.available()){
+  Serial.write(bleShield.read());
+  bleShield.write(Serial.read());
+   }
+   delay(TimeInterval);
+}
+
+void loop()
+{
+  ResposeCatch();
+   delay(TimeInterval);
+ 
+   bleShield.println("AT+UART_DEF=9600,8,1,0,0");
+   ResposeCatch();
+   Serial.println("Excute");
+   while(1){
+    }
+
 }
 ```
 
