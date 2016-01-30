@@ -130,7 +130,7 @@ void loop() // run over and over
 #include <SoftwareSerial.h>
 #define TimeInterval 2000
 #define ComminucationSpeed_Arduino 9600
-#define ComminucationSpeed_bleShield 115200
+#define ComminucationSpeed_bleShield 9600
 
 int bluetoothRx = 13; 
 int bluetoothTx = 12; 
