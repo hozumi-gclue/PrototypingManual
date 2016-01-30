@@ -86,47 +86,15 @@ void loop() // run over and over
 ```
 
 ### for Arduino
-ArduinoUNOとWifiBruck通信は115200bps（デフォルト）では文字化けしやすいので、305 Wifi BrickとArduinoShield間の通信速度を9600bps変更します。
-```
-#include <SoftwareSerial.h>
+ArduinoUNOとWifiBruck通信はソフトウェア通信を行っています。115200bps（デフォルト）では文字化けしやすいので、305 Wifi BrickとArduinoShield間の通信速度を9600bps変更し、Ardunoとパソコン間の通信は115200pbsとします。
 
-int bluetoothRx = 13;  // RX-I pin of bluetooth mate, Arduino D11
-int bluetoothTx = 12;  // TX-O pin of bluetooth mate, Arduino D10
-
-SoftwareSerial mySerial(bluetoothRx, bluetoothTx); // RX, TX
-
-void setup()  
-{
-  // Open serial communications and wait for port to open:
-  Serial.begin(115200);
-  while (!Serial) {
-    ; // wait for serial port to connect. Needed for Leonardo only
-  }
-
-  Serial.println("Goodnight moon!");
-
-  // set the data rate for the SoftwareSerial port
-  mySerial.begin(115200);
-}
-int c = 0;
-void loop() // run over and over
-{
-  if (mySerial.available()){
-    char c = mySerial.read();
-    Serial.write(c);
-
-  }
-  if (Serial.available())
-    mySerial.write(Serial.read());
-}
-```
 
 ```
 //
-// FaBo Brick Sample
+// FaBo Brick Sample 2
 //
 // Wifi Brick
-// 9600bps
+// 115200bps→9600bps
 #include <SoftwareSerial.h>
 #define TimeInterval 2000
 #define ComminucationSpeed_Arduino 9600
