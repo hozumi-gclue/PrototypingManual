@@ -126,7 +126,7 @@ void loop() // run over and over
 // FaBo Brick Sample
 //
 // Wifi Brick
-// Command Input
+// 9600bps
 #include <SoftwareSerial.h>
 #define TimeInterval 2000
 #define ComminucationSpeed_Arduino 9600
