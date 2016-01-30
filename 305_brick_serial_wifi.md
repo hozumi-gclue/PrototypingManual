@@ -86,7 +86,7 @@ void loop() // run over and over
 ```
 
 ### for Arduino
-305 Wifi BrickとArduinoShield間の通信速度を9600bpsにする。
+ArduinoUNOとWifiBruck通信は115200bps（デフォルト）では文字化けしやすいので、305 Wifi BrickとArduinoShield間の通信速度を9600bps変更します。
 ```
 #include <SoftwareSerial.h>
 
