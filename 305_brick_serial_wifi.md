@@ -50,19 +50,24 @@ AT+CIFSRコマンドをArduinoのターミナルから入力し、IPアドレス
 
 ## Sample Code
 ### for Arduino
-Arduino IDEでコマンド入力できる。
+サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。
+Wifiモジュールはデフォルトでは115200bpsなので通信速度を9600bpsにする。サンプル２を実効後、サンプル１を実効してください。
 ```
+//
+// FaBo Brick Sample 1
+// 2015/2/23
+// Wifi Brick #305
 #include <SoftwareSerial.h>
 
-int bluetoothRx = 13;  // RX-I pin of bluetooth mate, Arduino D11
-int bluetoothTx = 12;  // TX-O pin of bluetooth mate, Arduino D10
+int bluetoothRx = 12;  // RX-I pin of bluetooth mate, Arduino D11
+int bluetoothTx = 13;  // TX-O pin of bluetooth mate, Arduino D10
 
 SoftwareSerial mySerial(bluetoothRx, bluetoothTx); // RX, TX
 
 void setup()  
 {
   // Open serial communications and wait for port to open:
-  Serial.begin(115200);
+  Serial.begin(9600);
   while (!Serial) {
     ; // wait for serial port to connect. Needed for Leonardo only
   }
@@ -70,7 +75,7 @@ void setup()
   Serial.println("Goodnight moon!");
 
   // set the data rate for the SoftwareSerial port
-  mySerial.begin(115200);
+  mySerial.begin(9600);
 }
 int c = 0;
 void loop() // run over and over
@@ -92,16 +97,16 @@ ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行�
 ```
 //
 // FaBo Brick Sample 2
-//
-// Wifi Brick
+// 2015/2/23
+// Wifi Brick #305
 // 115200bps→9600bps
 #include <SoftwareSerial.h>
 #define TimeInterval 2000
 #define ComminucationSpeed_Arduino 9600
-#define ComminucationSpeed_bleShield 9600
+#define ComminucationSpeed_bleShield 115200
 
-int bluetoothRx = 13; 
-int bluetoothTx = 12; 
+int bluetoothRx = 12; 
+int bluetoothTx = 13; 
 
 SoftwareSerial bleShield(bluetoothRx, bluetoothTx);
 
@@ -131,7 +136,7 @@ void loop()
 {
   ResposeCatch();
    delay(TimeInterval);
- 
+
    bleShield.println("AT+UART_DEF=9600,8,1,0,0");
    ResposeCatch();
    Serial.println("Excute");
