@@ -36,7 +36,7 @@ A0コネクタに接続したTilt Brickの傾きによって、A1コネクタに
 //
 
 int buttonPin = A0;
-int ledPin = A1;
+int ledPin = 2;
 
 int buttonState = 0;
 
