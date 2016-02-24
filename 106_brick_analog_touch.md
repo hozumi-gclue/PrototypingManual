@@ -30,7 +30,7 @@ A0コネクタに接続したTouch Brickの感圧によって、D2コネクタ�
 //
 
 #define buttonPin A0
-#define ledPin D2
+#define ledPin 2
 
 int buttonState = 0;
 
