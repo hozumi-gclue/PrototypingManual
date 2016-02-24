@@ -63,6 +63,9 @@ tone関数にて出力できる音階と周波数は下記のようになりま�
 | 2 | 262 | 277 | 294 | 311 | 330 | 349 | 370 | 392 | 415 | 440 | 466 | 494 |
  | 3 | 523 | 554 | 587 | 622 | 659 | 698 | 740 | 784 | 831 | 880 | 932 | 988 |
 
+その他の音階については下記をご参照下さい。
+
+https://www.arduino.cc/en/Tutorial/ToneMelody?from=Tutorial.Tone
 
 ###for IchigoJam
 シールドのSOUNDコネクタにBUZZER Brickを接続する。<br>
