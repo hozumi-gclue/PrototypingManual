@@ -24,7 +24,7 @@ I/OピンよりボタンのON/OFFの状態を取得することができます�
 
 ## Sample Code
 ### Arduino
-D2コネクタに接続したButton Brickの入力により、A0コネクタに接続したLED Brick の点灯/消灯を制御しています。
+A0コネクタに接続したButton Brickの入力により、D2コネクタに接続したLED Brick の点灯/消灯を制御しています。
 ```c
 //
 // FaBo Brick Sample
@@ -32,8 +32,8 @@ D2コネクタに接続したButton Brickの入力により、A0コネクタに�
 // brick_analog_button
 //
 
-#define buttonPin 2 // ボタンピン:D2
-#define ledPin A0   // LEDピン:A0
+#define buttonPin A0 // ボタンピン:A0
+#define ledPin 2     // LEDピン:D2
 
 // ボタンの押下状況取得用
 int buttonState = 0;
