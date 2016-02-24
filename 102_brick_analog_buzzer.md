@@ -36,6 +36,8 @@ A0コネクタにBuzzer Brickを接続し、ビープ音を鳴らしています
 int duration = 500;  // 音を鳴らす時間
 
 void setup() {
+  // ブザーピンを出力用に設定
+  pinMode(buzzerPin,OUTPUT);
 }
 
 void loop() {
