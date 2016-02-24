@@ -20,7 +20,7 @@ I/Oピンより、感圧部分に加えられた力の大きさの変化をア�
 
 ## Sample Code
 ### Arduino
-A0コネクタに接続したTouch Brickの感圧によって、A1コネクタに接続したLED Brickを点灯/消灯させています。
+A0コネクタに接続したTouch Brickの感圧によって、D2コネクタに接続したLED Brickを点灯/消灯させています。
 
 ```c
 //
@@ -30,7 +30,7 @@ A0コネクタに接続したTouch Brickの感圧によって、A1コネクタ�
 //
 
 #define buttonPin A0
-#define ledPin A1
+#define ledPin D2
 
 int buttonState = 0;
 
