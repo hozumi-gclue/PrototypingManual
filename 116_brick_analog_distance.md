@@ -1,13 +1,15 @@
 # #116 Distance Brick
 
-<center>![](/img/100_analog/product/116_distance_product.png)
+<center>![](/img/100_analog/product/116_distance_product.jpg)
 <!--COLORME-->
 
 GP2Y0A21YK
 
 [http://www.sharpsma.com/webfm_send/1208](http://www.sharpsma.com/webfm_send/1208)
 
-
+## Connecting
+A0コネクタに接続して、距離を計測します。
+![](/img/100_analog/connect/116_distance_product.jpg)
 ## Sample Code
 
 ### Arduino
