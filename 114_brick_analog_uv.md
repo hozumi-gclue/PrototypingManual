@@ -34,7 +34,8 @@ A0コネクタにUV Brick接続し、紫外線の強弱をアナログ値で出�
 
 int uvValue = 0;
 
-void setup() {                
+void setup() {
+  pinMode(uvPin,INPUT);
   Serial.begin(9600);    
 }
 
