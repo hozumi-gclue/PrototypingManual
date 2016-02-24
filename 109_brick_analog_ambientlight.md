@@ -34,11 +34,18 @@ Light Brickは、CDSセルを使用した光センサーBrickです。
 A0コネクタにLight Brickを接続して、明るさに応じたアナログ値をシリアルモニタへ出力します。
 
 ```c
+//
+// FaBo Brick Sample
+//
+// brick_analog_light
+//
+
 #define lightPin A0
 
 int lightValue = 0;
 
 void setup() {
+  pinMode(lightPin,INPUT);
   Serial.begin(9600);
 }
 
