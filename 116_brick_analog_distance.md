@@ -9,7 +9,7 @@ GP2Y0A21YK
 
 ## Connecting
 A0コネクタに接続して、距離を計測します。
-![](/img/100_analog/connect/116_distance_product.jpg)
+![](/img/100_analog/connect/116_distance_connect.jpg)
 ## Sample Code
 
 ### Arduino
