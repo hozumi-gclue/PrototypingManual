@@ -23,4 +23,4 @@ OUT/INシールドのDigitalピン(2〜13)やAnalogピン(A0〜A5)とBrickを、
 |#113|[IR Receiver Brick](113_brick_analog_ir_receive.md) |<img src="/img/100_analog/product/113_ir_receiver_product.jpg" width="150">|◯|×|◯|
 |#114|[UV Brick](114_brick_analog_uv.md) |<img src="/img/100_analog/product/114_uv_product.jpg" width="150"> |◯|×|◯|
 |#115|[Humidity Brick](115_brick_analog_humidity.md) |<img src="/img/100_analog/product/115_humidity_product.jpg" width="150">|◯|×|◯|
-
+|#116|[Distance Brick](116_brick_analog_distance.md) |<img src="/img/100_analog/product/116_distance_product.jpg" width="150">|◯|◯|◯|
