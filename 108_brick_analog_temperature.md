@@ -27,7 +27,7 @@ A0コネクタにTemperatureを接続して、温度を計測します。
 //
 // FaBo Brick Sample
 //
-// brick_analog_temp_lm61ciz
+// #108 Temperature Brick
 //
 
 #define tempPin A0 // 温度センサーピン
