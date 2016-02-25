@@ -30,30 +30,26 @@ OUTコネクタのどれかに接続します。
 
 ## Sample Code
 ### Arduino
-A0コネクタにLED Brickを接続し、一定時間ごとに点灯/消灯（Lチカ）させています。
+D2コネクタにLED Brickを接続し、一定時間ごとに点灯/消灯（Lチカ）させています。
 ```c
 //
 // FaBo Brick Sample
 //
-// brick_analog_led
+// #101 LED Brick
 //
 
-#define ledPin A0  // LEDピンの設定
+#define ledPin 2 // LEDピン
 
-void setup() {                
-  // LEDピンを出力用に設定
-  pinMode(ledPin, OUTPUT);     
+void setup() {
+  // LED接続ピンを出力に設定
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop() {
-  // LED点灯
+  // LEDを一定時間で点滅
   digitalWrite(ledPin, HIGH);
-  // 1000ミリ秒待機
   delay(1000);
-
-  // LED消灯
   digitalWrite(ledPin, LOW);
-  // 1000ミリ秒待機
   delay(1000);
 }
 ```
