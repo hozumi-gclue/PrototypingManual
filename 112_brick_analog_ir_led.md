@@ -27,11 +27,11 @@ A0コネクタに赤外線LED Brick、A1コネクタにボタンBrickを接続�
 //
 // FaBo Brick Sample
 //
-// brick_analog_ir_led
+// #112 IR LED Brick
 //
 
-int ir_ledPin = A0;
-int buttonPin = A1;
+#define ir_ledPin A0
+#define buttonPin A1
 
 int buttonState = 0;
 
