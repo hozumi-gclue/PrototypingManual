@@ -35,7 +35,7 @@ https://github.com/adafruit/DHT-sensor-library
 //
 // FaBo Brick Sample
 //
-// brick_analog_humidity
+// #115 Humidity Brick
 //
 // DHT Library Downloads
 // https://github.com/adafruit/DHT-sensor-library
