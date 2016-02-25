@@ -4,6 +4,8 @@
 #パーツ構成
 ![](../img/1100_case/manual/raspizero_00.jpg)
 
+![](../img/1100_case/manual/raspi2_00.jpg)
+
  
 (1)が天板、(2)が底板、(3)はスペーサーです。<br>
 使用ネジはM2.6-10プラネジ４本です。
