@@ -32,7 +32,7 @@ A0コネクタに接続して、距離を計測します。
 //
 // FaBo Brick Sample
 //
-// brick_analog_distance
+// #116 Distance Brick
 //
 
 #define distancePin A0 // 距離センサーピン
