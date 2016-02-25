@@ -27,7 +27,7 @@ A0コネクタにUV Brick接続し、紫外線の強弱をアナログ値で出�
 //
 // FaBo Brick Sample
 //
-// brick_analog_uv
+// #114 UV Brick
 //
 
 #define uvPin A0
