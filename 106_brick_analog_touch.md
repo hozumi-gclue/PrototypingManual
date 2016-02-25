@@ -26,7 +26,7 @@ A0コネクタに接続したTouch Brickの感圧によって、D2コネクタ�
 //
 // FaBo Brick Sample
 //
-// brick_analog_touch
+// #106 Touch Brick
 //
 
 #define buttonPin A0
