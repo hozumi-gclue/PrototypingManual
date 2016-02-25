@@ -16,7 +16,7 @@ LED Brickを点灯/消灯させる際などに使用します。
 ## Connecting
 ![](/img/100_analog/connect/110_tilt_connect.jpg)
 
-A0コネクタに接続したTilt Brickの傾きによって、A1コネクタに接続したLED Brickを点灯/消灯させています。
+A0コネクタに接続したTilt Brickの傾きによって、D2コネクタに接続したLED Brickを点灯/消灯させています。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
@@ -32,11 +32,11 @@ A0コネクタに接続したTilt Brickの傾きによって、A1コネクタに
 //
 // FaBo Brick Sample
 //
-// brick_analog_tilt
+// #110 Tilt Brick
 //
 
-int buttonPin = A0;
-int ledPin = 2;
+#define buttonPin A0
+#define ledPin 2
 
 int buttonState = 0;
 
