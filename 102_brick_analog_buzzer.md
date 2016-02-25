@@ -28,7 +28,7 @@ D2コネクタにBuzzer Brickを接続し、ビープ音を鳴らしています
 //
 // FaBo Brick Sample
 //
-// brick_analog_buzzer
+// #102 Buzzer
 //
 
 #define buzzerPin 2 // ブザーピンの設定
