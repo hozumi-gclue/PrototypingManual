@@ -27,11 +27,11 @@ A0コネクタに赤外線受信Brick、A1コネクタにLED Brickを接続し�
 //
 // FaBo Brick Sample
 //
-// brick_analog_ir_receive
+// #113 IR Receiver Brick
 //
 
-int ir_receivePin = A0;
-int ledPin = A1;
+#define ir_receivePin A0
+#define ledPin A1
 
 int irState = 0;
 
