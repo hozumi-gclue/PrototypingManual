@@ -29,7 +29,7 @@ LimitSwitch BrickをA0コネクタに接続し、A1コネクタに接続したLE
 //
 // FaBo Brick Sample
 //
-// brick_analog_limitswitch
+// #107 LimitSwitch Brick
 //
 
 #define buttonPin A0 // リミットスイッチピン
