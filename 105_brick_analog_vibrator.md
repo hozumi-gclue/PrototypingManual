@@ -9,8 +9,6 @@
 I/Oピンから振動モーターのON/OFFを制御することができます。
 
 ## Connecting
-A1コネクタに接続したButtonブリックの入力により、A0コネクタに接続したVibratorブリックをON/OFFさせています。
-
 ![](/img/100_analog/connect/105_vibrator_connect.jpg)
 
 ## Support
@@ -27,35 +25,33 @@ A1コネクタに接続したButtonブリックの入力により、A0コネク�
 //
 // FaBo Brick Sample
 //
-// brick_analog_vibrator
+// #105 Vibrator Brick
 //
 
-#define buttonPin A1
-#define vibratorPin A0
+#define vibratorPin 2 // Vibratorピン
+#define buttonPin A0  // ボタンピン
 
-// ボタンの押下状況取得用
 int buttonState = 0;
 
 void setup() {
+  // Vibratorピンを出力用に設定
+  pinMode(vibratorPin, OUTPUT);
   // ボタンピンを入力用に設定
-  pinMode(buttonPin, INPUT); 
-  // バイブレーターピンを出力用に設定
-  pinMode(vibratorPin, OUTPUT);         
+  pinMode(buttonPin, INPUT);
 }
 
 void loop(){
- 
   // ボタンの押下状況を取得
   buttonState = digitalRead(buttonPin);
 
   // ボタン押下判定
-  if (buttonState == HIGH) {        
-    // バイブレーターON
-    digitalWrite(vibratorPin, HIGH);  
-  } 
+  if (buttonState == HIGH) {
+    // ボタンが押された場合、Vibratorオン
+    digitalWrite(vibratorPin, HIGH);
+  }
   else {
-    // バイブレーターOFF
-    digitalWrite(vibratorPin, LOW); 
+    // Vibratorオフ
+    digitalWrite(vibratorPin, LOW);
   }
 }
 ```
