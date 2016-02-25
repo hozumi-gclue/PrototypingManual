@@ -6,7 +6,7 @@
 ## Overview
 ボリューム抵抗を使ったBrickです。
 
-I/Oピンからアナログ値(0〜1023)を取得することができます。
+I/Oピンからアナログ値を取得することができます。
 
 LED Brickの明るさを調節する際などに使用します。
 
@@ -23,43 +23,37 @@ LED Brickの明るさを調節する際などに使用します。
 
 ## Sample Code
 ### Arduino
-A0コネクタにAngleを接続して、デジタル3(PWM)コネクタに接続したLED Brickの明るさ調節に使用しています。
+A0コネクタにAngleを接続して、D3コネクタに接続したLED Brickの明るさ調節に使用しています。
+
 ```c
 //
 // FaBo Brick Sample
 //
-// brick_analog_angle
+// #104 Angle Brick
 //
 
-#define sensorPin A0    
-#define ledPin 3
+#define anglePin A0 // Angleピン
+#define ledPin 3    // LEDピン
 
-int sensorValue = 0;
+int angleValue = 0;
 int outputValue = 0;
 
 void setup() {
+  // Angleピンを入力用に設定
+  pinMode(anglePin, INPUT);  
   // LEDピンを出力用に設定
   pinMode(ledPin, OUTPUT);  
-  // Angleのピンを入力用に設定
-  pinMode(sensorPin, INPUT);  
 }
 
 void loop() {
-  // Angleの値を取得
-  sensorValue = analogRead(sensorPin);  
-  // 取得した値(0〜1023)を出力できる値(0〜255)に変換
-  outputValue = map(sensorValue, 0, 1023, 0, 255);  
-  // 変換した値でLEDを点灯
+  // Angleから値を取得(0〜1023)
+  angleValue = analogRead(anglePin);  
+  // analogWrite用に取得した値を変換
+  outputValue = map(angleValue, 0, 1023, 0, 255);  
+  // PWMによりLED点灯
   analogWrite(ledPin, outputValue);              
-}```
-
-analogReadでは0〜1023の値を取得することができます。
-<br>
-analogWriteでは0〜255の値のみ出力することができるため、取得した値をそのまま出力することができません。
-<br>
-そのため、map関数を使用して、取得値を変換する必要があります。
-<br>
-
+}
+```
 
 ### RaspberyPI
 ```python
