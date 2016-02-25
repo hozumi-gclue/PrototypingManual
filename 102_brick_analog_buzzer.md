@@ -23,7 +23,7 @@ I/Oピンより、鳴らす音や音の長さを制御することができま�
 
 ## Sample Code
 ### for Arduino
-A0コネクタにBuzzer Brickを接続し、ビープ音を鳴らしています。
+D2コネクタにBuzzer Brickを接続し、ビープ音を鳴らしています。
 ```c
 //
 // FaBo Brick Sample
@@ -31,9 +31,9 @@ A0コネクタにBuzzer Brickを接続し、ビープ音を鳴らしています
 // brick_analog_buzzer
 //
 
-#define buzzerPin A0 // ブザーピンの設定
+#define buzzerPin 2 // ブザーピンの設定
 
-int duration = 500;  // 音を鳴らす時間
+int duration = 500; // 音を鳴らす時間
 
 void setup() {
   // ブザーピンを出力用に設定
