@@ -37,7 +37,7 @@ A0コネクタにLight Brickを接続して、明るさに応じたアナログ�
 //
 // FaBo Brick Sample
 //
-// brick_analog_light
+// #109 Light Brick
 //
 
 #define lightPin A0
