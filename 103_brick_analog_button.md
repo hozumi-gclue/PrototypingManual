@@ -4,11 +4,11 @@
 <!--COLORME-->
 
 ## Overview
-タクトスイッチを使ったBrickです。
+ボタンを使ったBrickです。
 
 I/OピンよりボタンのON/OFFの状態を取得することができます。
 
-赤色のタクトスイッチの写真を掲載していますが、タクトスイッチの色は5色（赤、青、黄、緑、黒）あり、ランダムで送付するため色のご指定はできません。あらかじめご了承ください。
+赤色ボタンの写真を掲載していますが、ボタンの色はランダムで送付するため色のご指定はできません。あらかじめご了承ください。
 
 
 ## Connecting
@@ -29,11 +29,11 @@ A0コネクタに接続したButton Brickの入力により、D2コネクタに�
 //
 // FaBo Brick Sample
 //
-// brick_analog_button
+// #103 Button Brick
 //
 
-#define buttonPin A0 // ボタンピン:A0
-#define ledPin 2     // LEDピン:D2
+#define buttonPin A0 // ボタンピン
+#define ledPin 2     // LEDピン
 
 // ボタンの押下状況取得用
 int buttonState = 0;
@@ -50,9 +50,9 @@ void loop(){
   buttonState = digitalRead(buttonPin);
 
   // ボタン押下判定
-  if (buttonState == HIGH) {        
-    // LED点灯
-    digitalWrite(ledPin, HIGH);  
+  if (buttonState == HIGH) {
+    // ボタンが押された場合、LED点灯
+    digitalWrite(ledPin, HIGH);
   } 
   else {
     // LED消灯
@@ -60,6 +60,7 @@ void loop(){
   }
 }
 ```
+
 ### Raspberry PI
 ```python
 # coding: utf-8
