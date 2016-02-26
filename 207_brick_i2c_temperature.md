@@ -39,7 +39,7 @@ I2Cコネクタへ接続します。
 //
 // FaBo Brick Sample
 //
-// brick_i2c_temperature
+// #207 Temperature I2C Brick
 //
 
 #include <Wire.h>
@@ -68,7 +68,7 @@ void loop() {
  
   l_val = (long)val;
   if(val & 0x8000) {         // 符号の判定    
-    l_val = l_val - 65536;     // マイナスの場合
+    l_val = l_val - 65536;   // マイナスの場合
   }
  
   tmp = (float)l_val * 0.0078125;   // ival / 128
@@ -87,7 +87,7 @@ void loop() {
 #
 # FaBo Brick Sample
 #
-# brick_i2c_temp
+# #207 Temperature I2C Brick
 #
 
 import smbus
@@ -127,7 +127,7 @@ if __name__ == '__main__':
 ### IchigoJam
 
 ```basic
-コードはここに書く
+
 ```
 
 
