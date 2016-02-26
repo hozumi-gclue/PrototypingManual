@@ -36,7 +36,7 @@ I2Cコネクタへ接続します。
 //
 // FaBo Brick Sample
 //
-// brick_i2c_humidity
+// #208 Humidity I2C Brick
 //
 
 #include <Wire.h>
@@ -122,13 +122,13 @@ void readI2c(byte register_addr, int num, byte *buf) {
 ### RaspberryPI
 
 ```python
-ここにコード書く
+
 ```
 
 ### IchigoJam
 
 ```basic
-ここにコード書く
+
 ```
 
 ## Parts
