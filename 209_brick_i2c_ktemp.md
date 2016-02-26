@@ -36,7 +36,7 @@ I2Cコネクタへ接続します。
 //
 // FaBo Brick Sample
 //
-// brick_i2c_ktemp
+// #209 Ktemp I2C Brick
 //
 
 #include <Wire.h>
@@ -103,7 +103,7 @@ sudo i2cdetect -y 1
 #
 # FaBo Brick Sample
 #
-# brick_i2c_color
+# #209 Ktemp I2C Brick
 #
 
 import smbus
@@ -151,7 +151,7 @@ if __name__ == '__main__':
 
 ### IchigoJam
 ```basic
-ここにコードを書く
+
 ```
 
 ## Parts
