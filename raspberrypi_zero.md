@@ -2,7 +2,7 @@
 
 
 #パーツ構成
-![](../img/1100_case/manual/raspizero_00.jpg)
+![](/img/1100_case/manual/raspizero_00.jpg)
 
 
 
