@@ -38,7 +38,7 @@ I2Cコネクタへ接続します。
 //
 // FaBo Brick Sample
 //
-// brick_i2c_color
+// #203 Color Sensor I2C Brick
 //
 #include <Wire.h>
 
