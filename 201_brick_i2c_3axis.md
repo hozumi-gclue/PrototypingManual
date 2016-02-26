@@ -54,7 +54,7 @@ Arduino用、RaspberryPi用のOUT/INシールドは、I2Cコネクタが3箇所�
 //
 // FaBo Brick Sample
 //
-// brick_i2c_3axis_ADXL345
+// #201 3AXIS I2C Brick
 //
 
 #include <Wire.h>
