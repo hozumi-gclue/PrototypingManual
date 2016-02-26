@@ -46,6 +46,11 @@ FaBo Brickでは、LOW の 0x68に設定されています。
 ## Sample Code
 ### for Arduino
 ```c
+//
+// FaBo Brick Sample
+//
+// #202 9AXIS I2C Brick
+//
 #include <Wire.h>
 
 #define ADDR_MPU9250 (0x68) // 3軸加速度、ジャイロ
@@ -159,12 +164,12 @@ void readI2c(int slave_addr,byte register_addr, int num, byte *buf) {
 
 ### for Raspberry Pi
 
-```
+```python
 # coding: utf-8
 #
 # FaBo Brick Sample
 #
-# brick_i2c_9axis
+# #202 9AXIS I2C Brick
 #
 
 import smbus
