@@ -37,7 +37,7 @@ I2Cコネクタへ接続します。
 //
 // FaBo Brick Sample
 //
-// brick_i2c_barometer
+// #204 Barometer I2C Brick
 //
 
 #include <Wire.h>
@@ -109,7 +109,7 @@ void readI2c(byte register_addr, int num, byte *buf) {
 #
 # FaBo Brick Sample
 #
-# brick_i2c_barometer
+# #204 Barometer I2C Brick
 #
 
 import smbus
@@ -192,7 +192,7 @@ if __name__ == "__main__":
 ### IchigoJam
 
 ```basic
-ここにコード書く
+
 ```
 
 ## Parts
