@@ -108,6 +108,7 @@
    * [Edison](case/edison.md)
    * [Nordic](case/nordic.md)
    * [Mbed](case/mbed.md)
+   * Raspberrypi Zero
 * Robot Kit
    * [Robot Car Kit](kit/robot_car_kit.md)
    * [Robot fish Kit](kit/robot_fish_kit.md)
