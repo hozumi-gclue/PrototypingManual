@@ -134,7 +134,7 @@ void getColor()
 #
 # FaBo Brick Sample
 #
-# brick_i2c_color
+# #203 Color Sensor I2C Brick
 #
 
 import smbus
@@ -189,7 +189,7 @@ if __name__ == '__main__':
 ### IchigoJam
 
 ```basic
-ここにコード書く
+
 ```
 
 ## Parts
