@@ -186,9 +186,9 @@ if __name__ == "__main__":
 
 ### for NRF51
 * PackはnRF_Librariesのapp_twiとapp_traceを読み込む  
-![](i2c_201_1.png)
-![](i2c_201_2.png)
-![](i2c_201_3.png)
+![](/img/200_i2c/docs/201_3axis_nrf_001.png)
+![](/img/200_i2c/docs/201_3axis_nrf_002.png)
+![](/img/200_i2c/docs/201_3axis_nrf_003.png)
 
 ``` C
 #include "app_trace.h"
