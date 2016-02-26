@@ -1,2 +1,0 @@
-# Raspberrypi Zero
-
