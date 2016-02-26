@@ -37,7 +37,7 @@ I2Cコネクタへ接続します。
 //
 // FaBo Brick Sample
 //
-// brick_i2c_gpio
+// #210 GPIO I2C Brick
 //
 
 #include <Wire.h>
