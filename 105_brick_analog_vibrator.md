@@ -21,7 +21,7 @@ I/Oピンから振動モーターのON/OFFを制御することができます�
 
 ## Sample Code
 ### for Arduino
-A0コネクタに接続したButton Brickの入力により、D3コネクタに接続したVibrator Brick のON/OFFを制御しています。
+A0コネクタに接続したButton Brickの入力により、D2コネクタに接続したVibrator Brick のON/OFFを制御しています。
 
 ```c
 //
@@ -30,7 +30,7 @@ A0コネクタに接続したButton Brickの入力により、D3コネクタに�
 // #105 Vibrator Brick
 //
 
-#define vibratorPin 3 // Vibratorピン
+#define vibratorPin 2 // Vibratorピン
 #define buttonPin A0  // ボタンピン
 
 int buttonState = 0;
