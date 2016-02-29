@@ -1,4 +1,5 @@
-ケース構成<br>
+ケース構成
+
 ![](/img/1100_case/manual/arduino_mega00.jpg)
 
 (1)が一番下、(6)が一番上になります。
