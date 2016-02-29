@@ -97,7 +97,7 @@
    * [Mbed](case/mbed.md)
    * [RaspberryPiZero](case/raspberrypizero.md)
    * [Square Beacon](case/squarebeacon.md)
-   * Circle Beacon
+   * [Circle Beacon](case/circlebeacon.md)
 * Robot Kit
    * [Robot Car Kit](kit/robot_car_kit.md)
    * [Robot fish Kit](kit/robot_fish_kit.md)
