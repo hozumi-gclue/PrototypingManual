@@ -1,6 +1,6 @@
 # #708-710 Universal Brick
 
-<center>![](../img/700_breakout/product/universal.jpg)
+<center>![](/img/700_breakout/product/universal.jpg)
 <!--COLORME-->
 
 ## Overview
@@ -22,6 +22,6 @@ UniversalBrickは、3pin、I2C、Serialの３種類のBrickがあります。
 |◯|◯|◯|
 
 ## Schematic
-![](../img/700_breakout/schematic/universal_schematic.png)
+![](/img/700_breakout/schematic/universal_schematic.png)
 
 ※Universal 3pinのものになります。
