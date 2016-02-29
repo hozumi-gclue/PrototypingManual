@@ -91,7 +91,7 @@
    * [Arduino Mega](1102_case_arduino_mega.md)
    * [Arduino YUN](1103_case_arduino_yun.md)
    * [RaspberryPI](1104_case_raspberrypi.md)
-   * [RaspberryPiZero](1111_case_rspberrypi_zero.md)
+   * [RaspberryPiZero](1111_case_raspberrypi_zero.md)
    * [IchigoJam](1105_case_ichigojam.md)
    * [Edison](1106_case_intel_edison.md)
    * [Mbed](1107_case_mbed.md)
