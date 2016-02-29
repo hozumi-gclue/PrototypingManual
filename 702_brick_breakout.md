@@ -1,6 +1,6 @@
 # #701-707 Breakout Brick
 
-<center>![](../img/700_breakout/product/breakout.jpg)
+<center>![](/img/700_breakout/product/breakout.jpg)
 <!--COLORME-->
 
 ## Overview
@@ -20,7 +20,7 @@ BreakoutBrickは、3pin、I2C、Serialに対して、それぞれに黒(2.54mm)�
 |#707|Breakout 2mm Serial|
 
 ## Connecting
-![](../img/700_breakout/connecting/breakout_connecting.png)
+![](/img/700_breakout/connecting/breakout_connecting.png)
 
 Breakout 2.54mm 3pinを使用し、BreadBoard経由で距離センサーを接続しています。
 
@@ -30,6 +30,6 @@ Breakout 2.54mm 3pinを使用し、BreadBoard経由で距離センサーを接�
 |◯|◯|◯|
 
 ## Schematic
-![](../img/700_breakout/schematic/breakout_schematic.png)
+![](/img/700_breakout/schematic/breakout_schematic.png)
 
 ※Breakout 2.54mm 3pinのものになります。
