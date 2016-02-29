@@ -91,11 +91,11 @@
    * [Arduino Mega](case/mega.md)
    * [Arduino YUN](case/yun.md)
    * [RaspberryPI](case/raspberrypi.md)
+   * [RaspberryPiZero](case/raspberrypizero.md)
    * [IchigoJam](case/ichigojam.md)
    * [Edison](case/edison.md)
    * [Nordic](case/nordic.md)
    * [Mbed](case/mbed.md)
-   * [RaspberryPiZero](case/raspberrypizero.md)
    * [Square Beacon](case/squarebeacon.md)
    * [Circle Beacon](case/circlebeacon.md)
 * Robot Kit
