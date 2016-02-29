@@ -20,7 +20,7 @@ BreakoutBrickは、3pin、I2C、Serialに対して、それぞれに黒(2.54mm)�
 |#707|Breakout 2mm Serial|
 
 ## Connecting
-![](/img/700_breakout/connecting/breakout_connecting.png)
+![](/img/700_breakout/connecting/breakout_connecting.jpg)
 
 Breakout 2.54mm 3pinを使用し、BreadBoard経由で距離センサーを接続しています。
 
