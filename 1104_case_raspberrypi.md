@@ -1,6 +1,7 @@
 #RaspberryPi2 model B
 
-ケース構成<br>
+ケース構成
+
 ![](/img/1100_case/manual/raspi2_00.jpg)
 
 (1)が一番下、(10)が一番上になります。
