@@ -79,10 +79,10 @@
    * [OUT/IN Shield for Raspberry Pi ZERO](506_shield_outin_raspberrypizero.md)
    * [OUT/IN I2C Expand board](599_shield_outin_i2c_expand.md)
 * Shield
-   * [Motor Shield for Arduino](601_shield_motor.md)
-   * [Stepping Motor Shield for Arduino](602_shield_stmotor.md)
-   * [CT Sensor Shield for Arduino](603_shield_ct.md)
-   * [Rom Writer Shield for Arduino](604_shield_romwriter.md)
+   * [Motor Shield for Arduino](601_motor.md)
+   * [Stepping Motor Shield for Arduino](602_stmotor.md)
+   * [CT Sensor Shield for Arduino](603_ct.md)
+   * [Rom Writer Shield for Arduino](604_romwriter.md)
 * Brick Breakout
    * [Brick Breakout](702_brick_breakout.md)
    * [Brick Universal](708_brick_universal.md)
