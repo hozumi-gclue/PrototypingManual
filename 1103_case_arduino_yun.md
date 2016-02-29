@@ -1,8 +1,9 @@
 #Arduino YUN
 
-ケース構成<br>
+ケース構成
+
 ![](/img/1100_case/manual/arduino_yun00.jpg)
-<br>
+
 (1)が一番下、(8)が一番上になります。
 
 使用ネジはM3-20プラネジ４本です。
