@@ -1,14 +1,14 @@
 #Arduino YUN
 
 ケース構成<br>
-![](../img/1100_case/manual/arduino_yun00.jpg)
+![](/img/1100_case/manual/arduino_yun00.jpg)
 <br>
 (1)が一番下、(8)が一番上になります。<br>
 使用ネジはM3-20プラネジ４本です。<br>
 
 ##1.下から(1)、(2)、(3)を順番に重ねます。<br>
 組み立て易くする為に、下から四方の穴にネジを差し込んでおきます。<br>
-![](../img/1100_case/manual/arduino_yun01.jpg)
+![](/img/1100_case/manual/arduino_yun01.jpg)
 
 ナットでの固定はしません。
 ##2.(4)、(5)をボードの上下を挟むように重ねます。
