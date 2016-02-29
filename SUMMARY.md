@@ -96,7 +96,7 @@
    * [Nordic](case/nordic.md)
    * [Mbed](case/mbed.md)
    * [RaspberryPiZero](case/raspberrypizero.md)
-   * [square beacon](Square_Beacon.md)
+   * [square beacon](/case/squarebeacon.md)
    * Circle Beacon
 * Robot Kit
    * [Robot Car Kit](kit/robot_car_kit.md)
