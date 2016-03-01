@@ -270,7 +270,7 @@ void ini(byte addr){
 #
 # FaBo Brick Sample
 #
-# brick_i2c_7seg
+# #211 7Segment LED I2C Brick
 #
 
 import smbus
