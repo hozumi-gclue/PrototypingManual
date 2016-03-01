@@ -42,7 +42,7 @@ PWM出力値は、"0x02"でほぼ視認できる明るさで点灯されます�
 //
 // FaBo Brick Sample
 //
-// brick_i2c_7seg
+// #211 7Segment LED I2C Brick
 //
 
 #include <Wire.h>
