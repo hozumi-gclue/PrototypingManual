@@ -41,7 +41,7 @@ https://github.com/olikraus/u8glib/wiki よりU8glibライブラリをインス�
 //
 // FaBo Brick Sample
 //
-// brick_i2c_oled
+// #214 OLED I2C Brick
 //
 // U8glib Library Downloads
 // https://github.com/olikraus/u8glib/wiki
