@@ -36,7 +36,7 @@ https://github.com/tomozh/arduino_ST7032
 //
 // FaBo Brick Sample
 //
-// 213_lcd_mini
+// #213 LCD mini I2C Brick
 //
 // ST7032 Library Download from
 //  https://github.com/tomozh/arduino_ST7032
