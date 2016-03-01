@@ -15,3 +15,6 @@
 
 ※(3)の枠にハメ込む
 
+![](/img/1100_case/manual/circlebeacon_04.jpg)
+
+
