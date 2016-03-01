@@ -36,7 +36,7 @@ I2Cコネクタへ接続します。
 //
 // FaBo Brick Sample
 //
-// 215_rtc
+// #215 RTC I2C Brick
 //
 
 #include <Wire.h>
