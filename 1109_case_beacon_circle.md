@@ -11,9 +11,7 @@
 ![](/img/1100_case/manual/circlebeacon_02.jpg)
 
 ##2.ビーコンを裏返し状態でセットする。
-![](/img/1100_case/manual/circlebeacon_04.jpg)
+![](/img/1100_case/manual/circlebeacon_03.jpg)
 
 ※(3)の枠にハメ込む
 
-##3.５枚重ねた(5)を、最後に底蓋となる(2)をセットする。
-![](/img/1100_case/manual/squarebeacon_03.jpg)
