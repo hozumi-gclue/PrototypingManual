@@ -98,6 +98,7 @@
    * [Nordic](1108_case_nordic.md)
    * [Circle Beacon](1109_case_beacon_circle.md)
    * [Square Beacon](1110_case_beacon_square.md)
+   * BeagleBone
 * Robot Kit
    * [Robot Car Kit](1201_kit_robotcar.md)
    * [Robot fish Kit](1202_kit_robotfish.md)
