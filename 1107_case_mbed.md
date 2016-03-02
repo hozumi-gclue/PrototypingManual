@@ -1,4 +1,4 @@
-#Mbed
+#Mbed(Nucleo)
 
 パーツ構成
 
