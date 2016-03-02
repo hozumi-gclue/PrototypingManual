@@ -1,4 +1,4 @@
-#Nordic
+#Nordic(NRF51)
 
 ケース構成
 
