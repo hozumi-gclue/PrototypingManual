@@ -116,4 +116,5 @@
    * [Slash Commands](slash_commands.md)
 * [Handson](handson.md)
    * [HighSchool](highschool.md)
+     * [Propeller Kit](highschool_propellerkit.md)
 
