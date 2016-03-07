@@ -103,7 +103,8 @@
 * Robot Kit
    * [Robot Car Kit](1201_kit_robotcar.md)
    * [Robot fish Kit](1202_kit_robotfish.md)
-   * [Propeller Kit](1203_kit_propeller.md)
+* Kaden
+   * [Propeller Kit](1501_kit_propeller.md)
 * [Factory 1.0](factory.md)
 * [Servo](servo.md)
 * [Current measurement](current_measurement.md)
@@ -116,4 +117,5 @@
    * [Slash Commands](slash_commands.md)
 * [Handson](handson.md)
    * [HighSchool](highschool.md)
+     * [Propeller Kit](highschool_propellerkit.md)
 

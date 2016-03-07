@@ -118,5 +118,5 @@ Arduino本体の上にモーターシールドを亀の子状に取り付けま�
 操作方法につきましては、MotorShield for Arduinoの項目をご参照下さい。
 
 * Motor Shield for Arduino
-<br>
-https://fabo.gitbooks.io/module/content/shield_motor/shield_motor.html
+
+https://fabo.gitbooks.io/module/content/601_motor.html

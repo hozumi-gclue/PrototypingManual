@@ -13,11 +13,11 @@
 
 # 風車の組み立て
 
- * [Propeller Kit](kit/propellerkit.md)
+ * [Propeller Kit](highschool_propellerkit.md)
 
 # モーターを制御
 
-* [Motor Shield for Arduino](shield_motor/shield_motor.md)
+* [Motor Shield for Arduino](601_motor.md)
 
 # 最終課題
 
