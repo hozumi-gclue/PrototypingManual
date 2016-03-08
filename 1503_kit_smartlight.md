@@ -24,6 +24,7 @@
 ![](/img/kit/manual/smartringled08.jpg)
 
 ![](/img/kit/manual/smartringled09.jpg)
+
 ##土台部分
 
 パーツ構成　Kadenキット土台部分
