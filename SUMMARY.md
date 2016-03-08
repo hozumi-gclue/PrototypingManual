@@ -105,7 +105,7 @@
    * [Robot fish Kit](1202_kit_robotfish.md)
 * Kaden
    * [Propeller Kit](1501_kit_propeller.md)
-   * Smartlight Kit
+   * [Smartlight Kit](1503_smartlight_kit.md)
 * [Factory 1.0](factory.md)
 * [Servo](servo.md)
 * [Current measurement](current_measurement.md)
