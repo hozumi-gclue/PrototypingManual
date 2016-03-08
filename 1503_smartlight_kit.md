@@ -1,2 +1,0 @@
-# Smartlight Kit
-
