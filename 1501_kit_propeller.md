@@ -39,7 +39,7 @@
 
 ##土台部分
 
-パーツ構成　Kadenき
+パーツ構成　Kadenキット土台部分
 
 ![](/img/kit/manual/dodai1.jpg)
 
