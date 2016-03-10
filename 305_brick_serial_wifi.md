@@ -59,8 +59,8 @@ Wifiモジュールはデフォルトでは115200bpsなので通信速度を9600
 // Wifi Brick #305
 #include <SoftwareSerial.h>
 
-int bluetoothRx = 12;  // RX-I pin of bluetooth mate, Arduino D11
-int bluetoothTx = 13;  // TX-O pin of bluetooth mate, Arduino D10
+int bluetoothRx = 13;
+int bluetoothTx = 12;
 
 SoftwareSerial mySerial(bluetoothRx, bluetoothTx); // RX, TX
 
@@ -105,8 +105,8 @@ ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行�
 #define ComminucationSpeed_Arduino 9600
 #define ComminucationSpeed_bleShield 115200
 
-int bluetoothRx = 12; 
-int bluetoothTx = 13; 
+int bluetoothRx = 13; 
+int bluetoothTx = 12; 
 
 SoftwareSerial bleShield(bluetoothRx, bluetoothTx);
 
