@@ -37,69 +37,101 @@ I2Cコネクタへ接続します。
 //
 // FaBo Brick Sample
 //
-// #204 Barometer I2C Brick
+// 204_barometer
 //
 
 #include <Wire.h>
-#define DEVICE_ADDR (0x60) 
+#define DEVICE_ADDR (0x60)
 
-void setup()
-{
+float a0, b1, b2, c12, c11, c22;
+
+void setup() {
   Serial.begin(9600); // シリアルの開始デバック用
-  Wire.begin();       // I2Cの開始
-}
+  Wire.begin(); // I2Cの開始
 
-void loop()
-{ 
-
-  writeI2c(0x12,0x01);
+  Wire.beginTransmission(DEVICE_ADDR);
+  Wire.write(0x04); // 校正データの要求
+  Wire.endTransmission();
   
-  delay(100);
-  byte atom_buff[4];
-  readI2c(0x00,4, atom_buff);
-  int ph = atom_buff[0];
-  int pl = atom_buff[1];
-  int pressure = (( ph * 256) + pl)/64;
-  int th = atom_buff[2];
-  int tl = atom_buff[3];
-  int temp = ((th * 256 ) + tl)/64 ;
+  Wire.requestFrom(DEVICE_ADDR, 12);
+  a0  = read_coef(16,  3, 0);
+  b1  = read_coef(16, 13, 0);
+  b2  = read_coef(16, 14, 0);
+  c12 = read_coef(14, 13, 9);
+  c11 = read_coef(11, 10, 11);
+  c22 = read_coef(11, 10, 15);
   
-  Serial.print("pressure");
-  Serial.println(pressure);
-  Serial.print("temp");
-  Serial.println(temp);
-
-   delay(1000);
 }
 
-// I2Cへの書き込み
-void writeI2c(byte register_addr, byte value) {
-  Wire.beginTransmission(DEVICE_ADDR);  
-  Wire.write(register_addr);         
-  Wire.write(value);                 
-  Wire.endTransmission();        
+void loop() {
+  // 気圧
+  Serial.print(read_hpa());
+  Serial.println(" hPa");
+  // 温度
+  Serial.print(read_temp());
+  Serial.println(" C");
+
+  // 会津若松の標高:212mの気圧
+  Serial.println("");
+  Serial.print(read_hpa_alt(212.0));
+  Serial.println(" hPa");
+  Serial.println();
+
+  delay(1000);
 }
 
-// I2Cへの読み込み
-void readI2c(byte register_addr, int num, byte *buf) {
-  Wire.beginTransmission(DEVICE_ADDR); 
-  Wire.write(register_addr);           
-  Wire.endTransmission(false);         
 
-  //Wire.beginTransmission(DEVICE_ADDR); 
-  Wire.requestFrom(DEVICE_ADDR, num);  
 
-  int i = 0;
-  while (Wire.available())
-  {
-    byte n = 0x00;
-    n = Wire.read();
-    *(buf + i) = n;
- 
-    i++;   
-  }
-  //Wire.endTransmission();         
+float read_coef(int total, int fractional, int zero) {
+  unsigned char msb, lsb;
+  msb = Wire.read();
+  lsb = Wire.read();
+  return ((float) ((msb << 8) + lsb) / ((long)1 << 16 - total + fractional + zero));
 }
+
+unsigned int read_adc() {
+  unsigned char msb, lsb;
+  msb = Wire.read();
+  lsb = Wire.read();
+  return (((unsigned int)msb << 8) + lsb) >> 6;;
+}
+
+float read_hpa_alt(float altitude) {
+  float hpa,temp;
+  get_data(&hpa, &temp);
+  return hpa / pow(1-( altitude / 44330.0 ), 5.255);
+
+}
+
+float read_hpa() {
+  float hpa,temp;
+  get_data(&hpa, &temp);
+  return hpa;
+}
+
+float read_temp() {
+  float hpa,temp;
+  get_data(&hpa, &temp);
+  return temp;
+}
+
+void get_data(float *hpa, float *temp) {
+  Wire.beginTransmission(DEVICE_ADDR);
+  Wire.write(0x12); // 計測開始を指示
+  Wire.write(0x01);
+  Wire.endTransmission();
+  delay(3);
+  Wire.beginTransmission(DEVICE_ADDR);
+  Wire.write(0x00); // 計測データの要求
+  Wire.endTransmission();
+  Wire.requestFrom(DEVICE_ADDR, 4);
+  unsigned int Padc = read_adc();
+  unsigned int Tadc = read_adc();
+  float Pcomp = a0 + (b1 + c11 * Padc + c12 * Tadc) * Padc + (b2 + c22 * Tadc) * Tadc;
+  *hpa = Pcomp * 650 / 1023 + 500;
+  *temp = 25 - (Tadc - 472) / 5.35;
+}
+
 ```
 
 ### RaspberryPI
