@@ -107,7 +107,7 @@
    * [Propeller Kit](1501_kit_propeller.md)
    * [SmartLight Kit](1503_kit_smartlight.md)
    * [MatrixLight Kit](1502_kit_matrixlight.md)
-   * RemoteController Kit
+   * [RemoteController Kit](1504_kit_remotecontroller.md)
 * [Factory 1.0](factory.md)
 * [Servo](servo.md)
 * [Current measurement](current_measurement.md)
