@@ -106,7 +106,7 @@
 * Kaden
    * [Propeller Kit](1501_kit_propeller.md)
    * [SmartLight Kit](1503_kit_smartlight.md)
-   * MatrixLight Kit
+   * [MatrixLight Kit](1502_kit_matrixlight.md)
 * [Factory 1.0](factory.md)
 * [Servo](servo.md)
 * [Current measurement](current_measurement.md)
