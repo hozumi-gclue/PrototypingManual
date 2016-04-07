@@ -11,7 +11,7 @@ I2Cコネクタへ接続します。
 
 ![](/img/200_i2c/connect/211_7seg_connect.jpg)
 
-I2C拡張ボードを使用して複数の7セグメントBrickを接続する場合は、Brick裏にあるソルダージャンパーでI2Cアドレスを変更します。
+複数の7セグメントBrickを接続する場合は、Brick裏にあるソルダージャンパーでI2Cアドレスを変更します。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
@@ -25,7 +25,7 @@ I2C拡張ボードを使用して複数の7セグメントBrickを接続する�
 
 FaBo Brickでは、初期値に0x20が設定されています。Brick裏面のソルダージャンパーで設定を変更できます。
 
-## Datasheet
+## TLC59208F Datasheet
 | Document |
 | -- |
 | [Datasheet](http://www.ti.com/jp/lit/gpn/tlc59208f) |
@@ -33,9 +33,13 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick裏面の�
 ## Schematic
 ![](/img/200_i2c/schematic/211_7seg_schematic.png)
 
+## Library
+
+### for Arduino
+https://github.com/FaBoPlatform/FaBo7Seg-TLC59208-Library
+
 ## Sample Code
 PWM出力値は、"0x02"でほぼ視認できる明るさで点灯されます。あまり高い数値にすると、点灯しなくなるおそれがあります。
-
 
 ### for Arduino
 ```c
