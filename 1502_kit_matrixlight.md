@@ -1,4 +1,4 @@
-# MatrixLight Kit（準備中）
+# MatrixLight Kit
 
 **デザインは予告なく変更される場合があります。**
 
