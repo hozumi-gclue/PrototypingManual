@@ -38,6 +38,8 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick裏面の�
 ### for Arduino
 https://github.com/FaBoPlatform/FaBo7Seg-TLC59208-Library
 
+<!--ALMDOC-->
+
 ## Sample Code
 PWM出力値は、"0x02"でほぼ視認できる明るさで点灯されます。あまり高い数値にすると、点灯しなくなるおそれがあります。
 
