@@ -113,7 +113,6 @@
 * [Current measurement](current_measurement.md)
    * [2001 Brick Edition](2001.md)
    * [2002 Oscilloscope Edition](2000.md)
-   * [2003]
 * [Slack](slack.md)
    * [Incoming Webhooks](incoming_webhooks.md)
    * [Botkit](botkit.md)
@@ -121,4 +120,5 @@
 * [Handson](handson.md)
    * [HighSchool](highschool.md)
        * [Propeller Kit](highschool_propellerkit.md)
-
+* Arduino Library
+   * [FaBoライブラリインストール](install_library.md)
