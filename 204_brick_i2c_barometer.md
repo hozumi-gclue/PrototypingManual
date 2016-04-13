@@ -23,13 +23,19 @@ I2Cコネクタへ接続します。
 | -- |
 | 0x60 |
 
-## Datasheet
+## MPL115A2 Datasheet
 | Document |
 | -- |
-| [Datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MPL115A2.pdf) |
+| [MPL115A2 Datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MPL115A2.pdf) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/204_barometer_schematic.png)
+
+### for Arduino
+- https://github.com/FaBoPlatform/FaBoBarometer-MPL115-Library
+
+- [Document](
+http://fabo.io/doxygen/FaBoBarometer-MPL115-Library/)
 
 ## Sample Code
 ### Arduino
