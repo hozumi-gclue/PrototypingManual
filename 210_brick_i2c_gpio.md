@@ -82,4 +82,4 @@ void loop() {
 ```
 
 ## Parts
-- 汎用I/O拡張IC
+- PCAL6408
