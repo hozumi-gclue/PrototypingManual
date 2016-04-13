@@ -26,7 +26,7 @@ I2Cコネクタへ接続します。
 ## PCAL6408 Datasheet
 | Document |
 | -- |
-| [PCAL6408 Datasheet](http://www.jp.nxp.com/documents/data_sheet/PCAL6408A.pdf) |
+| [PCAL6408 Datasheet](http://www.nxp.com/documents/data_sheet/PCAL6408A.pdf) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/210_gpio_schematic.png)
