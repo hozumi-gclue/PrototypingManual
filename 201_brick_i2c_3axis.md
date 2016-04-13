@@ -40,10 +40,10 @@ Arduino用、RaspberryPi用のOUT/INシールドは、I2Cコネクタが3箇所�
 |:-- |
 | 0x53 |
 
-## Datasheet
+## ADXL345 Datasheet
 | Document |
 |:--|
-| [Datasheet](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) |
+| [ADXL345 Datasheet](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/201_3axis_schematic.png)
@@ -51,13 +51,10 @@ Arduino用、RaspberryPi用のOUT/INシールドは、I2Cコネクタが3箇所�
 ## Library
 
 ### for Arduino
-#### Library
-https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library
+- https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library
 
-<!--ALMDOC-->
-
-#### Documents
-http://fabo.io/doxygen/FaBo3Axis-ADXL345-Library/
+- [Document](
+https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library)
 
 ## Sample Code
 ### for Arduino
