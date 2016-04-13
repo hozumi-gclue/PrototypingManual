@@ -18,10 +18,15 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Datasheet
+## Registor
+| I2C Slave Address |
+|:-- |
+| 0x3E |
+
+## AQM0802A Datasheet
 | Document |
 | -- |
-| [AQM0802A](http://akizukidenshi.com/catalog/g/gP-06669/) |
+| [AQM0802A Datasheet](http://akizukidenshi.com/catalog/g/gP-06669/) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/213_lcdmini_schematic.png)
