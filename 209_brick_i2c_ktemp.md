@@ -164,4 +164,4 @@ if __name__ == '__main__':
 ```
 
 ## Parts
-- 18bit ADC IC
+- MCP3421
