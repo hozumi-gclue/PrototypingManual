@@ -41,3 +41,4 @@ http://fabo.io/doxygen/FaBoProximity-VCNL4010-Library/)
 ### for Arduino
 
 ## Parts
+- VCNL4010
