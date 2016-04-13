@@ -23,13 +23,21 @@ I2Cコネクタへ接続します。
 | -- |
 | 0x2A |
 
-## Datasheet
+## S11059 Datasheet
 | Document |
 | -- |
-| [Datasheet](http://www.hamamatsu.com/resources/pdf/ssd/s11059-02dt_etc_kpic1082j.pdf) |
+| [S11059 Datasheet](http://www.hamamatsu.com/resources/pdf/ssd/s11059-02dt_etc_kpic1082j.pdf) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/203_color_schematic.png)
+
+## Library
+
+### for Arduino
+- https://github.com/FaBoPlatform/FaBoColor-s11059-Library
+
+- [Document](
+http://fabo.io/doxygen/FaBoColor-s11059-Library/)
 
 ## Sample Code
 ### Arduino
