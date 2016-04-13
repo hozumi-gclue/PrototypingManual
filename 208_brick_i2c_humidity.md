@@ -138,5 +138,4 @@ void readI2c(byte register_addr, int num, byte *buf) {
 ```
 
 ## Parts
-- Si7005
-
+- HTS221
