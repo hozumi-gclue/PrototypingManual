@@ -34,14 +34,20 @@ FaBo Brickでは、LOW の 0x68に設定されています。
 |--|--|
 |0x0C|
 
-## Datasheet
+## MPU-9250 Datasheet
 | Document |
 | -- |
-| [Register Map](http://43zrtwysvxb2gf29r5o0athu.wpengine.netdna-cdn.com/wp-content/uploads/2015/02/MPU-9250-Register-Map.pdf) |
-| [Datasheet](http://43zrtwysvxb2gf29r5o0athu.wpengine.netdna-cdn.com/wp-content/uploads/2015/02/MPU-9250-Datasheet.pdf) |
+| [MPU-9250 Register Map](http://43zrtwysvxb2gf29r5o0athu.wpengine.netdna-cdn.com/wp-content/uploads/2015/02/MPU-9250-Register-Map.pdf) |
+| [MPU-9250 Datasheet](http://43zrtwysvxb2gf29r5o0athu.wpengine.netdna-cdn.com/wp-content/uploads/2015/02/MPU-9250-Datasheet.pdf) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/202_9axis_schematic.png)
+
+## Library
+### for Arduino
+- https://github.com/FaBoPlatform/FaBo9AXIS-MPU9250-Library
+
+- [Document](http://fabo.io/doxygen/FaBo9AXIS-MPU9250-Library/)
 
 ## Sample Code
 ### for Arduino
