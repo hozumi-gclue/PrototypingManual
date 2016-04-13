@@ -28,7 +28,7 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick裏面の�
 ## TLC59208F Datasheet
 | Document |
 | -- |
-| [Datasheet](http://www.ti.com/jp/lit/gpn/tlc59208f) |
+| [TLC59208F Datasheet](http://www.ti.com/jp/lit/gpn/tlc59208f) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/211_7seg_schematic.png)
@@ -36,7 +36,9 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick裏面の�
 ## Library
 
 ### for Arduino
-https://github.com/FaBoPlatform/FaBo7Seg-TLC59208-Library
+- https://github.com/FaBoPlatform/FaBo7Seg-TLC59208-Library
+
+- [Document](http://fabo.io/doxygen/FaBo7Seg-TLC59208-Library/)
 
 <!--ALMDOC-->
 
