@@ -24,14 +24,20 @@ I2Cコネクタへ接続します。
 | -- |
 | 0x48 |
 
-## Datasheet
+## ADT7410 Datasheet
 | Document |
 | -- |
-| [Datasheet](http://www.analog.com/media/en/technical-documentation/data-sheets/ADT7410.pdf) |
+| [ADT7410 Datasheet](http://www.analog.com/media/en/technical-documentation/data-sheets/ADT7410.pdf) |
 
 ## Schematic
 
 ![](/img/200_i2c/schematic/207_temperature_schematic.png)
+
+## Library
+### for Arduino
+- https://github.com/FaBoPlatform/FaBoTemperature-ADT7410-Library
+
+- [Document](http://fabo.io/doxygen/FaBoTemperature-ADT7410-Library/)
 
 ## Sample Code
 ### Arduino
