@@ -23,10 +23,10 @@ I2Cコネクタへ接続します。
 | -- |
 | 0x3C |
 
-## Datasheet
+## ER-OLED0.96 Datasheet
 | Document |
 | -- |
-|  |
+| [ER-OLED0.96 Datasheet](http://www.buydisplay.com/download/manual/ER-OLED0.96_Series_Datasheet.pdf) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/214_oled_schematic.png)
