@@ -22,13 +22,19 @@ I2Cコネクタへ接続します。
 | -- |
 | 0x51 |
 
-## Datasheet
+## PCF2129 Datasheet
 | Document |
 | -- |
-| [Datasheet](http://www.jp.nxp.com/documents/data_sheet/PCF2129.pdf) |
+| [PCF2129 Datasheet](http://www.jp.nxp.com/documents/data_sheet/PCF2129.pdf) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/215_rtc_schematic.png)
+
+## Library
+### for Arduino
+- https://github.com/FaBoPlatform/FaBoRTC-PCF2129-Library
+
+- [Document](http://fabo.io/doxygen/FaBoRTC-PCF2129-Library/)
 
 ## Sample Code
 ### for Arduino
