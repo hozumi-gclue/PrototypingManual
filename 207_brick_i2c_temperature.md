@@ -138,4 +138,4 @@ if __name__ == '__main__':
 
 
 ## Parts
-- 16bit温度センサーIC
+- ADT7410
