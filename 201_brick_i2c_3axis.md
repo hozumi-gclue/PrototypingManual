@@ -48,6 +48,17 @@ Arduino用、RaspberryPi用のOUT/INシールドは、I2Cコネクタが3箇所�
 ## Schematic
 ![](/img/200_i2c/schematic/201_3axis_schematic.png)
 
+## Library
+
+### for Arduino
+#### Library
+https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library
+
+<!--ALMDOC-->
+
+#### Documents
+http://fabo.io/doxygen/FaBo3Axis-ADXL345-Library/
+
 ## Sample Code
 ### for Arduino
 ```c
