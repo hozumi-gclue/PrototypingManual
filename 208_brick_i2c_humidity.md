@@ -22,13 +22,19 @@ I2Cコネクタへ接続します。
 | -- |
 | 0x40 |
 
-## Datasheet
+## HTS221 Datasheet
 | Document |
 | -- |
-| [Datasheet](http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7005.pdf) |
+| [HTS221 Datasheet](http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7005.pdf) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/208_humidity_schematic.png)
+
+## Library
+### for Arduino
+- https://github.com/FaBoPlatform/FaBoHumidity-HTS221-Library
+
+- [Document](http://fabo.io/doxygen/FaBoHumidity-HTS221-Library/)
 
 ## Sample Code
 ### Arduino
