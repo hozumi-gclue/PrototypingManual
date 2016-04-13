@@ -25,7 +25,7 @@ MPU-9250のデバイスIDは、三軸加速度、ジャイロ用とコンパス�
 |PIN AD0|Slave Address|
 |--|--|
 |LOW|0x68|
-|HIGHT|0x69|
+|HIGH|0x69|
 
 FaBo Brickでは、LOW の 0x68に設定されています。
 
