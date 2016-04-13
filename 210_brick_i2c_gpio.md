@@ -23,13 +23,19 @@ I2Cコネクタへ接続します。
 | -- |
 | 0x20 |
 
-## Datasheet
+## PCAL6408 Datasheet
 | Document |
 | -- |
-| [Datasheet](http://www.jp.nxp.com/documents/data_sheet/PCAL6408A.pdf) |
+| [PCAL6408 Datasheet](http://www.jp.nxp.com/documents/data_sheet/PCAL6408A.pdf) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/210_gpio_schematic.png)
+
+## Library
+### for Arduino
+- https://github.com/FaBoPlatform/FaBoGPIO-PCAL6408-Library
+
+- [Document](http://fabo.io/doxygen/FaBoGPIO-PCAL6408-Library/)
 
 ## Sample Code
 ### for Arduino
