@@ -25,7 +25,7 @@ I2Cコネクタへ接続します。
 ## HTS221 Datasheet
 | Document |
 | -- |
-| [HTS221 Datasheet](http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7005.pdf) |
+| [HTS221 Datasheet](http://www2.st.com/content/ccc/resource/technical/document/datasheet/4d/9a/9c/ad/25/07/42/34/DM00116291.pdf/files/DM00116291.pdf/jcr:content/translations/en.DM00116291.pdf) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/208_humidity_schematic.png)
