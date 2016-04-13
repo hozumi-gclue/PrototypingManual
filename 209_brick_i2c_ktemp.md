@@ -20,15 +20,22 @@ I2Cコネクタへ接続します。
 ## Registor
 | Slave Address |
 | -- |
-| 0x69 |
+| 0x68 - 0x6F |
+MCP3421のSlave Addressは0x68〜0x6Fのものが存在し、その値は工場出荷時に決まっており、後から変更することはできません。
 
-## Datasheet
+## MCP3421 Datasheet
 | Document |
 | -- |
-| [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/22003e.pdf) |
+| [MCP3421 Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/22003e.pdf) |
 
 ## Schematic
 ![](/img/200_i2c/schematic/209_ktemp_schematic.png)
+
+## Library
+### for Arduino
+- https://github.com/FaBoPlatform/FaBoKTemp-MCP3421-Library
+
+- [Document](http://fabo.io/doxygen/FaBoKTemp-MCP3421-Library/)
 
 ## Sample Code
 ### Arduino
