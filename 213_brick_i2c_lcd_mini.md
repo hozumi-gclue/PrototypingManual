@@ -33,7 +33,8 @@ I2Cコネクタへ接続します。
 
 ## Sample Code
 ### for Arduino
-このサンプルコードでは外部ライブラリを使用します。<br>
+このサンプルコードでは外部ライブラリを使用します。
+
 https://github.com/tomozh/arduino_ST7032
 よりライブラリをインストールしてください。
 
