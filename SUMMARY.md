@@ -72,6 +72,7 @@
    * [Color LED Brick](401_brick_3pin_led.md)
    * [Color LED Ring Brick](402_brick_3pin_led_circle.md)
    * [Color LED Bar Brick](403_brick_3pin_led_bar.md)
+   * [Color LED Matrix Brick](404_brick_3pin_led_matrix.md)
 * [OUT/IN Shield](outin_shield.md)
    * [OUT/IN Shield for Arduino](501_shield_outin_arduino.md)
    * [OUT/IN Shield for Raspberry Pi](502_shield_outin_raspberrypi.md)
