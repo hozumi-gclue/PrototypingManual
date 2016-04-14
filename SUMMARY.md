@@ -59,6 +59,7 @@
    * [LCD mini I2C Brick](213_brick_i2c_lcd_mini.md)
    * [OLED I2C Brick](214_brick_i2c_oled.md)
    * [RTC I2C Brick](215_brick_i2c_rtc.md)
+   * [AmbientLight I2C Brick](217_brick_i2c_ambientlight.md)
 * [Serial Brick](serial_brick.md)
    * [BLE Serial Brick](301_brick_serial_ble.md)
    * [Bluetooth Serial Brick](302_brick_serial_bluetooth.md)
