@@ -12,21 +12,23 @@ LEDのBrickです。
 
 ## Connecting
 ### Arduino
-アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のどれかに接続します。
+アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 
 ![](/img/100_analog/connect/101_led_connect.jpg)
 
 ### Raspberry PI
-GPIOコネクタのどれかに接続します。
+GPIOコネクタのいずれかに接続します。
 
 ### IchigoJam
-OUTコネクタのどれかに接続します。
-
+OUTコネクタのいずれかに接続します。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
+
+## Schematic
+![](/img/100_analog/schematic/101_led_schematic.png)
 
 ## Sample Code
 ### Arduino
@@ -150,9 +152,6 @@ Cylon.robot({
         }
 }).start();
 ```
-
-## Schematic
-![](/img/100_analog/schematic/101_led_schematic.png)
 
 ## Parts
 - 5mm LED(各色)
