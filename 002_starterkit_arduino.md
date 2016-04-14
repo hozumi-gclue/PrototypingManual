@@ -23,7 +23,7 @@ Arduino UNOで、FaBo Brickをちょっと使ってみたい！という方向�
 |#201|3axis I2C Brick|３軸加速度|1|
 |#401|ColorLed Brick|カラーLED|1|
 |#402|ColorLed Ring Brick|リング状のカラーLED|1|
-|#501|OUT/IN Shield for Arduino|FaBoBrickを使用するためのシールド|1|
+|#501|OUT/IN Shield for Arduino|ArduinoでFaBoBrickを使用するためのシールド|1|
 |#1101|Arduino UNO Case|Arduino Uno用アクリルケース|1|
 |#1301|cable_3pin|Brick接続用3pinケーブル(analog用)|2|
 |#1302|cable_4pin|Brick接続用4pinケーブル(I2C用)|2|
