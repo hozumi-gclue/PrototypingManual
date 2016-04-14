@@ -16,5 +16,5 @@ DragonBoardで、FaBo Brickをちょっと使ってみたい！という方向�
 |#204|barometer Brick|大気圧センサー|1|
 |#207|Temperature Brick|温度センサー|1|
 |#507|OUT/IN Shield for DragonBoard|DragonBoardでFaBoBrickを使用するためのシールド|1|
-|#1105|DragonBoard Case|DragonBoard用アクリルケース|1|
-|#1302|cable_4pin|Brick接続用3pinケーブル(I2C用)|2|
+|#1114|DragonBoard Case|DragonBoard用アクリルケース|1|
+|#1302|cable_4pin|Brick接続用4pinケーブル(I2C用)|2|
