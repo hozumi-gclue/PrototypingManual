@@ -43,5 +43,5 @@ Arduino UNO用のFaBo Brickコンプリートパッケージです。
 |#403|Color LED Bar Brick|棒状のカラーLED|1|
 |#501|OUT/IN Shield for Arduino|ArduinoでFaBoBrickを使用するためのシールド|1|
 |#1101|Arduino UNO Case|Arduino Uno用アクリルケース|1|
-|#1301|cable_3pin|Brick接続用3pinケーブル(analog用)|1|
-|#1302|cable_4pin|Brick接続用4pinケーブル(I2C、Serial用)|1|
+|#1301|cable_3pin|Brick接続用3pinケーブル(analog用)|4|
+|#1302|cable_4pin|Brick接続用4pinケーブル(I2C、Serial用)|4|
