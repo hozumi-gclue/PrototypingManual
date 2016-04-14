@@ -18,7 +18,7 @@ Raspberry PIで、FaBo Brickをちょっと使ってみたい！という方向�
 |--|--|--|--|
 |#101|LED Brick(Yellow)|LED（黄色)|1|
 |#103|Button Brick|ボタン|1|
-|#１０８|Temperature Brick|温度センサー|1|
+|#108|Temperature Brick|温度センサー|1|
 |#109|Light Brick|照度センサー|1|
 |#201|3axis I2C Brick|３軸加速度|1|
 |#502|OUT/IN Shield for RaspberryPI|RaspberrPIでFaBoBrickを使用するためのシールド|1|
