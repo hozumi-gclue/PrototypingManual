@@ -67,6 +67,7 @@
    * [USB Serial Brick](304_brick_serial_usb.md)
    * [WiFi Serial Brick](305_brick_serial_wifi.md)
    * [ZigBee Serial Brick](306_brick_serial_zigbee.md)
+   * [Nordic Serial Brick](307_brick_serial_nordic.md)
 * [Color LED Brick](3pin_led_brick.md)
    * [Color LED Brick](401_brick_3pin_led.md)
    * [Color LED Ring Brick](402_brick_3pin_led_circle.md)
