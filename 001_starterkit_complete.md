@@ -5,7 +5,7 @@
 <!--COLORME-->
 
 ## Overview
-Arduino UNO用のFaBo Brickコンプリートキットです。
+Arduino UNO用のFaBo Brickコンプリートパッケージです。
 
 ## 内容物一覧
 
