@@ -37,7 +37,7 @@ Arduino UNO用のFaBo Brickコンプリートパッケージです。
 |#215|Rtc I2C Brick|リアルタイムクロック|1|
 |#301|BLE Serial Brick|BLE１１３|1|
 |#302|Bluetooth Serial Brick|Bluetooth|1|
-|#304|Usb Serial Brick|USB Serial|1|
+|#304|Usb Serial Brick|USB|1|
 |#401|Color LED Brick|カラーLED|1|
 |#402|Color LED Ring Brick|リング状のカラーLED |1|
 |#403|Color LED Bar Brick|棒状のカラーLED|1|
