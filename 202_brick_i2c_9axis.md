@@ -1,4 +1,4 @@
-# #202 9AXIS I2C Brick
+# #202 9Axis I2C Brick
 
 <center>![](/img/200_i2c/product/202_9axis_product.jpg)
 <!--COLORME-->
@@ -18,8 +18,8 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Registor
-MPU-9250のデバイスIDは、三軸加速度、ジャイロ用とコンパス用の2つ存在します。
+## Register
+MPU-9250は、三軸加速度、ジャイロ用とコンパス用の2つのI2C Slave Addressがあります。
 
 ### MPU-9250(三軸加速度、ジャイロ)
 |PIN AD0|Slave Address|
