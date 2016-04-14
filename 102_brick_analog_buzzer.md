@@ -68,7 +68,7 @@ tone関数にて出力できる音階と周波数は下記のようになりま�
 https://www.arduino.cc/en/Tutorial/ToneMelody?from=Tutorial.Tone
 
 ###for IchigoJam
-シールドのSOUNDコネクタにBUZZER Brickを接続する。<br>
+シールドのSOUNDコネクタにBUZZER Brickを接続する。
 - ビープ音を鳴らします。
 
 BEEP
