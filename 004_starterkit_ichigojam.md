@@ -18,8 +18,8 @@ Ichigojamで、FaBo Brickをちょっと使ってみたい！という方向け�
 |--|--|--|--|
 |#101|LED Brick(Yellow)|LED（黄色)|1|
 |#103|Button Brick|ボタン|1|
-|#１０6|Touch Brick|タッチセンサー|1|
-|#１０8|Temperature Brick|温度センサー|1|
+|#106|Touch Brick|タッチセンサー|1|
+|#108|Temperature Brick|温度センサー|1|
 |#109|Light Brick|照度センサー|1|
 |#503|OUT/IN Shield for Ichigojam|IchigojamでFaBoBrickを使用するためのシールド|1|
 |#1105|Ichigojam Case|Ichigojam用アクリルケース|1|
