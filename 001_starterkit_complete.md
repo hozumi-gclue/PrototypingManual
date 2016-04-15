@@ -1,7 +1,7 @@
 # #001 Starterkit Complete Package
 
 <center>
-![](/img/001_starterkit/product/starterkit_complete001.jpg)
+![](/img/001_starterkit/product/starterkit_complete001.JPG)
 <!--COLORME-->
 
 ## Overview
