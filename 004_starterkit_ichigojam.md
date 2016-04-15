@@ -1,7 +1,7 @@
 # #004 Starterkit for Ichigojam
 
 <center>
-![](/img/001_starterkit/product/starterkit_ichigojam001.png)
+![](/img/001_starterkit/product/starterkit_ichigojam001.jpg)
 <!--COLORME-->
 
 ## Overview
