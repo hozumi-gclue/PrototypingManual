@@ -1,6 +1,6 @@
 # Propeller Kit
 
-![](/img/catalog/1501.png)
+![](http://staging.fabo.io/img/catalog/1501.png)
 
 **デザインは予告なく変更される場合があります。**
 
