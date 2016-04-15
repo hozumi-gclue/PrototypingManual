@@ -10,7 +10,7 @@
 
 ![](/img/kit/manual/ml01.jpg)
 
-(1)MatrixLED本体、
+(1)MatrixLED本体（別売）、
 
 (2)3Pinケーブル、
 
@@ -28,7 +28,7 @@
 #2.アクリルパーツ(3)にMatrixLEDを取り付けます。
 ![](/img/kit/manual/ml03.jpg)
 
-矢印が上になります。
+矢印の方向が上になります。
 
 ![](/img/kit/manual/ml04.jpg)
 
