@@ -1,7 +1,7 @@
 # #002 Starterkit for Arduino
 
 <center>
-![](/img/001_starterkit/product/starterkit_arduino001.png)
+![](/img/001_starterkit/product/starterkit_arduino001.jpg
 <!--COLORME-->
 
 ## Overview
