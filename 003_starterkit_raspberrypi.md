@@ -1,7 +1,7 @@
 # #003 Starterkit for Raspberry PI
 
 <center>
-![](/img/001_starterkit/product/starterkit_raspberrypi001.png)
+![](/img/001_starterkit/product/starterkit_raspberrypi001.jpg)
 <!--COLORME-->
 
 ## Overview
