@@ -13,7 +13,7 @@ Serialコネクタに接続します。
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-| | | |
+|◯|×|×|
 
 ## Schematic
 ![](/img/300_serial/schematic/305_wifi_schematic.png)
@@ -147,3 +147,4 @@ void loop()
 ```
 
 ## Parts
+- ESP-WROOM-02
