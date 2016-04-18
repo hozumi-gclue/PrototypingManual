@@ -108,7 +108,7 @@
 * Kaden
    * [Propeller Kit](1501_kit_propeller.md)
    * [SmartLight Kit](1503_kit_smartlight.md)
-   * [MatrixLight Kit](1502_kit_matrixlight.md)
+   * [Matrix Plate Kit](1502_kit_matrix_plate.md)
    * [RemoteController Kit](1504_kit_remotecontroller.md)
 * Starter Kit
    * [Complete Package](001_starterkit_complete.md)
