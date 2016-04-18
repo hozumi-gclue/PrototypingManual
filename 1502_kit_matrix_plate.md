@@ -1,4 +1,4 @@
-# 1502 Matrix Plate Kit
+# #1502 Matrix Plate Kit
 
 ![](http://staging.fabo.io/img/catalog/1502.png)
 
@@ -8,7 +8,7 @@
 
 **注意：ネジを必要以上にキツく締めるとパーツが破損する可能性があります。**
 
-**このキットには「#404 ColorLED Matrix」は含まれませんのでご注意下さい。**
+**このキットには「#404 ColorLED Matrix」、「＃1301 3pinケーブル」は含まれませんのでご注意下さい。**
 
 ##パーツ構成
 
