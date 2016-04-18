@@ -1,0 +1,73 @@
+# #404 ColorLED Matrix
+
+<center>![](/img/400_led/product/404_ledmatrix_product.jpg)
+<!--COLORME-->
+
+## Overview
+RGB Color LEDを使った、LEDMatrixのBrickです。
+
+## Connecting
+アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のどれかに接続します。
+
+![](/img/400_led/connect/404_ledmatrix_connect.jpg)
+
+## Support
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|◯|×|×|
+
+## Schematic
+![](/img/400_led/schematic/404_ledmatrix_schematic.png)
+
+## Sample Code
+### for Arduino
+このサンプルコードでは外部ライブラリを使用します。
+
+https://github.com/adafruit/Adafruit_NeoPixel よりAdafruit_NeoPixelライブラリをインストールしてください。
+
+```c
+//
+// FaBo Brick Sample
+//
+// brick_3pin_led
+//
+// Adafruit_NeoPixel Library Downloads
+// https://github.com/adafruit/Adafruit_NeoPixel
+
+#include <Adafruit_NeoPixel.h>
+
+int ledPin = A0;
+int numPixels = 12;
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numPixels, ledPin, NEO_GRB + NEO_KHZ800);
+
+void setup() {
+  pixels.begin();
+  pixels.show();
+}
+
+void loop() {
+  int i;
+  for(i=0; i<pixels.numPixels(); i++) {
+    pixels.setPixelColor(i, pixels.Color(128, 0, 0));
+  }
+  pixels.show();
+  delay(500);
+
+  for(i=0; i<pixels.numPixels(); i++) {
+    pixels.setPixelColor(i, pixels.Color(0, 128, 0));
+  }
+  pixels.show();
+  delay(500);
+
+  for(i=0; i<pixels.numPixels(); i++) {
+    pixels.setPixelColor(i, pixels.Color(0, 0, 128));
+  }
+  pixels.show();
+  delay(500);
+
+}
+```
+
+## Parts
+- RGB LED WS2812B
+
