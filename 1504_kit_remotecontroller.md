@@ -1,6 +1,6 @@
 # RemoteController Kit
 
-![](http://staging.fabo.io/img/catalog/1504.png)
+![](/img/kit/manual/1504a.jpg)
 
 **デザインは予告なく変更される場合があります。**
 
