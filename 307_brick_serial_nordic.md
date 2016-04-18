@@ -1,0 +1,39 @@
+# #307 BLE Nordic Brick
+<center>
+![](/img/300_serial/product/307_ble_nordic_product.jpg)
+<!--COLORME-->
+
+## Overview
+MDBT40を使用したBLE（Bluetooth Low Energy）のBrickです。
+
+シリアルにて制御できるFirmwareが書き込まれているため、Arduino等からシリアル通信にてBLEを制御することができます。
+
+BLEの転送レートは115200bpsに設定してあります。
+
+## Connecting
+Serialコネクタへ接続します。
+
+![](/img/300_serial/connect/307_ble_nordic_connect.jpg)
+
+## Support
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|◯|◯|◯|
+
+## MDBT40 Datasheet
+
+|Document|
+|--|
+|[MDBT40 Datasheet](http://www.raytac.com/download/MDBT40/MDBT40%20spec-Version%20A4.pdf)|
+
+## Schematic
+![](/img/300_serial/schematic/307_ble_nordic_schematic.png)
+
+## Library
+
+### for Arduino
+
+- [GitHub Repository](https://github.com/FaBoPlatform/FaBoBLE-Nordic-Library)
+- [Document](http://fabo.io/doxygen/FaBoBLE-Nordic-Library/)
+
+## Sample Code
