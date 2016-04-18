@@ -1,4 +1,4 @@
-# MatrixLight Kit
+# 1502 Matrix Plate Kit
 
 ![](http://staging.fabo.io/img/catalog/1502.png)
 
@@ -7,6 +7,8 @@
 **マニュアルで使われている写真のパーツと、実際のパーツの色や形が異なる場合があります。あらかじめご了承ください。**
 
 **注意：ネジを必要以上にキツく締めるとパーツが破損する可能性があります。**
+
+**このキットには「#404 ColorLED Matrix」は含まれませんのでご注意下さい。**
 
 ##パーツ構成
 
@@ -24,10 +26,10 @@
 
 (8)M2.6-10mmネジ4本、M2.6ナット4個（プラ）
 
-#1.MatrixLEDに3Pinケーブルを取り付ける。
+## 1.MatrixLEDに3Pinケーブルを取り付けます。
 ![](/img/kit/manual/ml02.jpg)
 
-#2.アクリルパーツ(3)にMatrixLEDを取り付けます。
+##2.アクリルパーツ(3)にMatrixLEDを取り付けます。
 ![](/img/kit/manual/ml03.jpg)
 
 矢印の方向が上になります。
