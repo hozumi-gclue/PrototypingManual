@@ -14,9 +14,9 @@
 
 ![](/img/kit/manual/ir01.jpg)
 
-(1)#112 IR LED Brick x 4 （別売）
+(1)#112 IR LED Brick x 4個（別売）
 
-(2)3Pinケーブル x 4 （別売）
+(2)3Pinケーブル x 4本（別売）
 
 (3)~(６)アクリルパーツ
 
