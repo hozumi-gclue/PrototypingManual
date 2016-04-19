@@ -89,6 +89,9 @@
 * Brick Breakout
    * [Brick Breakout](702_brick_breakout.md)
    * [Brick Universal](708_brick_universal.md)
+* Cable
+   * [cable 3pin](1301_cable_3pin.md)
+   * [cable 4pin](1302_cable_4pin.md)
 * [Case](case_top.md)
    * [Arduino Uno](1101_case_arduino_uno.md)
    * [Arduino Mega](1102_case_arduino_mega.md)
