@@ -4,18 +4,14 @@
 <!--COLORME-->
 
 ## Overview
-距離センサーを使用したBrickです。
+距離センサー（GP2Y0A21YK）を使用したBrickです。
 
 I/Oピンより距離センサーの正面についているレンズから物体までの距離をアナログ値(0〜1023)で取得することができます。
 
 測定可能な距離は10〜80cmとなっています。
 
-GP2Y0A21YK
-
-[http://www.sharpsma.com/webfm_send/1208](http://www.sharpsma.com/webfm_send/1208)
-
 ## Connecting
-A0コネクタに接続して、距離を計測します。
+アナログコネクタ(A0〜A5)のいずれかに接続します。
 ![](/img/100_analog/connect/116_distance_connect.jpg)
 
 ## Support
@@ -23,10 +19,16 @@ A0コネクタに接続して、距離を計測します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
+## GP2Y0A21YK Datasheet
+| Document |
+| -- |
+| [GP2Y0A21YK Datasheet](http://www.sharpsma.com/webfm_send/1208) |
+
+
 ## Sample Code
 
 ### Arduino
-
+A0コネクタに接続して、距離を計測します。
 
 ```c
 //
