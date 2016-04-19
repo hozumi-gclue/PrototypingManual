@@ -9,6 +9,8 @@
 I/Oピンから振動モーターのON/OFFを制御することができます。
 
 ## Connecting
+アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
+
 ![](/img/100_analog/connect/105_vibrator_connect.jpg)
 
 ## Support
