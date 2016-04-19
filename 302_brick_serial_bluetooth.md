@@ -18,6 +18,12 @@ Serialコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
+## RN-42 Datasheet
+
+|Document|
+|--|
+|[RN-42 Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/rn-42-ds-v2.32r.pdf)|
+
 ## Schematic
 ![](/img/300_serial/schematic/302_bluetooth_schematic.png)
 
