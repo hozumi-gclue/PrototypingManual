@@ -3,12 +3,15 @@
 <!--COLORME-->
 
 ## Overview
-BLE通信ができるBrickです。
+BLE113を使用したBLE（Bluetooth Low Energy）のBrickです。
+シリアルにて制御できるFirmwareが書き込まれているため、Arduino等からシリアル通信にてBLEを制御することができます。
 
 BLEの転送レートは9600bpsに設定してあります。
 
 ## Connecting
 Serialコネクタへ接続します。
+
+Arduino、RaspberryPI、IchigojamのOUT/INシールドは、Serialコネクタが１箇所ずつ存在します。
 
 ![](/img/300_serial/connect/301_ble_connect.jpg)
 
