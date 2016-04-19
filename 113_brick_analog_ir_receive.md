@@ -9,9 +9,12 @@
 I/Oピンから赤外線受信のON/OFFを取得することができます。
 
 ## Connecting
-A0コネクタに赤外線受信Brick、A1コネクタにLED Brickを接続し、赤外線を受信したらLEDを発光させます。
-
+### Arduino
+アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 ![](/img/100_analog/connect/113_ir_receiver_connect.jpg)
+
+### IchigoJam
+OUTコネクタのいずれかに接続します。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
@@ -23,6 +26,8 @@ A0コネクタに赤外線受信Brick、A1コネクタにLED Brickを接続し�
 
 ## Sample Code
 ### for Arduino
+A0コネクタに赤外線受信Brick、A1コネクタにLED Brickを接続し、赤外線を受信したらLEDを発光させます。
+
 ```c
 //
 // FaBo Brick Sample
