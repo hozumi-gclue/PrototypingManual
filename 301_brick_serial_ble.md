@@ -11,7 +11,7 @@ BLEの転送レートは9600bpsに設定してあります。
 ## Connecting
 Serialコネクタへ接続します。
 
-Arduino、RaspberryPI、IchigojamのOUT/INシールドは、Serialコネクタが１箇所ずつ存在します。
+Serialコネクタは、Arduino用、RaspberryPI用、Ichigojam用のOUT/INシールドでは１箇所のみとなります。
 
 ![](/img/300_serial/connect/301_ble_connect.jpg)
 
