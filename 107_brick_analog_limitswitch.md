@@ -11,9 +11,18 @@ I/OピンよりスイッチのON/OFFの状態を取得することができま�
 機械の自動停止や位置検出の際に使用します。
 
 ## Connecting
+
+### Arduino
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 
 ![](/img/100_analog/connect/107_limitswitch_connect.jpg)
+
+###Raspberry PI
+GPIOコネクタのいずれかに接続します。
+
+### IchigoJam
+OUTコネクタのいずれかに接続します。
+
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
