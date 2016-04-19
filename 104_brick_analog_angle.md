@@ -11,9 +11,18 @@ I/Oピンからアナログ値を取得することができます。
 LED Brickの明るさを調節する際などに使用します。
 
 ## Connecting
+
+### Arduino
 アナログコネクタ(A0〜A5)のいずれかに接続します。
 
 ![](/img/100_analog/connect/104_angle_connect.jpg)
+
+### Raspberry PI
+アナログコネクタ(A0〜A7)のいずれかに接続します。
+
+### IchigoJam
+アナログ用コネクタ(IN2またはANA()で設定したコネクタ)のどれかに接続します。
+
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
