@@ -11,7 +11,7 @@ I/OピンよりスイッチのON/OFFの状態を取得することができま�
 機械の自動停止や位置検出の際に使用します。
 
 ## Connecting
-LimitSwitch BrickをA0コネクタに接続し、A1コネクタに接続したLED Brickの点灯/消灯のスイッチとして使用しています。
+アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 
 ![](/img/100_analog/connect/107_limitswitch_connect.jpg)
 
