@@ -7,13 +7,14 @@
 アナログ値(0〜1023)を取得でき、変換することで−30度から100度までの温度を計測することができます。
 
 ## Connecting
-A0コネクタにTemperatureを接続して、温度を計測します。
-![](/img/100_analog/connect/108_temperature_connect.png)
+アナログコネクタ(A0〜A5)のいずれかに接続します。
+
+![](/img/100_analog/connect/108_temperature_connect.jpg)
 
 ## Support
 | Arduino | RaspberryPI | IchigoJam |
-| -- | -- | -- |
-| <center>○ | <center>◯ | <center>○ |
+|:--:|:--:|:--:|
+|◯|◯|◯ |
 
 ## Schematic
 ![](/img/100_analog/schematic/108_temperature_schematic.png)
