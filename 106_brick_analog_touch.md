@@ -8,6 +8,8 @@
 I/Oピンより、感圧部分に加えられた力の大きさの変化をアナログ値(0〜1023)で取得することができます。
 
 ## Connecting
+アナログコネクタ(A0〜A5)のいずれかに接続します。
+
 ![](/img/100_analog/connect/106_touch_connect.jpg)
 
 ## Support
