@@ -22,16 +22,10 @@ I2Cで3軸の加速度データを取得することがきます。
 
 ※4Pinケーブル、各種OUT/INシールド、各種ケースは別売です。
 
-### Arduino
-Arduino用のOUT/INシールドは、I2Cコネクタが3箇所ありますので、いずれかに接続します。
+I2Cコネクタは、Arduino用、RaspberryPI用のOUT/INシールドでは3箇所、Ichigojam用のOUT/INシールドは１箇所のみとなります。
 
 ![](/img/200_i2c/connect/201_3axis_connect.jpg)
-
-### Raspberry PI
-RaspberryPi用のOUT/INシールドは、I2Cコネクタが3箇所ありますので、いずれかに接続します。
-
-### IchigoJam
-Ichigojam用のOUT/INシールドはI2Cコネクタは1箇所のみとなりますので、そのコネクタに接続します。
+写真はArduinoでの接続例です。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|NRF51|
