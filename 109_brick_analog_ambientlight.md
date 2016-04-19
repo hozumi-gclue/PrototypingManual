@@ -11,12 +11,12 @@ Light Brickは、CDSセルを使用した光センサーBrickです。
 
 ## Connecting
 ### Arduino
-アナログコネクタ(A0〜A5)のどれかに接続します。
+アナログコネクタ(A0〜A5)のいずれかに接続します。
 
 ![](/img/100_analog/connect/109_ambientlight_connect.jpg)
 
 ### Raspberry PI
-アナログコネクタ(A0〜A7)のどれかに接続します。
+アナログコネクタ(A0〜A7)のいずれかに接続します。
 
 ### IchigoJam
 アナログ用コネクタ(IN2またはANA()で設定したコネクタ)のどれかに接続します。
