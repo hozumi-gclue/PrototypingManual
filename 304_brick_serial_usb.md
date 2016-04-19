@@ -4,7 +4,7 @@
 <!--COLORME-->
 
 ## Overview
-USBシリアル通信ができるBrickです。
+FT232RLを使用した、USBシリアル通信ができるBrickです。
 
 ## Connecting
 Serialコネクタへ接続し、MicroUSBコネクタを他のデバイスに接続します。
@@ -15,6 +15,12 @@ Serialコネクタへ接続し、MicroUSBコネクタを他のデバイスに接
 |Arduino|RaspberryPI|IchigoJam|NRF51|
 |:--:|:--:|:--:|:--:|
 |◯|◯|◯|◯|
+
+## FT232RL Datasheet
+
+|Document|
+|--|
+|[FT232RL Datasheet](http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf)|
 
 ## Schematic
 ![](/img/300_serial/schematic/304_serialusb_schematic.png)
