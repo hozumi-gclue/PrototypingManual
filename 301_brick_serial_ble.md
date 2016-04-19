@@ -14,6 +14,7 @@ Serialコネクタへ接続します。
 Serialコネクタは、Arduino用、RaspberryPI用、Ichigojam用のOUT/INシールドでは１箇所のみとなります。
 
 ![](/img/300_serial/connect/301_ble_connect.jpg)
+写真はArduinoの接続例です。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
