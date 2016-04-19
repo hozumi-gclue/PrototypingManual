@@ -14,9 +14,15 @@ LED Brickを点灯/消灯させる際などに使用します。
 
 
 ## Connecting
+### Arduino
+アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 ![](/img/100_analog/connect/110_tilt_connect.jpg)
 
-A0コネクタに接続したTilt Brickの傾きによって、D2コネクタに接続したLED Brickを点灯/消灯させています。
+### Raspberry PI
+GPIOコネクタのいずれかに接続します。
+
+### IchigoJam
+OUTコネクタのいずれかに接続します。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
@@ -28,6 +34,9 @@ A0コネクタに接続したTilt Brickの傾きによって、D2コネクタに
 
 ## Sample Code
 ### for Arduino
+
+A0コネクタに接続したTilt Brickの傾きによって、D2コネクタに接続したLED Brickを点灯/消灯させています。
+
 ```c
 //
 // FaBo Brick Sample
