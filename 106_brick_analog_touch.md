@@ -8,9 +8,18 @@
 I/Oピンより、感圧部分に加えられた力の大きさの変化をアナログ値(0〜1023)で取得することができます。
 
 ## Connecting
+
+### Arduino
 アナログコネクタ(A0〜A5)のいずれかに接続します。
 
 ![](/img/100_analog/connect/106_touch_connect.jpg)
+
+###Raspberry PI
+アナログコネクタ(A0〜A7)のいずれかに接続します。
+
+### IchigoJam
+アナログ用コネクタ(IN2またはANA()で設定したコネクタ)のどれかに接続します。
+
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
