@@ -12,8 +12,17 @@ I/OピンよりボタンのON/OFFの状態を取得することができます�
 
 
 ## Connecting
+
+### Arduino
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 ![](/img/100_analog/connect/103_button_connect.jpg)
+
+### Raspberry PI
+GPIOコネクタのいずれかに接続します。
+
+### IchigoJam
+OUTコネクタのいずれかに接続します。
+
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
