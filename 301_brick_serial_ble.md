@@ -21,8 +21,22 @@ Serialコネクタは、Arduino用、RaspberryPI用、Ichigojam用のOUT/INシ�
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
+## BLE113 Datasheet
+
+|Document|
+|--|
+|[BLE113 Datasheet](http://www.mouser.com/catalog/specsheets/Bluegiga_Technologies_BLE113_Datasheet.pdf)|
+
+
 ## Schematic
 ![](/img/300_serial/schematic/301_ble_schematic.png)
+
+## Library
+
+### for Arduino
+
+- [GitHub Repository](https://github.com/FaBoPlatform/FaBoBLE-BLE113-Library)
+- [Document](http://fabo.io/doxygen/FaBoBLE-BLE113-Library/)
 
 ## Sample Code
 ### for Arduino(Advertise)
