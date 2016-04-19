@@ -57,7 +57,6 @@ void loop() {
 
 }
 ```
-## Connecting 2(#112 IR Brickを使用した動作確認)
-    前項#112 IR BrickのConncting2を参照してください。
+
 ## Parts
 - 赤外線フォトトランジスタ
