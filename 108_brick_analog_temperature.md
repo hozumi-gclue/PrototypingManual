@@ -8,9 +8,17 @@
 アナログ値(0〜1023)を取得でき、変換することで−30度から100度までの温度を計測することができます。
 
 ## Connecting
+
+### Arduino
 アナログコネクタ(A0〜A5)のいずれかに接続します。
 
 ![](/img/100_analog/connect/108_temperature_connect.jpg)
+
+### Raspberry PI
+アナログコネクタ(A0〜A7)のいずれかに接続します。
+
+### IchigoJam
+アナログ用コネクタ(IN2またはANA()で設定したコネクタ)のどれかに接続します。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
