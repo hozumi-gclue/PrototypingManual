@@ -8,10 +8,16 @@
 
 I/Oピンから赤外線LEDをON/OFFを制御することができます。
 
-## Connecting 1
-A0コネクタに赤外線LED Brick、A1コネクタにボタンBrickを接続し、ボタンが押されたら赤外線LEDを発光させます。
+## Connecting
+
+### Arduino
+アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 
 ![](/img/100_analog/connect/112_ir_connect.jpg)
+
+### IchigoJam
+OUTコネクタのいずれかに接続します。
+
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
@@ -23,6 +29,7 @@ A0コネクタに赤外線LED Brick、A1コネクタにボタンBrickを接続�
 
 ## Sample Code
 ### for Arduino
+A0コネクタに赤外線LED Brick、A1コネクタにボタンBrickを接続し、ボタンが押されたら赤外線LEDを発光させます。
 ```c
 //
 // FaBo Brick Sample
@@ -52,24 +59,22 @@ void loop() {
 
 }
 ```
-### for IchigoJam
 
-## Connecting 2(#113 IR Reciver Brickを使用した動作確認)
-A0 コネクタにIR LED Brick
+## Arduinoでの使用例
+### Sample Connecting
+- A0 コネクタにIR LED Brick
+- A1 コネクタにIR Reciver Brick
+- A2 コネクタにLED Brick
 
-A1 コネクタにIR Reciver Brick
-
-A2 コネクタにLED Brick
-
-A0からA2に上記のBrickを接続し,IR LED Brickから出る赤外線をIR Reciver Brickで受信できるかを確認します。
+A0からA2に上記のBrickを接続し,IR LED Brickから出る赤外線をIR Reciver Brickで受信します。
 
 ![](/img/100_analog/connect/112_ir_connect_2.jpg)
 
-下の写真のようにLEDが光れば正常に動作しています。
+IR LEDより発信した赤外線をIR Receiverにて受信した場合にLEDが点灯します。 
+
 ![](/img/100_analog/connect/112_ir_connect_lecture_2.jpg)
 
-
-### for Arduino
+### Sample Code
 ```c
 //
 // FaBo Brick Sample
@@ -101,8 +106,6 @@ void loop() {
 
 }
 ```
-
-
 
 ## Parts
 - 赤外線LED
