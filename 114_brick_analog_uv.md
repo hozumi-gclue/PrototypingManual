@@ -9,9 +9,12 @@
 I/Oピンより、紫外線の強弱をアナログ値(0〜1023)で取得することができます。
 
 ## Connecting
-A0コネクタにUV Brick接続し、紫外線の強弱をアナログ値で出力します。
-
+### Arduino
+アナログコネクタ(A0〜A5)のいずれかに接続します。
 ![](/img/100_analog/connect/114_uv_connect.jpg)
+
+### IchigoJam
+アナログ用コネクタ(IN2またはANA()で設定したコネクタ)のどれかに接続します。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
@@ -23,6 +26,8 @@ A0コネクタにUV Brick接続し、紫外線の強弱をアナログ値で出�
 
 ## Sample Code
 ### for Arduino
+A0コネクタにUV Brick接続し、紫外線の強弱をアナログ値で出力します。
+
 ```c
 //
 // FaBo Brick Sample
