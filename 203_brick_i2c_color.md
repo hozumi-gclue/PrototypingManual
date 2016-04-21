@@ -1,4 +1,4 @@
-# #203 Color Sensor I2C Brick
+# #203 Color I2C Brick
 
 <center>![](/img/200_i2c/product/203_color_product.jpg)
 <!--COLORME-->
