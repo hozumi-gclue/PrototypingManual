@@ -108,6 +108,8 @@
    * [Arduino Leonardo](1113_case_arduino_leonardo.md)
 * Robot Kit
    * [Robot Car Kit](1201_kit_robotcar.md)
+* Cardboard Plus
+   * [Cardboard Plus](1401_kit_cardboardplus.md)
 * Kaden
    * [Propeller Kit](1501_kit_propeller.md)
    * [SmartLight Kit](1503_kit_smartlight.md)
