@@ -46,7 +46,7 @@
 * [I2C Brick](i2c_brick.md)
    * [3Axis I2C Brick](201_brick_i2c_3axis.md)
    * [9Axis I2C Brick](202_brick_i2c_9axis.md)
-   * [Color Sensor I2C Brick](203_brick_i2c_color.md)
+   * [Color I2C Brick](203_brick_i2c_color.md)
    * [Barometer I2C Brick](204_brick_i2c_barometer.md)
    * [Proximity I2C Brick](205_brick_i2c_proximity.md)
    * [UV I2C Brick](206_brick_i2c_uv.md)
