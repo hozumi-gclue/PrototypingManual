@@ -1,4 +1,14 @@
-#Nordic(NRF51)
+# #1107 Nordic(nRF51-DK)ケース
+<center>
+![](/img/1100_case/product/1107_case_nordic_product.jpg)
+<!--COLORME-->
+
+## Overview
+Nordic Semiconductor社のnRF51-DK用アクリル製ケースです。
+
+**ケースのデザインは予告なく変更される場合があります。**
+
+**マニュアルで使われている写真のパーツと、実際のパーツの色や形が異なる場合があります。あらかじめご了承ください。**
 
 ケースのデザインは予告なく変更される場合があります。
 
