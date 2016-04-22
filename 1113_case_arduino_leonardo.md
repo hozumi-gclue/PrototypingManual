@@ -1,4 +1,4 @@
-# #1113 Arduino Leonardo
+# #1113 Arduino Leonardoケース
 <center>
 ![](/img/1100_case/product/1113_case_arduino_leonardo_product.jpg)
 <!--COLORME-->
@@ -10,7 +10,7 @@ Arduino Leonardo用のアクリル製ケースです。
 
 **マニュアルで使われている写真のパーツと、実際のパーツの色や形が異なる場合があります。あらかじめご了承ください。**
 
-パーツ構成
+## パーツ構成
 
 ![](/img/1100_case/manual/arduino_leonardo_00.jpg)
 
