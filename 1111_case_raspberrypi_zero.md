@@ -1,4 +1,4 @@
-# #1111 RaspberryPi Zero
+# #1111 RaspberryPi Zeroケース
 <center>
 ![](/img/1100_case/product/1111_case_raspberrypi_zero_product.jpg)
 <!--COLORME-->
@@ -18,6 +18,8 @@ Raspberry PI Zero用のアクリル製ケースです。
 (1)が天板、(2)が底板、(3)はスペーサーです。
 
 使用ネジはM2.6-10プラネジ４本です。
+
+## 組み立て方法
 
 ### 1.(1)を裏にして、ネジを４本差し込みます。
 ![](/img/1100_case/manual/raspizero_01.jpg)
