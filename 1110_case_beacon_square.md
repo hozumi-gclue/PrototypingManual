@@ -1,4 +1,4 @@
-# #1110 Square iBeacon
+# #1110 Square iBeaconケース
 
 <center>
 ![](/img/1100_case/product/1110_case_ibeacon_square_product.jpg)
@@ -18,6 +18,8 @@ FaBo製「#802 iBeacon Square」用のアクリル製ケースです。
 (1)と(2)は同じ形ですが、天板(1)には彫刻があります。
 
 (5)の５枚も同じ形です。
+
+## 組み立て方法
 
 ### 1.裏返し状態で、(1)、(4)、(3)の順番で重ね、ネジを(1)から通す。
 ![](/img/1100_case/manual/squarebeacon_01.jpg)
