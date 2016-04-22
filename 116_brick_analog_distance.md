@@ -11,8 +11,14 @@ I/Oピンより距離センサーの正面についているレンズから物�
 測定可能な距離は10〜80cmとなっています。
 
 ## Connecting
+### Arduino
 アナログコネクタ(A0〜A5)のいずれかに接続します。
 ![](/img/100_analog/connect/116_distance_connect.jpg)
+### Raspberry PI
+アナログコネクタ(A0〜A7)のいずれかに接続します。
+
+### IchigoJam
+アナログ用コネクタ(IN2またはANA()で設定したコネクタ)のいずれかに接続します。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
