@@ -67,7 +67,8 @@ void loop(){
 }
 ```
 
-for Raspberry PI
+### for Raspberry PI
+
 GPIO5コネクタに接続したTilt Brickの傾きによって、GPIO4コネクタに接続したLED Brickを点灯/消灯させています。
 
 ```python
