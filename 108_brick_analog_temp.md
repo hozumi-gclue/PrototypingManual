@@ -22,6 +22,8 @@
 
 ## Sample Code
 ### Arduino
+A0コネクタに接続したTemperature Brickにより温度を計測します。
+
 ```c
 //
 // FaBo Brick Sample
@@ -68,6 +70,8 @@ Serial.begin(9600);
 ```
 
 ### Raspberry Pi
+A0コネクタに接続したTemperature Brickにより温度を計測します。
+
 ```python
 #!/usr/bin/env python
 # coding: utf-8
