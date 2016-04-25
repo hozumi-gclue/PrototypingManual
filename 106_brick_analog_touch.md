@@ -63,7 +63,8 @@ void loop(){
 }
 ```
 
-###RaspberryPI
+### Raspberry PI
+A0コネクタにTouchを接続して、GPIO4コネクタに接続したLED Brickの明るさ調節に使用しています。
 ```python
 #!/usr/bin/env python
 # coding: utf-8
@@ -73,8 +74,6 @@ void loop(){
 #
 # #106 Touch Brick
 #
-# A0コネクタにTouchを接続して、GPIO4コネクタに接続したLED Brickの明るさ調節に使用しています。
-
 
 import RPi.GPIO as GPIO
 import spidev
