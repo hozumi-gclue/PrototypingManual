@@ -31,7 +31,7 @@
 
 ## Sample Code
 ### Arduino
-A0コネクタに接続したTemperature Brickにより温度を計測します。
+A0コネクタにTemprature Brickを接続して、取得した温度をシリアルモニタへ出力します。
 ```c
 //
 // FaBo Brick Sample
