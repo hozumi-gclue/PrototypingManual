@@ -67,6 +67,7 @@ void loop() {
 ```
 
 ### RaspberyPI
+A0コネクタにAngle Brickを接続して、D3コネクタに接続したLED Brickの明るさ調節に使用しています。
 ```python
 #!/usr/bin/env python
 # coding: utf-8
@@ -76,9 +77,6 @@ void loop() {
 #
 # #104 Angle Brick
 #
-# A0コネクタにAngleを接続して、GPIO4コネクタに接続したLED Brickの明るさ調節に使用しています。
-
-
 
 import RPi.GPIO as GPIO
 import spidev
