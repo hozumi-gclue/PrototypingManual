@@ -1,4 +1,4 @@
-# #1301 Cable 3pin
+# #1301 3pinケーブル
 
 <center>![](/img/1300_cable/product/1301_cable_3pin_product.jpg)
 <!--COLORME-->
