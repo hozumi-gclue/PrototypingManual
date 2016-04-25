@@ -33,6 +33,7 @@ OUTコネクタのいずれかに接続します。
 ![](/img/100_analog/schematic/107_limitswitch_schematic.png)
 
 ## Sample Code
+A0コネクタにLimitSwitch Brickを接続し、D2コネクタに接続したLED Brickの点灯/消灯を制御しています。
 ### for Arduino
 ```c
 //
@@ -71,6 +72,7 @@ void loop(){
 ```
 
 ### for RaspberryPI
+GPIO7コネクタにLimitSwitch Brickを接続し、GPIO4コネクタに接続したLED Brickの点灯/消灯を制御しています。
 
 ```python
 # coding: utf-8
