@@ -1,4 +1,4 @@
-# #1302 Cable 4pin
+# #1302 4pinケーブル
 
 <center>![](/img/1300_cable/product/1301_cable_3pin_product.jpg)
 <!--COLORME-->
