@@ -33,7 +33,7 @@ LED Brickの明るさを調節する際などに使用します。
 ![](/img/100_analog/schematic/104_angle_schematic.png)
 
 ## Sample Code
-### Arduino
+### for Arduino
 A0コネクタにAngleを接続して、D3コネクタに接続したLED Brickの明るさ調節に使用しています。
 
 ```c
@@ -66,7 +66,7 @@ void loop() {
 }
 ```
 
-### RaspberyPI
+### for Raspbery PI
 A0コネクタにAngle Brickを接続して、D3コネクタに接続したLED Brickの明るさ調節に使用しています。
 ```python
 #!/usr/bin/env python
@@ -126,11 +126,11 @@ if __name__ == '__main__':
 ```
 
 
-### IchigoJam
+### for IchigoJam
 #####注意<br>アナログはIN2のみで数値取得可能です。
 デジタルの場合はIN(2)、アナログの場合がANA(2)とします。
 
-```Basic
+```
 100 'ANGLE_sample_program
 110 CLS
 120 LOCATE 10,8:PRINT "Digital =";IN(2)
@@ -140,7 +140,7 @@ if __name__ == '__main__':
 
 つまみを回すと数値が変化します。
 
-### NRF52
+### for NRF52
 
 ```c
 
@@ -253,7 +253,7 @@ int main(void)
 }
 
 ```
-## Cylon.js
+## for Cylon.js
 
 ```js
 var Cylon = require('cylon');
