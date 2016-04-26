@@ -50,7 +50,10 @@ FaBo Brickでは、LOW の 0x68に設定されています。
 - [Document](http://fabo.io/doxygen/FaBo9AXIS-MPU9250-Library/)
 
 ## Sample Code
+
 ### for Arduino
+I2Cコネクタに接続した9Axis I2C Brickより３軸加速度、３軸ジャイロ、３軸コンパス情報を取得し、シリアルモニタに出力します。
+
 ```c
 //
 // FaBo Brick Sample
