@@ -41,6 +41,7 @@ http://fabo.io/doxygen/FaBoColor-s11059-Library/)
 
 ## Sample Code
 ### Arduino
+I2Cコネクタに接続したColor Brickにより、赤、緑、青、赤外の値を読み取り、シリアルモニタに出力します。
 
 ```c
 //
@@ -136,6 +137,7 @@ void getColor()
 ```
 
 ### RaspberryPI
+I2Cコネクタに接続したColor Brickにより、赤、緑、青、赤外の値を読み取り、コンソールに出力します。
 
 ```python
 # coding: utf-8
@@ -194,11 +196,6 @@ if __name__ == '__main__':
         time.sleep(0.5)
 ```
 
-### IchigoJam
-
-```basic
-
-```
 
 ## Parts
 - S11059
