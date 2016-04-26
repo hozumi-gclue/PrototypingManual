@@ -38,6 +38,7 @@ I2Cコネクタへ接続します。
 http://fabo.io/doxygen/FaBoBarometer-MPL115-Library/)
 
 ## Sample Code
+I2Cコネクタに接続したBarometer Brickより、気圧、温度、標高212mの気圧を取得し、シリアルモニタに出力します。
 ### Arduino
 ```c
 //
@@ -141,6 +142,7 @@ void get_data(float *hpa, float *temp) {
 ```
 
 ### RaspberryPI
+I2Cコネクタに接続したBarometer Brickより、気圧、温度を取得し、シリアルモニタに出力します。
 
 ```python
 # coding: utf-8
@@ -227,11 +229,6 @@ if __name__ == "__main__":
 
 ```
 
-### IchigoJam
-
-```basic
-
-```
 
 ## Parts
 - MPL115A2
