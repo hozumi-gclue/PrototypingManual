@@ -23,7 +23,7 @@
 ![](/img/100_analog/schematic/115_humidity_schematic.png)
 
 ## Sample Code
-### Arduino
+### for Arduino
 A0コネクタに接続して、湿度を計測するサンプルになります。
 
 このサンプルコードでは外部ライブラリを使用します。
