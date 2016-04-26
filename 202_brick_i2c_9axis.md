@@ -175,6 +175,7 @@ void readI2c(int slave_addr,byte register_addr, int num, byte *buf) {
 ```
 
 ### for Raspberry Pi
+I2Cコネクタに接続した9Axis I2C Brickより３軸加速度、３軸ジャイロ、３軸コンパス情報を取得し、コンソールに出力します。
 
 ```python
 # coding: utf-8
