@@ -41,6 +41,7 @@ I2Cコネクタへ接続します。
 
 ## Sample Code
 ### Arduino
+I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度をシリアルモニタに出力します。
 ```c
 //
 // FaBo Brick Sample
@@ -87,6 +88,7 @@ void loop() {
 ```
 
 ### RaspberryPI
+I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度をコンソールに出力します。
 
 ```python
 # coding: utf-8
@@ -129,13 +131,6 @@ if __name__ == '__main__':
         print
         time.sleep(1)
 ```
-
-### IchigoJam
-
-```basic
-
-```
-
 
 ## Parts
 - ADT7410
