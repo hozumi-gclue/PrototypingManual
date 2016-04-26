@@ -141,7 +141,7 @@ if __name__ == '__main__':
 - アナログ<br>
 光の温度化によって0から1023を返します。<br>
 
-```Basic
+```
 100 'TEMP_sample_program
 110 CLS
 120 LOCATE 10,8:PRINT "Digital =";IN(2)
