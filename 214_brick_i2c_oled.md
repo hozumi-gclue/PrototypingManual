@@ -33,6 +33,8 @@ I2Cコネクタへ接続します。
 
 ## Sample Code
 ### for Arduino
+I2Cコネクタに接続したOLED Brickに、「FaBo」を表示します。
+
 このサンプルコードでは外部ライブラリを使用します。
 
 https://github.com/olikraus/u8glib/wiki よりU8glibライブラリをインストールしてください。
