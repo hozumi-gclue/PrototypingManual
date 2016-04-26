@@ -50,7 +50,7 @@ void loop() {
   delay(10);
 }
 ```
-###IchigoJam
+### for IchigoJam
 #####注意<br>アナログはIN2のみで数値取得可能です。
 デジタルの場合はIN(2)、アナログの場合がANA(2)とします。
 ```Basic
