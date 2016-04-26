@@ -30,7 +30,8 @@ Serialコネクタへ接続します。
 ## Sample Code
 
 ### for Arduino
-
+SerialコネクタにBluetooth Brickを接続し、他の端末と無線通信します。
+シリアルモニタの入力欄に文字を入力し確定することで、Bluetooth接続を行っている端末に文字を送信することができます。
 ```c
 //
 // FaBo Brick Sample
@@ -39,8 +40,8 @@ Serialコネクタへ接続します。
 //
 #include <SoftwareSerial.h>
 
-int bluetoothRx = 12;  // RX-I pin of bluetooth mate, Arduino D11
-int bluetoothTx = 13;  // TX-O pin of bluetooth mate, Arduino D10
+int bluetoothRx = 12;  // RX-I pin of bluetooth mate, Arduino D12
+int bluetoothTx = 13;  // TX-O pin of bluetooth mate, Arduino D13
 
 SoftwareSerial mySerial(bluetoothRx, bluetoothTx); // RX, TX
 
@@ -71,7 +72,8 @@ void loop() // run over and over
 ```
 
 ### for RaspberryPI
-
+SerialコネクタにBluetooth Brickを接続し、他の端末と無線通信します。
+コンソール上で文字を入力し確定することで、Bluetooth接続を行っている端末に文字を送信することができます。
 ```python
 # coding: utf-8
 #
