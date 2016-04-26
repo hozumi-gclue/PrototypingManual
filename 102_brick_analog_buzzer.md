@@ -70,7 +70,7 @@ tone関数にて出力できる音階と周波数は下記のようになりま�
 
 https://www.arduino.cc/en/Tutorial/ToneMelody?from=Tutorial.Tone
 
-###for IchigoJam
+### for IchigoJam
 シールドのSOUNDコネクタにBUZZER Brickを接続する。
 - ビープ音を鳴らします。
 
@@ -139,7 +139,7 @@ C16 = 16分音符のド
 詳しくは下記のURLを参照してください。<br>
 ####福野泰介の一日一創 <br>http://fukuno.jig.jp/892
 
-### Cylon.js
+### for Cylon.js
 
 ```js
 var Cylon = require('cylon');
