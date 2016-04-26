@@ -33,6 +33,8 @@ I2Cコネクタへ接続します。
 
 ## Sample Code
 ### for Arduino
+I2Cコネクタに接続したLCD Mini Brickに、１秒ごとにカウントアップする数字を表示させます。
+
 このサンプルコードでは外部ライブラリを使用します。
 
 https://github.com/tomozh/arduino_ST7032
