@@ -40,7 +40,7 @@ I2Cコネクタへ接続します。
 - [Document](http://fabo.io/doxygen/FaBoTemperature-ADT7410-Library/)
 
 ## Sample Code
-### Arduino
+### for Arduino
 I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度をシリアルモニタに出力します。
 ```c
 //
@@ -87,7 +87,7 @@ void loop() {
 
 ```
 
-### RaspberryPI
+### for RaspberryPI
 I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度をコンソールに出力します。
 
 ```python
