@@ -39,6 +39,8 @@ I2Cコネクタへ接続します。
 
 ## Sample Code
 ### Arduino
+I2CコネクタにHumidity Brickを接続し、取得した温度、湿度をシリアルモニタに出力するサンプルです。
+
 上記のArduino Libraryをインストールし、スケッチの例から、「FaBo 208 Humidity HTS221」→「humidity」を選択してください。
 
 
