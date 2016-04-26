@@ -30,7 +30,7 @@
 
 
 ## Sample Code
-### Arduino
+### for Arduino
 A0コネクタにTemprature Brickを接続して、取得した温度をシリアルモニタへ出力します。
 ```c
 //
@@ -87,7 +87,7 @@ Arduinoのコードを書く画面の右上にある虫メガネマークをク�
 Serial.begin(9600);
 ```
 
-### Raspberry Pi
+### for Raspberry Pi
 A0コネクタに接続したTemperature Brickにより温度を計測します。
 ```python
 #!/usr/bin/env python
@@ -131,7 +131,7 @@ if __name__ == '__main__':
 		sys.exit(0)
 ```
 
-### IchigoJam
+### for IchigoJam
 
 #####注意<br>アナログはIN2のみで数値取得可能です。
 デジタルの場合はIN(2)、アナログの場合がANA(2)とします。
