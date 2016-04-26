@@ -41,17 +41,6 @@ I2Cコネクタへ接続します。
 ### Arduino
 上記のArduino Libraryをインストールし、スケッチの例から、「FaBo 208 Humidity HTS221」→「humidity」を選択してください。
 
-### RaspberryPI
-
-```python
-
-```
-
-### IchigoJam
-
-```basic
-
-```
 
 ## Parts
 - HTS221
