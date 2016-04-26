@@ -30,7 +30,7 @@ Light Brickは、CDSセルを使用した光センサーBrickです。
 ![](/img/100_analog/schematic/109_ambientlight_schematic.png)
 
 ## Sample Code
-### Arduino
+### for Arduino
 A0コネクタにLight Brickを接続して、明るさに応じたアナログ値をシリアルモニタへ出力します。
 
 ```c
@@ -56,7 +56,7 @@ void loop() {
 }
 ```
 
-### Raspberry PI
+### for Raspberry PI
 A0コネクタにLight Brickを接続して、GPIO4コネクタに接続したLED Brickの明るさ調節に使用しています。
 ```python
 #!/usr/bin/env python
@@ -115,7 +115,7 @@ if __name__ == '__main__':
 		sys.exit(0)
 ```
 
-### IchigoJam
+### for IchigoJam
 #####注意<br>アナログはIN2のみで数値取得可能です。
 デジタルの場合はIN(2)、アナログの場合がANA(2)とします。
 
