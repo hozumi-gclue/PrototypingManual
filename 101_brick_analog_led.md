@@ -31,7 +31,7 @@ OUTコネクタのいずれかに接続します。
 ![](/img/100_analog/schematic/101_led_schematic.png)
 
 ## Sample Code
-### Arduino
+### for Arduino
 D2コネクタにLED Brickを接続し、一定時間ごとに点灯/消灯（Lチカ）させています。
 ```c
 //
@@ -56,7 +56,7 @@ void loop() {
 }
 ```
 
-### Raspberry Pi
+### for Raspberry Pi
 GPIO4コネクタにLED Brickを接続し、一定時間ごとに点灯/消灯させています。
 ```python
 # coding: utf-8
@@ -86,7 +86,7 @@ GPIO関連の処理は、Rootの権限が必要です。
 実行例)
     sudo python led.py
  
-### IchigoJam
+### for IchigoJam
 
 OUT(n1),n2
 
@@ -108,7 +108,7 @@ OUT1に接続しているLED brickが点灯する。
 ```
 60ミリ秒（1秒）間隔で点灯と消灯を繰り返す。
 
-### Nordic
+### for Nordic
 
 ```c
 #include "nrf_delay.h"
@@ -131,7 +131,7 @@ GPIO abstraction
 * [nrf_gpio_pin_set](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk51.v10.0.0%2Fgroup__nrf__gpio.html&resultof=%22nrf_gpio_cfg_output%22%20)
 * [nrf_gpio_pin_clear](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk51.v10.0.0%2Fgroup__nrf__gpio.html&resultof=%22nrf_gpio_cfg_output%22%20)
 
-### Cylon.js
+### for Cylon.js
 
 ```js
 var Cylon = require('cylon');
