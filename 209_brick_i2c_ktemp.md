@@ -41,6 +41,7 @@ FaBoBrickでは、0x68、または0x69の２種類を使用しています。
 
 ## Sample Code
 ### Arduino
+I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換してシリアルモニタに出力します。
 ```c
 //
 // FaBo Brick Sample
@@ -98,14 +99,20 @@ void loop() {
 }
 ```
 
-### RaspberryPI
+### Raspberry PI
 
-デバイスアドレスは変更になることがあるので、i2cのセンサーを接続後、下記コマンドにて確認する。
+KTemp Brickはデバイスアドレスはサンプルプログラムと異なることがあります。
+(0x68〜0x6F)
+
+i2cのセンサーを接続後、下記コマンドにて確認して下さい。
+
+サンプルでは0x69となっていますので、異なる場合は対象のアドレスに変更してご使用下さい。
 
 ```
 sudo i2cdetect -y 1
 ```
 
+このサンプルは、I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換してシリアルモニタに出力します。
 
 ```python
 # coding: utf-8
@@ -156,11 +163,6 @@ if __name__ == '__main__':
         print "temp:%3.2f C" % (temp)
         print
         time.sleep(1)
-```
-
-### IchigoJam
-```basic
-
 ```
 
 ## Parts
