@@ -40,6 +40,7 @@ Serialコネクタは、Arduino用、RaspberryPI用、Ichigojam用のOUT/INシ�
 
 ## Sample Code
 ### for Arduino(Advertise)
+SerialコネクタにBLE Brickを接続し、BLEを他の端末から接続できる状態（Advertise)にします。
 ```c
 //
 // FaBo Brick Sample
@@ -88,6 +89,7 @@ void loop()
 }
 ```
 ### for Arduino(Scan)
+SerialコネクタにBLE Brickを接続し、他のBLE機器をスキャンしてシリアルモニタに出力します。
 ```c
 //
 // FaBo Brick Sample
