@@ -33,7 +33,7 @@ OUTコネクタのいずれかに接続します。
 ![](/img/100_analog/schematic/103_button_schematic.png)
 
 ## Sample Code
-### Arduino
+### for Arduino
 A0コネクタに接続したButton Brickの入力により、D2コネクタに接続したLED Brick の点灯/消灯を制御しています。
 ```c
 //
@@ -71,7 +71,7 @@ void loop(){
 }
 ```
 
-### Raspberry PI
+### for Raspberry PI
 GPIO7コネクタに接続したButton Brickの入力により、GPIO4コネクタに接続したLED Brick の点灯/消灯を制御しています。
 ```python
 # coding: utf-8
@@ -100,7 +100,7 @@ while True:
 	    # LED消灯
 		GPIO.output( LEDPIN, False )
 ```
-### IchigoJam
+### for IchigoJam
 
 IN(n)
 
@@ -112,7 +112,7 @@ IN(1)<br>
 押されているなら１、押されていないなら０、とIN1に接続しているボタンの状態を返す。
 ####注意
 押したら、ではなく、押されているなら、です。
-```basic
+```
 100 ' IN(n) sample program
 110 B=IN(1)
 120 IF B=1 LED 1 ELSE LED 0
@@ -124,7 +124,7 @@ IN(1)<br>
 120 変数Bの値が１なら本体LEDを点灯させ、それ以外なら本体LEDを消灯させる。<br>
 130 110行に移動する。（ループ）
 
-### Cylon.js
+### for Cylon.js
 
 ```js
 var Cylon = require('cylon');
@@ -146,7 +146,7 @@ Cylon.robot({
         }
 }).start();
 ```
-## NRF51
+### for NRF51
 
 main.c
 ```c
@@ -254,7 +254,7 @@ Button Handler
 Sample
 * [nrf51-app-button-sample](https://github.com/NordicSemiconductor/nrf51-app-button-example/blob/master/main.c)
 
-## NRF52
+### for NRF52
 
 main.c
 ```c
