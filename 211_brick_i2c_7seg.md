@@ -44,6 +44,7 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick裏面の�
 PWM出力値は、"0x02"でほぼ視認できる明るさで点灯されます。あまり高い数値にすると、点灯しなくなるおそれがあります。
 
 ### for Arduino
+I2Cコネクタに7seg Brickを接続し、「0〜９」、「.」を順番に表示させます。
 ```c
 //
 // FaBo Brick Sample
@@ -270,7 +271,8 @@ void ini(byte addr){
   Wire.endTransmission();
 }
 ```
-### for RaspberryPI
+### for Raspberry PI
+I2Cコネクタに7seg Brickを接続し、「0〜９」、「.」を順番に表示させます。
 ```python
 # coding: utf-8
 #
