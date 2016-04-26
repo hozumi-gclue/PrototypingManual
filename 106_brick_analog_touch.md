@@ -125,7 +125,7 @@ if __name__ == '__main__':
 ### for IchigoJam
 #####注意<br>アナログはIN2のみで数値取得可能です。
 デジタルの場合はIN(2)、アナログの場合がANA(2)とします。
-```Basic
+```
 100 'TOUCH_sample_program
 110 CLS
 120 LOCATE 10,8:PRINT "Digital =";IN(2)
