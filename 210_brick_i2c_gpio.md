@@ -38,8 +38,8 @@ I2Cコネクタへ接続します。
 - [Document](http://fabo.io/doxygen/FaBoGPIO-PCAL6408-Library/)
 
 ## Sample Code
-I2CコネクタにGPIO Brickを接続し、GPIO Brickについている8つのLEDを左上から右下に向かって順番に点灯させます。
 ### for Arduino
+I2CコネクタにGPIO Brickを接続し、GPIO Brickについている8つのLEDを左上から右下に向かって順番に点灯させます。
 ```c
 //
 // FaBo Brick Sample
