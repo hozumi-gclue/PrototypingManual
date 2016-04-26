@@ -40,7 +40,7 @@ FaBoBrickでは、0x68、または0x69の２種類を使用しています。
 - [Document](http://fabo.io/doxygen/FaBoKTemp-MCP3421-Library/)
 
 ## Sample Code
-### Arduino
+### for Arduino
 I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換してシリアルモニタに出力します。
 ```c
 //
@@ -99,7 +99,7 @@ void loop() {
 }
 ```
 
-### Raspberry PI
+### for Raspberry PI
 
 KTemp Brickはデバイスアドレスはサンプルプログラムと異なることがあります。
 (0x68〜0x6F)
