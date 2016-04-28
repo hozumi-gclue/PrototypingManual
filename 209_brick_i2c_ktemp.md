@@ -17,27 +17,29 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Registor
-| Slave Address |
-| -- |
-| 0x68 - 0x6F |
-MCP3421のSlave Addressは0x68〜0x6Fのものが存在し、その値は工場出荷時に決まっており、後から変更することはできません。
-
-FaBoBrickでは、0x68、または0x69の２種類を使用しています。
-
 ## MCP3421 Datasheet
 | Document |
 | -- |
 | [MCP3421 Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/22003e.pdf) |
+
+## Register
+| Slave Address |
+| -- |
+| 0x68 - 0x6F |
+MCP3421のSlave Addressは0x68〜0x6Fのものが存在し、その値は工場出荷時に決まっており、後から変更することはできません。
+FaBoBrickでは、0x68、または0x69の２種類を使用しています。
 
 ## Schematic
 ![](/img/200_i2c/schematic/209_ktemp_schematic.png)
 
 ## Library
 ### for Arduino
-- https://github.com/FaBoPlatform/FaBoKTemp-MCP3421-Library
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
 
-- [Document](http://fabo.io/doxygen/FaBoKTemp-MCP3421-Library/)
+  ライブラリ名：「FaBo 209 KTemp MCP3421」
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoKTemp-MCP3421-Library)
+- [Library Document](http://fabo.io/doxygen/FaBoKTemp-MCP3421-Library/)
 
 ## Sample Code
 ### for Arduino
@@ -166,4 +168,7 @@ if __name__ == '__main__':
 ```
 
 ## Parts
-- MCP3421
+- Microchip Technology MCP3421
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/209_ktemp
