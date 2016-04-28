@@ -18,27 +18,29 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Registor
+## TLC59208F Datasheet
+| Document |
+| -- |
+| [TLC59208F Datasheet](http://www.ti.com/jp/lit/gpn/tlc59208f) |
+
+## Register
 | A0 | A1 | A2 | Slave Address |
 | -- | -- | -- | -- |
 | LOW | LOW | LOW | 0x20 |
 
 FaBo Brickでは、初期値に0x20が設定されています。Brick裏面のソルダージャンパーで設定を変更できます。
 
-## TLC59208F Datasheet
-| Document |
-| -- |
-| [TLC59208F Datasheet](http://www.ti.com/jp/lit/gpn/tlc59208f) |
-
 ## Schematic
 ![](/img/200_i2c/schematic/211_7seg_schematic.png)
 
 ## Library
 ### for Arduino
-- ArduinoIDEのライブラリマネージャからインストールできます。ライブラリ名称は「FaBo 211 7Segment LED TLC59208F」です。
-- [ライブラリマネージャからのインストール方法](http://fabo.io/library_install.html)
-- [GitHub Repository](https://github.com/FaBoPlatform/FaBo7Seg-TLC59208-Library)
-- [Document](http://fabo.io/doxygen/FaBo7Seg-TLC59208-Library/)
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
+
+  ライブラリ名：「FaBo 211 7Segment LED TLC59208F」
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBo7Seg-TLC59208-Library)
+- [Library Document](http://fabo.io/doxygen/FaBo7Seg-TLC59208-Library/)
 
 ## Sample Code
 PWM出力値は、"0x02"でほぼ視認できる明るさで点灯されます。あまり高い数値にすると、点灯しなくなるおそれがあります。
@@ -434,4 +436,7 @@ if __name__ == '__main__':
 
 ## Parts
 - 7セグメントLED
-- I2C LEDドライバIC
+- Texas Instruments TLC59208F
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/211_7seg
