@@ -18,24 +18,27 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Registor
-| Slave Address |
-| -- |
-| 0x60 |
-
 ## MPL115A2 Datasheet
 | Document |
 | -- |
 | [MPL115A2 Datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MPL115A2.pdf) |
 
+## Register
+| Slave Address |
+| -- |
+| 0x60 |
+
 ## Schematic
 ![](/img/200_i2c/schematic/204_barometer_schematic.png)
 
+## Library
 ### for Arduino
-- https://github.com/FaBoPlatform/FaBoBarometer-MPL115-Library
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
 
-- [Document](
-http://fabo.io/doxygen/FaBoBarometer-MPL115-Library/)
+  ライブラリ名：「FaBo 204 Baromter MPL115A2」
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoBarometer-MPL115-Library)
+- [Library Document](http://fabo.io/doxygen/FaBoBarometer-MPL115-Library/)
 
 ## Sample Code
 I2Cコネクタに接続したBarometer Brickより、気圧、温度、標高212mの気圧を取得し、シリアルモニタに出力します。
@@ -231,4 +234,7 @@ if __name__ == "__main__":
 
 
 ## Parts
-- MPL115A2
+- Freescale(NXP) MPL115A2
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/204_barometer
