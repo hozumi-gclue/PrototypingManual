@@ -18,15 +18,15 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Registor
-| I2C Slave Address |
-|:-- |
-| 0x3E |
-
 ## AQM0802A Datasheet
 | Document |
 | -- |
 | [AQM0802A Datasheet](http://akizukidenshi.com/catalog/g/gP-06669/) |
+
+## Register
+| I2C Slave Address |
+|:-- |
+| 0x3E |
 
 ## Schematic
 ![](/img/200_i2c/schematic/213_lcdmini_schematic.png)
@@ -73,3 +73,6 @@ void loop() {
 
 ## Parts
 - AQM0802A
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/213_lcd_mini
