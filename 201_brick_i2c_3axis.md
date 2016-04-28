@@ -22,7 +22,6 @@ I2Cで3軸の加速度データを取得することがきます。
 
 ※4Pinケーブル、各種OUT/INシールド、各種ケースは別売です。
 
-I2Cコネクタは、Arduino用、RaspberryPI用のOUT/INシールドでは3箇所、Ichigojam用のOUT/INシールドは１箇所のみとなります。
 
 ![](/img/200_i2c/connect/201_3axis_connect.jpg)
 写真はArduinoでの接続例です。
@@ -32,26 +31,31 @@ I2Cコネクタは、Arduino用、RaspberryPI用のOUT/INシールドでは3箇�
 |:--:|:--:|:--:|:--:|
 |◯|◯|◯|◯|
 
-## Registor
-| I2C Slave Address |
-|:-- |
-| 0x53 |
-
 ## ADXL345 Datasheet
 | Document |
 |:--|
 | [ADXL345 Datasheet](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) |
+
+## Register
+| I2C Slave Address |
+|:-- |
+| 0x53 |
 
 ## Schematic
 ![](/img/200_i2c/schematic/201_3axis_schematic.png)
 
 ## Library
 
+<div class="arduino-library">
+
 ### for Arduino
+
 - https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library
 
 - [Document](
 https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library)
+
+</div>
 
 ## Sample Code
 ### for Arduino
