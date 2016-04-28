@@ -26,6 +26,11 @@
    * [Kinoma Create](dev/kinoma.md)
    * [Chirimen(FirefoxOS)](dev/chirimen.md)
    * [DragonBoard](dev/dragon.md)
+* Starter Kit
+   * [Complete Package](001_starterkit_complete.md)
+   * [Starter Kit for Arduino](002_starterkit_arduino.md)
+   * [Starter Kit for Raspberry PI](003_starterkit_raspberrypi.md)
+   * [Starter Kit for Ichigojam](004_starterkit_ichigojam.md)
 * [Analog Brick](analog_brick.md)
    * [LED Brick](101_brick_analog_led.md)
    * [Buzzer Brick](102_brick_analog_buzzer.md)
@@ -115,11 +120,6 @@
    * [SmartLight Kit](1503_kit_smartlight.md)
    * [Matrix Plate Kit](1502_kit_matrix_plate.md)
    * [RemoteController Kit](1504_kit_remotecontroller.md)
-* Starter Kit
-   * [Complete Package](001_starterkit_complete.md)
-   * [Starter Kit for Arduino](002_starterkit_arduino.md)
-   * [Starter Kit for Raspberry PI](003_starterkit_raspberrypi.md)
-   * [Starter Kit for Ichigojam](004_starterkit_ichigojam.md)
 * [Factory 1.0](factory.md)
 * [Servo](servo.md)
 * [Current measurement](current_measurement.md)
