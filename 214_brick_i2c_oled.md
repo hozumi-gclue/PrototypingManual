@@ -18,15 +18,15 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Registor
-| Slave Address |
-| -- |
-| 0x3C |
-
 ## ER-OLED0.96 Datasheet
 | Document |
 | -- |
 | [ER-OLED0.96 Datasheet](http://www.buydisplay.com/download/manual/ER-OLED0.96_Series_Datasheet.pdf) |
+
+## Register
+| Slave Address |
+| -- |
+| 0x3C |
 
 ## Schematic
 ![](/img/200_i2c/schematic/214_oled_schematic.png)
@@ -72,3 +72,6 @@ void loop() {
 
 ## Parts
 - 128x96 0.96OLED Module
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/214_oled
