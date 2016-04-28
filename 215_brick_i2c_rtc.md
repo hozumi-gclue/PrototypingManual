@@ -17,24 +17,27 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Registor
-| Slave Address |
-| -- |
-| 0x51 |
-
 ## PCF2129 Datasheet
 | Document |
 | -- |
 | [PCF2129 Datasheet](http://www.jp.nxp.com/documents/data_sheet/PCF2129.pdf) |
+
+## Register
+| Slave Address |
+| -- |
+| 0x51 |
 
 ## Schematic
 ![](/img/200_i2c/schematic/215_rtc_schematic.png)
 
 ## Library
 ### for Arduino
-- https://github.com/FaBoPlatform/FaBoRTC-PCF2129-Library
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
 
-- [Document](http://fabo.io/doxygen/FaBoRTC-PCF2129-Library/)
+  ライブラリ名：「FaBo 215 RTC PCF2129」
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoRTC-PCF2129-Library)
+- [Library Document](http://fabo.io/doxygen/FaBoRTC-PCF2129-Library/)
 
 ## Sample Code
 ### for Arduino
@@ -177,4 +180,7 @@ void setRTC(byte year, byte month, byte day, byte wd, byte hour, byte min, byte 
 ```
 
 ## Parts
-- TCXO内蔵リアルタイムクロックIC
+- NXP PCF2129
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/215_rtc
