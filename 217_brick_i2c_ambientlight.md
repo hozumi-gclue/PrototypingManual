@@ -40,6 +40,10 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoAmbientLight-ISL29034-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoAmbientLight-ISL29034-Library/)
 
+## Sample Code
+### for Arduino
+上記のArduino Libraryをインストールし、スケッチの例から、「FaBo 217 Ambient Light ISL29034」→「ambientlight」を選択してください。
+
 ## Parts
 - Intersil ISL29034
 
