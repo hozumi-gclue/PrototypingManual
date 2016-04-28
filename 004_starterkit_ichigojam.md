@@ -1,4 +1,4 @@
-# #004 Starterkit for Ichigojam
+# #004 FaBo Starter Kit for Ichigojam
 
 <center>
 ![](/img/001_starterkit/product/starterkit_ichigojam001.jpg)
