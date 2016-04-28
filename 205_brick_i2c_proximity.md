@@ -38,6 +38,10 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoProximity-VCNL4010-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoProximity-VCNL4010-Library/)
 
+## Sample Code
+### for Arduino
+上記のArduino Libraryをインストールし、スケッチの例から、「FaBo 205 Proximity VCNL4010」→「proximity」を選択してください。
+
 ## Parts
 - Vishay VCNL4010
 
