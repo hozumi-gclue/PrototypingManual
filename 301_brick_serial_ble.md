@@ -1,9 +1,10 @@
-# #301 BLE Serial Brick
+# #301 BLE SiliconLabs Serial Brick
+
 <center>![](/img/300_serial/product/301_ble_product.jpg)
 <!--COLORME-->
 
 ## Overview
-BLE113を使用したBLE（Bluetooth Low Energy）のBrickです。
+SiliconLabs BLE113を使用したBLE（Bluetooth Low Energy）のBrickです。
 シリアルにて制御できるFirmwareが書き込まれているため、Arduino等からシリアル通信にてBLEを制御することができます。
 
 BLEの転送レートは9600bpsに設定してあります。
@@ -22,7 +23,6 @@ Serialコネクタは、Arduino用、RaspberryPI用、Ichigojam用のOUT/INシ�
 |◯|◯|◯|
 
 ## BLE113 Datasheet
-
 |Document|
 |--|
 |[BLE113 Datasheet](http://www.mouser.com/catalog/specsheets/Bluegiga_Technologies_BLE113_Datasheet.pdf)|
@@ -32,9 +32,7 @@ Serialコネクタは、Arduino用、RaspberryPI用、Ichigojam用のOUT/INシ�
 ![](/img/300_serial/schematic/301_ble_schematic.png)
 
 ## Library
-
 ### for Arduino
-
 - [GitHub Repository](https://github.com/FaBoPlatform/FaBoBLE-BLE113-Library)
 - [Document](http://fabo.io/doxygen/FaBoBLE-BLE113-Library/)
 
@@ -159,4 +157,7 @@ void loop()
 ```
 
 ## Parts
-- BluetoothLE ModuleIC
+- SiliconLabs BLE113 BluetoothLE ModuleIC
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/301_ble_siliconlabs
