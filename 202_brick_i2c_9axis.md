@@ -18,6 +18,12 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
+## MPU-9250 Datasheet
+| Document |
+| -- |
+| [MPU-9250 Register Map](http://43zrtwysvxb2gf29r5o0athu.wpengine.netdna-cdn.com/wp-content/uploads/2015/02/MPU-9250-Register-Map.pdf) |
+| [MPU-9250 Datasheet](http://43zrtwysvxb2gf29r5o0athu.wpengine.netdna-cdn.com/wp-content/uploads/2015/02/MPU-9250-Datasheet.pdf) |
+
 ## Register
 MPU-9250は、三軸加速度、ジャイロ用とコンパス用の2つのI2C Slave Addressがあります。
 
@@ -34,23 +40,19 @@ FaBo Brickでは、LOW の 0x68に設定されています。
 |--|--|
 |0x0C|
 
-## MPU-9250 Datasheet
-| Document |
-| -- |
-| [MPU-9250 Register Map](http://43zrtwysvxb2gf29r5o0athu.wpengine.netdna-cdn.com/wp-content/uploads/2015/02/MPU-9250-Register-Map.pdf) |
-| [MPU-9250 Datasheet](http://43zrtwysvxb2gf29r5o0athu.wpengine.netdna-cdn.com/wp-content/uploads/2015/02/MPU-9250-Datasheet.pdf) |
-
 ## Schematic
 ![](/img/200_i2c/schematic/202_9axis_schematic.png)
 
 ## Library
 ### for Arduino
-- https://github.com/FaBoPlatform/FaBo9AXIS-MPU9250-Library
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
 
-- [Document](http://fabo.io/doxygen/FaBo9AXIS-MPU9250-Library/)
+  ライブラリ名：「FaBo 202 9Axis MPU9250」
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBo9AXIS-MPU9250-Library)
+- [Library Document](http://fabo.io/doxygen/FaBo9AXIS-MPU9250-Library/)
 
 ## Sample Code
-
 ### for Arduino
 I2Cコネクタに接続した9Axis I2C Brickより３軸加速度、３軸ジャイロ、３軸コンパス情報を取得し、シリアルモニタに出力します。
 
@@ -288,4 +290,7 @@ if __name__ == "__main__":
 ```
 
 ## Parts
-- MPU-9250
+- InvenSense MPU-9250
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/202_9axis
