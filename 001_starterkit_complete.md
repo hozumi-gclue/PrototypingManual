@@ -3,7 +3,6 @@
 <center>
 ![](/img/001_starterkit/product/starterkit_complete001.JPG)
 <!--COLORME-->
-</center>
 
 ## Overview
 Arduino UNO用のFaBo Brickコンプリートパッケージです。
