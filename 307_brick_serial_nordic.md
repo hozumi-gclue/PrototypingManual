@@ -1,10 +1,11 @@
-# #307 BLE Nordic Brick
+# #307 BLE Nordic Serial Brick
+
 <center>
 ![](/img/300_serial/product/307_ble_nordic_product.jpg)
 <!--COLORME-->
 
 ## Overview
-MDBT40を使用したBLE（Bluetooth Low Energy）のBrickです。
+NRF51モジュールを使用したBLE（Bluetooth Low Energy）のBrickです。
 
 シリアルにて制御できるFirmwareが書き込まれているため、Arduino等からシリアル通信にてBLEを制御することができます。
 
@@ -35,5 +36,3 @@ Serialコネクタへ接続します。
 
 - [GitHub Repository](https://github.com/FaBoPlatform/FaBoBLE-Nordic-Library)
 - [Document](http://fabo.io/doxygen/FaBoBLE-Nordic-Library/)
-
-## Sample Code
