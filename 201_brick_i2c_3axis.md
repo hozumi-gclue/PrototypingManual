@@ -45,17 +45,10 @@ I2Cで3軸の加速度データを取得することがきます。
 ![](/img/200_i2c/schematic/201_3axis_schematic.png)
 
 ## Library
-
-<div class="arduino-library">
-
 ### for Arduino
-
 - https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library
-
 - [Document](
 https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library)
-
-</div>
 
 ## Sample Code
 ### for Arduino
