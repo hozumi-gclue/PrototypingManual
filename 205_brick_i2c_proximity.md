@@ -16,29 +16,30 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Registor
-| I2C Slave Address |
-|:-- |
-| 0x13 |
-
 ## VCNL4010 Datasheet
 | Document |
 |:--|
 | [VCNL4010 Datasheet](https://www.adafruit.com/images/product-files/466/vcnl4010.pdf) |
 
+## Register
+| I2C Slave Address |
+|:-- |
+| 0x13 |
 
 ## Schematic
 ![](/img/200_i2c/schematic/205_proximity_schematic.png)
 
 ## Library
 ### for Arduino
-- https://github.com/FaBoPlatform/FaBoProximity-VCNL4010-Library
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
 
-- [Document](
-http://fabo.io/doxygen/FaBoProximity-VCNL4010-Library/)
+  ライブラリ名：「FaBo 205 Proximity VCNL4010」
 
-## Sample Code
-### for Arduino
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoProximity-VCNL4010-Library)
+- [Library Document](http://fabo.io/doxygen/FaBoProximity-VCNL4010-Library/)
 
 ## Parts
 - VCNL4010
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/205_proximity
