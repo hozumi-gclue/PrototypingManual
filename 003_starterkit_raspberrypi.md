@@ -1,8 +1,9 @@
-# #003 Starterkit for Raspberry PI
+# #003 FaBo Starter Kit for Raspberry PI
 
 <center>
 ![](/img/001_starterkit/product/starterkit_raspberrypi001.jpg)
 <!--COLORME-->
+</center>
 
 ## Overview
 Raspberry PIで、FaBo Brickをちょっと使ってみたい！という方向けのセットになります。
