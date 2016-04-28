@@ -1,4 +1,4 @@
-# #005 Starterkit for DragonBoard
+# #005 FaBo Starter Kit for DragonBoard
 
 <center>
 ![](/img/001_starterkit/product/starterkit_dragonboard001.png)
