@@ -19,25 +19,27 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Registor
-| Slave Address |
-| -- |
-| 0x48 |
-
 ## ADT7410 Datasheet
 | Document |
 | -- |
 | [ADT7410 Datasheet](http://www.analog.com/media/en/technical-documentation/data-sheets/ADT7410.pdf) |
 
-## Schematic
+## Register
+| Slave Address |
+| -- |
+| 0x48 |
 
+## Schematic
 ![](/img/200_i2c/schematic/207_temperature_schematic.png)
 
 ## Library
 ### for Arduino
-- https://github.com/FaBoPlatform/FaBoTemperature-ADT7410-Library
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
 
-- [Document](http://fabo.io/doxygen/FaBoTemperature-ADT7410-Library/)
+  ライブラリ名：「FaBo 207 Temperature ADT7410」
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoTemperature-ADT7410-Library)
+- [Library Document](http://fabo.io/doxygen/FaBoTemperature-ADT7410-Library/)
 
 ## Sample Code
 ### for Arduino
@@ -133,4 +135,7 @@ if __name__ == '__main__':
 ```
 
 ## Parts
-- ADT7410
+- Analog Devices ADT7410
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/207_temperature
