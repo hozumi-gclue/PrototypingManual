@@ -47,7 +47,9 @@ I2Cで3軸の加速度データを取得することがきます。
 ## Library
 ### for Arduino
 - [Arduino IDEからインストール](http://fabo.io/library_install.html)
+
   ライブラリ名：「FaBo 201 3Axis ADXL345」
+
 - [GitHub](https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library)
 - [Document](http://fabo.io/doxygen/FaBo3Axis-ADXL345-Library/)
 
