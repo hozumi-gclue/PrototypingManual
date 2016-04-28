@@ -53,7 +53,6 @@ I2Cで3軸の加速度データを取得することがきます。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library)
 - [Library Document](http://fabo.io/doxygen/FaBo3Axis-ADXL345-Library/)
 
-
 ## Sample Code
 ### for Arduino
 I2Cコネクタに接続した3Axis I2C Brickより３軸の加速度情報を取得し、シリアルモニタに出力します。
