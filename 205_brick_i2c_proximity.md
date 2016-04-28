@@ -39,7 +39,7 @@ I2Cコネクタへ接続します。
 - [Library Document](http://fabo.io/doxygen/FaBoProximity-VCNL4010-Library/)
 
 ## Parts
-- VCNL4010
+- Vishay VCNL4010
 
 ## GitHub
 - https://github.com/FaBoPlatform/FaBo/tree/master/205_proximity
