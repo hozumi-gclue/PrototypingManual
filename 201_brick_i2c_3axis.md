@@ -50,8 +50,8 @@ I2Cで3軸の加速度データを取得することがきます。
 
   ライブラリ名：「FaBo 201 3Axis ADXL345」
 
-- [GitHub](https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library)
-- [Document](http://fabo.io/doxygen/FaBo3Axis-ADXL345-Library/)
+- [Library GitHub](https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library)
+- [Library Document](http://fabo.io/doxygen/FaBo3Axis-ADXL345-Library/)
 
 
 ## Sample Code
@@ -303,5 +303,7 @@ int main() {
 ```
 
 ## Parts
-- ADXL345
+- Analog Devices ADXL345
 
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/201_3axis
