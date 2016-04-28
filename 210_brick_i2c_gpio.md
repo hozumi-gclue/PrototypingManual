@@ -18,24 +18,27 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Registor
-| Slave Address |
-| -- |
-| 0x20 |
-
 ## PCAL6408 Datasheet
 | Document |
 | -- |
 | [PCAL6408 Datasheet](http://www.nxp.com/documents/data_sheet/PCAL6408A.pdf) |
+
+## Register
+| Slave Address |
+| -- |
+| 0x20 |
 
 ## Schematic
 ![](/img/200_i2c/schematic/210_gpio_schematic.png)
 
 ## Library
 ### for Arduino
-- https://github.com/FaBoPlatform/FaBoGPIO-PCAL6408-Library
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
 
-- [Document](http://fabo.io/doxygen/FaBoGPIO-PCAL6408-Library/)
+  ライブラリ名：「FaBo 210 GPIO PCAL6408A」
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoGPIO-PCAL6408-Library)
+- [Library Document](http://fabo.io/doxygen/FaBoGPIO-PCAL6408-Library/)
 
 ## Sample Code
 ### for Arduino
@@ -83,4 +86,7 @@ void loop() {
 ```
 
 ## Parts
-- PCAL6408
+- NXP PCAL6408
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/210_gpio
