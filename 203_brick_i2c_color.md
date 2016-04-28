@@ -18,26 +18,27 @@ I2Cコネクタへ接続します。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Registor
-| Slave Address |
-| -- |
-| 0x2A |
-
 ## S11059 Datasheet
 | Document |
 | -- |
 | [S11059 Datasheet](http://www.hamamatsu.com/resources/pdf/ssd/s11059-02dt_etc_kpic1082j.pdf) |
 
+## Register
+| Slave Address |
+| -- |
+| 0x2A |
+
 ## Schematic
 ![](/img/200_i2c/schematic/203_color_schematic.png)
 
 ## Library
-
 ### for Arduino
-- https://github.com/FaBoPlatform/FaBoColor-s11059-Library
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
 
-- [Document](
-http://fabo.io/doxygen/FaBoColor-s11059-Library/)
+  ライブラリ名：「FaBo 203 Color S11059」
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoColor-s11059-Library)
+- [Library Document](http://fabo.io/doxygen/FaBoColor-s11059-Library/)
 
 ## Sample Code
 ### for Arduino
@@ -198,4 +199,7 @@ if __name__ == '__main__':
 
 
 ## Parts
-- S11059
+- HAMAMATSU S11059
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/203_color
