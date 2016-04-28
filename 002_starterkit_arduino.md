@@ -1,4 +1,4 @@
-# #002 Starterkit for Arduino
+# #002 FaBo Starter Kit for Arduino
 
 <center>
 ![](/img/001_starterkit/product/starterkit_arduino001.jpg)
