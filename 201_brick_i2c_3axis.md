@@ -22,8 +22,8 @@ I2Cで3軸の加速度データを取得することがきます。
 
 ※4Pinケーブル、各種OUT/INシールド、各種ケースは別売です。
 
-
 ![](/img/200_i2c/connect/201_3axis_connect.jpg)
+
 写真はArduinoでの接続例です。
 
 ## Support
@@ -46,7 +46,11 @@ I2Cで3軸の加速度データを取得することがきます。
 
 ## Library
 ### for Arduino
-- https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
+
+  ライブラリ名：「FaBo 201 3Axis ADXL345」
+
+- [GitHub](https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library)
 - [Document](http://fabo.io/doxygen/FaBo3Axis-ADXL345-Library/)
 
 
