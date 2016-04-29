@@ -172,3 +172,6 @@ Cylon.robot({
 
 ## Parts
 - 圧電ブザー
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/102_buzzer
