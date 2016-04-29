@@ -4,7 +4,7 @@
 <!--COLORME-->
 
 ## Overview
-距離センサー（GP2Y0A21YK）を使用したBrickです。
+距離センサーモジュールを使用したBrickです。
 
 I/Oピンより距離センサーの正面についているレンズから物体までの距離をアナログ値(0〜1023)で取得することができます。
 
@@ -30,9 +30,7 @@ I/Oピンより距離センサーの正面についているレンズから物�
 | -- |
 | [GP2Y0A21YK Datasheet](http://www.sharpsma.com/webfm_send/1208) |
 
-
 ## Sample Code
-
 ### for Arduino
 A0コネクタに接続して、距離を計測します。
 
@@ -116,3 +114,9 @@ if __name__ == '__main__':
         spi.close()
         sys.exit(0)
 ```
+
+## Parts
+- 距離センサーモジュール GP2Y0A21YK
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/116_distance
