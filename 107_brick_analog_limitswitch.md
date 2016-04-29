@@ -105,3 +105,6 @@ while True:
 
 ## Parts
 - リミットスイッチ
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/107_limitswitch
