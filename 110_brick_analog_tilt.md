@@ -104,5 +104,7 @@ if __name__ == '__main__':
 ```
 
 ## Parts
-- 振動(傾斜)スイッチ
+- 傾斜(振動)スイッチ
 
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/110_tilt
