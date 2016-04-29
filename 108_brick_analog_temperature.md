@@ -25,6 +25,11 @@
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
+## LM61CIZ Datasheet
+| Document |
+|:--|
+| [LM61CIZ Datasheet](http://akizukidenshi.com/catalog/g/gI-02726/) |
+
 ## Schematic
 ![](/img/100_analog/schematic/108_temperature_schematic.png)
 
@@ -154,4 +159,7 @@ if __name__ == '__main__':
 デジタル数値は寒いと0、暖かいと1に変化し、アナログ数値は寒いと小さい値（0に近づく）に、暖かいと大きい値（1023に近づく）に変化します。
 
 ## Parts
-- IC温度センサ
+- IC温度センサ LM61CIZ
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/108_temperature
