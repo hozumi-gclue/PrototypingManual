@@ -60,3 +60,6 @@ void loop() {
 
 ## Parts
 - 赤外線フォトトランジスタ
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/113_ir_receive
