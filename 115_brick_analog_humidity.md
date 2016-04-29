@@ -4,7 +4,7 @@
 <!--COLORME-->
 
 ## Overview
-湿度センサーを使用したBrickです。
+湿度センサーモジュールを使用したBrickです。
 
 温度、湿度の情報を取得することができます。
 
@@ -28,10 +28,11 @@ A0コネクタに接続して、湿度を計測するサンプルになります
 
 このサンプルコードでは外部ライブラリを使用します。
 
-https://github.com/adafruit/DHT-sensor-library
-よりDHTライブラリをインストールしてください。
+- [GitHub Library](https://github.com/adafruit/DHT-sensor-library)
 
-ライブラリの組み込み方法 (https://sites.google.com/a/gclue.jp/iot-docs/shi-du)
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
+
+  ライブラリ名：「DHT sensor library」
 
 ```c
 //
@@ -69,3 +70,6 @@ void loop() {
 
 ## Parts
 - 湿温度センサモジュールDHT11
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/115_humidity
