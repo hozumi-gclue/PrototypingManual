@@ -3,9 +3,9 @@
 <!--COLORME-->
 
 ## Overview
-圧力センサーを使用したタッチセンサーBrickです。
+感圧センサーを使用したタッチセンサーBrickです。
 
-I/Oピンより、感圧部分に加えられた力の大きさの変化をアナログ値(0〜1023)で取得することができます。
+I/Oピンより、感圧部分に加えられた力の大きさの変化をアナログ値で取得することができます。
 
 ## Connecting
 
@@ -138,5 +138,7 @@ if __name__ == '__main__':
 
 
 ## Parts
-- 圧力センサー
+- 感圧センサー
 
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/106_touch
