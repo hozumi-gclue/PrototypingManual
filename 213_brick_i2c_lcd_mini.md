@@ -31,45 +31,14 @@ I2Cコネクタへ接続します。
 ## Schematic
 ![](/img/200_i2c/schematic/213_lcdmini_schematic.png)
 
+## Library
+### for Arduino
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoGPIO-PCAL6408-Library)
+- [Library Document](http://fabo.io/doxygen/FaBoGPIO-PCAL6408-Library/)
+
 ## Sample Code
 ### for Arduino
-I2Cコネクタに接続したLCD Mini Brickに、１秒ごとにカウントアップする数字を表示させます。
-
-このサンプルコードでは外部ライブラリを使用します。
-
-https://github.com/tomozh/arduino_ST7032
-よりライブラリをインストールしてください。
-
-```c
-//
-// FaBo Brick Sample
-//
-// #213 LCD mini I2C Brick
-//
-// ST7032 Library Download from
-//  https://github.com/tomozh/arduino_ST7032
-//
-
-#include <Wire.h>
-#include <ST7032.h>
-
-ST7032 lcd;
-
-void setup() {
-  lcd.begin(8, 2);
-  lcd.setContrast(20);
-  lcd.print("Hello!");
-  delay(3000);
-  lcd.clear();
-}
-
-void loop() {
-  lcd.home();
-  lcd.print("FaBo LCD");
-  lcd.setCursor(1,1);
-  lcd.print(millis()/1000);
-}
-```
+上記のArduino Libraryをインストールし、スケッチの例「FaBo 213 LCD mini AQM0802A」から選択してください。
 
 ## Parts
 - AQM0802A
