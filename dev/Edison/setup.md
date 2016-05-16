@@ -1,6 +1,6 @@
-# Edison kit for Arduino　セットアップ
+# Edison kit for Arduino
 
-ここではEdison kit for ArduinoのMacOSでの設定について記述します。
+ここではEdison kit for Arduinoの設定について記述します。
 
 ## 初期化
 組み立てと初期化については、下記のStep1を参考に進めて下さい。
