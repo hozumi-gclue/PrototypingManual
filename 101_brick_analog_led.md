@@ -158,6 +158,8 @@ Cylon.robot({
 Node.js用のサンプルです。
 
 D2コネクタにLED Brickを接続し、1秒ごとに点灯/消灯させています。
+
+「control」キー＋「C」キーにて処理を終了させます。
 ```js
 //
 // FaBo Brick Sample
