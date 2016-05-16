@@ -18,12 +18,12 @@ http://edison-lab.jp/gettingstarted/edison-arduino/mac/
 
 ## 設定ファイルの変更
 
-下記のコマンドより、設定ファイルを開きます。
+下記のコマンドより、設定ファイルを開きます。(存在しない場合は作成)
 ```
 vi /etc/opkg/mraa-upm.conf
 ```
 
-下記の一文を追加します。
+mraa-upm.confに下記の内容を追加します。
 ```
 src mraa-upm http://iotdk.intel.com/repos/2.0/intelgalactic
 ```
