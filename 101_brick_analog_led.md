@@ -153,6 +153,42 @@ Cylon.robot({
 }).start();
 ```
 
+### for Edison
+
+Node.js用のサンプルです。
+
+D2コネクタにLED Brickを接続し、1秒ごとに点灯/消灯させています。
+```js
+//
+// FaBo Brick Sample
+//
+// #101 LED Brick
+//
+
+var m = require('mraa');
+
+var myLed = new m.Gpio(2);  //LEDピン
+
+myLed.dir(m.DIR_OUT);       //出力設定
+
+var state = 1;              //LEDステータス
+
+//loop処理実行
+loop();
+
+function loop()
+{
+  //LED出力　1:ON、2:OFF
+  myLed.write(state);
+
+  //ステータス変更
+  state = 1 - state;
+
+  //1000ミリ秒後にloop処理実行
+  setTimeout(loop, 1000);
+}
+```
+
 ## Parts
 - 5mm LED(各色)
 
