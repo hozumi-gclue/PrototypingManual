@@ -316,6 +316,42 @@ int main(void)
 * [nrf_drv_gpiote_in_init](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk52.v0.9.2%2Fgroup__nrf__drv__gpiote.html&resultof=%22GPIOTE%22%20%22gpiot%22%20)
 * [nrf_drv_gpiote_out_init](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk52.v0.9.2%2Fgroup__nrf__drv__gpiote.html&resultof=%22GPIOTE%22%20%22gpiot%22%20)
 
+## for Edison
+Node.js用のサンプルです。+
+
+A0コネクタに接続したButton Brickの入力により、D2コネクタに接続したLED Brick の点灯/消灯を制御しています。
+```js
+//
+// FaBo Brick Sample
+//
+// #103 Button Brick
+//
+
+var m = require('mraa');
+
+var myButton = new m.Gpio(14); //Buttonピン A0
+var myLed    = new m.Gpio(2);  //LEDピン A1
+
+myButton.dir(m.DIR_IN); //入力設定
+myLed.dir(m.DIR_OUT);   //出力設定
+
+//loop処理実行
+loop();
+
+function loop()
+{
+  //Buttonの押下状態を取得
+  if (myButton.read()){
+    myLed.write(1);
+  }
+  else {
+    myLed.write(0);
+  }
+
+  //100ミリ秒後にloop処理実行
+  setTimeout(loop,100);
+}
+```
 
 ## Parts
 - 12mm角タクトスイッチ
