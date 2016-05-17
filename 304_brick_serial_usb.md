@@ -17,7 +17,6 @@ Serialコネクタへ接続し、MicroUSBコネクタを他のデバイスに接
 |◯|◯|◯|◯|
 
 ## FT232RL Datasheet
-
 |Document|
 |--|
 |[FT232RL Datasheet](http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf)|
