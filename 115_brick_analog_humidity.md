@@ -19,6 +19,11 @@
 |:--:|:--:|:--:|
 |◯|×|×|
 
+## Parts Specification
+| Document |
+|:--|
+| [DHT11](http://akizukidenshi.com/catalog/g/gM-07003/) |
+
 ## Schematic
 ![](/img/100_analog/schematic/115_humidity_schematic.png)
 
