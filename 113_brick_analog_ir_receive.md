@@ -21,6 +21,12 @@ OUTコネクタのいずれかに接続します。
 |:--:|:--:|:--:|
 |◯|×|◯|
 
+## Parts Specification
+| Document |
+|:--|
+| [L-51ROPT1D1](http://akizukidenshi.com/catalog/g/gI-04211/) |
+| [2SC1815L-Y](http://akizukidenshi.com/catalog/g/gI-06475/) |
+
 ## Schematic
 ![](/img/100_analog/schematic/113_ir_receiver_schematic.png)
 
