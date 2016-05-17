@@ -1,7 +1,7 @@
 # #001 FaBo Complete Package
 
 <center>
-![](/img/001_starterkit/product/starterkit_complete001.JPG)
+![](/img/001_starterkit/product/starterkit_complete001.jpg)
 <!--COLORME-->
 
 ## Overview
