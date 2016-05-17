@@ -26,6 +26,11 @@ I/Oピンより、感圧部分に加えられた力の大きさの変化をア�
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
+## Datasheet
+| Document |
+|:--|
+| [Datasheet](http://interlinkelectronics.com/datasheets/Datasheet_FSR.pdf) |
+
 ## Schematic
 ![](/img/100_analog/schematic/106_touch_schematic.png)
 
