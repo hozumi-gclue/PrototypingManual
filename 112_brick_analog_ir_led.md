@@ -9,7 +9,6 @@
 I/Oピンから赤外線LEDをON/OFFを制御することができます。
 
 ## Connecting
-
 ### Arduino
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 
@@ -18,11 +17,15 @@ I/Oピンから赤外線LEDをON/OFFを制御することができます。
 ### IchigoJam
 OUTコネクタのいずれかに接続します。
 
-
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
 |◯|×|◯|
+
+## Parts Specification
+| Document |
+|:--|
+| [OSI5LA5113A](http://akizukidenshi.com/catalog/g/gI-04311/) |
 
 ## Schematic
 ![](/img/100_analog/schematic/112_ir_schematic.png)
@@ -108,7 +111,7 @@ void loop() {
 ```
 
 ## Parts
-- 赤外線LED
+- 5mm 赤外線LED OSI5LA5113A
 
 ## GitHub
 - https://github.com/FaBoPlatform/FaBo/tree/master/112_ir_led
