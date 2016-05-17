@@ -9,7 +9,7 @@
 ## Connecting
 I2Cコネクタへ接続します。
 
-![](/img/200_i2c/connect/211_7seg_connect.jpg)
+<center>![](/img/200_i2c/connect/211_7seg_connect.jpg)
 
 複数の7セグメントBrickを接続する場合は、Brick裏にあるソルダージャンパーでI2Cアドレスを変更します。
 
@@ -29,6 +29,7 @@ I2Cコネクタへ接続します。
 | LOW | LOW | LOW | 0x20 |
 
 FaBo Brickでは、初期値に0x20が設定されています。Brick裏面のソルダージャンパーで設定を変更できます。
+<center>![](/img/200_i2c/docs/211_7seg_docs_001.jpg)
 
 ## Schematic
 ![](/img/200_i2c/schematic/211_7seg_schematic.png)
