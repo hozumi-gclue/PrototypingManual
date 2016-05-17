@@ -29,6 +29,7 @@ I2Cコネクタへ接続します。
 | LOW | LOW | LOW | 0x20 |
 
 FaBo Brickでは、初期値に0x20が設定されています。Brick裏面のソルダージャンパーで設定を変更できます。
+![](/img/200_i2c/docs/211_7seg_docs_001.jpg)
 
 ## Schematic
 ![](/img/200_i2c/schematic/211_7seg_schematic.png)
