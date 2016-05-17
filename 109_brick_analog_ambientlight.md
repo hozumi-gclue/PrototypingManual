@@ -26,7 +26,7 @@ Light Brickは、CDSセルを使用した光センサーBrickです。
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
-## Specification
+## Parts Specification
 | Document |
 |:--|
 | [MI527](http://akizukidenshi.com/catalog/g/gI-00110/) |
