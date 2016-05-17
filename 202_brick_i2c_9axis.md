@@ -28,12 +28,9 @@ I2Cコネクタへ接続します。
 MPU-9250は、三軸加速度、ジャイロ用とコンパス用の2つのI2C Slave Addressがあります。
 
 ### MPU-9250(三軸加速度、ジャイロ)
-|PIN AD0|Slave Address|
+|Slave Address|
 |--|--|
-|LOW|0x68|
-|HIGH|0x69|
-
-FaBo Brickでは、LOW の 0x68に設定されています。
+|0x68|
 
 ### AK8963(コンパス)
 |Slave Address |
