@@ -1,6 +1,7 @@
 # #1504 RemoteController Kit
-<center>
-![](/img/kit/manual/1504a.jpg)
+
+<center>![](/img/kit/product/1504_remotecontroller_product.jpg)
+<!--COLORME-->
 
 ## Overview
 RemoteController Kitは、「#112 IR LED Brick」用のキットで、前後左右の方向に対して赤外線による信号を発信することができるようになります。
