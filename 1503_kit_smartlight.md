@@ -1,5 +1,7 @@
 # #1503 SmartLight Kit
-![](http://staging.fabo.io/img/catalog/1503.png)
+
+<center>![](/img/kit/product/1503_smartlight_product.jpg)
+<!--COLORME-->
 
 ## Overview
 SmartLight Kitは、「#402 ColorLED Ring」用のキットで、照明の向きを制御できるようになります。
