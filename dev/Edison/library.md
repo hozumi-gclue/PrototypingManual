@@ -33,5 +33,5 @@ src mraa-upm http://iotdk.intel.com/repos/2.0/intelgalactic
 下記のコマンドにより、mraaのライブラリをインストールします。
 ```
 opkg update
-opkg install libmraa0
+opkg upgrade
 ```
