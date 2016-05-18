@@ -34,4 +34,5 @@ src mraa-upm http://iotdk.intel.com/repos/2.0/intelgalactic
 ```
 opkg update
 opkg upgrade
+opkg install mraa
 ```
