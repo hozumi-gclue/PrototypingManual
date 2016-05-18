@@ -1,9 +1,8 @@
 # #1501 Propeller Kit
 
-![](http://staging.fabo.io/img/catalog/1501.png)
-
-
+<center>![](/img/kit/product/1501_propeller_product.jpg)
 <!--COLORME-->
+
 ## Overview
 Propeller Kitは、Arduinoなどから制御できる扇風機のキットです。
 
