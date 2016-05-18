@@ -197,6 +197,54 @@ if __name__ == '__main__':
         time.sleep(0.5)
 ```
 
+## for Edison
+I2Cコネクタに接続したColor Brickにより、赤、緑、青、赤外の値を読み取り、シリアルモニタに出力します。
+
+※ACアダプタ接続時に値が正しく取得できない場合があります。
+
+```javascript
+//
+// FaBo Brick Sample
+//
+// #203 Color Sensor I2C Brick
+//
+
+var m = require('mraa');
+
+var i2c = new m.I2c(0);
+
+var buffer = new Buffer(11);
+
+i2c.address(0x2A);
+
+// Reset
+i2c.writeReg(0x00, 0x83);
+
+// Read Start
+i2c.writeReg(0x00, 0x03);
+
+// data byte
+i2c.writeReg(0x03, 0x00);
+
+loop();
+
+function loop(){
+    try{
+        buffer = i2c.readBytesReg(0x00, 11);
+
+        var red   = buffer[3]<<8 | buffer[4];
+        var green = buffer[5]<<8 | buffer[6];
+        var blue  = buffer[7]<<8 | buffer[8];
+        var ir    = buffer[9]<<8 | buffer[10];
+
+        console.log("R:" + red + " G:" + green + " B:" + blue + " IR:" + ir);
+    }catch(e){
+        console.log("read err");
+    }   
+    setTimeout(loop, 1000);
+}
+
+```
 
 ## Parts
 - HAMAMATSU S11059
