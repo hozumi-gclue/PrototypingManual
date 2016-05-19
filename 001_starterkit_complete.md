@@ -5,45 +5,58 @@
 <!--COLORME-->
 
 ## Overview
-Arduino UNO用のFaBo Brickコンプリートパッケージです。
+すべてのFaBo Brickを試したい方に、すべてのFaBo Brickをコンプリートしたパッケージです。
 
-Arduino UNO本体は含まれません。別途、お買い求めください。
+Arduino UNO、Raspberry Pi、IchigoJam3種類に対応したOUT/INシールドとケーブルもセットになっていますので、すぐにIoTプロトタイピングがはじめられます。
+
+Arduino、Raspberry Pi、IchigoJamなどマイコン本体は含まれません。別途、お買い求めください。
 
 ## 内容物一覧
 
-|ID|Brick名|説明|数量|
-|--|--|--|--|
-|#101|LED(Blue, Green, Red, White, yellow)|LED(青、緑、赤、白、黃）|各1|
-|#102|Buzzer Brick|ブザー|1|
-|#103|Button Brick|ボタン|1|
-|#104|Angle Brick|ボリューム|1|
-|#105|Vibrator Brick|バイブレータ|1|
-|#106|Touch Brick|タッチセンサー|1|
-|#107|LimitSwitch Brick|リミットスイッチ|1|
-|#108|Temperature Brick|温度センサー|1|
-|#109|Light Brick|照度センサー|1|
-|#110|Tilt Brick|傾斜センサー|1|
-|#112|Ir LED Brick|赤外線LED|1|
-|#113|Ir_Receive Brick|赤外線受信|1|
-|#115|Humidity Brick|湿度センサー|1|
-|#201|3axis I2C Brick|３軸加速度センサー|1|
-|#202|9axis I2C Brick|９軸加速度センサー|1|
-|#203|Color I2C Brick|カラーセンサー|1|
-|#204|Barometer I2C Brick|大気圧センサー|1|
-|#207|Temperature I2C Brick|温度センサー|1|
-|#209|Ktemp I2C Brick|K型熱電対用温度センサー|1|
-|#210|Gpio I2C Brick|汎用I/O拡張チップによるLED制御Brick|1|
-|#211|7seg I2C Brick|7セグメントLED|1|
-|#213|Lcd_mini I2C Brick|液晶|1|
-|#214|Oled I2C Brick|有機ELディスプレイ|1|
-|#215|Rtc I2C Brick|リアルタイムクロック|1|
-|#301|BLE Serial Brick|BLE１１３|1|
-|#302|Bluetooth Serial Brick|Bluetooth|1|
-|#304|Usb Serial Brick|USB|1|
-|#401|Color LED Brick|カラーLED|1|
-|#402|Color LED Ring Brick|リング状のカラーLED |1|
-|#403|Color LED Bar Brick|棒状のカラーLED|1|
-|#501|OUT/IN Shield for Arduino|ArduinoでFaBoBrickを使用するためのシールド|1|
-|#1101|Arduino UNO Case|Arduino Uno用アクリルケース|1|
-|#1301|cable_3pin|Brick接続用3pinケーブル(analog用)|4|
-|#1302|cable_4pin|Brick接続用4pinケーブル(I2C、Serial用)|4|
+|ID|Brick|数量|
+|--|--|--|
+|#101|LED(Blue, Green, Red, White, yellow)|各1個|
+|#102|Buzzer Brick|1個|
+|#103|Button Brick|1個|
+|#104|Angle Brick|1個|
+|#105|Vibrator Brick|1個|
+|#106|Touch Brick|1個|
+|#107|LimitSwitch Brick|1個|
+|#108|Temperature Brick|1個|
+|#109|Light Brick|1個|
+|#110|Tilt Brick|1個|
+|#112|Ir LED Brick|1個|
+|#113|Ir_Receive Brick|1個|
+|#115|Humidity Brick|1個|
+|#201|3Axis I2C Brick|1個|
+|#202|9Axis I2C Brick|1個|
+|#203|Color I2C Brick|1個|
+|#204|Barometer I2C Brick|1個|
+|#205|Proximity I2C Brick|1個|
+|#206|UV Index I2C Brick|1個|
+|#207|Temperature I2C Brick|1個|
+|#208|Humidity I2C Brick|1個|
+|#209|Ktemp I2C Brick|1個|
+|#210|GPIO I2C Brick|1個|
+|#211|7Segment I2C Brick|1個|
+|#212|LCD I2C Brick|1個|
+|#213|LCD mini I2C Brick|1個|
+|#214|OLED I2C Brick|1個|
+|#215|RTC I2C Brick|1個|
+|#217|Ambient Light I2C Brick|1個|
+|#301|BLE SiliconLabs Serial Brick|1個|
+|#302|Bluetooth Serial Brick|1個|
+|#304|USB Serial Brick|1個|
+|#307|BLE Nordic Serial Brick|1個|
+|#401|ColorLED One Brick|1個|
+|#402|ColorLED Ring Brick|1個|
+|#403|ColorLED Bar Brick|1個|
+|#404|ColorLED Matrix Brick|1個|
+|#501|OUT/IN Shield for Arduino|1個|
+|#502|OUT/IN Shield for Raspberry Pi|1個|
+|#503|OUT/IN Shield for IchigoJam|1個|
+|#701|I2C Expand Board|1個|
+|#1301|3Pinケーブル|5本|
+|#1302|4Pinケーブル|5本|
+
+商品入替え、または販売中止などの理由により、予告なく内容物が変更される場合があります。
