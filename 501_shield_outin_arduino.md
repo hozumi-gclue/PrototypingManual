@@ -47,3 +47,8 @@ SoftwareSerialとして使用するため、RX,TXはそれぞれ、D12,D13にな
 Arduino MEGAではR3以降から対応になります。
 Arduino UNO R3/R2では使用可能です。
 
+## Schematic
+![](/img/500_outin/schematic/501_outin_arduino.png)
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/501_outin_arduino
