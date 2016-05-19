@@ -15,7 +15,7 @@ Arduino、Raspberry Pi、IchigoJamなどマイコン本体は含まれません�
 
 |ID|Brick|数量|
 |--|--|--|
-|#101|[LED(Blue, Green, Red, White, yellow)](http://fabo.io/101_A.html)|各1個|
+|#101|[LED(Blue, Green, Red, White, Yellow)](http://fabo.io/101_A.html)|各1個|
 |#102|[Buzzer Brick](http://fabo.io/102.html)|1個|
 |#103|[Button Brick](http://fabo.io/103.html)|1個|
 |#104|[Angle Brick](http://fabo.io/104.html)|1個|
