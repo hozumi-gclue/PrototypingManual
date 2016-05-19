@@ -6,6 +6,8 @@
 ## Overview
 OUT/IN Shield for Arduinoは、Arduinoと各種センサーやボタンをケーブルを1本接続するだけで使えるArduino対応シールドです。
 
+Arduino本体、およびArduino UNOケースは含まれません。別途、お買い求めください。
+
 ## コネクタ
 <center>![](/img/500_outin/connect/501_connect.jpg)
 
