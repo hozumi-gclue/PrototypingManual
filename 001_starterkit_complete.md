@@ -7,6 +7,8 @@
 ## Overview
 Arduino UNO用のFaBo Brickコンプリートパッケージです。
 
+Arduino UNO本体は含まれません。別途、お買い求めください。
+
 ## 内容物一覧
 
 |ID|Brick名|説明|数量|
