@@ -5,25 +5,24 @@
 <!--COLORME-->
 
 ## Overview
-Arduino UNOで、FaBo Brickをちょっと使ってみたい！という方向けのセットになります。
+Arduinoで、FaBo Brickをちょっと使ってみたい！という方に、お手軽にはじめられるキットです。
 
-このセットを使用して作成出来るものとして、いくつかの例をご紹介します。
-- ボタンを押してLEDを点灯させる
-- 湿度が一定以下になるとブザーがなる（湿度によって音を変える）
-- 傾きで色が変わるリング型LED
+Arduino本体は含まれません。別途、お買い求めください。
 
 ## 内容物一覧
 
-|ID|Brick名|説明|数量|
-|--|--|--|--|
-|#101|LED Brick(Yellow)|LED（黄色)|1|
-|#102|Buzzer Brick|ブザー|1|
-|#103|Button Brick|ボタン|1|
-|#115|Humidity Brick|温度、湿度センサー|1|
-|#201|3axis I2C Brick|３軸加速度|1|
-|#401|ColorLed Brick|カラーLED|1|
-|#402|ColorLed Ring Brick|リング状のカラーLED|1|
-|#501|OUT/IN Shield for Arduino|ArduinoでFaBoBrickを使用するためのシールド|1|
-|#1101|Arduino UNO Case|Arduino Uno用アクリルケース|1|
-|#1301|cable_3pin|Brick接続用3pinケーブル(analog用)|2|
-|#1302|cable_4pin|Brick接続用4pinケーブル(I2C用)|2|
+|ID|Brick|数量|
+|--|--|--|
+|#101|[LED Brick](http://fabo.io/101_A.html)|5色のうち1個|
+|#103|[Button Brick](http://fabo.io/103.html)|1個|
+|#201|[3Axis I2C Brick](http://fabo.io/201.html)|1個|
+|#203|[Color I2C Brick](http://fabo.io/203.html)|1個|
+|#402|[ColorLED Ring Brick](http://fabo.io/402.html)|1個|
+|#501|[OUT/IN Shield for Arduino](http://fabo.io/501.html)|1個|
+|#1101|[Arduino UNOケース](http://fabo.io/1101.html)|1個|
+|#1301|3Pinケーブル|2本|
+|#1302|4Pinケーブル|2本|
+
+LED Brickの色はお選びいただけません。
+
+商品入替え、または販売中止などの理由により、予告なく内容物が変更される場合があります。
