@@ -85,6 +85,42 @@ void loop() {
 
 ```
 
+## for Edison
+I2CコネクタにGPIO Brickを接続し、GPIO Brickについている8つのLEDを左上から右下に向かって順番に点灯させます。
+```javascript
+//
+// FaBo Brick Sample
+//
+// #210 GPIO I2C Brick
+//
+
+var m = require('mraa');
+var i2c = new m.I2c(0);
+var c = 1;
+var i = 0;
+
+i2c.address(0x20);
+i2c.writeReg(0x03, 0x00);
+
+loop();
+
+function loop() 
+{
+
+  console.log(c);
+  i2c.writeReg(0x01, c);
+
+  if(i < 7){
+    i++;  
+    c = c << 1;
+  } else {
+    i = 0;
+    c = 1
+  }
+  setTimeout(loop, 100);
+}
+```
+
 ## Parts
 - NXP PCAL6408
 
