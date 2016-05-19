@@ -281,3 +281,6 @@ int main(void)
 
 ## Parts
 - USB UART IC
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/304_usb
