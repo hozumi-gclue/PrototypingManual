@@ -143,7 +143,7 @@ i2cのセンサーを接続後、下記コマンドにて確認して下さい�
 sudo i2cdetect -y 1
 ```
 
-このサンプルは、I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換してシリアルモニタに出力します。
+このサンプルは、I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換してコンソールに出力します。
 
 ```python
 # coding: utf-8
@@ -194,6 +194,46 @@ if __name__ == '__main__':
         print "temp:%3.2f C" % (temp)
         print
         time.sleep(1)
+```
+
+### for Edison
+このサンプルは、I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換してコンソールに出力します。
+```javascript
+//
+// FaBo Brick Sample
+//
+// #209 Ktemp I2C Brick
+//
+
+var m = require('mraa');
+var i2c = new m.I2c(0);
+
+i2c.address(0x68);
+
+var CTLREG = 0x9f;
+var mvuv = 1 << (3+2*3);
+var cp = 407;
+
+var read_data = new Buffer(4);
+
+// init
+i2c.writeReg(CTLREG, 0);
+
+loop();
+
+function loop()
+{
+    // data read
+    read_data = i2c.readBytesReg(CTLREG, 4);
+
+    var data = (read_data[0] << 16) + (read_data[1] << 8) + read_data[2];
+
+    var temp = Math.floor((data * 1000 / mvuv + cp) / 40.7*100)/100;
+
+    console.log("temp:" + temp);
+    console.log("");
+    setTimeout(loop, 1000);
+}
 ```
 
 ## Parts
