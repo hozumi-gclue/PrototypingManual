@@ -15,47 +15,47 @@ Arduino、Raspberry Pi、IchigoJamなどマイコン本体は含まれません�
 
 |ID|Brick|数量|
 |--|--|--|
-|#101|LED(Blue, Green, Red, White, yellow)|各1個|
-|#102|Buzzer Brick|1個|
-|#103|Button Brick|1個|
-|#104|Angle Brick|1個|
-|#105|Vibrator Brick|1個|
-|#106|Touch Brick|1個|
-|#107|LimitSwitch Brick|1個|
-|#108|Temperature Brick|1個|
-|#109|Light Brick|1個|
-|#110|Tilt Brick|1個|
-|#112|Ir LED Brick|1個|
-|#113|Ir_Receive Brick|1個|
-|#115|Humidity Brick|1個|
-|#201|3Axis I2C Brick|1個|
-|#202|9Axis I2C Brick|1個|
-|#203|Color I2C Brick|1個|
-|#204|Barometer I2C Brick|1個|
-|#205|Proximity I2C Brick|1個|
-|#206|UV Index I2C Brick|1個|
-|#207|Temperature I2C Brick|1個|
-|#208|Humidity I2C Brick|1個|
-|#209|Ktemp I2C Brick|1個|
-|#210|GPIO I2C Brick|1個|
-|#211|7Segment I2C Brick|1個|
-|#212|LCD I2C Brick|1個|
-|#213|LCD mini I2C Brick|1個|
-|#214|OLED I2C Brick|1個|
-|#215|RTC I2C Brick|1個|
-|#217|Ambient Light I2C Brick|1個|
-|#301|BLE SiliconLabs Serial Brick|1個|
-|#302|Bluetooth Serial Brick|1個|
-|#304|USB Serial Brick|1個|
-|#307|BLE Nordic Serial Brick|1個|
-|#401|ColorLED One Brick|1個|
-|#402|ColorLED Ring Brick|1個|
-|#403|ColorLED Bar Brick|1個|
-|#404|ColorLED Matrix Brick|1個|
-|#501|OUT/IN Shield for Arduino|1個|
-|#502|OUT/IN Shield for Raspberry Pi|1個|
-|#503|OUT/IN Shield for IchigoJam|1個|
-|#701|I2C Expand Board|1個|
+|#101|[LED(Blue, Green, Red, White, yellow)](http://fabo.io/101_A.html)|各1個|
+|#102|[Buzzer Brick](http://fabo.io/102.html)|1個|
+|#103|[Button Brick](http://fabo.io/103.html)|1個|
+|#104|[Angle Brick](http://fabo.io/104.html)|1個|
+|#105|[Vibrator Brick](http://fabo.io/105.html)|1個|
+|#106|[Touch Brick](http://fabo.io/106.html)|1個|
+|#107|[LimitSwitch Brick](http://fabo.io/107.html)|1個|
+|#108|[Temperature Brick](http://fabo.io/108.html)|1個|
+|#109|[Light Brick](http://fabo.io/109.html)|1個|
+|#110|[Tilt Brick](http://fabo.io/110.html)|1個|
+|#112|[IR LED Brick](http://fabo.io/112.html)|1個|
+|#113|[IR Receiver Brick](http://fabo.io/113.html)|1個|
+|#115|[Humidity Brick](http://fabo.io/115.html)|1個|
+|#201|[3Axis I2C Brick](http://fabo.io/201.html)|1個|
+|#202|[9Axis I2C Brick](http://fabo.io/202.html)|1個|
+|#203|[Color I2C Brick](http://fabo.io/203.html)|1個|
+|#204|[Barometer I2C Brick](http://fabo.io/204.html)|1個|
+|#205|[Proximity I2C Brick](http://fabo.io/205.html)|1個|
+|#206|[UV Index I2C Brick](http://fabo.io/206.html)|1個|
+|#207|[Temperature I2C Brick](http://fabo.io/207.html)|1個|
+|#208|[Humidity I2C Brick](http://fabo.io/208.html)|1個|
+|#209|[Ktemp I2C Brick](http://fabo.io/209.html)|1個|
+|#210|[GPIO I2C Brick](http://fabo.io/210.html)|1個|
+|#211|[7Segment I2C Brick](http://fabo.io/211.html)|1個|
+|#212|[LCD I2C Brick](http://fabo.io/212.html)|1個|
+|#213|[LCD mini I2C Brick](http://fabo.io/213.html)|1個|
+|#214|[OLED I2C Brick](http://fabo.io/214.html)|1個|
+|#215|[RTC I2C Brick](http://fabo.io/215.html)|1個|
+|#217|[Ambient Light I2C Brick](http://fabo.io/217.html)|1個|
+|#301|[BLE SiliconLabs Serial Brick](http://fabo.io/301.html)|1個|
+|#302|[Bluetooth Serial Brick](http://fabo.io/302.html)|1個|
+|#304|[USB Serial Brick](http://fabo.io/304.html)|1個|
+|#307|[BLE Nordic Serial Brick](http://fabo.io/307.html)|1個|
+|#401|[ColorLED One Brick](http://fabo.io/401.html)|1個|
+|#402|[ColorLED Ring Brick](http://fabo.io/402.html)|1個|
+|#403|[ColorLED Bar Brick](http://fabo.io/403.html)|1個|
+|#404|[ColorLED Matrix Brick](http://fabo.io/404.html)|1個|
+|#501|[OUT/IN Shield for Arduino](http://fabo.io/501.html)|1個|
+|#502|[OUT/IN Shield for Raspberry Pi](http://fabo.io/502.html)|1個|
+|#503|[OUT/IN Shield for IchigoJam](http://fabo.io/503.html)|1個|
+|#701|[I2C Expand Board](http://fabo.io/701.html)|1個|
 |#1301|3Pinケーブル|5本|
 |#1302|4Pinケーブル|5本|
 
