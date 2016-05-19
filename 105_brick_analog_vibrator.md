@@ -20,6 +20,11 @@ I/Oピンから振動モーターのON/OFFを制御することができます�
 |:--:|:--:|:--:|
 |◯|×|×|
 
+## Parts Specification
+| Document |
+|:--|
+| [LA3R5-480AH1](http://akizukidenshi.com/catalog/g/gP-06744/) |
+
 ## Schematic
 ![](/img/100_analog/schematic/105_vibrator_schematic.png)
 
@@ -63,7 +68,7 @@ void loop(){
 ```
 
 ## Parts
-- 振動モーター
+- 振動モーター LA3R5-480AH1
 
 ## GitHub
 - https://github.com/FaBoPlatform/FaBo/tree/master/105_vibrator

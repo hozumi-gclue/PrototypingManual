@@ -1,12 +1,12 @@
 # #1502 Matrix Plate Kit
 
-![](http://staging.fabo.io/img/catalog/1502.png)
-
+<center>![](/img/kit/product/1502_matrixplate_product.jpg)
 <!--COLORME-->
+
 ## Overview
 Matrix Plate Kitは、#404 ColorLED Matrixを直立させるためのキットです。
 
-**このキットには「#404 ColorLED Matrix」、「＃1301 3pinケーブル」は含まれませんのでご注意下さい。**
+**このキットには「#404 ColorLED Matrix」、「＃1301 3pinケーブル」 は、含まれませんのでご注意下さい。**
 
 **デザインは予告なく変更される場合があります。**
 

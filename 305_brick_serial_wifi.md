@@ -15,6 +15,11 @@ Serialコネクタに接続します。
 |:--:|:--:|:--:|
 |◯|×|×|
 
+## ESP-WROOM-02 Datasheet
+|Document|
+|--|
+|[ESP-WROOM-02 Datasheet Page](https://espressif.com/en/products/hardware/esp-wroom-02/resources)|
+
 ## Schematic
 ![](/img/300_serial/schematic/305_wifi_schematic.png)
 

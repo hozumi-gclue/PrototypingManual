@@ -87,6 +87,7 @@
    * [OUT/IN Shield for Chirimen](504_shield_outin_chirimen.md)
    * [OUT/IN Shield for KinomaCreate](505_shield_outin_kinomacreate.md)
    * [OUT/IN Shield for Raspberry Pi ZERO](506_shield_outin_raspberrypizero.md)
+   * [OUT/IN Shield for DragonBoard](507_shield_outin_dragonboard.md)
    * [OUT/IN I2C Expand board](599_shield_outin_i2c_expand.md)
 * Shield
    * [Motor Shield for Arduino](601_motor.md)

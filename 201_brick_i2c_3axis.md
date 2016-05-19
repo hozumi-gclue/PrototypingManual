@@ -302,7 +302,7 @@ int main() {
 ```
 
 
-## for Edison
+### for Edison
 Node.js用のサンプルです。
 
 I2Cコネクタに接続した3Axis I2C Brickより３軸の加速度情報を取得し、コンソールに出力します。

@@ -4,17 +4,35 @@
 <!--COLORME-->
 
 ## Overview
-RGB Color LEDを使った、LEDMatrixのBrickです。
+RGB Color LEDを使った、8☓8 MatrixのBrickです。
 
 ## Connecting
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のどれかに接続します。
 
 ![](/img/400_led/connect/404_ledmatrix_connect.jpg)
 
+Brick裏面にはコネクタが２種類あります。
+
+黒いコネクタをシールドへ接続します。
+
+
+もう一方の白いコネクタを使って、２枚つなげて使用することができます。
+<center>![](/img/400_led/docs/404_ledmatrix_docs_001.jpg)
+
+この場合、電流供給量にご注意ください。
+
+点灯させるパターンによりますが、LEDが正常に点灯しなくなるおそれがあります。
+また、発熱にも十分ご注意ください。
+
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
 |◯|×|×|
+
+## WS2812B Datasheet
+|Document|
+|--|
+|[WS2812B Datasheet](http://www.adafruit.com/datasheets/WS2812B.pdf)|
 
 ## Schematic
 ![](/img/400_led/schematic/404_ledmatrix_schematic.png)
@@ -37,7 +55,7 @@ https://github.com/adafruit/Adafruit_NeoPixel よりAdafruit_NeoPixelライブ�
 #include <Adafruit_NeoPixel.h>
 
 int ledPin = A0;
-int numPixels = 12;
+int numPixels = 128;
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numPixels, ledPin, NEO_GRB + NEO_KHZ800);
 
 void setup() {
@@ -48,19 +66,19 @@ void setup() {
 void loop() {
   int i;
   for(i=0; i<pixels.numPixels(); i++) {
-    pixels.setPixelColor(i, pixels.Color(128, 0, 0));
+    pixels.setPixelColor(i, pixels.Color(32, 0, 0));
   }
   pixels.show();
   delay(500);
 
   for(i=0; i<pixels.numPixels(); i++) {
-    pixels.setPixelColor(i, pixels.Color(0, 128, 0));
+    pixels.setPixelColor(i, pixels.Color(0, 32, 0));
   }
   pixels.show();
   delay(500);
 
   for(i=0; i<pixels.numPixels(); i++) {
-    pixels.setPixelColor(i, pixels.Color(0, 0, 128));
+    pixels.setPixelColor(i, pixels.Color(0, 0, 32));
   }
   pixels.show();
   delay(500);

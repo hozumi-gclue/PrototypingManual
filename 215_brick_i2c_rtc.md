@@ -20,7 +20,7 @@ I2Cコネクタへ接続します。
 ## PCF2129 Datasheet
 | Document |
 | -- |
-| [PCF2129 Datasheet](http://www.jp.nxp.com/documents/data_sheet/PCF2129.pdf) |
+| [PCF2129 Datasheet](http://cache.nxp.com/documents/data_sheet/PCF2129.pdf) |
 
 ## Register
 | Slave Address |

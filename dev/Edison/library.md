@@ -25,7 +25,7 @@ vi /etc/opkg/mraa-upm.conf
 
 mraa-upm.confに下記の内容を追加します。
 ```
-src mraa-upm http://iotdk.intel.com/repos/2.0/intelgalactic
+src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic
 ```
 
 ## インストール
@@ -33,5 +33,7 @@ src mraa-upm http://iotdk.intel.com/repos/2.0/intelgalactic
 下記のコマンドにより、mraaのライブラリをインストールします。
 ```
 opkg update
+opkg upgrade
+opkg install mraa
 opkg install libmraa0
 ```
