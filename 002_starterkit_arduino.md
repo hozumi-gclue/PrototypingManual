@@ -5,7 +5,7 @@
 <!--COLORME-->
 
 ## Overview
-Arduinoで、FaBo Brickをちょっと使ってみたい！という方に、お手軽にはじめられるキットです。
+Arduinoで、FaBo Brickをちょっと使ってみたい！という方に、手軽にはじめられるキットです。
 
 Arduino本体は含まれません。別途、お買い求めください。
 
