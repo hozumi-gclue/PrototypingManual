@@ -47,6 +47,31 @@ SoftwareSerialとして使用するため、RX,TXはそれぞれ、D12,D13にな
 Arduino MEGAではR3以降から対応になります。
 Arduino UNO R3/R2では使用可能です。
 
+## OUT/INシールド接続方法
+![](/img/500_outin/docs/501_docs_001.jpg)
+
+### Arduino UNO
+![](/img/500_outin/docs/501_docs_002.jpg)
+
+#### USBコネクタを右側に向けたとき
+![](/img/500_outin/docs/501_docs_003.jpg)
+左端をDIGITAL0ピン、右端をSCLピンに挿します。
+
+#### USBコネクタを左側に向けたとき
+![](/img/500_outin/docs/501_docs_004.jpg)
+左端をRESERVEDピン、右端をA5ピンに挿します。
+
+### Arduino MEGA
+![](/img/500_outin/docs/501_docs_005.jpg)
+
+#### USBコネクタを右側に向けたとき
+![](/img/500_outin/docs/501_docs_006.jpg)
+左端をDIGITAL0ピン、右端をSCLピンに挿します。
+
+#### USBコネクタを左側に向けたとき
+![](/img/500_outin/docs/501_docs_007.jpg)
+左端をRESERVEDピン、右端をA5ピンに挿します。A6、A7には挿しません。
+
 ## Schematic
 ![](/img/500_outin/schematic/501_outin_arduino.png)
 
