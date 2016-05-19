@@ -28,6 +28,7 @@ Arduino、Raspberry Pi、IchigoJamなどマイコン本体は含まれません�
 |#112|[IR LED Brick](http://fabo.io/112.html)|1個|
 |#113|[IR Receiver Brick](http://fabo.io/113.html)|1個|
 |#115|[Humidity Brick](http://fabo.io/115.html)|1個|
+|#116|[Distance Brick](http://fabo.io/116.html)|1個|
 |#201|[3Axis I2C Brick](http://fabo.io/201.html)|1個|
 |#202|[9Axis I2C Brick](http://fabo.io/202.html)|1個|
 |#203|[Color I2C Brick](http://fabo.io/203.html)|1個|
