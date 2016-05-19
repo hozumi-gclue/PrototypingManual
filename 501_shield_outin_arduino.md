@@ -55,10 +55,12 @@ Arduino UNO R3/R2では使用可能です。
 
 #### USBコネクタを右側に向けたとき
 ![](/img/500_outin/docs/501_docs_003.jpg)
+
 左端をDIGITAL0ピン、右端をSCLピンに挿します。
 
 #### USBコネクタを左側に向けたとき
 ![](/img/500_outin/docs/501_docs_004.jpg)
+
 左端をRESERVEDピン、右端をA5ピンに挿します。
 
 ### Arduino MEGA
@@ -66,10 +68,12 @@ Arduino UNO R3/R2では使用可能です。
 
 #### USBコネクタを右側に向けたとき
 ![](/img/500_outin/docs/501_docs_006.jpg)
+
 左端をDIGITAL0ピン、右端をSCLピンに挿します。
 
 #### USBコネクタを左側に向けたとき
 ![](/img/500_outin/docs/501_docs_007.jpg)
+
 左端をRESERVEDピン、右端をA5ピンに挿します。A6、A7には挿しません。
 
 ## Schematic
