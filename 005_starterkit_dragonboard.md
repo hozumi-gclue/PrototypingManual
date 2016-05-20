@@ -19,7 +19,7 @@ DragonBoard本体は含まれません。別途、お買い求めください。
 |#203|[Color I2C Brick](http://fabo.io/203.html)|1個|
 |#217|[Ambient Light I2C Brick](http://fabo.io/217.html)|1個|
 |#507|[OUT/IN Shield for DragonBoard](http://fabo.io/507.html)|1個|
-|#1114|[DragonBoardケース](http://fabo.io/1114.html)|1個|
+|#1114|DragonBoardケース|1個|
 |#1301|3Pinケーブル|2本|
 |#1302|4Pinケーブル|2本|
 
