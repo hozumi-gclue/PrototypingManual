@@ -141,6 +141,37 @@ if __name__ == '__main__':
 それぞれリアルタイムで光の変化で数値が変化します。
 デジタル数値は明るいと０、暗いと１に変化し、アナログ数値は明るいと小さい値（0に近づく）に、暗いと大きい値（1023に近づく）に変化します。
 
+
+### for Edison
+A0コネクタにLight Brickを接続して、明るさに応じたアナログ値をコンソールへ出力します。
+
+```js
+//
+// FaBo Brick Sample
+//
+// #109 Light Brick
+//
+
+//library
+var m = require('mraa');
+
+//pin setup
+var light_pin = new m.Aio(0); //light sensor pin A0
+
+//call loop function
+loop();
+
+function loop()
+{
+
+  var value = light_pin.read()
+  console.log('light: ' + value);
+
+  //500 milliseconds
+  setTimeout(loop, 500);
+}
+```
+
 ## Parts
 - CDSセル(5mm)
 
