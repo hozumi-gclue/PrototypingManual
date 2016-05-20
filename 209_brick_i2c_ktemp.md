@@ -54,16 +54,45 @@ I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電�
 #include <Wire.h>
 
 // スレーブデバイスのアドレス
-#define DEVICE_ADDR (0x69)
+int device_addr;
 
 void setup() {
-  Serial.begin(9600);
-  Serial.println("RESET");
-
   Wire.begin();
-  Wire.beginTransmission(DEVICE_ADDR); 
+  Serial.begin(9600);
+  
+  Serial.println("Device Check");
+  device_addr = address_check();
+  
+  if (device_addr == 0)
+  {
+    Serial.print("device not found");
+    while(1);
+  }
+
+  Wire.beginTransmission(device_addr); 
   Wire.write(0x9f); // 初期設定
   Wire.endTransmission();
+}
+
+byte address_check(){
+  byte addr;
+  byte error;
+  
+  // MCP3421のアドレスチェック 0x68-0x6F
+  for(addr = 0x68; addr < 0x70; addr++ )
+  {
+    Wire.beginTransmission(addr);
+    error = Wire.endTransmission();
+ 
+    if (error == 0)
+    {
+      Serial.print("I2C device address 0x");
+      Serial.println(addr, HEX);
+      return addr;
+    }
+  }
+  return 0;
+
 }
 
 void loop() {
@@ -76,7 +105,7 @@ void loop() {
   int cp = 407;  // プローブ補正値
   double temp;
 
-  Wire.requestFrom(DEVICE_ADDR, 4);
+  Wire.requestFrom(device_addr, 4);
   if (Wire.available() != 4) {
     Serial.println("read failed");
     delay(1000);
@@ -114,7 +143,7 @@ i2cのセンサーを接続後、下記コマンドにて確認して下さい�
 sudo i2cdetect -y 1
 ```
 
-このサンプルは、I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換してシリアルモニタに出力します。
+このサンプルは、I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換してコンソールに出力します。
 
 ```python
 # coding: utf-8
@@ -165,6 +194,46 @@ if __name__ == '__main__':
         print "temp:%3.2f C" % (temp)
         print
         time.sleep(1)
+```
+
+### for Edison
+このサンプルは、I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換してコンソールに出力します。
+```javascript
+//
+// FaBo Brick Sample
+//
+// #209 Ktemp I2C Brick
+//
+
+var m = require('mraa');
+var i2c = new m.I2c(0);
+
+i2c.address(0x68);
+
+var CTLREG = 0x9f;
+var mvuv = 1 << (3+2*3);
+var cp = 407;
+
+var read_data = new Buffer(4);
+
+// init
+i2c.writeReg(CTLREG, 0);
+
+loop();
+
+function loop()
+{
+    // data read
+    read_data = i2c.readBytesReg(CTLREG, 4);
+
+    var data = (read_data[0] << 16) + (read_data[1] << 8) + read_data[2];
+
+    var temp = Math.floor((data * 1000 / mvuv + cp) / 40.7*100)/100;
+
+    console.log("temp:" + temp);
+    console.log("");
+    setTimeout(loop, 1000);
+}
 ```
 
 ## Parts

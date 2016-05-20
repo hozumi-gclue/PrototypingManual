@@ -1,26 +1,29 @@
 # #004 FaBo Starter Kit for Ichigojam
 
 <center>
-![](/img/001_starterkit/product/starterkit_ichigojam001.jpg)
+![](/img/001_starterkit/product/004_product.jpg)
 <!--COLORME-->
 
 ## Overview
-Ichigojamで、FaBo Brickをちょっと使ってみたい！という方向けのセットになります。
+IchigoJamで、FaBo Brickをちょっと使ってみたい！という方に、手軽にはじめられるキットです。
 
-このセットを使用して作成出来るものとして、いくつかの例をご紹介します。
-- ボタンを押してLEDを点灯させる
-- 温度の計測
-- イスに座ったらLEDを点灯
+IchigoJam本体は含まれません。別途、お買い求めください。
 
 ## 内容物一覧
 
-|ID|Brick名|説明|数量|
-|--|--|--|--|
-|#101|LED Brick(Yellow)|LED（黄色)|1|
-|#103|Button Brick|ボタン|1|
-|#106|Touch Brick|タッチセンサー|1|
-|#108|Temperature Brick|温度センサー|1|
-|#109|Light Brick|照度センサー|1|
-|#503|OUT/IN Shield for Ichigojam|IchigojamでFaBoBrickを使用するためのシールド|1|
-|#1105|Ichigojam Case|Ichigojam用アクリルケース|1|
-|#1301|cable_3pin|Brick接続用3pinケーブル(analog用)|2|
+|ID|Brick|数量|
+|--|--|--|
+|#101|[LED Brick](http://fabo.io/101_A.html)|5色のうち1個|
+|#102|[Buzzer Brick](http://fabo.io/102.html)|1個|
+|#103|[Button Brick](http://fabo.io/103.html)|1個|
+|#104|[Angle Brick](http://fabo.io/104.html)|1個|
+|#201|[3Axis I2C Brick](http://fabo.io/201.html)|1個|
+|#207|[Temperature I2C Brick](http://fabo.io/207.html)|1個|
+|#503|[OUT/IN Shield for IchigoJam](http://fabo.io/503.html)|1個|
+|#1105|[IchigoJamケース](http://fabo.io/1105.html)|1個|
+|#1301|3Pinケーブル|2本|
+|#1302|4Pinケーブル|2本|
+
+LED Brickの色はお選びいただけません。
+
+商品入替え、または販売中止などの理由により、予告なく内容物が変更される場合があります。

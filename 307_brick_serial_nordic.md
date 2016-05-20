@@ -36,3 +36,6 @@ Serialコネクタへ接続します。
 
 - [GitHub Repository](https://github.com/FaBoPlatform/FaBoBLE-Nordic-Library)
 - [Document](http://fabo.io/doxygen/FaBoBLE-Nordic-Library/)
+
+## GitHub
+- https://github.com/FaBoPlatform/FaBo/tree/master/307_ble_nordic

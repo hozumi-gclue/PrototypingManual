@@ -141,6 +141,42 @@ if __name__ == '__main__':
 指で挟んで力んでみてください。<br>
 デジタル数値は、圧が強いと0に変化します。
 
+### for Edison
+A0コネクタに接続したTouch Brickの感圧によって、D2コネクタに接続したLED Brickを点灯/消灯させています。
+
+```js
+//
+// FaBo Brick Sample
+//
+// #106 Touch Brick
+//
+
+//library
+var m = require('mraa');
+
+//pin setup
+var myButton = new m.Gpio(14); //Touch sensor A0
+var myLed    = new m.Gpio(2);  //LED D2
+
+myButton.dir(m.DIR_IN);     //Touch sensor input
+myLed.dir(m.DIR_OUT);       //LED output
+
+//call loop function
+loop();
+
+function loop()
+{
+
+  if (myButton.read()){
+    myLed.write(0);
+  }
+  else {
+    myLed.write(1);
+  }  
+
+  setTimeout(loop, 10);
+}
+```
 
 ## Parts
 - 感圧センサー

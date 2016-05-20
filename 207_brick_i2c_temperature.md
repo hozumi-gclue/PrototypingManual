@@ -133,6 +133,43 @@ if __name__ == '__main__':
         print
         time.sleep(1)
 ```
+## for Edison
+I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度をコンソールに出力します。
+```javascript
+//
+// FaBo Brick Sample
+//
+// #207 Temperature I2C Brick
+//
+
+var m = require('mraa');
+var i2c = new m.I2c(0);
+
+var read_data = new Buffer(2);
+
+// slave address
+i2c.address(0x48);            
+                                                         
+loop();           
+                           
+function loop()            
+{                          
+    i2c.writeReg(0x03, 0x80);
+    read_data = i2c.read(2); 
+                            
+    var temp = ((read_data[0] << 8) | read_data[1]) >> 3;
+                                                         
+    if(temp >= 4096){        
+        temp -= 8192;                                    
+    }                                                    
+                                                         
+    console.log("temp:" + (temp / 16.0));
+                                         
+    setTimeout(loop, 1000);
+                                         
+}                                        
+
+```
 
 ## Parts
 - Analog Devices ADT7410

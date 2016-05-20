@@ -33,6 +33,7 @@
    * [Starter Kit for Arduino](002_starterkit_arduino.md)
    * [Starter Kit for Raspberry PI](003_starterkit_raspberrypi.md)
    * [Starter Kit for Ichigojam](004_starterkit_ichigojam.md)
+   * [Starter Kit for DragonBoard](005_starterkit_dragonboard.md)
 * [Analog Brick](analog_brick.md)
    * [LED Brick](101_brick_analog_led.md)
    * [Buzzer Brick](102_brick_analog_buzzer.md)

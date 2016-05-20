@@ -306,70 +306,54 @@ int main() {
 Node.js用のサンプルです。
 
 I2Cコネクタに接続した3Axis I2C Brickより３軸の加速度情報を取得し、コンソールに出力します。
+
 ```js
 //
 // FaBo Brick Sample
 //
 // #201 3axis i2c Brick
 //
+       
+var m = require('mraa'); 
+                                     
+var i2c = new m.I2c(0);              
+                                   
+i2c.address(0x53);                   
+                                   
+var buff = new Buffer(6);          
+                                     
+i2c.writeReg(0x31, 0x00); 
+i2c.writeReg(0x2d, 0x08);            
+                                   
+loop();                              
+                                   
+function loop()                      
+{                                    
+    buff = i2c.readBytesReg(0x32, 6);
+                                   
+    var x = buff[0] + (buff[1]<<8);
+                          
+    if(x & (1 << 16 - 1)){         
+        x = x - (1<<16);           
+    }                              
+                                         
+    var y = buff[2] + (buff[3]<<8);  
+    if(y & (1 << 16 - 1)){           
+        y = y - (1<<16);             
+    }                                
+                                         
+    var z = buff[4] + (buff[5]<<8);  
+    if(z & (1 << 16 - 1)){           
+        z = z - (1<<16);             
+    }                                
+                                         
+    console.log("x:"+x);             
+    console.log("y:"+y);           
+    console.log("z:"+z);           
+                                       
+    setTimeout(loop,500);          
+}                                  
 
-var m = require('mraa');
-
-var i2c = new m.I2c(0);
-
-// スレーブデバイスのアドレス
-i2c.address(0x53);
-
-// 取得値格納用
-var buff = new Buffer(6);
-
-// Data format
-i2c.writeReg(0x31, 0x00);
-// Power Control
-i2c.writeReg(0x2d, 0x08);
-
-loop();
-
-function loop()
-{
-    // x軸データ読み込み
-    buff[0] = i2c.readReg(0x32);
-    buff[1] = i2c.readReg(0x33);
-
-    var x = buff[0] + (buff[1]<<8); 
-
-    // 符号判定
-    if(x & (1 << 16 - 1)){
-        x = x - (1<<16);
-    }
-
-    // y軸データ読み込み
-    buff[2] = i2c.readReg(0x34);
-    buff[3] = i2c.readReg(0x35);
-
-    var y = buff[2] + (buff[3]<<8); 
-    // y軸 符号判定
-    if(y & (1 << 16 - 1)){
-        y = y - (1<<16);
-    }
-
-    // z軸
-    buff[4] = i2c.readReg(0x36);
-    buff[5] = i2c.readReg(0x37);
-
-    var z = buff[4] + (buff[5]<<8); 
-    // z軸 符号判定
-    if(z & (1 << 16 - 1)){
-        z = z - (1<<16);
-    }
-
-    // ログ出力
-    console.log("x:"+x);
-    console.log("y:"+y);
-    console.log("z:"+z);
-
-    setTimeout(loop,500);
-}
 ```
 
 ## Parts
