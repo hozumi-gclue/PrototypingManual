@@ -20,8 +20,8 @@ Raspberry PI本体は含まれません。別途、お買い求めください�
 |#217|[Ambient Light I2C Brick](http://fabo.io/217.html)|1個|
 |#502|[OUT/IN Shield for Raspberry Pi](http://fabo.io/502.html)|1個|
 |#1104|[Raspberry Piケース](http://fabo.io/1104.html)|1個|
-|#1301|3Pinケーブル|5本|
-|#1302|4Pinケーブル|5本|
+|#1301|3Pinケーブル|2本|
+|#1302|4Pinケーブル|2本|
 
 LED Brickの色はお選びいただけません。
 
