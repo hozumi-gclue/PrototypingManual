@@ -71,7 +71,8 @@ void loop()
     previousMillis = currentMillis;   
 
     // アドバタイズ開始 (026100が返って来れば成功、BLEを検索すると見つかります)
-    bleShield.write((byte)0x06);
+
+//    bleShield.write((byte)0x06); // パケットモードのみ
     bleShield.write((byte)0x00);
     bleShield.write((byte)0x02);
     bleShield.write((byte)0x06);
@@ -120,7 +121,7 @@ void loop()
     previousMillis = currentMillis;   
 
     // 検索開始 (02620が返って来れば成功、BLEを検索します。)
-    bleShield.write((byte)0x05);
+//    bleShield.write((byte)0x05); //パケットモードのみ
     bleShield.write((byte)0x00);
     bleShield.write((byte)0x01);
     bleShield.write((byte)0x06);
@@ -141,7 +142,7 @@ void loop()
   delay(100);
   
   // 検索終了 (02640が返って来れば成功、検索を終了します)
-  bleShield.write((byte)0x04);
+//  bleShield.write((byte)0x04); // パケットモードのみ
   bleShield.write((byte)0x00);
   bleShield.write((byte)0x00);
   bleShield.write((byte)0x06);
