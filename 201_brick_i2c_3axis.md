@@ -42,7 +42,9 @@ I2Cで3軸の加速度データを取得することがきます。
 | 0x53 |
 
 ## Schematic
-<!--PU0-->![](/img/200_i2c/schematic/201_3axis_schematic.png)<!--PU1-->
+<!--PU0-->
+![](/img/200_i2c/schematic/201_3axis_schematic.png)
+<!--PU1-->
 
 ## Library
 ### for Arduino
