@@ -22,7 +22,7 @@
    * [IchigoJam](dev/ichigojam.md)
        * [導入](dev/ichigojam_junbi.md)
    * [mbed os](dev/mbed.md)
-   * [Edison kit for Arduino](dev/edison) 
+   * [Edison kit for Arduino](dev/edison)
        * [セットアップ](dev/Edison/setup.md)
        * [ライブラリの設定](dev/Edison/library.md)
    * [Kinoma Create](dev/kinoma.md)
@@ -114,6 +114,7 @@
    * [Square Beacon](1110_case_beacon_square.md)
    * [BeagleBone](1112_case_beaglebone.md)
    * [Arduino Leonardo](1113_case_arduino_leonardo.md)
+   * dragonboard
 * Robot Kit
    * [Robot Car Kit](1201_kit_robotcar.md)
 * Cardboard Plus
@@ -137,3 +138,4 @@
        * [Propeller Kit](highschool_propellerkit.md)
 * Arduino Library
    * [FaBoライブラリインストール](install_library.md)
+
