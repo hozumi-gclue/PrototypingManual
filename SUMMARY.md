@@ -115,7 +115,7 @@
    * [Square Beacon](1110_case_beacon_square.md)
    * [BeagleBone](1112_case_beaglebone.md)
    * [Arduino Leonardo](1113_case_arduino_leonardo.md)
-   * dragonboard
+   * [dragonboard](1114_dragonboard.md)
 * Robot Kit
    * [Robot Car Kit](1201_kit_robotcar.md)
 * Cardboard Plus
