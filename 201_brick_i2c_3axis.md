@@ -43,7 +43,9 @@ I2Cで3軸の加速度データを取得することがきます。
 
 ## Schematic
 <!--PU0-->
+
 ![](/img/200_i2c/schematic/201_3axis_schematic.png)
+
 <!--PU1-->
 
 ## Library
