@@ -37,6 +37,15 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick表面の�
 ## Schematic
 ![](/img/200_i2c/schematic/212_lcd_schematic.png)
 
+## Library
+### for Arduino
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
+
+  ライブラリ名：「FaBo 212 LCD PCF8574」
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoLCD-PCF8574-Library)
+- [Library Document](http://fabo.io/doxygen/FaBoLCD-PCF8574-Library)
+
 ## Parts
 - PCF8574
 - LCD 1602A
