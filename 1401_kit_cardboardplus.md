@@ -1,4 +1,4 @@
-# #1401 Cardboard Plus
+# #1401 Cardboard Plus　Kit
 
 <center>![](img/kit/product/1401_kit_cardboardplus_product.jpg)
 
@@ -31,4 +31,4 @@ Cardboard Plusは、Cardboardの拡張キットです。
 
 ### 3.(1)と(2)の側面に(4)と(5)をネジで取り付けます。
 
-### 4.組み立てたカードボードを差し込んで完成。
+### 4.組み立てたカードボードを差し込んで完成です。
