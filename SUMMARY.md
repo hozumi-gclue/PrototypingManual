@@ -102,8 +102,8 @@
    * [cable 3pin](1301_cable_3pin.md)
    * [cable 4pin](1302_cable_4pin.md)
 * [Case](case_top.md)
-   * [Arduino Uno](1101_case_arduino_uno.md)
-   * [Arduino Mega](1102_case_arduino_mega.md)
+   * [Arduino UNO](1101_case_arduino_uno.md)
+   * [Arduino MEGA](1102_case_arduino_mega.md)
    * [Arduino YUN](1103_case_arduino_yun.md)
    * [RaspberryPI](1104_case_raspberrypi.md)
    * [RaspberryPiZero](1111_case_raspberrypi_zero.md)
@@ -115,7 +115,7 @@
    * [Square Beacon](1110_case_beacon_square.md)
    * [BeagleBone](1112_case_beaglebone.md)
    * [Arduino Leonardo](1113_case_arduino_leonardo.md)
-   * [dragonboard](1114_dragonboard.md)
+   * [DragonBoard](1114_dragonboard.md)
 * Robot Kit
    * [Robot Car Kit](1201_kit_robotcar.md)
 * Cardboard Plus
