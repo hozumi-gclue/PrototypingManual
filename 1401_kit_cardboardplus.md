@@ -1,4 +1,4 @@
-# #1401 Cardboard Plus　Kit
+# #1401 Cardboard Plus Kit
 
 <center>![](img/kit/product/1401_kit_cardboardplus_product.jpg)
 
