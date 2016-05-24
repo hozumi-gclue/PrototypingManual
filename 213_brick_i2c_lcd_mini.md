@@ -33,12 +33,16 @@ I2Cコネクタへ接続します。
 
 ## Library
 ### for Arduino
-- [Library GitHub](https://github.com/FaBoPlatform/FaBoGPIO-PCAL6408-Library)
-- [Library Document](http://fabo.io/doxygen/FaBoGPIO-PCAL6408-Library/)
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
+
+  ライブラリ名：「FaBo 213 LCD mini AQM0802A」
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoLCDmini-AQM0802A-Library)
+- [Library Document](http://fabo.io/doxygen/FaBoLCDmini-AQM0802A-Library)
 
 ## Sample Code
 ### for Arduino
-上記のArduino Libraryをインストールし、スケッチの例「FaBo 213 LCD mini AQM0802A」から選択してください。
+上記のArduino Libraryをインストールし、スケッチの例、「FaBo 213 LCD mini AQM0802A」からお選びください。
 
 ## Parts
 - AQM0802A

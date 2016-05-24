@@ -42,7 +42,7 @@ I2Cコネクタへ接続します。
 
 ## Sample Code
 ### for Arduino
-上記のArduino Libraryをインストールし、スケッチの例から、「FaBo 217 Ambient Light ISL29034」→「ambientlight」を選択してください。
+上記のArduino Libraryをインストールし、スケッチの例、「FaBo 217 Ambient Light ISL29034」からお選びください。
 
 ## Parts
 - Intersil ISL29034

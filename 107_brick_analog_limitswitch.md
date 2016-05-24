@@ -33,8 +33,8 @@ OUTコネクタのいずれかに接続します。
 ![](/img/100_analog/schematic/107_limitswitch_schematic.png)
 
 ## Sample Code
-A0コネクタにLimitSwitch Brickを接続し、D2コネクタに接続したLED Brickの点灯/消灯を制御しています。
 ### for Arduino
+A0コネクタにLimitSwitch Brickを接続し、D2コネクタに接続したLED Brickの点灯/消灯を制御しています。
 ```c
 //
 // FaBo Brick Sample
@@ -101,6 +101,44 @@ while True:
     GPIO.output( LEDPIN, led_state )
     print "led_state: %d " % led_state
     time.sleep(0.2)
+```
+
+### for Edison
+A0コネクタにLimitSwitch Brickを接続し、D2コネクタに接続したLED Brickの点灯/消灯を制御しています。
+
+```js
+//
+// FaBo Brick Sample
+//
+// #107 LimitSwitch Brick
+//
+
+//library
+var m = require('mraa');
+
+//pin setup
+var myButton = new m.Gpio(14); //Button A0
+var myLed    = new m.Gpio(2);  //LED D2
+
+myButton.dir(m.DIR_IN);     //Button input
+myLed.dir(m.DIR_OUT);       //LED output
+
+//call loop function
+loop();
+
+
+function loop()
+{
+
+  if (myButton.read()){
+    myLed.write(1);
+  }
+  else {
+    myLed.write(0);
+  }
+
+  setTimeout(loop,100);
+}
 ```
 
 ## Parts

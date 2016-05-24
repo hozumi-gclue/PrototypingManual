@@ -57,7 +57,7 @@ Arduino、Raspberry Pi、IchigoJamなどマイコン本体は含まれません�
 |#502|[OUT/IN Shield for Raspberry Pi](http://fabo.io/502.html)|1個|
 |#503|[OUT/IN Shield for IchigoJam](http://fabo.io/503.html)|1個|
 |#701|[I2C Expand Board](http://fabo.io/701.html)|1個|
-|#1301|3Pinケーブル|5本|
-|#1302|4Pinケーブル|5本|
+|#1301|[3Pinケーブル](http://fabo.io/1301.html)|5本|
+|#1302|[4Pinケーブル](http://fabo.io/1302.html)|5本|
 
 商品入替え、または販売中止などの理由により、予告なく内容物が変更される場合があります。

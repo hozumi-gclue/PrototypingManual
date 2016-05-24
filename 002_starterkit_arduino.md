@@ -20,8 +20,8 @@ Arduino本体は含まれません。別途、お買い求めください。
 |#402|[ColorLED Ring Brick](http://fabo.io/402.html)|1個|
 |#501|[OUT/IN Shield for Arduino](http://fabo.io/501.html)|1個|
 |#1101|[Arduino UNOケース](http://fabo.io/1101.html)|1個|
-|#1301|3Pinケーブル|2本|
-|#1302|4Pinケーブル|2本|
+|#1301|[3Pinケーブル](http://fabo.io/1301.html)|2本|
+|#1302|[4Pinケーブル](http://fabo.io/1302.html)|2本|
 
 LED Brickの色はお選びいただけません。
 

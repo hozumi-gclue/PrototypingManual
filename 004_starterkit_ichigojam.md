@@ -21,8 +21,8 @@ IchigoJam本体は含まれません。別途、お買い求めください。
 |#207|[Temperature I2C Brick](http://fabo.io/207.html)|1個|
 |#503|[OUT/IN Shield for IchigoJam](http://fabo.io/503.html)|1個|
 |#1105|[IchigoJamケース](http://fabo.io/1105.html)|1個|
-|#1301|3Pinケーブル|2本|
-|#1302|4Pinケーブル|2本|
+|#1301|[3Pinケーブル](http://fabo.io/1301.html)|2本|
+|#1302|[4Pinケーブル](http://fabo.io/1302.html)|2本|
 
 LED Brickの色はお選びいただけません。
 
