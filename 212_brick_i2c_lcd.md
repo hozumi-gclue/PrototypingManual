@@ -46,6 +46,10 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick表面の�
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoLCD-PCF8574-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoLCD-PCF8574-Library)
 
+## Sample Code
+### for Arduino
+上記のArduino Libraryをインストールし、スケッチの例、「FaBo 212 LCD PCF8574」からお選びください。
+
 ## Parts
 - PCF8574
 - LCD 1602A
