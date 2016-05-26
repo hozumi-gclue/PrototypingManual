@@ -2,7 +2,6 @@
 <center>
 ![](/img/kit/manual/ir00.jpg)
 
-
 注文を受けてから生産しますので、納期にお時間をいただく場合があります。
 
 ## Overview
