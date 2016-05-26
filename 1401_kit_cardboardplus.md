@@ -1,7 +1,6 @@
 # #1401 Cardboard Plus Kit
 
 <center>![](img/kit/product/1401_kit_cardboardplus_product.jpg)
-
 <!--COLORME-->
 
 注文を受けてから生産しますので、納期にお時間をいただく場合があります。
