@@ -5,6 +5,8 @@
 ![](/img/1100_case/product/1109_case_ibeacon_product.jpg)
 <!--COLORME-->
 
+**注文を受けてから生産しますので、納期にお時間をいただく場合があります。**
+
 ## Overview
 FaBo製「#801 iBeacon Circle」用のアクリル製ケースです。
 
