@@ -6,6 +6,8 @@
 ## Overview
 紫外線センサーを使ったBrickです。
 
+I2Cでデータを取得できます。
+
 ## Connecting
 ![](/img/200_i2c/connect/206_uv_connect.jpg)
 
