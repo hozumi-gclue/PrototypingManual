@@ -3,6 +3,8 @@
 <center>![](/img/kit/product/1502_matrixplate_product.jpg)
 <!--COLORME-->
 
+注文を受けてから生産しますので、納期にお時間をいただく場合があります。
+
 ## Overview
 Matrix Plate Kitは、#404 ColorLED Matrixを直立させるためのキットです。
 
