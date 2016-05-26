@@ -3,6 +3,7 @@
 ![](/img/1100_case/product/1101_case_arduino_uno_product.jpg)
 <!--COLORME-->
 
+注文を受けてから生産しますので、納期にお時間をいただく場合があります。
 ## Overview
 Arduino UNO用のアクリル製ケースです。
 
