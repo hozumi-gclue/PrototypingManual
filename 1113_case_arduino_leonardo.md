@@ -3,6 +3,8 @@
 ![](/img/1100_case/product/1113_case_arduino_leonardo_product.jpg)
 <!--COLORME-->
 
+**注文を受けてから生産しますので、納期にお時間をいただく場合があります。**
+
 ## Overview
 Arduino Leonardo用のアクリル製ケースです。
 
