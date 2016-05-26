@@ -3,6 +3,8 @@
 ![](/img/1100_case/product/1106_case_edison_product.jpg)
 <!--COLORME-->
 
+**注文を受けてから生産しますので、納期にお時間をいただく場合があります。**
+
 ## Overview
 Edison用のアクリル製ケースです。
 
