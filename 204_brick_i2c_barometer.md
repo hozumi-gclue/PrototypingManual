@@ -4,7 +4,7 @@
 <!--COLORME-->
 
 ## Overview
-大気圧センサMPL115A2を使用したBrickです。
+大気圧センサを使用したBrickです。
 
 I2Cでデータを取得できます。
 
