@@ -6,6 +6,8 @@
 ## Overview
 ７セグメントLEDを使ったBrickです。
 
+I2Cで表示パターンを制御できます。
+
 ## Connecting
 I2Cコネクタへ接続します。
 
