@@ -4,10 +4,9 @@
 <!--COLORME-->
 
 ## Overview
-Light Brickは、CDSセルを使用した光センサーBrickです。
+CDSセルを使用した光センサーBrickです。
 
 周囲の明るさの変化をアナログ値として取得することができます。
-
 
 ## Connecting
 ### Arduino
