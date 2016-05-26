@@ -3,6 +3,8 @@
 <center>![](/img/kit/product/1501_propeller_product.jpg)
 <!--COLORME-->
 
+注文を受けてから生産しますので、納期にお時間をいただく場合があります。
+
 ## Overview
 Propeller Kitは、Arduinoなどから制御できる扇風機のキットです。
 
