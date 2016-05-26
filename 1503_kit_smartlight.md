@@ -3,6 +3,8 @@
 <center>![](/img/kit/product/1503_smartlight_product.jpg)
 <!--COLORME-->
 
+注文を受けてから生産しますので、納期にお時間をいただく場合があります。
+
 ## Overview
 SmartLight Kitは、「#402 ColorLED Ring」用のキットで、照明の向きを制御できるようになります。
 
