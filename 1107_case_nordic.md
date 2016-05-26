@@ -3,6 +3,8 @@
 ![](/img/1100_case/product/1107_case_nordic_product.jpg)
 <!--COLORME-->
 
+**注文を受けてから生産しますので、納期にお時間をいただく場合があります。**
+
 ## Overview
 Nordic Semiconductor社のnRF51-DK用アクリル製ケースです。
 
