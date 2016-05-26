@@ -1,7 +1,6 @@
 # #1201 Robot Car Kit for Arduino
 
 <center>![](/img/kit/product/Robo.jpg)
-
 <!--COLORME-->
 
 ## Overview
@@ -33,9 +32,7 @@ RobotCarKitは、Arduinoから制御できるロボットカーを簡単に作�
 
 ネジB. Arduino本体（３本）、前後輪固定ネジ（４本x２）
 
-
 ## 組み立て方法
-
 
 ### 1. 本体アクリルにArduino固定用ネジを取り付ける
 
@@ -43,7 +40,6 @@ RobotCarKitは、Arduinoから制御できるロボットカーを簡単に作�
 
 本体アクリル板は三角孔がある方が前となります。
 裏表に注意してください。写真は表です。
-
 
 ![](/img/kit/manual/car_namual102.jpg)
 
@@ -54,7 +50,6 @@ RobotCarKitは、Arduinoから制御できるロボットカーを簡単に作�
 Arduinoが上からハメ込める位置にネジが固定されているのを確認してください。
 写真は裏から見た時のもの。
 取り外しが容易にできる構図です。ナットでの固定はしません。
-
 
 ### 2.電池ボックスを取り付ける
 
@@ -120,4 +115,4 @@ Arduino本体の上にモーターシールドを亀の子状に取り付けま�
 
 * Motor Shield for Arduino
 
-https://fabo.gitbooks.io/module/content/601_motor.html
+http://fabo.io/601.html
