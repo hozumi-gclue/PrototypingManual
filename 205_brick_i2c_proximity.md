@@ -6,6 +6,8 @@
 ## Overview
 近接センサーを使ったBrickです。
 
+I2Cでデータを取得できます。
+
 ## Connecting
 I2Cコネクタへ接続します。
 
