@@ -1,6 +1,7 @@
 # #1504 RemoteController Kit
-<center>
-![](/img/kit/manual/ir00.jpg)
+
+<center>![](/img/kit/product/1504_remotecontroller_product.jpg)
+<!--COLORME-->
 
 注文を受けてから生産しますので、納期にお時間をいただく場合があります。
 
