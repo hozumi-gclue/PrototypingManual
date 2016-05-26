@@ -3,6 +3,8 @@
 ![](/img/1100_case/product/1103_case_arduino_yun_product.jpg)
 <!--COLORME-->
 
+**注文を受けてから生産しますので、納期にお時間をいただく場合があります。**
+
 ## Overview
 Arduino YUN用のアクリル製ケースです。
 
