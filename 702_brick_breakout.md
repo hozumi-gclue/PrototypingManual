@@ -4,20 +4,20 @@
 <!--COLORME-->
 
 ## Overview
-ブレッドボード等に接続することで、Brick以外のセンサーなどに接続することができます。
+Breakout Brickは、ブレッドボード等に接続することで、Brick以外のセンサーなどに接続できます。
 
 
-## BreakoutBrickの種類
-BreakoutBrickは、3pin、I2C、Serialに対して、それぞれに黒(2.54mm)と白(2mm)のコネクタがついたBrickがあります。
+## Breakout Brickの種類
+Breakout Brickは、3pin、I2C、Serialに対して、それぞれに黒(2.54mm)と白(2mm)のコネクタがついたBrickがあります。
 
-|ID|名称|
-|--|--|
-|#702|Breakout 2.54mm 3pin|
-|#703|Breakout 2.54mm I2C| 
-|#704|Breakout 2.54mm Serial| 
-|#705|Breakout 2mm 3pin|
-|#706|Breakout 2mm I2C|
-|#707|Breakout 2mm Serial|
+|ID|名称|備考|
+|--|--|--|
+|#702|Breakout 2.54mm 3pin|黒いコネクタ|
+|#703|Breakout 2.54mm I2C|黒いコネクタ|
+|#704|Breakout 2.54mm Serial|黒いコネクタ|
+|#705|Breakout 2mm 3pin|白いコネクタ|
+|#706|Breakout 2mm I2C|白いコネクタ|
+|#707|Breakout 2mm Serial|白いコネクタ|
 
 ## Connecting
 ![](/img/700_breakout/connecting/breakout_connecting.jpg)
