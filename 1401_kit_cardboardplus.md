@@ -3,6 +3,9 @@
 <center>![](img/kit/product/1401_kit_cardboardplus_product.jpg)
 
 <!--COLORME-->
+
+注文を受けてから生産しますので、納期にお時間をいただく場合があります。
+
 ## Overview
 Cardboard Plusは、Cardboardの拡張キットです。
 
