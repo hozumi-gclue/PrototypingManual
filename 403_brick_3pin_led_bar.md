@@ -4,7 +4,7 @@
 <!--COLORME-->
 
 ## Overview
-RGB Color LEDを使ったBrickです。
+RGB Color LEDをBar状に5個配置したBrickです。
 
 ## Connecting
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のどれかに接続します。
