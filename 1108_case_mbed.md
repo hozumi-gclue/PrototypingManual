@@ -3,6 +3,8 @@
 ![](/img/1100_case/product/1108_case_mbed_product.jpg)
 <!--COLORME-->
 
+**注文を受けてから生産しますので、納期にお時間をいただく場合があります。**
+
 ## Overview
 mbed(NUCLEO-F411RE)用のアクリル製ケースです。
 
