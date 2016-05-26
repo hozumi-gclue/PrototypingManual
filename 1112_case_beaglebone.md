@@ -3,6 +3,8 @@
 ![](/img/1100_case/product/1112_case_beaglebone_product.jpg)
 <!--COLORME-->
 
+**注文を受けてから生産しますので、納期にお時間をいただく場合があります。**
+
 ## Overview
 BeagleBone用のアクリル製ケースです。
 
