@@ -3,6 +3,7 @@
 <center>![](/img/kit/product/Robo.jpg)
 
 <!--COLORME-->
+
 ## Overview
 RobotCarKitは、Arduinoから制御できるロボットカーを簡単に作成することができるキットです。
 
