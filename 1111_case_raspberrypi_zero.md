@@ -3,6 +3,8 @@
 ![](/img/1100_case/product/1111_case_raspberrypi_zero_product.jpg)
 <!--COLORME-->
 
+**注文を受けてから生産しますので、納期にお時間をいただく場合があります。**
+
 ## Overview
 Raspberry PI Zero用のアクリル製ケースです。
 
