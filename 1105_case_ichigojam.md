@@ -4,6 +4,8 @@
 ![](/img/1100_case/product/1105_case_ichigojam_product.jpg)
 <!--COLORME-->
 
+**注文を受けてから生産しますので、納期にお時間をいただく場合があります。**
+
 ## Overview
 IchigoJam U用のアクリル製ケースです。
 
