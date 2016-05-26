@@ -3,6 +3,8 @@
 ![](/img/1100_case/product/1104_case_raspberrypi_product.jpg)
 <!--COLORME-->
 
+**注文を受けてから生産しますので、納期にお時間をいただく場合があります。**
+
 ## Overview
 Raspberry PI2 model B用のアクリル製ケースです。
 
