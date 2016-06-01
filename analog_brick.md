@@ -12,7 +12,7 @@ OUT/INシールドのDigitalピン(2〜13)やAnalogピン(A0〜A5)とBrickを、
 |#102|[Buzzer Brick](102_brick_analog_buzzer.md)|<img src="/img/100_analog/product/102_buzzer_product.jpg" width="150">|◯|×|◯|
 |#103|[Button Brick](103_brick_analog_button.md)|<img src="/img/100_analog/product/103_button_product.jpg" width="150">|◯|◯|◯|
 |#104|[Angle Brick](104_brick_analog_angle.md)| <img src="/img/100_analog/product/104_angle_product.jpg" width="150">|◯|◯|◯|
-|#105|[Vibrator Brick](105_brick_analog_vibrator.md) |<img src="/img/100_analog/product/105_vibrator_product.jpg" width="150">|◯|×|◯|
+|#105|[Vibrator Brick](105_brick_analog_vibrator.md) |<img src="/img/100_analog/product/105_vibrator_product.jpg" width="150">|◯|×|×|
 |#106|[Touch Brick](106_brick_analog_touch.md) |<img src="/img/100_analog/product/106_touch_product.jpg" width="150">|◯|◯|◯|
 |#107|[LimitSwitch Brick](107_brick_analog_limitswitch.md)| <img src="/img/100_analog/product/107_limitswitch_product.jpg" width="150">|◯|◯|◯|
 |#108|[Temperature Brick](108_brick_analog_temp.md) | <img src="/img/100_analog/product/108_temperature_product.jpg" width="150">|◯|◯|◯|
