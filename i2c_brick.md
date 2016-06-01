@@ -24,4 +24,4 @@ I2C通信はデバイスのアドレスにて制御しているため、同じBr
 |#213|[LCD Mini](213_brick_i2c_lcd_mini.md)|<img src="/img/200_i2c/product/213_lcdmini_product.jpg" width="150">|◯|◯|◯|
 |#214|[OLED](214_brick_i2c_oled.md)|<img src="/img/200_i2c/product/214_oled_product.jpg" width="150">|◯|◯|◯|
 |#215|[RTC](215_brick_i2c_rtc.md)|<img src="/img/200_i2c/product/215_rtc_product.jpg" width="150">|◯|◯|◯|
-|#217|[AmbientLight](217_brick_ambientlight_i2c_rtc.md)|<img src="/img/200_i2c/product/217_ambientlight_product.jpg" width="150">|◯|◯|◯|
+|#217|[AmbientLight](217_brick_i2c_ambientlight.md)|<img src="/img/200_i2c/product/217_ambientlight_product.jpg" width="150">|◯|◯|◯|
