@@ -1,4 +1,4 @@
-# 1106 Edisonケース
+# #1106 Edisonケース
 <center>
 ![](/img/1100_case/product/1106_case_edison_product.jpg)
 <!--COLORME-->
