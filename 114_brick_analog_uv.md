@@ -19,7 +19,7 @@ I/Oピンより、紫外線の強弱をアナログ値(0〜1023)で取得する�
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|◯|◯|◯|
+|−|−|−|
 
 ## Schematic
 ![](/img/100_analog/schematic/114_uv_schematic.png)
