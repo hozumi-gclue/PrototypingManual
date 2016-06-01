@@ -20,7 +20,7 @@ Serialコネクタは、Arduino用、RaspberryPI用、Ichigojam用のOUT/INシ�
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|◯|◯|◯|
+|◯|◯|×|
 
 ## BLE113 Datasheet
 |Document|
