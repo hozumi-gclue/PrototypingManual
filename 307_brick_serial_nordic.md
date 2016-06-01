@@ -19,7 +19,7 @@ Serialコネクタへ接続します。
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-|◯|◯|◯|
+|◯|◯|×|
 
 ## MDBT40 Datasheet
 
