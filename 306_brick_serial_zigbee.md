@@ -12,7 +12,7 @@ ZigBee通信ができるBrickです。
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
 |:--:|:--:|:--:|
-| | | |
+|−|−|−|
 
 ## Schematic
 ![](/img/300_serial/schematic/306_zigbee_schematic.jpg)
