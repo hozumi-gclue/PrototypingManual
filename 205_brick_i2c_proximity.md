@@ -44,6 +44,63 @@ I2Cコネクタへ接続します。
 ### for Arduino
 上記のArduino Libraryをインストールし、スケッチの例から、「FaBo 205 Proximity VCNL4010」→「proximity」を選択してください。
 
+### for Edison
+I2Cコネクタに接続したProximity I2C Brickより、センサーから物体までの距離と明るさを取得し、コンソールに出力します。
+```js
+//
+// FaBo Brick Sample
+//
+// #205 Proximity i2c Brick
+//
+
+var m = require('mraa');
+
+var i2c = new m.I2c(0);
+
+i2c.address(0x13);
+
+i2c.writeReg(0x31, 0x00);
+i2c.writeReg(0x2d, 0x08);
+
+// Set Enable
+i2c.writeReg(0x80, 0x07)
+// PROX_RATE
+i2c.writeReg(0x82, 0x07);
+// LED_CRNT
+i2c.writeReg(0x83, 20);
+// AMBI_PARM
+i2c.writeReg(0x84, 0x7F);
+
+loop();
+
+function loop()
+{
+    // proximity
+    if ( i2c.readReg(0x80) & 0x20 ) {
+        var prox_buff = i2c.readBytesReg(0x87, 2);
+        var prox = prox_buff[0] << 8 | prox_buff[1];
+
+        if(prox & (1 << 16 - 1)){
+            prox = prox - (1<<16);
+        }
+        console.log("Prox:" + prox);
+    }
+
+    // ambient
+    if ( i2c.readReg(0x80) & 0x40 ) {
+        var ambi_buff = i2c.readBytesReg(0x85, 2);
+        var ambi = ambi_buff[0] << 8 | ambi_buff[1];
+
+        if(ambi & (1 << 16 - 1)){
+            ambi = ambi - (1<<16);
+        }
+        console.log("ambi:" + ambi);
+    }
+    console.log("");
+    setTimeout(loop,500);
+}
+```
+
 ## Parts
 - Vishay VCNL4010
 
