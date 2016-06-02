@@ -80,9 +80,6 @@ function loop()
         var prox_buff = i2c.readBytesReg(0x87, 2);
         var prox = prox_buff[0] << 8 | prox_buff[1];
 
-        if(prox & (1 << 16 - 1)){
-            prox = prox - (1<<16);
-        }
         console.log("Prox:" + prox);
     }
 
@@ -91,9 +88,6 @@ function loop()
         var ambi_buff = i2c.readBytesReg(0x85, 2);
         var ambi = ambi_buff[0] << 8 | ambi_buff[1];
 
-        if(ambi & (1 << 16 - 1)){
-            ambi = ambi - (1<<16);
-        }
         console.log("ambi:" + ambi);
     }
     console.log("");
