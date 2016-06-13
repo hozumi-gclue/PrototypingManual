@@ -192,6 +192,34 @@ if __name__ == "__main__":
 
 ```
 
+### for Ichigojam
+I2Cコネクタに接続した3Axis I2C Brickより３軸の加速度情報を取得し、画面上に出力します。
+```
+10 'FaBo Brick Sample
+20 '#301 3axis I2C Brick
+30 CLS
+100 'Slave address
+110 C=#53
+200 'Address set
+210 POKE #800,#31,0,#2D,8
+220 POKE #810,#32,6
+300 'init
+310 A=I2CW(C,#800,1,#801,1)
+320 A=I2CW(C,#802,1,#803,1)
+400 'Read 3axis data
+410 A=I2CW(C,#810,1,#811,1)
+420 A=I2CR(C,#810,1,#820,6)
+500 'Output
+510 LOCATE 0,3
+520 ?"X;";PEEK(#820)+PEEK(#821)*256;"  "
+530 ?"Y;";PEEK(#822)+PEEK(#823)*256;"  "
+540 ?"Z;";PEEK(#824)+PEEK(#825)*256;"  "
+600 'loop
+610 WAIT 5
+620 GOTO 410
+```
+
+
 ### for NRF51
 * PackはnRF_Librariesのapp_twiとapp_traceを読み込む  
 ![](/img/200_i2c/docs/201_3axis_nrf_001.png)
