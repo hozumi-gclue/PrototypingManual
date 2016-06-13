@@ -133,7 +133,33 @@ if __name__ == '__main__':
         print
         time.sleep(1)
 ```
-## for Edison
+### for Ichigojam
+I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度を画面上に出力します。
+```
+10 'FaBo Brick Sample
+20 '#305 Proximity I2C Brick
+30 CLS
+100 'slave address
+110 D=#48
+200 'address set
+230 POKE #800,#03,0,#80,0
+240 POKE #810,#00,2
+300 'init
+330 A=I2CW(D,#800,1,#801,1)
+400 'read
+430 A=I2CW(D,#802,1,#803,1)
+440 A=I2CW(D,#810,1,#811,1)
+450 A=I2CR(D,#810,1,#820,2)
+500 'output
+510 LOCATE 0,3
+550 ?"TEMP:";(PEEK(#820)*256+PEEK(#821))/128;"  "
+600 'loop
+610 WAIT 5
+620 GOTO 430
+```
+
+
+### for Edison
 I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度をコンソールに出力します。
 ```javascript
 //
