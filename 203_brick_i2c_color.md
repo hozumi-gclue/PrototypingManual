@@ -197,6 +197,36 @@ if __name__ == '__main__':
         time.sleep(0.5)
 ```
 
+### for Ichigojam
+I2Cコネクタに接続したColor Brickにより、赤、緑、青、赤外の値を読み取り、画面上に出力します。
+
+```
+10 'FaBo Brick Sample
+20 '#303 Color I2C Brick
+30 CLS
+100 'Slave address
+110 C=#2A
+200 'Address set
+210 POKE #800,#00,#83,#03
+220 POKE #810,#00,11
+300 'init
+310 A=I2CW(C,#800,1,#801,1)
+320 A=I2CW(C,#800,1,#802,1)
+320 A=I2CW(C,#802,1,#800,1)
+400 'Read RGB IR data
+410 A=I2CW(C,#810,1,#811,1)
+420 A=I2CR(C,#810,1,#820,11)
+500 'Output
+510 LOCATE 0,3
+520 ?"R;";PEEK(#824)/2+PEEK(#823)*128;"    "
+530 ?"G;";PEEK(#826)/2+PEEK(#825)*128;"    "
+540 ?"B;";PEEK(#828)/2+PEEK(#827)*128;"    "
+550 ?"IR;";PEEK(#830)/2+PEEK(#829)*128;"    "
+600 'loop
+610 WAIT 20
+620 GOTO 410
+```
+
 ### for Edison
 I2Cコネクタに接続したColor Brickにより、赤、緑、青、赤外の値を読み取り、コンソールに出力します。
 
