@@ -196,7 +196,7 @@ if __name__ == "__main__":
 I2Cコネクタに接続した3Axis I2C Brickより３軸の加速度情報を取得し、画面上に出力します。
 ```
 10 'FaBo Brick Sample
-20 '#301 3axis I2C Brick
+20 '#201 3axis I2C Brick
 30 CLS
 100 'Slave address
 110 C=#53
