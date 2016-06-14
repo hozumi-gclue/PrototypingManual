@@ -202,7 +202,7 @@ I2Cコネクタに接続したColor Brickにより、赤、緑、青、赤外の
 
 ```
 10 'FaBo Brick Sample
-20 '#303 Color I2C Brick
+20 '#203 Color I2C Brick
 30 CLS
 100 'Slave address
 110 D=#2A
