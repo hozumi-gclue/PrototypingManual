@@ -99,7 +99,7 @@ function loop()
 I2Cコネクタに接続したProximity I2C Brickより、センサーから物体までの距離と明るさを取得し、画面上に出力します。
 ```
 10 'FaBo Brick Sample
-20 '#305 Proximity I2C Brick
+20 '#205 Proximity I2C Brick
 30 CLS
 100 'Slave address
 110 D=#13
