@@ -137,7 +137,7 @@ if __name__ == '__main__':
 I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度を画面上に出力します。
 ```
 10 'FaBo Brick Sample
-20 '#305 Proximity I2C Brick
+20 '#207 Temperature I2C Brick
 30 CLS
 100 'slave address
 110 D=#48
