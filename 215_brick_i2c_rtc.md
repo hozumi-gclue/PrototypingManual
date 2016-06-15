@@ -184,7 +184,7 @@ void setRTC(byte year, byte month, byte day, byte wd, byte hour, byte min, byte 
 I2CコネクタにRTC Brickを接続し、指定したい日時からの正確な経過時間を計測してシリアルモニタに出力します。
 ```
 10 'FaBo Brick Sample
-20 '#203 Color I2C Brick
+20 '#215 RTC I2C Brick
 
 30 CLS
 
