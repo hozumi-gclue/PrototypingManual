@@ -110,6 +110,15 @@ void loop() {
 }
 ```
 
+### for Ichigojam
+
+IN1コネクタにButton Brickを接続し、LEDコネクタに接続したIR LED Brickの点灯/消灯を制御しています。
+```
+100 ' IN(n) sample program
+110 B=IN(1)
+120 IF B=1 LED 1 ELSE LED 0
+130 GOTO 110
+```
 ## Parts
 - 5mm 赤外線LED OSI5LA5113A
 
