@@ -103,6 +103,16 @@ while True:
     time.sleep(0.2)
 ```
 
+### for Ichigojam
+IN1コネクタにLimitSwitch Brickを接続し、LEDコネクタに接続したLED Brickの点灯/消灯を制御しています。
+
+```
+100 ' IN(n) sample program
+110 B=IN(1)
+120 IF B=1 LED 1 ELSE LED 0
+130 GOTO 110
+```
+
 ### for Edison
 A0コネクタにLimitSwitch Brickを接続し、D2コネクタに接続したLED Brickの点灯/消灯を制御しています。
 
