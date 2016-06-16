@@ -115,6 +115,18 @@ if __name__ == '__main__':
         sys.exit(0)
 ```
 
+
+### for IchigoJam
+
+IN2コネクタにDistance Brickを接続して、距離に応じたアナログ値を取得し画面上に出力します。
+
+```
+100 'Distance_sample_program
+110 CLS
+120 LOCATE 0,3:PRINT "Analog  =";ANA(2);"  "
+130 GOTO 120
+```
+
 ### for Edison
 A0コネクタに接続して、距離を計測します。
 
