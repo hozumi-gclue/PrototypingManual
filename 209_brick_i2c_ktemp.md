@@ -195,6 +195,38 @@ if __name__ == '__main__':
         print
         time.sleep(1)
 ```
+### for Ichigojam
+このサンプルは、I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換し画面上に出力します。
+```
+10 'FaBo Brick Sample
+20 '#209 Ktemp I2C Brick
+30 CLS
+100 'slave address #68-#6F
+110 D=#68
+120 M=125:'mvuv
+130 C=500: 'cp
+200 'address set
+230 POKE #800,#9f,0,4
+300 'init
+310 A=I2CW(D,#800,1,#801,1)
+400 'read
+430 A=I2CW(D,#800,1,#802,1)
+440 A=I2CR(D,#800,1,#810,4)
+
+445 LOCATE 0,3
+450 IF PEEK(#810) & 0xFF THEN S=1 ELSE S=0
+456 T=PEEK(#811)<<8 | PEEK(#812)
+480 T=T/128*125+T%128*125/128 +500:'(T*1000)/1024+500
+490 T=T/3
+
+500 'output
+510 ?"KTEMP:";
+520 IF T<0 THEN T=T*-1:?"-";
+550 ?T/10;".";T%10;"  ":'T/10
+600 'loop
+610 WAIT 5
+620 GOTO 430
+```
 
 ### for Edison
 このサンプルは、I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換してコンソールに出力します。
