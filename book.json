@@ -6,7 +6,7 @@
     ],
     "pluginsConfig": {
         "facebooktest":{"appKey": "1481092238866545"}
-    }
+    },
     "pdf": {
       "fontFamily": "IPAGothic"
     }
