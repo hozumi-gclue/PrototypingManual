@@ -27,6 +27,7 @@ Arduino、Raspberry Pi、IchigoJamなどマイコン本体は含まれません�
 |#110|[Tilt Brick](http://fabo.io/110.html)|1個|
 |#112|[IR LED Brick](http://fabo.io/112.html)|1個|
 |#113|[IR Receiver Brick](http://fabo.io/113.html)|1個|
+|#114|[UV Brick](http://fabo.io/114.html)|1個|
 |#115|[Humidity Brick](http://fabo.io/115.html)|1個|
 |#116|[Distance Brick](http://fabo.io/116.html)|1個|
 |#201|[3Axis I2C Brick](http://fabo.io/201.html)|1個|
@@ -48,6 +49,7 @@ Arduino、Raspberry Pi、IchigoJamなどマイコン本体は含まれません�
 |#301|[BLE SiliconLabs Serial Brick](http://fabo.io/301.html)|1個|
 |#302|[Bluetooth Serial Brick](http://fabo.io/302.html)|1個|
 |#304|[USB Serial Brick](http://fabo.io/304.html)|1個|
+|#305|[Wifi Serial Brick](http://fabo.io/305.html)|1個|
 |#307|[BLE Nordic Serial Brick](http://fabo.io/307.html)|1個|
 |#401|[ColorLED One Brick](http://fabo.io/401.html)|1個|
 |#402|[ColorLED Ring Brick](http://fabo.io/402.html)|1個|
