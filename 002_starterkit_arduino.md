@@ -15,11 +15,11 @@ Arduino本体は含まれません。別途、お買い求めください。
 |--|--|--|
 |#101|[LED Brick](http://fabo.io/101_A.html)|5色のうち1個|
 |#103|[Button Brick](http://fabo.io/103.html)|1個|
+|#108|[Temperature Brick](http://fabo.io/108.html)|1個|
 |#201|[3Axis I2C Brick](http://fabo.io/201.html)|1個|
-|#203|[Color I2C Brick](http://fabo.io/203.html)|1個|
+|#307|[BLE Nordic Serial Brick](http://fabo.io/307.html)|1個|
 |#402|[ColorLED Ring Brick](http://fabo.io/402.html)|1個|
 |#501|[OUT/IN Shield for Arduino](http://fabo.io/501.html)|1個|
-|#1101|[Arduino UNOケース](http://fabo.io/1101.html)|1個|
 |#1301|[3Pinケーブル](http://fabo.io/1301.html)|2本|
 |#1302|[4Pinケーブル](http://fabo.io/1302.html)|2本|
 
