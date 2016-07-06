@@ -4,15 +4,11 @@
 <!--COLORME-->
 
 ## Overview
-ボタンを使ったBrickです。
+ボタンを使ったBrickです。I/OピンよりボタンのON/OFFの状態を取得することができます。
 
-I/OピンよりボタンのON/OFFの状態を取得することができます。
-
-ボタンカバー部分の色はランダムで送付するため色のご指定はできません。あらかじめご了承ください。
-
+※ボタンカバー部分の色はランダムで送付するため色のご指定はできません。あらかじめご了承ください。
 
 ## Connecting
-
 ### Arduino
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 ![](/img/100_analog/connect/103_button_connect.jpg)
@@ -22,7 +18,6 @@ GPIOコネクタのいずれかに接続します。
 
 ### IchigoJam
 OUTコネクタのいずれかに接続します。
-
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
