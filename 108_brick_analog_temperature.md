@@ -31,7 +31,7 @@
 | [LM61CIZ Datasheet](http://akizukidenshi.com/catalog/g/gI-02726/) |
 
 ## Schematic
-![](/img/100_analog/schematic/108_temperature_schematic.png)
+![](/img/100_analog/schematic/108_temperature.png)
 
 
 ## Sample Code
@@ -50,7 +50,7 @@ int tempValue = 0; // 温度取得用
 
 void setup() {
   // 温度センサーピンを入力用に設定
-  pinMode(tempPin, INPUT); 
+  pinMode(tempPin, INPUT);
 
   // シリアル開始 転送レート：9600bps
   Serial.begin(9600);
@@ -59,7 +59,7 @@ void setup() {
 void loop() {
   // センサーより値を取得(0〜1023)
   tempValue = analogRead(tempPin);
-  
+
   // 取得した値を電圧に変換 (0〜5000mV)
   tempValue = map(tempValue, 0, 1023, 0, 5000);
 

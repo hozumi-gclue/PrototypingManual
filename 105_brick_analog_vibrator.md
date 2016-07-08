@@ -26,7 +26,7 @@ I/Oピンから振動モーターのON/OFFを制御することができます�
 | [LA3R5-480AH1](http://akizukidenshi.com/catalog/g/gP-06744/) |
 
 ## Schematic
-![](/img/100_analog/schematic/105_vibrator_schematic.png)
+![](/img/100_analog/schematic/105_vibrator.png)
 
 ## Sample Code
 ### for Arduino

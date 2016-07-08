@@ -25,7 +25,7 @@
 | [DHT11](http://akizukidenshi.com/catalog/g/gM-07003/) |
 
 ## Schematic
-![](/img/100_analog/schematic/115_humidity_schematic.png)
+![](/img/100_analog/schematic/115_humidity.png)
 
 ## Sample Code
 ### for Arduino
@@ -63,10 +63,10 @@ void loop() {
   float h = dht.readHumidity();
   float t = dht.readTemperature();
 
-  Serial.print("Hum: "); 
+  Serial.print("Hum: ");
   Serial.print(h);
   Serial.print(" %");
-  Serial.print("  Temp: "); 
+  Serial.print("  Temp: ");
   Serial.print(t);
   Serial.println(" *C");
 }

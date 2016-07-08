@@ -31,7 +31,7 @@ CDSセルを使用した光センサーBrickです。
 | [MI527](http://akizukidenshi.com/catalog/g/gI-00110/) |
 
 ## Schematic
-![](/img/100_analog/schematic/109_ambientlight_schematic.png)
+![](/img/100_analog/schematic/109_light.png)
 
 ## Sample Code
 ### for Arduino

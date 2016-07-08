@@ -26,7 +26,7 @@ OUTコネクタのいずれかに接続します。
 |◯|◯|◯|
 
 ## Schematic
-![](/img/100_analog/schematic/101_led_schematic.png)
+![](/img/100_analog/schematic/101_led.png)
 
 ## Sample Code
 ### for Arduino

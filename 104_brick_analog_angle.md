@@ -30,7 +30,7 @@ LED Brickの明るさを調節する際などに使用します。
 |◯|◯|◯|
 
 ##Schematic
-![](/img/100_analog/schematic/104_angle_schematic.png)
+![](/img/100_analog/schematic/104_angle.png)
 
 ## Sample Code
 ### for Arduino
@@ -51,18 +51,18 @@ int outputValue = 0;
 
 void setup() {
   // Angleピンを入力用に設定
-  pinMode(anglePin, INPUT);  
+  pinMode(anglePin, INPUT);
   // LEDピンを出力用に設定
-  pinMode(ledPin, OUTPUT);  
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop() {
   // Angleから値を取得(0〜1023)
-  angleValue = analogRead(anglePin);  
+  angleValue = analogRead(anglePin);
   // analogWrite用に取得した値を変換
-  outputValue = map(angleValue, 0, 1023, 0, 255);  
+  outputValue = map(angleValue, 0, 1023, 0, 255);
   // PWMによりLED点灯
-  analogWrite(ledPin, outputValue);              
+  analogWrite(ledPin, outputValue);
 }
 ```
 
@@ -207,7 +207,7 @@ void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
     if (p_event->type == NRF_DRV_SAADC_EVT_DONE)
     {
         ret_code_t err_code;
-     
+
         err_code = nrf_drv_saadc_buffer_convert(p_event->data.done.p_buffer, 1);
         APP_ERROR_CHECK(err_code);
 
@@ -244,7 +244,7 @@ int main(void)
 	saadc_init();
 
     while(true)
-    {	
+    {
 	    ret_code_t err_code;
 		err_code = nrf_drv_saadc_sample();
 		APP_ERROR_CHECK(err_code);

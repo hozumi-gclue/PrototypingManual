@@ -19,7 +19,7 @@
 |◯|◯|◯|
 
 ## Schematic
-![](/img/100_analog/schematic/114_uv_schematic.png)
+![](/img/100_analog/schematic/114_uv.png)
 
 ## Sample Code
 ### for Arduino
@@ -38,12 +38,12 @@ int uvValue = 0;
 
 void setup() {
   pinMode(uvPin,INPUT);
-  Serial.begin(9600);    
+  Serial.begin(9600);
 }
 
 void loop() {
-  uvValue = analogRead(uvPin) ;  
-  Serial.println(uvValue) ; 
+  uvValue = analogRead(uvPin) ;
+  Serial.println(uvValue) ;
   delay(10);
 }
 ```

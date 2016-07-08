@@ -25,7 +25,7 @@ OUTコネクタのいずれかに接続します。
 |◯|◯|◯|
 
 ## Schematic
-![](/img/100_analog/schematic/103_button_schematic.png)
+![](/img/100_analog/schematic/103_button.png)
 
 ## Sample Code
 ### for Arduino
@@ -45,9 +45,9 @@ int buttonState = 0;
 
 void setup() {
   // ボタンピンを入力用に設定
-  pinMode(buttonPin, INPUT); 
+  pinMode(buttonPin, INPUT);
   // LEDピンを出力用に設定
-  pinMode(ledPin, OUTPUT);         
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop(){
@@ -58,10 +58,10 @@ void loop(){
   if (buttonState == HIGH) {
     // ボタンが押された場合、LED点灯
     digitalWrite(ledPin, HIGH);
-  } 
+  }
   else {
     // LED消灯
-    digitalWrite(ledPin, LOW); 
+    digitalWrite(ledPin, LOW);
   }
 }
 ```
@@ -154,10 +154,10 @@ main.c
 #define FABO_BUTTON 16
 #define FABO_LED 18
 #define APP_TIMER_PRESCALER             0  // Value of the RTC1 PRESCALER register.
-#define APP_TIMER_MAX_TIMERS            1  // Maximum number of simultaneously created timers. 
-#define APP_TIMER_OP_QUEUE_SIZE         2  // Size of timer operation queues. 
-#define BUTTON_DEBOUNCE_DELAY			50 // Delay from a GPIOTE event until a button is reported as pushed. 
-#define APP_GPIOTE_MAX_USERS            1  // Maximum number of users of the GPIOTE handler. 
+#define APP_TIMER_MAX_TIMERS            1  // Maximum number of simultaneously created timers.
+#define APP_TIMER_OP_QUEUE_SIZE         2  // Size of timer operation queues.
+#define BUTTON_DEBOUNCE_DELAY			50 // Delay from a GPIOTE event until a button is reported as pushed.
+#define APP_GPIOTE_MAX_USERS            1  // Maximum number of users of the GPIOTE handler.
 
 /*
  * Handler to be called when button is pushed.
@@ -173,7 +173,7 @@ static void button_handler(uint8_t pin_no, uint8_t button_action)
             case FABO_BUTTON:
                 nrf_gpio_pin_toggle(FABO_LED);
                 break;
-      
+
         }
     }
 }
@@ -190,7 +190,7 @@ void init_clock()
     NRF_CLOCK->EVENTS_LFCLKSTARTED = 0;
     NRF_CLOCK->TASKS_LFCLKSTART    = 1;
     while (NRF_CLOCK->EVENTS_LFCLKSTARTED == 0); // Wait for clock to start
-}	
+}
 
 /**
  * Initialize all four LEDs on the nRF51 DK.
@@ -199,15 +199,15 @@ void init_leds()
 {
    	nrf_gpio_cfg_output(FABO_LED);
     nrf_gpio_pin_set(FABO_LED);
-}	
+}
 
 /**
  * Function for application main entry.
  */
 int main(void)
-{	
+{
     init_leds();
-	
+
     init_clock();
 
     uint32_t err_code;
@@ -215,7 +215,7 @@ int main(void)
     // Button configuration structure.
     static app_button_cfg_t p_button[] = {  {FABO_BUTTON, APP_BUTTON_ACTIVE_LOW, NRF_GPIO_PIN_PULLUP, button_handler},
                                             };
-        
+
     // Macro for initializing the application timer module.
     // It will handle dimensioning and allocation of the memory buffer required by the timer, making sure that the buffer is correctly aligned. It will also connect the timer module to the scheduler (if specified).
     APP_TIMER_INIT(APP_TIMER_PRESCALER, APP_TIMER_MAX_TIMERS, APP_TIMER_OP_QUEUE_SIZE, NULL);
@@ -227,15 +227,15 @@ int main(void)
     // Initializing the buttons.
     err_code = app_button_init(p_button, sizeof(p_button) / sizeof(p_button[0]), BUTTON_DEBOUNCE_DELAY);
     APP_ERROR_CHECK(err_code);
-                                            
-    // b										
+
+    // b
     err_code = app_button_enable();
     APP_ERROR_CHECK(err_code);
 
-																						
+
     while(true) {
     }
-		
+
 }
 ```
 
@@ -268,7 +268,7 @@ void in_pin_handler(nrf_drv_gpiote_pin_t pin, nrf_gpiote_polarity_t action)
 		}
 }
 /**
- * @brief Function for configuring: PIN_IN pin for input, PIN_OUT pin for output, 
+ * @brief Function for configuring: PIN_IN pin for input, PIN_OUT pin for output,
  * and configures GPIOTE to give an interrupt on pin change.
  */
 static void gpio_init(void)
@@ -277,7 +277,7 @@ static void gpio_init(void)
 
     err_code = nrf_drv_gpiote_init();
     APP_ERROR_CHECK(err_code);
-    
+
     nrf_drv_gpiote_out_config_t out_config = GPIOTE_CONFIG_OUT_SIMPLE(false);
 
     err_code = nrf_drv_gpiote_out_init(PIN_OUT, &out_config);

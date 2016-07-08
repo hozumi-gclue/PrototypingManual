@@ -28,7 +28,7 @@ OUTコネクタのいずれかに接続します。
 | [2SC1815L-Y](http://akizukidenshi.com/catalog/g/gI-06475/) |
 
 ## Schematic
-![](/img/100_analog/schematic/113_ir_receiver_schematic.png)
+![](/img/100_analog/schematic/113_ir_receive.png)
 
 ## Sample Code
 ### for Arduino
@@ -50,15 +50,15 @@ void setup() {
   pinMode(ir_receivePin, INPUT);
   pinMode(ledPin, OUTPUT);
 }
- 
+
 void loop() {
   irState = digitalRead(ir_receivePin);
 
-  if (irState == HIGH) {        
-    digitalWrite(ledPin, HIGH);  
-  } 
+  if (irState == HIGH) {
+    digitalWrite(ledPin, HIGH);
+  }
   else {
-    digitalWrite(ledPin, LOW); 
+    digitalWrite(ledPin, LOW);
   }
 
 }

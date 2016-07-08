@@ -32,7 +32,7 @@ I/Oピンより、感圧部分に加えられた力の大きさの変化をア�
 | [Datasheet](http://interlinkelectronics.com/datasheets/Datasheet_FSR.pdf) |
 
 ## Schematic
-![](/img/100_analog/schematic/106_touch_schematic.png)
+![](/img/100_analog/schematic/106_touch.png)
 
 ## Sample Code
 ### for Arduino
@@ -51,19 +51,19 @@ A0コネクタに接続したTouch Brickの感圧によって、D2コネクタ�
 int buttonState = 0;
 
 void setup() {
-  pinMode(buttonPin, INPUT); 
-  pinMode(ledPin, OUTPUT);         
+  pinMode(buttonPin, INPUT);
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop(){
- 
+
   buttonState = digitalRead(buttonPin);
 
-  if (buttonState == HIGH) {        
-    digitalWrite(ledPin, LOW);  
-  } 
+  if (buttonState == HIGH) {
+    digitalWrite(ledPin, LOW);
+  }
   else {
-    digitalWrite(ledPin, HIGH); 
+    digitalWrite(ledPin, HIGH);
   }
 }
 ```
@@ -172,7 +172,7 @@ function loop()
   }
   else {
     myLed.write(1);
-  }  
+  }
 
   setTimeout(loop, 10);
 }

@@ -30,7 +30,7 @@ OUTコネクタのいずれかに接続します。
 |◯|◯|◯|
 
 ## Schematic
-![](/img/100_analog/schematic/107_limitswitch_schematic.png)
+![](/img/100_analog/schematic/107_limitswitch.png)
 
 ## Sample Code
 ### for Arduino
@@ -50,9 +50,9 @@ int buttonState = 0;
 
 void setup() {
   // リミットスイッチピンを入力用に設定
-  pinMode(buttonPin, INPUT); 
+  pinMode(buttonPin, INPUT);
   // LEDピンを出力用に設定
-  pinMode(ledPin, OUTPUT);         
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop(){
@@ -60,13 +60,13 @@ void loop(){
   buttonState = digitalRead(buttonPin);
 
   // リミットスイッチ判定
-  if (buttonState == LOW) {        
+  if (buttonState == LOW) {
     // LED点灯
-    digitalWrite(ledPin, HIGH);  
-  } 
+    digitalWrite(ledPin, HIGH);
+  }
   else {
     // LED消灯
-    digitalWrite(ledPin, LOW); 
+    digitalWrite(ledPin, LOW);
   }
 }
 ```
@@ -85,10 +85,10 @@ GPIO7コネクタにLimitSwitch Brickを接続し、GPIO4コネクタに接続�
 import RPi.GPIO as GPIO
 import time
 
-LEDPIN = 4 
+LEDPIN = 4
 LSPIN = 7   #LimitSwitch pin
 
-led_state = 0	
+led_state = 0
 
 GPIO.setwarnings(False)
 GPIO.setmode( GPIO.BCM )

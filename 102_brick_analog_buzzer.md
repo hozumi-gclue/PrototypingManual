@@ -18,7 +18,7 @@
 |◯|×|◯|
 
 ## Schematic
-![](/img/100_analog/schematic/102_buzzer_schematic.png)
+![](/img/100_analog/schematic/102_buzzer.png)
 
 ## Sample Code
 ### for Arduino

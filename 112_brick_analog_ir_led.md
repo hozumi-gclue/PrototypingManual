@@ -28,7 +28,7 @@ OUTコネクタのいずれかに接続します。
 | [OSI5LA5113A](http://akizukidenshi.com/catalog/g/gI-04311/) |
 
 ## Schematic
-![](/img/100_analog/schematic/112_ir_schematic.png)
+![](/img/100_analog/schematic/112_ir_led.png)
 
 ## Sample Code
 ### for Arduino
@@ -53,11 +53,11 @@ void setup() {
 void loop() {
   buttonState = digitalRead(buttonPin);
 
-  if (buttonState == HIGH) {        
-    digitalWrite(ir_ledPin, HIGH);  
-  } 
+  if (buttonState == HIGH) {
+    digitalWrite(ir_ledPin, HIGH);
+  }
   else {
-    digitalWrite(ir_ledPin, LOW); 
+    digitalWrite(ir_ledPin, LOW);
   }
 
 }
@@ -73,7 +73,7 @@ A0からA2に上記のBrickを接続し,IR LED Brickから出る赤外線をIR R
 
 ![](/img/100_analog/connect/112_ir_connect_2.jpg)
 
-IR LEDより発信した赤外線をIR Receiverにて受信した場合にLEDが点灯します。 
+IR LEDより発信した赤外線をIR Receiverにて受信した場合にLEDが点灯します。
 
 ![](/img/100_analog/connect/112_ir_connect_lecture_2.jpg)
 
@@ -100,11 +100,11 @@ void setup() {
 void loop() {
   irState = digitalRead(ir_receivePin);
     digitalWrite(ir_ledPin, HIGH);
-  if (irState == HIGH) {        
-    digitalWrite(ledPin, HIGH);  
-  } 
+  if (irState == HIGH) {
+    digitalWrite(ledPin, HIGH);
+  }
   else {
-    digitalWrite(ledPin, LOW); 
+    digitalWrite(ledPin, LOW);
   }
 
 }

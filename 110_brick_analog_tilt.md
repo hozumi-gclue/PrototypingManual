@@ -30,7 +30,7 @@ OUTコネクタのいずれかに接続します。
 |◯|◯|◯|
 
 ## Schematic
-![](/img/100_analog/schematic/110_tilt_schematic.png)
+![](/img/100_analog/schematic/110_tilt.png)
 
 ## Sample Code
 ### for Arduino
@@ -50,19 +50,19 @@ A0コネクタに接続したTilt Brickの傾きによって、D2コネクタに
 int buttonState = 0;
 
 void setup() {
-  pinMode(buttonPin, INPUT); 
-  pinMode(ledPin, OUTPUT);         
+  pinMode(buttonPin, INPUT);
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop(){
- 
+
   buttonState = digitalRead(buttonPin);
 
-  if (buttonState == HIGH) {        
-    digitalWrite(ledPin, HIGH);  
-  } 
+  if (buttonState == HIGH) {
+    digitalWrite(ledPin, HIGH);
+  }
   else {
-    digitalWrite(ledPin, LOW); 
+    digitalWrite(ledPin, LOW);
   }
 }
 ```
