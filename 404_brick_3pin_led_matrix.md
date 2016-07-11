@@ -35,7 +35,7 @@ Brick裏面にはコネクタが２種類あります。
 |[WS2812B Datasheet](http://www.adafruit.com/datasheets/WS2812B.pdf)|
 
 ## Schematic
-![](/img/400_led/schematic/404_ledmatrix_schematic.png)
+![](/img/400_led/schematic/404_led_matrix.png)
 
 ## Sample Code
 ### for Arduino

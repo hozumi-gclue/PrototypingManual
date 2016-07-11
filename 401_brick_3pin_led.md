@@ -22,7 +22,7 @@ RGB Color LEDを使ったBrickです。
 |[WS2812B Datasheet](http://www.adafruit.com/datasheets/WS2812B.pdf)|
 
 ## Schematic
-![](/img/400_led/schematic/401_led_schematic.png)
+![](/img/400_led/schematic/401_led_one.png)
 
 ## Sample Code
 ### for Arduino

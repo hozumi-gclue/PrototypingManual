@@ -22,7 +22,7 @@ RGB Color LEDをBar状に5個配置したBrickです。
 |[WS2812B Datasheet](http://www.adafruit.com/datasheets/WS2812B.pdf)|
 
 ## Schematic
-![](/img/400_led/schematic/403_ledbar_schematic.png)
+![](/img/400_led/schematic/403_led_bar.png)
 
 ## Sample Code
 ### for Arduino

@@ -22,7 +22,7 @@ RGB Color LEDをRing状に12個配置したBrickです。
 |[WS2812B Datasheet](http://www.adafruit.com/datasheets/WS2812B.pdf)|
 
 ## Schematic
-![](/img/400_led/schematic/402_ledring_schematic.png)
+![](/img/400_led/schematic/402_led_ring.png)
 
 ## Sample Code
 ### for Arduino
