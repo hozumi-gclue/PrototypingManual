@@ -51,7 +51,7 @@ GPIO23/GPIO24/GPIO25/GPIO26/GPIO27
 OUT/INシールドとBrickを使う際に、I2CとSPIを有効化する必要があります。
 
 1. インターネットへ接続できる様に設定してください
- 
+
 * Raspberry Piを最新版にアップデートします
 ```shell
 sudo apt-get update
