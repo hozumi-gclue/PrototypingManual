@@ -29,7 +29,7 @@ I2Cコネクタへ接続します。
 | 0x13 |
 
 ## Schematic
-![](/img/200_i2c/schematic/205_proximity_schematic.png)
+![](/img/200_i2c/schematic/205_proximity.png)
 
 ## Library
 ### for Arduino

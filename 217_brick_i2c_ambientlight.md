@@ -29,7 +29,7 @@ I2Cコネクタへ接続します。
 | 0x44 |
 
 ## Schematic
-![](/img/200_i2c/schematic/217_ambientlight_schematic.png)
+![](/img/200_i2c/schematic/217_ambientlight.png)
 
 ## Library
 ### for Arduino
@@ -60,7 +60,7 @@ I2Cコネクタに接続したAmbient Light I2C Brickより明るさを取得し
 300 'init
 310 A=I2CW(D,#800,1,#801,1)
 320 A=I2CR(D,#802,1,#810,1)
-330 ' Range #02:1600 ,Resolution #04:12bit 
+330 ' Range #02:1600 ,Resolution #04:12bit
 340 POKE #811,(PEEK(#810)&#F0)|#02|#04
 350 A=I2CW(D,#802,1,#811,1)
 

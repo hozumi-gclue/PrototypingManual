@@ -42,7 +42,7 @@ I2Cで3軸の加速度データを取得することがきます。
 | 0x53 |
 
 ## Schematic
-![](/img/200_i2c/schematic/201_3axis_schematic.png)
+![](/img/200_i2c/schematic/201_3axis.png)
 
 ## Library
 ### for Arduino
@@ -72,7 +72,7 @@ void setup()
 {
   Serial.begin(9600); // シリアルの開始デバック用
   Wire.begin();       // I2Cの開始
-  
+
   // 生存確認
   Serial.println("Checking I2C device...");
   byte who_am_i = 0x00;
@@ -82,7 +82,7 @@ void setup()
   }else{
     Serial.println("Not detected");
   }
-  
+
   // 初期化
   Serial.println("Init...");
   // DATA_FORMAT
@@ -92,10 +92,10 @@ void setup()
 }
 
 void loop()
-{ 
+{
   uint8_t length = 6;
   readI2c(0x32, length, axis_buff); //レジスターアドレス 0x32から6バイト読む
-  int x = (((int)axis_buff[1]) << 8) | axis_buff[0];   
+  int x = (((int)axis_buff[1]) << 8) | axis_buff[0];
   int y = (((int)axis_buff[3]) << 8) | axis_buff[2];
   int z = (((int)axis_buff[5]) << 8) | axis_buff[4];
   Serial.print("x: ");
@@ -104,34 +104,34 @@ void loop()
   Serial.print( y );
   Serial.print(" z: ");
   Serial.println( z );
-  
+
   delay(100);
 }
 
 // I2Cへの書き込み
 void writeI2c(byte register_addr, byte value) {
-  Wire.beginTransmission(DEVICE_ADDR);  
-  Wire.write(register_addr);         
-  Wire.write(value);                 
-  Wire.endTransmission();        
+  Wire.beginTransmission(DEVICE_ADDR);
+  Wire.write(register_addr);
+  Wire.write(value);
+  Wire.endTransmission();
 }
 
 // I2Cへの読み込み
 void readI2c(byte register_addr, int num, byte buffer[]) {
-  Wire.beginTransmission(DEVICE_ADDR); 
-  Wire.write(register_addr);           
-  Wire.endTransmission();         
+  Wire.beginTransmission(DEVICE_ADDR);
+  Wire.write(register_addr);
+  Wire.endTransmission();
 
-  Wire.beginTransmission(DEVICE_ADDR); 
-  Wire.requestFrom(DEVICE_ADDR, num);   
+  Wire.beginTransmission(DEVICE_ADDR);
+  Wire.requestFrom(DEVICE_ADDR, num);
 
   int i = 0;
-  while(Wire.available())        
-  { 
-    buffer[i] = Wire.read();   
+  while(Wire.available())
+  {
+    buffer[i] = Wire.read();
     i++;
   }
-  Wire.endTransmission();         
+  Wire.endTransmission();
 }
 ```
 
@@ -221,7 +221,7 @@ I2Cコネクタに接続した3Axis I2C Brickより３軸の加速度情報を�
 
 
 ### for NRF51
-* PackはnRF_Librariesのapp_twiとapp_traceを読み込む  
+* PackはnRF_Librariesのapp_twiとapp_traceを読み込む
 ![](/img/200_i2c/docs/201_3axis_nrf_001.png)
 ![](/img/200_i2c/docs/201_3axis_nrf_002.png)
 ![](/img/200_i2c/docs/201_3axis_nrf_003.png)
@@ -269,7 +269,7 @@ void twi_write_byte(uint8_t register_address, uint8_t data)
 	app_twi_transfer_t const transfers[] = {
 		APP_TWI_WRITE(device_address, buff, 2, 0),
 	};
-	
+
 	APP_ERROR_CHECK(app_twi_perform(&m_app_twi, transfers, 1, NULL));
 }
 
@@ -280,7 +280,7 @@ void twi_read(uint8_t register_address, char *buff, uint8_t size)
 		APP_TWI_WRITE(device_address, &register_address, 1, APP_TWI_NO_STOP),
 		APP_TWI_READ (device_address, buff, size, 0)
 	};
-	
+
 	APP_ERROR_CHECK(app_twi_perform(&m_app_twi, transfers, 2, NULL));
 }
 
@@ -298,7 +298,7 @@ int main() {
 	printf("start\n");
 
 	twi_init();
-	
+
 	// デバイスID確認
 	uint8_t dev = twi_read_byte(0x00);
 	if (dev == 0xe5) {
@@ -307,12 +307,12 @@ int main() {
 		printf("device:%d\n", dev);
 		return 0;
 	}
-	
+
 	// データフォーマットをFULL_RES, r-Justify, +-2gに設定
 	twi_write_byte(0x31, 0x0F);
 	// 計測モードに設定
 	twi_write_byte(0x2d, 0x08);
-	
+
 	// 加速度を計測
 	char buff[6] = {0};
 	while(true) {
@@ -341,46 +341,46 @@ I2Cコネクタに接続した3Axis I2C Brickより３軸の加速度情報を�
 //
 // #201 3axis i2c Brick
 //
-       
-var m = require('mraa'); 
-                                     
-var i2c = new m.I2c(0);              
-                                   
-i2c.address(0x53);                   
-                                   
-var buff = new Buffer(6);          
-                                     
-i2c.writeReg(0x31, 0x00); 
-i2c.writeReg(0x2d, 0x08);            
-                                   
-loop();                              
-                                   
-function loop()                      
-{                                    
+
+var m = require('mraa');
+
+var i2c = new m.I2c(0);
+
+i2c.address(0x53);
+
+var buff = new Buffer(6);
+
+i2c.writeReg(0x31, 0x00);
+i2c.writeReg(0x2d, 0x08);
+
+loop();
+
+function loop()
+{
     buff = i2c.readBytesReg(0x32, 6);
-                                   
+
     var x = buff[0] + (buff[1]<<8);
-                          
-    if(x & (1 << 16 - 1)){         
-        x = x - (1<<16);           
-    }                              
-                                         
-    var y = buff[2] + (buff[3]<<8);  
-    if(y & (1 << 16 - 1)){           
-        y = y - (1<<16);             
-    }                                
-                                         
-    var z = buff[4] + (buff[5]<<8);  
-    if(z & (1 << 16 - 1)){           
-        z = z - (1<<16);             
-    }                                
-                                         
-    console.log("x:"+x);             
-    console.log("y:"+y);           
-    console.log("z:"+z);           
-                                       
-    setTimeout(loop,500);          
-}                                  
+
+    if(x & (1 << 16 - 1)){
+        x = x - (1<<16);
+    }
+
+    var y = buff[2] + (buff[3]<<8);
+    if(y & (1 << 16 - 1)){
+        y = y - (1<<16);
+    }
+
+    var z = buff[4] + (buff[5]<<8);
+    if(z & (1 << 16 - 1)){
+        z = z - (1<<16);
+    }
+
+    console.log("x:"+x);
+    console.log("y:"+y);
+    console.log("z:"+z);
+
+    setTimeout(loop,500);
+}
 
 ```
 

@@ -30,7 +30,7 @@ I2Cコネクタへ接続します。
 | 0x48 |
 
 ## Schematic
-![](/img/200_i2c/schematic/207_temperature_schematic.png)
+![](/img/200_i2c/schematic/207_temperature.png)
 
 ## Library
 ### for Arduino
@@ -57,29 +57,29 @@ I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度をシ�
 void setup() {
   Serial.begin(9600);
   Wire.begin();
- 
+
   Wire.beginTransmission(DEVICE_ADDR);
   Wire.write(0x03);
   Wire.write(0x80);
   Wire.endTransmission();
- 
+
 }
- 
+
 void loop() {
   uint16_t val;
   float tmp;
   long  l_val;
-  
+
   Wire.requestFrom(DEVICE_ADDR, 2);
-  
+
   val = (uint16_t)Wire.read() << 8;   // read(上位8bit)
   val |= Wire.read();                 // read(下位8bit)
- 
+
   l_val = (long)val;
-  if(val & 0x8000) {         // 符号の判定    
+  if(val & 0x8000) {         // 符号の判定
     l_val = l_val - 65536;   // マイナスの場合
   }
- 
+
   tmp = (float)l_val * 0.0078125;   // ival / 128
 
   Serial.print("tmp:");
@@ -102,7 +102,7 @@ I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度をコ�
 
 import smbus
 import time
-  
+
 ADDRESS = 0x48 #ADT7410 device address
 CHANNEL  = 1
 
@@ -113,7 +113,7 @@ class ADT7410:
 
     def readblock(self, cmd, len):
         return self.bus.read_i2c_block_data(self.addr, cmd, len)
- 
+
 if __name__ == '__main__':
 
     dev = ADT7410(CHANNEL, ADDRESS)
@@ -178,26 +178,26 @@ var i2c = new m.I2c(0);
 var read_data = new Buffer(2);
 
 // slave address
-i2c.address(0x48);            
-                                                         
-loop();           
-                           
-function loop()            
-{                          
+i2c.address(0x48);
+
+loop();
+
+function loop()
+{
     i2c.writeReg(0x03, 0x80);
-    read_data = i2c.read(2); 
-                            
+    read_data = i2c.read(2);
+
     var temp = ((read_data[0] << 8) | read_data[1]) >> 3;
-                                                         
-    if(temp >= 4096){        
-        temp -= 8192;                                    
-    }                                                    
-                                                         
+
+    if(temp >= 4096){
+        temp -= 8192;
+    }
+
     console.log("temp:" + (temp / 16.0));
-                                         
+
     setTimeout(loop, 1000);
-                                         
-}                                        
+
+}
 
 ```
 

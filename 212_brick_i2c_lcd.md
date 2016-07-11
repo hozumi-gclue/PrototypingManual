@@ -35,7 +35,7 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick表面の�
 <center>![](/img/200_i2c/docs/212_lcd_docs_002.jpg)
 
 ## Schematic
-![](/img/200_i2c/schematic/212_lcd_schematic.png)
+![](/img/200_i2c/schematic/212_lcd.png)
 
 ## Library
 ### for Arduino

@@ -28,7 +28,7 @@ I2Cコネクタへ接続します。
 | 0x51 |
 
 ## Schematic
-![](/img/200_i2c/schematic/215_rtc_schematic.png)
+![](/img/200_i2c/schematic/215_rtc.png)
 
 ## Library
 ### for Arduino
@@ -98,7 +98,7 @@ void loop() {
 
 void getRTC(byte *year, byte *month, byte *day, byte *wd, byte *hour, byte *min, byte *sec) {
   byte c;
-  
+
   Wire.beginTransmission(DEVICE_ADDR);
   Wire.write(0x03);
   Wire.endTransmission();

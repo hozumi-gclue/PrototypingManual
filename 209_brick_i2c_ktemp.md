@@ -30,7 +30,7 @@ MCP3421のSlave Addressは0x68〜0x6Fのものが存在し、その値は工場�
 FaBoBrickでは、0x68、または0x69の２種類を使用しています。
 
 ## Schematic
-![](/img/200_i2c/schematic/209_ktemp_schematic.png)
+![](/img/200_i2c/schematic/209_ktemp.png)
 
 ## Library
 ### for Arduino
@@ -59,17 +59,17 @@ int device_addr;
 void setup() {
   Wire.begin();
   Serial.begin(9600);
-  
+
   Serial.println("Device Check");
   device_addr = address_check();
-  
+
   if (device_addr == 0)
   {
     Serial.print("device not found");
     while(1);
   }
 
-  Wire.beginTransmission(device_addr); 
+  Wire.beginTransmission(device_addr);
   Wire.write(0x9f); // 初期設定
   Wire.endTransmission();
 }
@@ -77,13 +77,13 @@ void setup() {
 byte address_check(){
   byte addr;
   byte error;
-  
+
   // MCP3421のアドレスチェック 0x68-0x6F
   for(addr = 0x68; addr < 0x70; addr++ )
   {
     Wire.beginTransmission(addr);
     error = Wire.endTransmission();
- 
+
     if (error == 0)
     {
       Serial.print("I2C device address 0x");
@@ -155,7 +155,7 @@ sudo i2cdetect -y 1
 
 import smbus
 import time
-  
+
 ADDRESS = 0x69 #MCP3421 device address 環境に合ったデバイスアドレス
 CHANNEL = 1
 CTLREG = 0x9f
@@ -172,7 +172,7 @@ class MCP3421:
 
     def readblock(self, cmd, len):
         return self.bus.read_i2c_block_data(self.addr, cmd, len)
- 
+
 if __name__ == '__main__':
 
     dev = MCP3421(CHANNEL, ADDRESS)

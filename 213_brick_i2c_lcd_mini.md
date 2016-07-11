@@ -29,7 +29,7 @@ I2Cコネクタへ接続します。
 | 0x3E |
 
 ## Schematic
-![](/img/200_i2c/schematic/213_lcdmini_schematic.png)
+![](/img/200_i2c/schematic/213_lcd_mini.png)
 
 ## Library
 ### for Arduino

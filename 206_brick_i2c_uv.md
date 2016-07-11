@@ -27,7 +27,7 @@ I2Cでデータを取得できます。
 | 0x60 |
 
 ## Schematic
-![](/img/200_i2c/schematic/206_uv_schematic.png)
+![](/img/200_i2c/schematic/206_uv.png)
 
 ## Parts
 - Silicon Laboratories Si1132

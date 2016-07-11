@@ -28,7 +28,7 @@ I2Cコネクタへ接続します。
 | 0x5F |
 
 ## Schematic
-![](/img/200_i2c/schematic/208_humidity_schematic.png)
+![](/img/200_i2c/schematic/208_humidity_hts221.png)
 
 ## Library
 ### for Arduino

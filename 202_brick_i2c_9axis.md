@@ -38,7 +38,7 @@ MPU-9250は、三軸加速度、ジャイロ用とコンパス用の2つのI2C S
 |0x0C|
 
 ## Schematic
-![](/img/200_i2c/schematic/202_9axis_schematic.png)
+![](/img/200_i2c/schematic/202_9axis.png)
 
 ## Library
 ### for Arduino
@@ -87,14 +87,14 @@ void setup()
 }
 
 void loop()
-{ 
+{
   // 3軸加速度
   int length = 6;
   byte axis_buff[6];
-  readI2c(ADDR_MPU9250,0x3B, length, axis_buff); 
+  readI2c(ADDR_MPU9250,0x3B, length, axis_buff);
   int ax = axis_buff[0] << 8 | axis_buff[1];
   int ay = axis_buff[2] << 8 | axis_buff[3];
-  int az = axis_buff[4] << 8 | axis_buff[5]; 
+  int az = axis_buff[4] << 8 | axis_buff[5];
 
   // 3軸加速度出力
   Serial.print("ax: ");
@@ -106,10 +106,10 @@ void loop()
 
   // ジャイロ
   byte gyro_buff[6];
-  readI2c(ADDR_MPU9250,0x43, length, gyro_buff); 
+  readI2c(ADDR_MPU9250,0x43, length, gyro_buff);
   int gx = gyro_buff[0] << 8 | gyro_buff[1];
   int gy = gyro_buff[2] << 8 | gyro_buff[3];
-  int gz = gyro_buff[4] << 8 | gyro_buff[5]; 
+  int gz = gyro_buff[4] << 8 | gyro_buff[5];
 
   // ジャイロ出力
   Serial.print("gx: ");
@@ -122,7 +122,7 @@ void loop()
   // コンパス
   byte magn_buff[7];
   int mag_length = 7;
-  readI2c(ADDR_AK8963,0x03, mag_length, magn_buff); 
+  readI2c(ADDR_AK8963,0x03, mag_length, magn_buff);
   int mx = magn_buff[0] << 8 | magn_buff[1];
   int my = magn_buff[2] << 8 | magn_buff[3];
   int mz = magn_buff[4] << 8 | magn_buff[5];
@@ -144,10 +144,10 @@ void loop()
 
 // I2Cへの書き込み
 void writeI2c(int slave_addr, byte register_addr, byte value) {
-  Wire.beginTransmission(slave_addr);  
-  Wire.write(register_addr);         
-  Wire.write(value);  
-  Wire.endTransmission();     
+  Wire.beginTransmission(slave_addr);
+  Wire.write(register_addr);
+  Wire.write(value);
+  Wire.endTransmission();
 }
 
 // I2Cへの読み込み
@@ -156,9 +156,9 @@ void readI2c(int slave_addr,byte register_addr, int num, byte *buf) {
   Wire.beginTransmission(slave_addr);
   Wire.write(register_addr);
 
-  Wire.endTransmission();         
-  Wire.beginTransmission(slave_addr); 
-  Wire.requestFrom(slave_addr, num);  
+  Wire.endTransmission();
+  Wire.beginTransmission(slave_addr);
+  Wire.requestFrom(slave_addr, num);
 
   int i = 0;
   while (Wire.available())
@@ -167,9 +167,9 @@ void readI2c(int slave_addr,byte register_addr, int num, byte *buf) {
     n = Wire.read();
     *(buf + i) = n;
 
-    i++;   
+    i++;
   }
-  Wire.endTransmission();         
+  Wire.endTransmission();
 }
 ```
 

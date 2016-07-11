@@ -29,7 +29,7 @@ I2Cコネクタへ接続します。
 | 0x3C |
 
 ## Schematic
-![](/img/200_i2c/schematic/214_oled_schematic.png)
+![](/img/200_i2c/schematic/214_oled.png)
 
 ## Library
 ### for Arduino

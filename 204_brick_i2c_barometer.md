@@ -29,7 +29,7 @@ I2Cコネクタへ接続します。
 | 0x60 |
 
 ## Schematic
-![](/img/200_i2c/schematic/204_barometer_schematic.png)
+![](/img/200_i2c/schematic/204_barometer.png)
 
 ## Library
 ### for Arduino
@@ -62,7 +62,7 @@ void setup() {
   Wire.beginTransmission(DEVICE_ADDR);
   Wire.write(0x04); // 校正データの要求
   Wire.endTransmission();
-  
+
   Wire.requestFrom(DEVICE_ADDR, 12);
   a0  = read_coef(16,  3, 0);
   b1  = read_coef(16, 13, 0);
@@ -70,7 +70,7 @@ void setup() {
   c12 = read_coef(14, 13, 9);
   c11 = read_coef(11, 10, 11);
   c22 = read_coef(11, 10, 15);
-  
+
 }
 
 void loop() {

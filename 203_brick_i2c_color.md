@@ -29,7 +29,7 @@ I2Cコネクタへ接続します。
 | 0x2A |
 
 ## Schematic
-![](/img/200_i2c/schematic/203_color_schematic.png)
+![](/img/200_i2c/schematic/203_color.png)
 
 ## Library
 ### for Arduino
@@ -53,7 +53,7 @@ I2Cコネクタに接続したColor Brickにより、赤、緑、青、赤外の
 #include <Wire.h>
 
 #define DEVICE_ADDR 0x2A // スレーブデバイスのアドレス
-#define CTLREG 0x00      
+#define CTLREG 0x00
 
 uint16_t red = 0;
 uint16_t green = 0;
@@ -107,7 +107,7 @@ void getColor()
   Wire.endTransmission(false);
 
   Wire.requestFrom(0x2A,8,true);
- 
+
   //色データの取得
 
   // 赤
@@ -150,7 +150,7 @@ I2Cコネクタに接続したColor Brickにより、赤、緑、青、赤外の
 
 import smbus
 import time
-  
+
 ADDRESS = 0x2A #S11059 device address
 CHANNEL = 1
 CTLREG = 0x00
@@ -168,7 +168,7 @@ class S11059:
 
     def readblock(self, cmd, len):
         return self.bus.read_i2c_block_data(self.addr, cmd, len)
- 
+
 if __name__ == '__main__':
 
     dev = S11059(CHANNEL, ADDRESS)
@@ -270,7 +270,7 @@ function loop(){
         console.log("R:" + red + " G:" + green + " B:" + blue + " IR:" + ir);
     }catch(e){
         console.log("read err");
-    }   
+    }
     setTimeout(loop, 1000);
 }
 

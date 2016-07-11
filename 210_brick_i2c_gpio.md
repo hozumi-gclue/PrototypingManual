@@ -29,7 +29,7 @@ I2Cコネクタへ接続します。
 | 0x20 |
 
 ## Schematic
-![](/img/200_i2c/schematic/210_gpio_schematic.png)
+![](/img/200_i2c/schematic/210_gpio.png)
 
 ## Library
 ### for Arduino
@@ -129,14 +129,14 @@ i2c.writeReg(0x03, 0x00);
 
 loop();
 
-function loop() 
+function loop()
 {
 
   console.log(c);
   i2c.writeReg(0x01, c);
 
   if(i < 7){
-    i++;  
+    i++;
     c = c << 1;
   } else {
     i = 0;
