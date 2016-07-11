@@ -22,7 +22,7 @@ Serialコネクタへ接続し、MicroUSBコネクタを他のデバイスに接
 |[FT232RL Datasheet](http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf)|
 
 ## Schematic
-![](/img/300_serial/schematic/304_serialusb_schematic.png)
+![](/img/300_serial/schematic/304_usb.png)
 
 ## Sample Code
 
@@ -41,7 +41,7 @@ int serialusbTx = 13;  // TX-O pin  Arduino D11
 
 SoftwareSerial mySerial(serialusbRx, serialusbTx); // RX, TX
 
-void setup()  
+void setup()
 {
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
@@ -151,7 +151,7 @@ void uart_events_handler(app_uart_evt_t * p_event)
         case APP_UART_FIFO_ERROR:          APP_ERROR_HANDLER(p_event->data.error_code);
             break;
 
-        case APP_UART_TX_EMPTY:            
+        case APP_UART_TX_EMPTY:
             break;
 
         default: break;
@@ -270,7 +270,7 @@ int main(void)
     uart_config();
 
     printf("\n\rHello Serial.\r\n");
-    
+
     while(true)
     {
     }

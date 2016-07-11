@@ -28,7 +28,7 @@ Serialコネクタへ接続します。
 |[MDBT40 Datasheet](http://www.raytac.com/download/MDBT40/MDBT40%20spec-Version%20A4.pdf)|
 
 ## Schematic
-![](/img/300_serial/schematic/307_ble_nordic_schematic.png)
+![](/img/300_serial/schematic/307_ble_nordic.png)
 
 ## Library
 

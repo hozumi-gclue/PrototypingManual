@@ -21,7 +21,7 @@ Serialコネクタに接続します。
 |[ESP-WROOM-02 Datasheet Page](https://espressif.com/en/products/hardware/esp-wroom-02/resources)|
 
 ## Schematic
-![](/img/300_serial/schematic/305_wifi_schematic.png)
+![](/img/300_serial/schematic/305_wifi.png)
 
 ####ATコマンド（基本コマンド）
 |  |コマンド名  | レスポンス |
@@ -69,7 +69,7 @@ int bluetoothTx = 12;
 
 SoftwareSerial mySerial(bluetoothRx, bluetoothTx); // RX, TX
 
-void setup()  
+void setup()
 {
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
@@ -110,8 +110,8 @@ ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行�
 #define ComminucationSpeed_Arduino 9600
 #define ComminucationSpeed_bleShield 115200
 
-int bluetoothRx = 13; 
-int bluetoothTx = 12; 
+int bluetoothRx = 13;
+int bluetoothTx = 12;
 
 SoftwareSerial bleShield(bluetoothRx, bluetoothTx);
 

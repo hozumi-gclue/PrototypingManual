@@ -25,7 +25,7 @@ Serialコネクタへ接続します。
 |[RN-42 Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/rn-42-ds-v2.32r.pdf)|
 
 ## Schematic
-![](/img/300_serial/schematic/302_bluetooth_schematic.png)
+![](/img/300_serial/schematic/302_bluetooth.png)
 
 ## Sample Code
 
@@ -45,7 +45,7 @@ int bluetoothTx = 13;  // TX-O pin of bluetooth mate, Arduino D13
 
 SoftwareSerial mySerial(bluetoothRx, bluetoothTx); // RX, TX
 
-void setup()  
+void setup()
 {
   // Open serial communications and wait for port to open:
   Serial.begin(57600);
@@ -64,7 +64,7 @@ void loop() // run over and over
   if (mySerial.available()){
     char c = mySerial.read();
     Serial.write(c);
-    
+
   }
   if (Serial.available())
     mySerial.write(Serial.read());

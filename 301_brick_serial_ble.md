@@ -29,7 +29,7 @@ Serialコネクタは、Arduino用、RaspberryPI用、Ichigojam用のOUT/INシ�
 
 
 ## Schematic
-![](/img/300_serial/schematic/301_ble_schematic.png)
+![](/img/300_serial/schematic/301_ble_siliconlabs.png)
 
 ## Library
 ### for Arduino
@@ -50,7 +50,7 @@ SerialコネクタにBLE Brickを接続し、BLEを他の端末から接続で�
 SoftwareSerial bleShield(12, 13);
 
 long previousMillis = 0;
-long interval = 1000; 
+long interval = 1000;
 
 void setup()
 {
@@ -68,7 +68,7 @@ void loop()
   if(currentMillis - previousMillis > interval) {
     Serial.write("*\n");
 
-    previousMillis = currentMillis;   
+    previousMillis = currentMillis;
 
     // アドバタイズ開始 (026100が返って来れば成功、BLEを検索すると見つかります)
 
@@ -100,7 +100,7 @@ SerialコネクタにBLE Brickを接続し、他のBLE機器をスキャンし�
 SoftwareSerial bleShield(12, 13);
 
 long previousMillis = 0;
-long interval = 1000; 
+long interval = 1000;
 
 void setup()
 {
@@ -118,7 +118,7 @@ void loop()
   if(currentMillis - previousMillis > interval) {
     Serial.write("*\n");
 
-    previousMillis = currentMillis;   
+    previousMillis = currentMillis;
 
     // 検索開始 (02620が返って来れば成功、BLEを検索します。)
 //    bleShield.write((byte)0x05); //パケットモードのみ
@@ -134,13 +134,13 @@ void loop()
   while (bleShield.available()) {
     if (count==5){
       Serial.write('\n');
-    }    
+    }
     Serial.print(bleShield.read(), HEX);
     count++;
 
   }
   delay(100);
-  
+
   // 検索終了 (02640が返って来れば成功、検索を終了します)
 //  bleShield.write((byte)0x04); // パケットモードのみ
   bleShield.write((byte)0x00);
