@@ -20,4 +20,4 @@ sudo pip install モジュール名
 sudo pip install FaBo3Axis_ADXL345
 ```
 
-インストールはこれで完了です。
+これでインストール完了です。
