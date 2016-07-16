@@ -59,12 +59,15 @@ ping 192.168.10.8
 
 ## Sample Code
 ### for Arduino
-サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。
+サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。
+WifiモジュールはArduino（SoftSerial使用）においてデフォルトの通信速度は115200bpsなのでを9600bpsにする。サンプル２（9600bpsに設定）を実効後、サンプル１（コマンド入力可能）を実効してください。サンプル３でIoTプラットフォームであるIFTTTを使います。
+サンプル１を実行後、ArduinoIDEのシリアルモニタを開き、CL及びLF,9600bpsに設定する。シリアルモニタのテキストボックスにATコマンドを入力し送信ボタンかエンターキーでATコマンドが入力できます。
+ATと入力し、OKが返ってきたらシリアル通信は正常です。
 
 ```
 //
 // FaBo Brick Sample 1
-// 2015/2/23
+// 2016/2/23
 // Wifi Brick #305
 #include <SoftwareSerial.h>
 
@@ -107,7 +110,7 @@ ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行�
 ```
 //
 // FaBo Brick Sample 2
-// 2015/2/23
+// 2016/2/23
 // Wifi Brick #305
 // 115200bps→9600bps
 #include <SoftwareSerial.h>
