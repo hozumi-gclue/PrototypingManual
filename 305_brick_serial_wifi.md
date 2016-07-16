@@ -156,5 +156,25 @@ void loop()
 }
 ```
 
+### for Arduino(サンプル３)
+IFTTTを使い、Fabo#115Humidity Brickセンサーで取得したデータをGoogleドライブのスプレッドシートにレコードを追加します。
+##IFTTTのアカウント(SingUP)を作る。
+##IFTTTのレシピを作成。
+Makerを検索し、Thisを選択。次に"Choose a Trigger"をクリックする。
+Event Nameを入力
+thatを選択。
+GoogeDriveの許可を与える。(Googleアカウントがない方はアカウントを作ります。)
+Choose an Actionの画面が出たら、”Add row to spredsheet"を選択。
+Create Actionをクリックする。
+保存先を設定します。変更の必要がない場合は、Create Recipeをクリック。
+次に画面右上にあるChannelをクリックします。Makerで検索します。
+Maker Channnel画面が出たら、クリックしIDをコピーしてサンプルコードに貼り付けます。
+
+
+```
+
+```
+
+
 ## Parts
 - ESP-WROOM-02
