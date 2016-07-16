@@ -22,6 +22,7 @@ Serialコネクタに接続します。
 
 ## Schematic
 ![](/img/300_serial/schematic/305_wifi.png)
+ESP-WROOM-02は、すでにファームウェアが書き込み済みであり、ATコマンドで制御できる。
 
 ####ATコマンド（基本コマンド）
 |  |コマンド名  | レスポンス |
@@ -56,7 +57,7 @@ AT+CIFSRコマンドをArduinoのターミナルから入力し、IPアドレス
 ## Sample Code
 ### for Arduino
 サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。
-Wifiモジュールはデフォルトでは115200bpsなので通信速度を9600bpsにする。サンプル２を実効後、サンプル１を実効してください。
+WifiモジュールはArduino（SoftSerial使用）においてデフォルトの通信速度は115200bpsなのでを9600bpsにする。サンプル２を実効後、サンプル１を実効してください。サンプル３でIoTプラットフォームであるIFTTTを使います。
 ```
 //
 // FaBo Brick Sample 1
