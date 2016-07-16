@@ -25,6 +25,7 @@ Serialコネクタに接続します。
 ESP-WROOM-02は、すでにファームウェアが書き込み済みであり、ATコマンドで制御できる。
 
 ####ATコマンド（基本コマンド）
+
 |  |コマンド名  | レスポンス |
 | -- | -- | -- |
 | テスト | AT | OK |
@@ -32,15 +33,15 @@ ESP-WROOM-02は、すでにファームウェアが書き込み済みであり�
 | コマンドエコー設定 | ATE1 | OK |
 
 ####ATコマンド(Wifiコマンド）
+
 |  |コマンド名  | 正常レスポンス |
 | -- | -- | -- |
 | Wifiの設定 | AT+CWMODE | 1:ステーション2:アクセスポイント3:ステーション、アクセスポイント  例 AT+CWMODE=1|
 | アクセスポイント一覧 | AT+CWLAP | SSID名,電波強度,Macアドレス,0:キーなし 2:WPA 3:WPA2  4:WPA_WPA2  |
 | アクセスポイントに接続| AT+CWJAP="SSID名","パスワード" | WIFICONNECTED |
 
-
-
 ####ATコマンド(IPコマンド）
+
 |  |コマンド名  | 正常レスポンス |
 | -- | -- | -- |
 | AT+CIFSR | IPアドレスの確認 | +CIFSR:STAIP,"IPアドレス"　+CIFSR:STAMAC,"Macアドレス"|
@@ -99,6 +100,7 @@ void loop() // run over and over
 ```
 
 ### for Arduino
+
 ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行っています。115200bps（デフォルト）では文字化けしやすいので、＃305 Wifi BrickとArduinoShield間の通信速度を9600bpsに変更し、Ardunoとパソコン間のハードウェアシリアル通信は115200pbsとします。
 
 
