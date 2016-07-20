@@ -177,7 +177,123 @@ GoogleDriveでIFTTTというフォルダができているので、クリック�
 
 
 ```
+//
+// FaBo Brick Sample 3(To transmit data to Google Drive at IFTTT.)
+// 2016/7/21
+// Wifi Brick #305
+//Rev 0.0.0
+#include <SoftwareSerial.h>
+#include <ArduinoJson.h>
+#include "DHT.h"
 
+#define bluetoothRx   13
+#define bluetoothTx   12
+
+const String ssid     = "ssid";  
+const String password = "password";
+const String Serverhost     = "maker.ifttt.com";
+const int httpPort   = 80;
+const String key = "key";
+const String event = "event name";
+const String uri     = "/trigger/" + event + "/with/key/" + key;
+struct dht_Data {
+  float h;
+  float t;
+  };
+
+SoftwareSerial bleSheild(bluetoothRx, bluetoothTx);
+DHT dht(A0, DHT11);
+dht_Data dht_data;
+
+
+void wifiConnect(){
+  delay(100);
+  bleSheild.begin(9600);
+  delay(1000);
+   //テストコマンド
+  bleSheild.println("AT");
+  delay(5000);
+   if (!bleSheild.find("OK")) {  
+  Serial.println("ATisBad");
+  return;
+  }else{
+    Serial.println("ATisOK");
+    }
+  //アクセスポイントに接続
+  String cwjap = "AT+CWJAP=\"" + ssid + "\",\"" + password + "\"";
+  Serial.println("AccessPointConnection.");
+  bleSheild.println(cwjap);
+  Serial.println(cwjap);
+  delay(10000);
+  if (!bleSheild.find("OK")) {
+    }else{
+      Serial.println("AT+CWJAPisOK");
+      }
+  //TCPプロコトルで接続
+  String cipst = "AT+CIPSTART=\"TCP\",\"" + Serverhost + "\"," + httpPort;
+  bleSheild.println(cipst);
+  Serial.println(cipst);
+  delay(50);
+  if (!bleSheild.find("OK")) {
+      Serial.println("AT+CIPSTARTisBad");
+    }else{
+      Serial.println("AT+CIPSTARTisOK");
+      Serial.println("Wifi Connected");
+      }
+  }
+//湿度、温度測る
+void tmpMesurement(){
+  dht_data.h = dht.readHumidity();
+  dht_data.t = dht.readTemperature();
+}
+
+void setup()  {
+  //ESP8266とシリアル通信
+  bleSheild.begin(9600);
+  //Arduinoのシリアル通信
+  Serial.begin(9600);
+  dht.begin();
+  wifiConnect();
+ 
+}
+void loop() {
+  String value;
+  //２００文字分でバッファを用意。
+  StaticJsonBuffer<200> jsBuffer;
+  JsonObject& data = jsBuffer.createObject();
+  if (!data.success()){
+    Serial.println("createObject failed!");
+    }
+  tmpMesurement();
+  data["value1"] =  dht_data.h;
+  data["value2"] =  dht_data.t;
+  data.printTo(value);
+  value += "\r\n";
+  //HTTP POST
+  String jsonPacket = "POST " + uri + " HTTP/1.1\r\nHost: " + Serverhost + "\r\nContent-Length: " + value.length() + " \r\nContent-Type: application/json\r\n\r\n" + value +"\r\n";
+  Serial.println(jsonPacket);
+  //トランスペアレントモードで送信
+  bleSheild.print("AT+CIPSEND=");
+  bleSheild.println(jsonPacket.length());
+  delay(10);
+  if (!bleSheild.find(">")){
+    Serial.println("AT+CIPSENDisBad");
+  }
+  //HTTPリクエスト送信
+  Serial.println("Request.");
+  bleSheild.print(jsonPacket);
+  delay(10);
+  if (!bleSheild.find("SEND OK\r\n")) {
+    Serial.println("SEND FAILED");
+    //失敗した時は再接続する。
+    wifiConnect();
+    Serial.println("Attmpt reconnection.");
+  }else{
+    Serial.println("send completely.");
+    Serial.print("");
+    }
+  delay(5000);
+}
 ```
 
 
