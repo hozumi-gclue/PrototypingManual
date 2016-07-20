@@ -157,7 +157,7 @@ void loop()
 ```
 
 ### for Arduino(サンプル３)
-IFTTTを使い、Fabo#115Humidity Brickセンサーで取得したデータをMakerで受け、Googleドライブのスプレッドシートにレコードを追加します。(Googleドライブ以外にも様々なサービスがある。)
+IFTTTを使い、Fabo#115Humidity Brickセンサーで取得したデータをMakerで受け、Googleドライブのスプレッドシートにレコードを追加します。#115Humidity BrickをA0に接続します。
 ##IFTTTのアカウント(SingUP)を作る。
 IFTTTのWebサイトにアクセス。右上の画面にあるSingUPをクリックしてアカウントを作成。Welcome to IFTTTというメールが送られてくるので、Get Startedをクリックして登録完了。
 ##IFTTTのレシピを作成。
