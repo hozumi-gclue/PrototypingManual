@@ -157,18 +157,23 @@ void loop()
 ```
 
 ### for Arduino(サンプル３)
-IFTTTを使い、Fabo#115Humidity Brickセンサーで取得したデータをGoogleドライブのスプレッドシートにレコードを追加します。
+IFTTTを使い、Fabo#115Humidity Brickセンサーで取得したデータをMakerで受け、Googleドライブのスプレッドシートにレコードを追加します。
 ##IFTTTのアカウント(SingUP)を作る。
+IFTTTのWebサイトにアクセス。右上の画面にあるSingUPをクリックしてアカウントを作成。Welcome to IFTTTというメールが送られてくるので、Get Startedをクリックして登録完了。
 ##IFTTTのレシピを作成。
-Makerを検索し、Thisを選択。次に"Choose a Trigger"をクリックする。
-Event Nameを入力
-thatを選択。
-GoogeDriveの許可を与える。(Googleアカウントがない方はアカウントを作ります。)
-Choose an Actionの画面が出たら、”Add row to spredsheet"を選択。
-Create Actionをクリックする。
-保存先を設定します。変更の必要がない場合は、Create Recipeをクリック。
+IFTTTに再びアクセスし、Thisを選択。Search ChannnelボックスにMakerで検索。create trigger画面が出る。Receive a web requestをクリックします。
+Event Nameを入力　例：115_Humidityと入力します。
+thatを選択。Choose Action Channel画面が出る。GoogleDriveで検索する。
+GoogleDriveの許可を与える。(Googleアカウントがない方はアカウントを作ります。)
+Choose an Actionの画面が出たら、”Add row to spredsheet"を選択。(１ファイル2000行まで記録できる。2000行を超えると別ファイルが生成される)
+次に、Complete Action Fields画面が表示される。ファイル名、列の設定、パスの設定ができる。しかし、今回の例の場合は、何も変更しないでCreate Actionボタンを押す。
+すると、Create and connect画面が現れ、レシピのタイトルが確認できる。確認ができたら、Create Recipeボタンを押す。 
 次に画面右上にあるChannelをクリックします。Makerで検索します。
-Maker Channnel画面が出たら、クリックしIDをコピーしてサンプルコードに貼り付けます。
+Maker Channnel画面が出たら、クリックしkeyをコピーしてサンプルコードに貼り付けます。
+
+
+サンプルコードに接続したいSSIDとWifiのパスワードを入力し、Event NameとKeyを入力しコンパイルします。
+GoogleDriveでIFTTTというフォルダができているので、クリックし任意のスプレッシートにデータが書き込まれているのか確認します。無事に書き込まれているなら成功です。
 
 
 ```
