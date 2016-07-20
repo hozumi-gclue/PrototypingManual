@@ -101,7 +101,7 @@ void loop() // run over and over
 
 ### for Arduino（サンプル２）
 
-ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行っています。115200bps（デフォルト）では文字化けしやすいので、＃305 Wifi BrickとArduinoShield間の通信速度を9600bpsに変更し、Ardunoとパソコン間のハードウェアシリアル通信は115200pbsとします。
+ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行っています。115200bps（デフォルト）では文字化けしやすいので、＃305 Wifi BrickとArduinoShield間の通信速度を9600bpsに変更し、Ardunoとパソコン間のハードウェアシリアル通信は9600pbsとします。
 
 
 ```
@@ -113,7 +113,7 @@ ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行�
 #include <SoftwareSerial.h>
 #define TimeInterval 2000
 #define ComminucationSpeed_Arduino 9600
-#define ComminucationSpeed_bleShield 115200
+#define ComminucationSpeed_bleShield 9600
 
 int bluetoothRx = 13;
 int bluetoothTx = 12;
