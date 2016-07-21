@@ -45,7 +45,9 @@ Serialコネクタに接続します。
 
 |  |コマンド名  | 正常レスポンス |
 | -- | -- | -- |
-| AT+CIFSR | IPアドレスの確認 | +CIFSR:STAIP,"IPアドレス"　+CIFSR:STAMAC,"Macアドレス"|
+| IPアドレスの確認 | AT+CIFSR | +CIFSR:STAIP,"IPアドレス"　+CIFSR:STAMAC,"Macアドレス"|
+| TCPまたは、UDPコネクション開始 | AT+CIPSTART | CONNECT OK|
+| データの送信 | AT+CIPSEND |OK　＞　が表示される|
 
 
 ##Wifiモジュールの動作確認
