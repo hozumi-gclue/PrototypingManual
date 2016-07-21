@@ -175,7 +175,7 @@ Choose an Actionの画面が出たら、”Add row to spredsheet"を選択。(�
 Maker Channnel画面が出たら、クリックしkeyをコピーしてサンプルコードに貼り付けます。
 
 
-サンプルコードに接続したいSSIDとWifiのパスワードを入力し、Event NameとKeyを入力しコンパイルします。
+サンプルコードに接続したいSSIDとWifiのパスワードを入力、Event NameとKeyを入力しコンパイルします。
 GoogleDriveでIFTTTというフォルダができているので、クリックし任意のスプレッシートにデータが書き込まれているのか確認します。無事に書き込まれているなら成功です。
 
 必要なライブラリは[#115Humidity Brick](http://www.fabo.io/115.html)を参考にしてください。
