@@ -51,7 +51,7 @@ Serialコネクタに接続します。
 
 
 ##Wifiモジュールの動作確認
-AT+CIFSRコマンドをArduinoのターミナルから入力し、IPアドレス(例：192.168.10.8)を確認する。次にパソコンにターミナルからPingコマンドを実行する。
+AT+CWMODE=1及びAT+CIFSRコマンドをArduinoのシリアルモニタから入力し、IPアドレス(例：192.168.10.8)を確認する。次にパソコンにターミナルからPingコマンドを実行する。
 
 ping 192.168.10.8
 64 bytes from 192.168.10.8: icmp_seq=3 ttl=255 time=6.434 ms
@@ -116,7 +116,7 @@ ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行�
 #include <SoftwareSerial.h>
 #define TimeInterval 2000
 #define ComminucationSpeed_Arduino 9600
-#define ComminucationSpeed_bleShield 9600
+#define ComminucationSpeed_bleShield 115200
 
 int bluetoothRx = 13;
 int bluetoothTx = 12;
