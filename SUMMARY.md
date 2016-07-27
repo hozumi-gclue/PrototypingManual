@@ -108,8 +108,8 @@
     * [Serial Breakout](707_serial_breakout.md)
 * Universal Brick
     * [3Pin Universal](708_3pin_universal.md)
-    * [3Pin Universal](709_i2c_universal.md)
-    * [3Pin Universal](710_serial_universal.md)
+    * [I2C Universal](709_i2c_universal.md)
+    * [Serial Universal](710_serial_universal.md)
 * Cable
     * [cable 3pin](1301_cable_3pin.md)
     * [cable 4pin](1302_cable_4pin.md)
