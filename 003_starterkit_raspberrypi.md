@@ -1,7 +1,7 @@
 # #003 FaBo Starter Kit for Raspberry PI
 
 <center>
-![](/img/001_starterkit/product/003_product.jpg)
+![](/img/001_starterkit/product/003.jpg)
 <!--COLORME-->
 
 ## Overview

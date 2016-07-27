@@ -1,7 +1,7 @@
 # #005 FaBo Starter Kit for DragonBoard
 
 <center>
-![](/img/001_starterkit/product/005_product.jpg)
+![](/img/001_starterkit/product/005.jpg)
 <!--COLORME-->
 
 ## Overview

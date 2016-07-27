@@ -1,7 +1,7 @@
 # #001 FaBo Complete Package
 
 <center>
-![](/img/001_starterkit/product/001_product.jpg)
+![](/img/001_starterkit/product/001.jpg)
 <!--COLORME-->
 
 ## Overview
@@ -27,7 +27,6 @@ Arduino、Raspberry Pi、IchigoJamなどマイコン本体は含まれません�
 |#110|[Tilt Brick](http://fabo.io/110.html)|1個|
 |#112|[IR LED Brick](http://fabo.io/112.html)|1個|
 |#113|[IR Receiver Brick](http://fabo.io/113.html)|1個|
-|#114|[UV Brick](http://fabo.io/114.html)|1個|
 |#115|[Humidity Brick](http://fabo.io/115.html)|1個|
 |#116|[Distance Brick](http://fabo.io/116.html)|1個|
 |#201|[3Axis I2C Brick](http://fabo.io/201.html)|1個|
@@ -35,7 +34,6 @@ Arduino、Raspberry Pi、IchigoJamなどマイコン本体は含まれません�
 |#203|[Color I2C Brick](http://fabo.io/203.html)|1個|
 |#204|[Barometer I2C Brick](http://fabo.io/204.html)|1個|
 |#205|[Proximity I2C Brick](http://fabo.io/205.html)|1個|
-|#206|[UV Index I2C Brick](http://fabo.io/206.html)|1個|
 |#207|[Temperature I2C Brick](http://fabo.io/207.html)|1個|
 |#208|[Humidity I2C Brick](http://fabo.io/208.html)|1個|
 |#209|[Ktemp I2C Brick](http://fabo.io/209.html)|1個|
@@ -46,7 +44,6 @@ Arduino、Raspberry Pi、IchigoJamなどマイコン本体は含まれません�
 |#214|[OLED I2C Brick](http://fabo.io/214.html)|1個|
 |#215|[RTC I2C Brick](http://fabo.io/215.html)|1個|
 |#217|[Ambient Light I2C Brick](http://fabo.io/217.html)|1個|
-|#301|[BLE SiliconLabs Serial Brick](http://fabo.io/301.html)|1個|
 |#302|[Bluetooth Serial Brick](http://fabo.io/302.html)|1個|
 |#304|[USB Serial Brick](http://fabo.io/304.html)|1個|
 |#305|[Wifi Serial Brick](http://fabo.io/305.html)|1個|
