@@ -21,6 +21,7 @@
     * [PIとiPhoneでネットワーク構築](dev/pi/usb.md)
     * [PIとWifiSpotでネットワーク構築](dev/pi/usbwifi.md)
     * [Soracom SIMのActivate](dev/pi/soracom.md)
+    * [FaBoライブラリインストール(python)](dev/pi/install_library.md)
     * [その他](dev/pi/etc.md)
 * [IchigoJam](dev/ichigojam.md)
     * [導入](dev/ichigojam_junbi.md)
