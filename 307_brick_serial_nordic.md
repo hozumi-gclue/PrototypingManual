@@ -33,9 +33,13 @@ Serialコネクタへ接続します。
 ## Library
 
 ### for Arduino
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
 
-- [GitHub Repository](https://github.com/FaBoPlatform/FaBoBLE-Nordic-Library)
-- [Document](http://fabo.io/doxygen/FaBoBLE-Nordic-Library/)
+  ライブラリ名：「FaBo 307 BLE Nordic」
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoBLE-Nordic-Library)
+- [Library Document](http://fabo.io/doxygen/FaBoBLE-Nordic-Library/)
+
 
 ## GitHub
 - https://github.com/FaBoPlatform/FaBo/tree/master/307_ble_nordic
