@@ -1,6 +1,6 @@
 # #506 OUT/IN Shield for Raspberry Pi Zero
 
-<center>![](/img/500_outin/product/506_product.jpg)
+<center>![](/img/500_outin/product/506.jpg)
 <!--COLORME-->
 
 ## Overview

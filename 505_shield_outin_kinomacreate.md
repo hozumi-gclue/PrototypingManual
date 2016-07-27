@@ -1,6 +1,6 @@
 # #505 OUT/IN Shield for Kinoma Create
 
-<center>![](/img/500_outin/product/505_product.jpg)
+<center>![](/img/500_outin/product/505.jpg)
 <!--COLORME-->
 
 ## Overview

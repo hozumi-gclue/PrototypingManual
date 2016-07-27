@@ -1,6 +1,6 @@
 # #501 OUT/IN Shield for Arduino
 
-<center>![](/img/500_outin/product/501_product.jpg)
+<center>![](/img/500_outin/product/501.jpg)
 <!--COLORME-->
 
 ## Overview

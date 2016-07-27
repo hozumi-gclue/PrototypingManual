@@ -1,6 +1,6 @@
 # #502 OUT/IN Shield for Raspberry Pi
 
-<center>![](/img/500_outin/product/502_product.jpg)
+<center>![](/img/500_outin/product/502.jpg)
 <!--COLORME-->
 
 ## Overview

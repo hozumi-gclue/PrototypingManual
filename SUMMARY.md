@@ -95,15 +95,20 @@
     * [OUT/IN Shield for KinomaCreate](505_shield_outin_kinomacreate.md)
     * [OUT/IN Shield for Raspberry Pi ZERO](506_shield_outin_raspberrypizero.md)
     * [OUT/IN Shield for DragonBoard](507_shield_outin_dragonboard.md)
-    * [OUT/IN I2C Expand board](599_shield_outin_i2c_expand.md)
+    * [OUT/IN I2C Expand board](701_i2c_expand.md)
 * Shield
     * [Motor Shield for Arduino](601_motor.md)
     * [Stepping Motor Shield for Arduino](602_stmotor.md)
     * [CT Sensor Shield for Arduino](603_ct.md)
     * [Rom Writer Shield for Arduino](604_romwriter.md)
 * Brick Breakout
-    * [Brick Breakout](702_brick_breakout.md)
-    * [Brick Universal](708_brick_universal.md)
+    * [3Pin Breakout](705_3pin_breakout.md)
+    * [I2C Breakout](706_i2c_breakout.md)
+    * [Serial Breakout](707_serial_breakout.md)
+* Universal Brick
+    * [3Pin Universal](708_3pin_universal.md)
+    * [3Pin Universal](709_i2c_universal.md)
+    * [3Pin Universal](710_serial_universal.md)
 * Cable
     * [cable 3pin](1301_cable_3pin.md)
     * [cable 4pin](1302_cable_4pin.md)

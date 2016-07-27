@@ -1,5 +1,5 @@
 # #701 OUT/IN I2C Expand board
-<center>![](/img/700_breakout/product/701_i2cexpand_product.jpg)
+<center>![](/img/700_breakout/product/701.jpg)
 <!--COLORME-->
 
 ## Overview

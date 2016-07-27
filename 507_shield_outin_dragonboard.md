@@ -1,6 +1,6 @@
 # #507 OUT/IN Shield for DragonBoard
 
-<center>![](/img/500_outin/product/507_product.jpg)
+<center>![](/img/500_outin/product/507.jpg)
 <!--COLORME-->
 
 ## Overview
