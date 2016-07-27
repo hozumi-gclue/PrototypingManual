@@ -58,6 +58,7 @@
     * [UV Brick](114_brick_analog_uv.md)
     * [Humidity Brick](115_brick_analog_humidity.md)
     * [Distance Brick](116_brick_analog_distance.md)
+    * [Switch Brick](117_brick_analog_slideswitch.md)
 * [I2C Brick](i2c_brick.md)
     * [3Axis I2C Brick](201_brick_i2c_3axis.md)
     * [9Axis I2C Brick](202_brick_i2c_9axis.md)
