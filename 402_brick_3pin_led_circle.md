@@ -1,6 +1,6 @@
 # #402 ColorLED Ring
 
-<center>![](/img/400_led/product/402_ledring_product.jpg)
+<center>![](/img/400_led/product/402.jpg)
 <!--COLORME-->
 
 ## Overview

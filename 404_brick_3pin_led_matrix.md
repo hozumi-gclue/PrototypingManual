@@ -1,6 +1,6 @@
 # #404 ColorLED Matrix
 
-<center>![](/img/400_led/product/404_ledmatrix_product.jpg)
+<center>![](/img/400_led/product/404.jpg)
 <!--COLORME-->
 
 ## Overview
