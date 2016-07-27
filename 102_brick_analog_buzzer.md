@@ -1,6 +1,6 @@
 # #102 Buzzer Brick
 
-<center>![](/img/100_analog/product/102_buzzer_product.jpg)
+<center>![](/img/100_analog/product/102.jpg)
 <!--COLORME-->
 
 ## Overview

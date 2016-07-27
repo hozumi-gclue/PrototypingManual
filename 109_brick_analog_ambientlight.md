@@ -1,6 +1,6 @@
 # #109 Light Brick
 
-<center>![](/img/100_analog/product/109_ambientlight_product.jpg)
+<center>![](/img/100_analog/product/109.jpg)
 <!--COLORME-->
 
 ## Overview

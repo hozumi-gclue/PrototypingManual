@@ -1,6 +1,6 @@
 # #116 Distance Brick
 
-<center>![](/img/100_analog/product/116_distance_product.jpg)
+<center>![](/img/100_analog/product/116.jpg)
 <!--COLORME-->
 
 ## Overview
@@ -55,7 +55,7 @@ void setup() {
 void loop() {
   // センサーより値を取得(0〜1023)
   distanceValue = analogRead(distancePin);
-  
+
   // 取得した値を電圧に変換 (0〜5000mV)
   distanceValue = map(distanceValue, 0, 1023, 0, 5000);
 

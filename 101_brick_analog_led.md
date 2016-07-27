@@ -1,6 +1,6 @@
 # #101 LED Brick
 
-<center>![](/img/100_analog/product/101_led_product.jpg)
+<center>![](/img/100_analog/product/101.jpg)
 <!--COLORME-->
 
 ## Overview

@@ -1,6 +1,6 @@
 # #110 Tilt Brick
 
-<center>![](/img/100_analog/product/110_tilt_product.jpg)
+<center>![](/img/100_analog/product/110.jpg)
 <!--COLORME-->
 
 ## Overview

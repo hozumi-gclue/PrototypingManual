@@ -1,6 +1,6 @@
 # #111 Microphone Brick
 
-<center>![](/img/100_analog/product/111_mic_product.jpg)
+<center>![](/img/100_analog/product/111.jpg)
 <!--COLORME-->
 
 ## Overview

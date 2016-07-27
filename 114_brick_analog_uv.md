@@ -1,6 +1,6 @@
 # #114 UV Brick
 
-<center>
+<center>![](/img/100_analog/product/114.jpg)
 <!--COLORME-->
 
 ## Overview
