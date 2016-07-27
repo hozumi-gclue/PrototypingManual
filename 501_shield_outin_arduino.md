@@ -9,7 +9,7 @@ OUT/IN Shield for Arduinoは、Arduinoと各種センサーやボタンをケー
 Arduino本体、およびArduino UNOケースは含まれません。別途、お買い求めください。
 
 ## コネクタ
-<center>![](/img/500_outin/connect/501_connect.jpg)
+<center>![](/img/500_outin/connect/501.jpg)
 
 ### アナログコネクタ(3pin)
 - A0
@@ -30,22 +30,31 @@ Arduino本体、およびArduino UNOケースは含まれません。別途、�
 - D9(PWM対応)
 - D10(PWM対応)
 - D11(PWM対応)
-- D12(digitalRead使用不可)
-- D13(digitalRead使用不可)
+- D12
+- D13
 
 ### PWM/Servoコネクタ(3pin)
 - サーボモータ接続用コネクタ(2.54mmピッチピンヘッダ)
 
 PWMに対応するD3,D5,D6,D9,D10,D11
 
-### シリアルコネクタ(4pin)
+### ハードウェアシリアルコネクタ(4pin)
+- D0/D1がRX/TXに接続されたシリアルBrick用コネクタ
+
+※Arduinoへの書き込み時は、このコネクタからケーブルを外してください。
+
+### ソフトウェアシリアルコネクタ(4pin)
 SoftwareSerialとして使用するため、RX,TXはそれぞれ、D12,D13になります。
 
-※D12/D13ピンには、5V、3.3V間の電圧レベル変換回路が接続されています。このため、digitalRead()関数は使用不可です。
 
 ### I2Cコネクタ(4pin)
 Arduino MEGAではR3以降から対応になります。
 Arduino UNO R3/R2では使用可能です。
+
+シールド裏面に、I2Cプルアップ抵抗切り離し用のソルダージャンパーがあります。
+![](/img/500_outin/docs/501_docs_008.jpg)
+
+I2Cプルアップ抵抗が不要な場合、カッター等でパターンを切り離してください。
 
 ## OUT/INシールド接続方法
 ![](/img/500_outin/docs/501_docs_001.jpg)
