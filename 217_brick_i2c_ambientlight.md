@@ -1,6 +1,6 @@
 # #217 Ambient Light I2C Brick
 
-<center>![](/img/200_i2c/product/217_ambientlight_product.jpg)
+<center>![](/img/200_i2c/product/217.jpg)
 <!--COLORME-->
 
 ## Overview

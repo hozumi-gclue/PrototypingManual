@@ -1,14 +1,12 @@
 # #212 LCD I2C Brick
 
-<center>![](/img/200_i2c/product/212_lcd_product.jpg)
+<center>![](/img/200_i2c/product/212.jpg)
 <!--COLORME-->
 
 ## Overview
 LCDを使用したBrickです。
 
 I2Cで表示データを制御できます。
-
-<center>![](/img/200_i2c/docs/212_lcd_docs_001.jpg)
 
 ## Connecting
 I2Cコネクタへ接続します。
@@ -31,8 +29,6 @@ I2Cコネクタへ接続します。
 | LOW | LOW | LOW | 0x20 |
 
 FaBo Brickでは、初期値に0x20が設定されています。Brick表面のソルダージャンパーで設定を変更できます。
-
-<center>![](/img/200_i2c/docs/212_lcd_docs_002.jpg)
 
 ## Schematic
 ![](/img/200_i2c/schematic/212_lcd.png)

@@ -1,6 +1,6 @@
 # #208 Humidity I2C Brick
 
-<center>![](/img/200_i2c/product/208_humidity_product.jpg)
+<center>![](/img/200_i2c/product/208.jpg)
 <!--COLORME-->
 
 ## Overview

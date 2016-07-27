@@ -1,6 +1,6 @@
 # #201 3Axis I2C Brick
 
-<center>![](/img/200_i2c/product/201_3axis_product.jpg)
+<center>![](/img/200_i2c/product/201.jpg)
 <!--COLORME-->
 
 ## Overview

@@ -1,6 +1,6 @@
 # #211 7Segment LED I2C Brick
 
-<center>![](/img/200_i2c/product/211_7seg_product.jpg)
+<center>![](/img/200_i2c/product/211.jpg)
 <!--COLORME-->
 
 ## Overview
@@ -12,8 +12,6 @@ I2Cで表示パターンを制御できます。
 I2Cコネクタへ接続します。
 
 <center>![](/img/200_i2c/connect/211_7seg_connect.jpg)
-
-複数の7セグメントBrickを接続する場合は、Brick裏にあるソルダージャンパーでI2Cアドレスを変更します。
 
 ## Support
 |Arduino|RaspberryPI|IchigoJam|
@@ -31,7 +29,6 @@ I2Cコネクタへ接続します。
 | LOW | LOW | LOW | 0x20 |
 
 FaBo Brickでは、初期値に0x20が設定されています。Brick裏面のソルダージャンパーで設定を変更できます。
-<center>![](/img/200_i2c/docs/211_7seg_docs_001.jpg)
 
 ## Schematic
 ![](/img/200_i2c/schematic/211_7seg.png)
@@ -49,7 +46,7 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick裏面の�
 PWM出力値は、"0x02"でほぼ視認できる明るさで点灯されます。あまり高い数値にすると、点灯しなくなるおそれがあります。
 
 ### for Arduino
-I2Cコネクタに7seg Brickを接続し、「0〜９」、「.」を順番に表示させます。
+I2Cコネクタに7Segment LED Brickを接続し、「0〜9」、「.」を順番に表示させます。
 ```c
 //
 // FaBo Brick Sample
@@ -276,8 +273,11 @@ void ini(byte addr){
   Wire.endTransmission();
 }
 ```
+
 ### for Raspberry PI
+
 I2Cコネクタに7seg Brickを接続し、「0〜９」、「.」を順番に表示させます。
+
 ```python
 # coding: utf-8
 #
@@ -438,7 +438,9 @@ if __name__ == '__main__':
 ```
 
 ### for Ichigojam
+
 I2Cコネクタに7seg Brickを接続し、「0〜９」、「.」を順番に表示させます。
+
 ```
 10 '#211 7Segment I2C Brick
 20 CLS
