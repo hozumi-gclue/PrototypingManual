@@ -9,7 +9,7 @@ OUT/IN Shield for IchigoJamは、IchigoJamと各種センサーやボタンを�
 IchigoJam本体、およびIchigoJamケースは含まれません。別途、お買い求めください。
 
 ## コネクタ
-<center>![](/img/500_outin/connect/503_connect.jpg)
+<center>![](/img/500_outin/connect/503.jpg)
 
 ### INコネクタ(3pin)
 - IN1
@@ -30,6 +30,8 @@ IchigoJam本体、およびIchigoJamケースは含まれません。別途、�
 - OUT6
 
 ### I2Cコネクタ(4pin)
+I2Cを使用する場合、プルアップ設定ジャンパをON側に設定してください。
+
 ### シリアルコネクタ(4pin)
 
 ## Schematic
