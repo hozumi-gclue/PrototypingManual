@@ -1,7 +1,7 @@
 # #307 BLE Nordic Serial Brick
 
 <center>
-![](/img/300_serial/product/307_ble_nordic_product.jpg)
+![](/img/300_serial/product/307.jpg)
 <!--COLORME-->
 
 ## Overview

@@ -1,6 +1,6 @@
 # #301 BLE SiliconLabs Serial Brick
 
-<center>![](/img/300_serial/product/301_ble_product.jpg)
+<center>![](/img/300_serial/product/301.jpg)
 <!--COLORME-->
 
 ## Overview

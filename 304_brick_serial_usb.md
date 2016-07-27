@@ -1,6 +1,6 @@
 # #304 USB Serial Brick
 
-<center>![](/img/300_serial/product/304_usbserial_product.jpg)
+<center>![](/img/300_serial/product/304.jpg)
 <!--COLORME-->
 
 ## Overview

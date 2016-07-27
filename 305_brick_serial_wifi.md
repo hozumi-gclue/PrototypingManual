@@ -1,6 +1,6 @@
 # #305 Wifi Serial Brick
 
-<center>![](/img/300_serial/product/305_wifi_product.jpg)
+<center>![](/img/300_serial/product/305.jpg)
 <!--COLORME-->
 
 ## Overview
@@ -62,7 +62,7 @@ ping 192.168.10.8
 ## Sample Code
 ### for Arduino(サンプル１)
 サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。WifiモジュールはArduino（SoftSerial使用）においてデフォルトの通信速度は115200bpsなのでを9600bpsにする。サンプル２（9600bpsに設定）を実効後、サンプル１（コマンド入力可能）を実効してください。サンプル３でIoTプラットフォームであるIFTTTを使います。サンプル１を実行後、ArduinoIDEのシリアルモニタを開き、CL及びLF,9600bpsに設定する。シリアルモニタのテキストボックスにATコマンドを入力し送信ボタンかエンターキーでATコマンドが入力できます。ATと入力し、OKが返ってきたらシリアル通信は正常です。
- 
+
 
 ```
 //
@@ -170,7 +170,7 @@ thatを選択。Choose Action Channel画面が出る。GoogleDriveで検索す�
 GoogleDriveの許可を与える。(Googleアカウントがない方はアカウントを作ります。)
 Choose an Actionの画面が出たら、”Add row to spredsheet"を選択。(１ファイル2000行まで記録できる。2000行を超えると別ファイルが生成される)
 次に、Complete Action Fields画面が表示される。ファイル名、列の設定、パスの設定ができる。しかし、今回の例の場合は、何も変更しないでCreate Actionボタンを押す。
-すると、Create and connect画面が現れ、レシピのタイトルが確認できる。確認ができたら、Create Recipeボタンを押す。 
+すると、Create and connect画面が現れ、レシピのタイトルが確認できる。確認ができたら、Create Recipeボタンを押す。
 次に画面右上にあるChannelをクリックします。Makerで検索します。
 Maker Channnel画面が出たら、クリックしkeyをコピーしてサンプルコードに貼り付けます。
 
@@ -194,7 +194,7 @@ GoogleDriveでIFTTTというフォルダができているので、クリック�
 #define bluetoothRx   13
 #define bluetoothTx   12
 
-const String ssid     = "ssid";  
+const String ssid     = "ssid";
 const String password = "password";
 const String Serverhost     = "maker.ifttt.com";
 const int httpPort   = 80;
@@ -218,7 +218,7 @@ void wifiConnect(){
    //テストコマンド
   bleSheild.println("AT");
   delay(5000);
-   if (!bleSheild.find("OK")) {  
+   if (!bleSheild.find("OK")) {
   Serial.println("ATisBad");
   return;
   }else{
@@ -259,7 +259,7 @@ void setup()  {
   Serial.begin(9600);
   dht.begin();
   wifiConnect();
- 
+
 }
 void loop() {
   String value;
