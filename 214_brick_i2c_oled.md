@@ -40,6 +40,16 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoOLED-EROLED096-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoOLED-EROLED096-Library)
 
+### for RapberryPI
+- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
+
+  ライブラリ名：「FaBoOLED_EROLED096」
+ 
+- [PyPI](https://pypi.python.org/pypi/FaBoOLED_EROLED096/)
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoOLED-EROLED096-Python)
+- [Library Document](http://fabo.io/doxygen/FaBoOLED-EROLED096-Python/)
+
 ## Sample Code
 ### for Arduino
 上記のArduino Libraryをインストールし、スケッチの例、「FaBo 214 OLED EROLED096」からお選びください。
