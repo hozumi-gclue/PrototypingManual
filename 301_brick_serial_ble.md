@@ -34,9 +34,9 @@ Serialコネクタは、Arduino用、RaspberryPI用、Ichigojam用のOUT/INシ�
 ## Library
 ### for Arduino
 
-- [Arduino IDEからインストール]
+- [Arduino IDEからインストール](http://fabo.io/library_install.html)
 
-  ライブラリ名：「FaBo 202 9Axis MPU9250」
+  ライブラリ名：「FaBoBLE-BLE113」
 
 - [GitHub Repository](https://github.com/FaBoPlatform/FaBoBLE-BLE113-Library)
 - [Document](http://fabo.io/doxygen/FaBoBLE-BLE113-Library/)
