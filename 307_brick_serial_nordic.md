@@ -40,6 +40,15 @@ Serialコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoBLE-Nordic-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoBLE-Nordic-Library/)
 
+### for RapberryPI
+- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
+
+  ライブラリ名：「FaBoBLE_Nordic」
+ 
+- [PyPI](https://pypi.python.org/pypi/FaBoBLE_Nordic)
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoBLE-Nordic-Python)
+- [Library Document](http://fabo.io/doxygen/FaBoBLE-Nordic-Python/)
 
 ## GitHub
 - https://github.com/FaBoPlatform/FaBo/tree/master/307_ble_nordic
