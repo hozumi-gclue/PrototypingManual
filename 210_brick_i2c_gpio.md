@@ -40,6 +40,16 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoGPIO-PCAL6408-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoGPIO-PCAL6408-Library/)
 
+### for RapberryPI
+- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
+
+  ライブラリ名：「FaBoGPIO_PCAL6408」
+ 
+- [PyPI](https://pypi.python.org/pypi/FaBoGPIO_PCAL6408/)
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoGPIO-PCAL6408-Python)
+- [Library Document](http://fabo.io/doxygen/FaBoGPIO-PCAL6408-Python/)
+
 ## Sample Code
 ### for Arduino
 I2CコネクタにGPIO Brickを接続し、GPIO Brickについている8つのLEDを左上から右下に向かって順番に点灯させます。
