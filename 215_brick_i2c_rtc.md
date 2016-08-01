@@ -39,6 +39,16 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoRTC-PCF2129-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoRTC-PCF2129-Library/)
 
+### for RapberryPI
+- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
+
+  ライブラリ名：「FaBoRTC_PCF2129」
+ 
+- [PyPI](https://pypi.python.org/pypi/FaBoRTC_PCF2129/)
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoRTC-PCF2129-Python)
+- [Library Document](http://fabo.io/doxygen/FaBoRTC-PCF2129-Python/)
+
 ## Sample Code
 ### for Arduino
 I2CコネクタにRTC Brickを接続し、指定したい日時からの正確な経過時間を計測してシリアルモニタに出力します。
