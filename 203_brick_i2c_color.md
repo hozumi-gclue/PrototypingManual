@@ -47,6 +47,7 @@ I2Cコネクタへ接続します。
  
 - [PyPI](https://pypi.python.org/pypi/FaBoColor_S11059/)
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoColor-S11059-Python)
+
 - [Library Document](http://fabo.io/doxygen/FaBoColor-S11059-Python/)
 
 
