@@ -5,7 +5,11 @@
 <!--COLORME-->
 
 ## Overview
-Raspberry PIで、FaBo Brickをちょっと使ってみたい！という方に、手軽にはじめられるキットです。
+Raspberry PI2または3で、FaBo Brickをちょっと使ってみたい！という方に、手軽にはじめられるキットです。
+
+![](/img/001_starterkit/docs/003_doc.jpg)
+
+専用ケースに入れてお届けします。
 
 Raspberry PI本体は含まれません。別途、お買い求めください。
 
