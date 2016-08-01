@@ -39,6 +39,16 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoHumidity-HTS221-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoHumidity-HTS221-Library/)
 
+### for RapberryPI
+- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
+
+  ライブラリ名：「FaBoHumidity_HTS221」
+ 
+- [PyPI](https://pypi.python.org/pypi/FaBoHumidity_HTS221/)
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoHumidity-HTS221-Python)
+- [Library Document](http://fabo.io/doxygen/FaBoHumidity-HTS221-Python/)
+
 ## Sample Code
 ### for Arduino
 上記のArduino Libraryをインストールし、スケッチの例から、「FaBo 208 Humidity HTS221」→「humidity」を選択してください。
