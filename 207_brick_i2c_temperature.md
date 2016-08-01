@@ -48,6 +48,7 @@ I2Cコネクタへ接続します。
  
 - [PyPI](https://pypi.python.org/pypi/FaBoTemperature_ADT7410/)
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoTemperature-ADT7410-Python)
+
 - [Library Document](http://fabo.io/doxygen/FaBoTemperature-ADT7410-Python/)
 
 ## Sample Code
