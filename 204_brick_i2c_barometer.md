@@ -47,6 +47,7 @@ I2Cコネクタへ接続します。
  
 - [PyPI](https://pypi.python.org/pypi/FaBoBarometer_MPL115/)
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoBarometer-MPL115-Python)
+
 - [Library Document](http://fabo.io/doxygen/FaBoBarometer-MPL115-Python/)
 
 ## Sample Code
