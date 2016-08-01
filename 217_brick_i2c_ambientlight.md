@@ -40,6 +40,16 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoAmbientLight-ISL29034-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoAmbientLight-ISL29034-Library/)
 
+### for RapberryPI
+- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
+
+  ライブラリ名：「FaBoAmbientLight_ISL29034」
+ 
+- [PyPI](https://pypi.python.org/pypi/FaBoAmbientLight_ISL29034/)
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBoAmbientLight-ISL29034-Python)
+- [Library Document](http://fabo.io/doxygen/FaBoAmbientLight-ISL29034-Python/)
+
 ## Sample Code
 ### for Arduino
 上記のArduino Libraryをインストールし、スケッチの例、「FaBo 217 Ambient Light ISL29034」からお選びください。
