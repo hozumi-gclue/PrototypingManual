@@ -42,6 +42,16 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick裏面の�
 - [Library GitHub](https://github.com/FaBoPlatform/FaBo7Seg-TLC59208-Library)
 - [Library Document](http://fabo.io/doxygen/FaBo7Seg-TLC59208-Library/)
 
+### for RapberryPI
+- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
+
+  ライブラリ名：「FaBo7Seg_TLC59208」
+ 
+- [PyPI](https://pypi.python.org/pypi/FaBo7Seg_TLC59208/)
+
+- [Library GitHub](https://github.com/FaBoPlatform/FaBo7Segment-TLC59208-Python)
+- [Library Document](http://fabo.io/doxygen/FaBo7Segment-TLC59208-Python/)
+
 ## Sample Code
 PWM出力値は、"0x02"でほぼ視認できる明るさで点灯されます。あまり高い数値にすると、点灯しなくなるおそれがあります。
 
