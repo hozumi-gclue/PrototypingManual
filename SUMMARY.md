@@ -18,6 +18,7 @@
 * [RaspberryPI](dev/pi/rappi.md)
     * [RASPBIANのインストール](dev/pi/install.md)
     * [I2CとSPIの有効化の設定方法](dev/pi/i2cspi.md)
+    * [Serialの有効化](dev/pi/serial.md)
     * [PIとiPhoneでネットワーク構築](dev/pi/usb.md)
     * [PIとWifiSpotでネットワーク構築](dev/pi/usbwifi.md)
     * [Soracom SIMのActivate](dev/pi/soracom.md)
