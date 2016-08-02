@@ -42,13 +42,11 @@ I2Cコネクタへ接続します。
 - [Library Document](http://fabo.io/doxygen/FaBoTemperature-ADT7410-Library/)
 
 ### for RapberryPI
-- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
-
-  ライブラリ名：「FaBoTemperature_ADT7410」
- 
-- [PyPI](https://pypi.python.org/pypi/FaBoTemperature_ADT7410/)
+- pipからインストール
+```
+pip install FaBoTemperature_ADT7410
+```
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoTemperature-ADT7410-Python)
-
 - [Library Document](http://fabo.io/doxygen/FaBoTemperature-ADT7410-Python/)
 
 ## Sample Code
