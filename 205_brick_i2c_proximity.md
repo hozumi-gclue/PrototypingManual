@@ -57,7 +57,7 @@ I2Cコネクタへ接続します。
 ### for Raspberry Pi
 上記のRapberryPI Python Libraryをインストールしてからご使用ください。
 
-```
+```python
 # coding: utf-8
 ## @package FaBoProximity_VCNL4010
 #  This is a library for the FaBo Proximity I2C Brick.
