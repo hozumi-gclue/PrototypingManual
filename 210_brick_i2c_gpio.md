@@ -41,12 +41,10 @@ I2Cコネクタへ接続します。
 - [Library Document](http://fabo.io/doxygen/FaBoGPIO-PCAL6408-Library/)
 
 ### for RapberryPI
-- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
-
-  ライブラリ名：「FaBoGPIO_PCAL6408」
- 
-- [PyPI](https://pypi.python.org/pypi/FaBoGPIO_PCAL6408/)
-
+- pipからインストール
+```
+pip install FaBoGPIO_PCAL6408
+```
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoGPIO-PCAL6408-Python)
 - [Library Document](http://fabo.io/doxygen/FaBoGPIO-PCAL6408-Python/)
 
@@ -92,7 +90,40 @@ void loop() {
   }
 
 }
+```
 
+### for RapberryPI
+```python
+# coding: utf-8
+## @package FaBoGPIO_PCAL6408.py
+#  This is a library for the FaBo GPIO I2C Brick.
+#
+#  http://fabo.io/210.html
+#
+#  Released under APACHE LICENSE, VERSION 2.0
+#
+#  http://www.apache.org/licenses/
+#
+#  FaBo <info@fabo.io>
+
+import FaBoGPIO_PCAL6408
+import time
+import sys
+
+pcal6408 = FaBoGPIO_PCAL6408.PCAL6408()
+
+try:
+    while True:
+        for i in xrange(8):
+            pcal6408.setDigital(1<<i, 1)
+            time.sleep(1)
+
+        pcal6408.setAllClear()
+        time.sleep(1)
+
+except KeyboardInterrupt:
+    pcal6408.setAllClear()
+    sys.exit()
 ```
 
 ### for Ichigojam
