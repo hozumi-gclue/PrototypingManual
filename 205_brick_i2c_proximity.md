@@ -54,6 +54,42 @@ I2Cコネクタへ接続します。
 ### for Arduino
 上記のArduino Libraryをインストールし、スケッチの例から、「FaBo 205 Proximity VCNL4010」→「proximity」を選択してください。
 
+### for Raspberry Pi
+上記のRapberryPI Python Libraryをインストールしてからご使用ください。
+
+```
+# coding: utf-8
+## @package FaBoProximity_VCNL4010
+#  This is a library for the FaBo Proximity I2C Brick.
+#
+#  http://fabo.io/205.html
+#
+#  Released under APACHE LICENSE, VERSION 2.0
+#
+#  http://www.apache.org/licenses/
+#
+#  FaBo <info@fabo.io>
+
+import FaBoProximity_VCNL4010
+import time
+import sys
+
+vcnl4010 = FaBoProximity_VCNL4010.VCNL4010()
+
+try:
+    while True:
+        prox = vcnl4010.readProx()
+        ambi = vcnl4010.readAmbi()
+
+        print "Prox = ", prox,
+        print "Ambi = ", ambi
+
+        time.sleep(1)
+
+except KeyboardInterrupt:
+    sys.exit()
+```
+
 ### for Edison
 I2Cコネクタに接続したProximity I2C Brickより、センサーから物体までの距離と明るさを取得し、コンソールに出力します。
 ```js
