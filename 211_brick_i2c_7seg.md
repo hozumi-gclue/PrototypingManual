@@ -43,12 +43,10 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick裏面の�
 - [Library Document](http://fabo.io/doxygen/FaBo7Seg-TLC59208-Library/)
 
 ### for RapberryPI
-- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
-
-  ライブラリ名：「FaBo7Seg_TLC59208」
- 
-- [PyPI](https://pypi.python.org/pypi/FaBo7Seg_TLC59208/)
-
+- pipからインストール
+```
+pip install FaBo7Seg_TLC59208
+```
 - [Library GitHub](https://github.com/FaBoPlatform/FaBo7Segment-TLC59208-Python)
 - [Library Document](http://fabo.io/doxygen/FaBo7Segment-TLC59208-Python/)
 
