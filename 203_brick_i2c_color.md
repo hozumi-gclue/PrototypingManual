@@ -41,15 +41,12 @@ I2Cコネクタへ接続します。
 - [Library Document](http://fabo.io/doxygen/FaBoColor-s11059-Library/)
 
 ### for RapberryPI
-- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
-
-  ライブラリ名：「FaBoColor_S11059」
- 
-- [PyPI](https://pypi.python.org/pypi/FaBoColor_S11059/)
+- pipからインストール
+```
+pip install FaBoColor_S11059
+```
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoColor-S11059-Python)
-
 - [Library Document](http://fabo.io/doxygen/FaBoColor-S11059-Python/)
-
 
 ## Sample Code
 ### for Arduino
