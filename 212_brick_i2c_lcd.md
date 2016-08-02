@@ -43,18 +43,54 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick表面の�
 - [Library Document](http://fabo.io/doxygen/FaBoLCD-PCF8574-Library)
 
 ### for RapberryPI
-- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
-
-  ライブラリ名：「FaBoLCD_PCF8574」
- 
-- [PyPI](https://pypi.python.org/pypi/FaBoLCD_PCF8574/)
-
+- pipからインストール
+```
+pip install FaBoLCD_PCF8574
+```
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoLCD-PCF8574-Python)
 - [Library Document](http://fabo.io/doxygen/FaBoLCD-PCF8574-Python/)
 
 ## Sample Code
 ### for Arduino
 上記のArduino Libraryをインストールし、スケッチの例、「FaBo 212 LCD PCF8574」からお選びください。
+
+### for RapberryPI
+上記のRapberryPI Python Libraryをインストールしてからご使用ください。
+
+```python
+# coding: utf-8
+## @package FaBoLCD_PCF8574
+#  This is a library for the FaBo LCD I2C Brick.
+#
+#  http://fabo.io/212.html
+#
+#  Released under APACHE LICENSE, VERSION 2.0
+#
+#  http://www.apache.org/licenses/
+#
+#  FaBo <info@fabo.io>
+
+import FaBoLCD_PCF8574
+import time
+import sys
+
+i = 0
+lcd = FaBoLCD_PCF8574.PCF8574()
+
+lcd.write("Hello, World!")
+
+try:
+    while True:
+        lcd.setCursor(0,1)
+        lcd.write(i)
+
+        i += 1
+
+        time.sleep(0.5)
+
+except KeyboardInterrupt:
+    sys.exit()
+```
 
 ## Parts
 - PCF8574
