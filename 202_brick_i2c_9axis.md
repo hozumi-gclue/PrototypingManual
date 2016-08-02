@@ -50,15 +50,12 @@ MPU-9250は、三軸加速度、ジャイロ用とコンパス用の2つのI2C S
 - [Library Document](http://fabo.io/doxygen/FaBo9AXIS-MPU9250-Library/)
 
 ### for RapberryPI
-- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
-
-  ライブラリ名：「FaBo9Axis_MPU9250」
- 
-- [PyPI](https://pypi.python.org/pypi/FaBo9Axis_MPU9250/)
+- pipからインストール
+```
+pip install FaBo9Axis_MPU9250
+```
 - [Library GitHub](https://github.com/FaBoPlatform/FaBo9AXIS-MPU9250-Python)
-
 - [Library Document](http://fabo.io/doxygen/FaBo9AXIS-MPU9250-Python/)
-
 
 ## Sample Code
 ### for Arduino
