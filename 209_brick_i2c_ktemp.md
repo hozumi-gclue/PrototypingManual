@@ -42,15 +42,12 @@ FaBoBrickでは、0x68、または0x69の２種類を使用しています。
 - [Library Document](http://fabo.io/doxygen/FaBoKTemp-MCP3421-Library/)
 
 ### for RapberryPI
-- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
-
-  ライブラリ名：「FaBoKTemp_MCP3421」
- 
-- [PyPI](https://pypi.python.org/pypi/FaBoKTemp_MCP3421/)
-
+- pipからインストール
+```
+pip install FaBoKTemp_MCP3421
+```
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoKTemp-MCP3421-Python)
 - [Library Document](http://fabo.io/doxygen/FaBoKTemp-MCP3421-Python/)
-
 
 ## Sample Code
 ### for Arduino
