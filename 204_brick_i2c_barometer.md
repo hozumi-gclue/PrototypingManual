@@ -41,13 +41,11 @@ I2Cコネクタへ接続します。
 - [Library Document](http://fabo.io/doxygen/FaBoBarometer-MPL115-Library/)
 
 ### for RapberryPI
-- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
-
-  ライブラリ名：「FaBoBarometer_MPL115」
- 
-- [PyPI](https://pypi.python.org/pypi/FaBoBarometer_MPL115/)
+- pipからインストール
+```
+pip install FaBoBarometer_MPL115
+```
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoBarometer-MPL115-Python)
-
 - [Library Document](http://fabo.io/doxygen/FaBoBarometer-MPL115-Python/)
 
 ## Sample Code
