@@ -49,7 +49,7 @@ pip install FaBoRTC_PCF2129
 
 ## Sample Code
 ### for Arduino
-I2CコネクタにRTC Brickを接続し、指定したい日時からの正確な経過時間を計測してシリアルモニタに出力します。
+
 ```c
 //
 // FaBo Brick Sample
