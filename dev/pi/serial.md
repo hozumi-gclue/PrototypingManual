@@ -39,7 +39,7 @@ dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=d
 ```
 
 #### 2.再起動
-２つのファイル変更後、再起動して完了です。
+cmdline.txtを変更後、再起動して完了です。
 
 ```
 sudo reboot
