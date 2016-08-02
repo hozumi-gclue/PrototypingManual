@@ -41,13 +41,11 @@ I2Cコネクタへ接続します。
 - [Library Document](http://fabo.io/doxygen/FaBoProximity-VCNL4010-Library/)
 
 ### for RapberryPI
-- [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
-
-  ライブラリ名：「FaBoProximity_VCNL4010」
- 
-- [PyPI](https://pypi.python.org/pypi/FaBoProximity_VCNL4010/)
+- pipからインストール
+```
+pip install FaBoProximity_VCNL4010
+```
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoProximity-VCNL4010-Python)
-
 - [Library Document](http://fabo.io/doxygen/FaBoProximity-VCNL4010-Python/)
 
 ## Sample Code
