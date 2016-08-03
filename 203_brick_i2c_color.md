@@ -14,9 +14,9 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/203_color_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|◯|◯|
+|Arduino|RaspberryPI|IchigoJam|Edison|
+|:--:|:--:|:--:|:--:|
+|◯|◯|◯|◯|
 
 ## S11059 Datasheet
 | Document |
