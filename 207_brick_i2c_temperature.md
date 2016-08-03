@@ -15,9 +15,9 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/207_temperature_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|◯|◯|
+|Arduino|RaspberryPI|IchigoJam|Edison|
+|:--:|:--:|:--:|:--:|
+|◯|◯|◯|◯|
 
 ## ADT7410 Datasheet
 | Document |
