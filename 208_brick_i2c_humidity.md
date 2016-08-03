@@ -13,9 +13,9 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/208_humidity_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|◯|◯|
+|Arduino|RaspberryPI|
+|:--:|:--:|
+|◯|◯|
 
 ## HTS221 Datasheet
 | Document |
