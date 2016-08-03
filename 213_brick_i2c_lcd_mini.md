@@ -14,9 +14,9 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/213_lcdmini_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|×|◯|
+|Arduino|IchigoJam|
+|:--:|:--:|
+|◯|◯|
 
 ## AQM0802A Datasheet
 | Document |
