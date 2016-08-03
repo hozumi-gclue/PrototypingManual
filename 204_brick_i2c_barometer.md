@@ -14,9 +14,9 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/204_barometer_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|◯|◯|
+|Arduino|RaspberryPI|
+|:--:|:--:|
+|◯|◯|
 
 ## MPL115A2 Datasheet
 | Document |
