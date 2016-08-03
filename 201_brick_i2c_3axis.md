@@ -27,9 +27,9 @@ I2Cで3軸の加速度データを取得することがきます。
 写真はArduinoでの接続例です。
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|NRF51|
-|:--:|:--:|:--:|:--:|
-|◯|◯|◯|◯|
+|Arduino|RaspberryPI|IchigoJam|NRF51|Edison|
+|:--:|:--:|:--:|:--:|:--:|
+|◯|◯|◯|◯|◯|
 
 ## ADXL345 Datasheet
 | Document |
