@@ -14,9 +14,9 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/210_gpio_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|◯|◯|
+|Arduino|RaspberryPI|IchigoJam|Edison|
+|:--:|:--:|:--:|:--:|
+|◯|◯|◯|◯|
 
 ## PCAL6408 Datasheet
 | Document |
