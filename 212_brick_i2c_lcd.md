@@ -14,9 +14,9 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/212_lcd_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|◯|◯|
+|Arduino|RaspberryPI|
+|:--:|:--:|
+|◯|◯|
 
 ## PCF8574 Datasheet
 | Document |
