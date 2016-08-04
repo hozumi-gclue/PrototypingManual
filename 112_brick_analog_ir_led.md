@@ -18,9 +18,9 @@ I/Oピンから赤外線LEDをON/OFFを制御することができます。
 OUTコネクタのいずれかに接続します。
 
 ## Support
-|Arduino|IchigoJam|
-|:--:|:--:|
-|◯|◯|
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|◯|◯|◯|
 
 ## Parts Specification
 | Document |
@@ -108,6 +108,39 @@ void loop() {
   }
 
 }
+```
+
+### for Raspberry PI
+A0コネクタに赤外線LED Brickを接続し、１秒間隔で赤外線LEDを発光させます。
+
+```python
+# coding: utf-8
+#
+# FaBo Brick Sample
+#
+# #112 IR LED Brick
+#
+
+import RPi.GPIO as GPIO
+import time
+
+IR_LED_PIN = 4
+
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(IR_LED_PIN, GPIO.OUT)
+
+if __name__ == '__main__':
+    try:
+        while True:
+            GPIO.output(IR_LED_PIN, True)
+            time.sleep(1.0)
+            GPIO.output(IR_LED_PIN, False)
+            time.sleep(1.0)
+
+    except KeyboardInterrupt:
+        GPIO.cleanup()
+
 ```
 
 ### for Ichigojam
