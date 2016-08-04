@@ -17,9 +17,9 @@ Serialコネクタへ接続します。
 ![](/img/300_serial/connect/307_ble_nordic_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|◯|×|
+|Arduino|RaspberryPI|
+|:--:|:--:|
+|◯|◯|
 
 ## MDBT40 Datasheet
 
