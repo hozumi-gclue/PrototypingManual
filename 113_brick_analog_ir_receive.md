@@ -17,9 +17,9 @@ I/Oピンから赤外線受信のON/OFFを取得することができます。
 OUTコネクタのいずれかに接続します。
 
 ## Support
-|Arduino|IchigoJam|
-|:--:|:--:|
-|◯|◯|
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|◯|◯|◯|
 
 ## Parts Specification
 | Document |
