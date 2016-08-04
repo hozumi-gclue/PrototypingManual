@@ -12,9 +12,9 @@ RGB Color LEDをBar状に5個配置したBrickです。
 ![](/img/400_led/connect/403_ledbar_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|×|×|
+|Arduino|RaspberryPI|
+|:--:|:--:|
+|◯|◯|
 
 ## WS2812B Datasheet
 |Document|
@@ -42,7 +42,7 @@ https://github.com/adafruit/Adafruit_NeoPixel よりAdafruit_NeoPixelライブ�
 #include <Adafruit_NeoPixel.h>
 
 int ledPin = A0;
-int numPixels = 12;
+int numPixels = 5;
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numPixels, ledPin, NEO_GRB + NEO_KHZ800);
 
 void setup() {
