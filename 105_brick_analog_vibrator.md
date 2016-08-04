@@ -16,9 +16,9 @@ I/Oピンから振動モーターのON/OFFを制御することができます�
 ![](/img/100_analog/connect/105_vibrator_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|×|×|
+|Arduino|
+|:--:|
+|◯|
 
 ## Parts Specification
 | Document |
