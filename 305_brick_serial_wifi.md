@@ -11,9 +11,9 @@ Serialコネクタに接続します。
 ![](/img/300_serial/connect/305_wifi_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|×|×|
+|Arduino|
+|:--:|
+|◯|
 
 ## ESP-WROOM-02 Datasheet
 |Document|
