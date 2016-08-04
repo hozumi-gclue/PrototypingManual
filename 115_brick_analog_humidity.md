@@ -15,9 +15,9 @@
 ![](/img/100_analog/connect/115_humidity_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|×|×|
+|Arduino|
+|:--:|
+|◯|
 
 ## Parts Specification
 | Document |
