@@ -63,6 +63,39 @@ void loop() {
 
 }
 ```
+### for Raspberry PI
+GPIO5コネクタに赤外線受信Brick、GPIO4コネクタにLED Brickを接続し、赤外線を受信したらLEDを発光させます。
+
+```python
+# coding: utf-8
+#
+# FaBo Brick Sample
+#
+# #113 IR Receiver Brick
+#
+
+import RPi.GPIO as GPIO
+
+LED_PIN = 4
+IR_RECEIVER_PIN = 5
+
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(LED_PIN, GPIO.OUT)
+GPIO.setup(IR_RECEIVER_PIN, GPIO.IN)
+
+if __name__ == '__main__':
+    try:
+        while True:
+            if(GPIO.input(IR_RECEIVER_PIN)):
+                GPIO.output(LED_PIN, True)
+            else:
+                GPIO.output(LED_PIN, False)
+
+    except KeyboardInterrupt:
+        GPIO.cleanup()
+
+```
 
 ### for Ichigojam
 
