@@ -12,9 +12,9 @@ RGB Color LEDをRing状に12個配置したBrickです。
 ![](/img/400_led/connect/402_ledring_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|×|×|
+|Arduino|RaspberryPI|
+|:--:|:--:|
+|◯|◯|
 
 ## WS2812B Datasheet
 |Document|
