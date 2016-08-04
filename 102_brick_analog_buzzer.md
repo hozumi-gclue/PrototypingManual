@@ -13,9 +13,9 @@
 ![](/img/100_analog/connect/102_buzzer_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|×|◯|
+|Arduino|IchigoJam|
+|:--:|:--:|
+|◯|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/102_buzzer.png)
