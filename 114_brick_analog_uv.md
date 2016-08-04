@@ -14,9 +14,9 @@
 アナログ用コネクタ(IN2またはANA()で設定したコネクタ)のどれかに接続します。
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|◯|◯|
+|Arduino|IchigoJam|
+|:--:|:--:|
+|◯|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/114_uv.png)
