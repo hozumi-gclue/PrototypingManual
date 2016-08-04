@@ -18,9 +18,9 @@ I/Oピンから赤外線LEDをON/OFFを制御することができます。
 OUTコネクタのいずれかに接続します。
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|×|◯|
+|Arduino|IchigoJam|
+|:--:|:--:|
+|◯|◯|
 
 ## Parts Specification
 | Document |
