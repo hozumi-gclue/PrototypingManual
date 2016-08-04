@@ -67,7 +67,7 @@ void loop(){
 ```
 
 ### for Raspberry PI
-GPIO7コネクタに接続したButton Brickの入力により、GPIO4コネクタに接続したLED Brick の点灯/消灯を制御しています。
+GPIO5コネクタに接続したButton Brickの入力により、GPIO4コネクタに接続したLED Brick の点灯/消灯を制御しています。
 ```python
 # coding: utf-8
 #
@@ -79,7 +79,7 @@ GPIO7コネクタに接続したButton Brickの入力により、GPIO4コネク�
 import RPi.GPIO as GPIO
 
 LEDPIN = 4
-BUTTONPIN = 7
+BUTTONPIN = 5
 
 GPIO.setwarnings(False)
 GPIO.setmode( GPIO.BCM )
