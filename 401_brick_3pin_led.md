@@ -12,9 +12,9 @@ RGB Color LEDを使ったBrickです。
 ![](/img/400_led/connect/401_led_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
-|:--:|:--:|:--:|
-|◯|×|×|
+|Arduino|RaspberryPI|
+|:--:|:--:|
+|◯|◯|
 
 ## WS2812B Datasheet
 |Document|
