@@ -72,7 +72,7 @@ void loop(){
 ```
 
 ### for RaspberryPI
-GPIO7コネクタにLimitSwitch Brickを接続し、GPIO4コネクタに接続したLED Brickの点灯/消灯を制御しています。
+GPIO5コネクタにLimitSwitch Brickを接続し、GPIO4コネクタに接続したLED Brickの点灯/消灯を制御しています。
 
 ```python
 # coding: utf-8
@@ -86,7 +86,7 @@ import RPi.GPIO as GPIO
 import time
 
 LEDPIN = 4
-LSPIN = 7   #LimitSwitch pin
+LSPIN = 5   #LimitSwitch pin
 
 led_state = 0
 
