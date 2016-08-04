@@ -39,11 +39,9 @@ Arduino、Raspberry Pi、IchigoJamなどマイコン本体は含まれません�
 |#209|[Ktemp I2C Brick](http://fabo.io/209.html)|1個|
 |#210|[GPIO I2C Brick](http://fabo.io/210.html)|1個|
 |#211|[7Segment I2C Brick](http://fabo.io/211.html)|1個|
-|#212|[LCD I2C Brick](http://fabo.io/212.html)|1個|
 |#213|[LCD mini I2C Brick](http://fabo.io/213.html)|1個|
 |#215|[RTC I2C Brick](http://fabo.io/215.html)|1個|
 |#217|[Ambient Light I2C Brick](http://fabo.io/217.html)|1個|
-|#302|[Bluetooth Serial Brick](http://fabo.io/302.html)|1個|
 |#304|[USB Serial Brick](http://fabo.io/304.html)|1個|
 |#307|[BLE Nordic Serial Brick](http://fabo.io/307.html)|1個|
 |#401|[ColorLED One Brick](http://fabo.io/401.html)|1個|
