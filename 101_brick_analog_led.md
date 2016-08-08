@@ -84,9 +84,9 @@ while 1:
 OUT1コネクタにLED Brickを接続し、一定時間ごとに点灯/消灯させています。
 ```basic
 100 'led_sample_program
-110 OUT(1),1
+110 OUT 1,1
 120 WAIT 60
-130 OUT(1),0
+130 OUT 1,0
 140 WAIT 60
 150 GOTO 110
 ```
