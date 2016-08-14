@@ -30,6 +30,7 @@ Serialコネクタに接続します。
 |  |コマンド名  | レスポンス |
 | -- | -- | -- |
 | テスト | AT | OK |
+| リセット | AT | OK |
 | ファームウェアのバーション表示 | AT+GMR | バーション表示 |
 | コマンドエコー設定 | ATE1 | OK |
 
@@ -39,7 +40,8 @@ Serialコネクタに接続します。
 | -- | -- | -- |
 | Wifiの設定 | AT+CWMODE | 1:ステーション2:アクセスポイント3:ステーション、アクセスポイント  例 AT+CWMODE=1|
 | アクセスポイント一覧 | AT+CWLAP | SSID名,電波強度,Macアドレス,0:キーなし 2:WPA 3:WPA2  4:WPA_WPA2  |
-| アクセスポイントに接続| AT+CWJAP="SSID名","パスワード" | WIFICONNECTED |
+| アクセスポイントに接続| AT+CWJAP="SSID名","パスワード" | WIFI CONNECTED |
+| アクセスポイントの切断| AT+CWQAP |WIF IDISCONNECTED|
 
 ####ATコマンド(IPコマンド）
 
@@ -47,7 +49,11 @@ Serialコネクタに接続します。
 | -- | -- | -- |
 | IPアドレスの確認 | AT+CIFSR | +CIFSR:STAIP,"IPアドレス"　+CIFSR:STAMAC,"Macアドレス"|
 | TCPまたは、UDPコネクション開始 | AT+CIPSTART | CONNECT OK|
+| データの送信 | AT+CIPMODE=0 |OK　＞　が表示される|
+| データの送信 | AT+CIPSEND=バイト数 |SEND OK|
 | データの送信 | AT+CIPSEND |OK　＞　が表示される|
+
+
 
 
 ##Wifiモジュールの動作確認
