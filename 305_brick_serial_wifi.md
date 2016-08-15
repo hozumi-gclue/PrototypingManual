@@ -24,21 +24,31 @@ Serialコネクタに接続します。
 ![](/img/300_serial/schematic/305_wifi.png)
 
 
+####ATコマンド（構文）
+|  |コマンド名  |
+| -- | -- |
+| コマンドを実行する  |AT+コマンド  |
+| コマンドの内容表示 | AT+コマンド? |
+| コマンド実行引数 | AT+コマンド=引数 |
 
 ####ATコマンド（基本コマンド）
 
 |  |コマンド名  | レスポンス |
 | -- | -- | -- |
 | テスト | AT | OK |
-| リセット | AT | OK |
+| リセット | AT+RST | Ready |
 | ファームウェアのバーション表示 | AT+GMR | バーション表示 |
 | コマンドエコー設定 | ATE1 | OK |
+| UART通信設定 | AT+UART_DEF | -- |
+| TX Power設定 | AT+RFPOWER | -- |
+| スリープモード設定 | AT+SLEEP | -- |
+| 工場設定 | AT+RESTORE | -- |
 
 ####ATコマンド(Wifiコマンド）
 
 |  |コマンド名  | 正常レスポンス |
 | -- | -- | -- |
-| Wifiの設定 | AT+CWMODE | 1:ステーション2:アクセスポイント3:ステーション、アクセスポイント  例 AT+CWMODE=1|
+| Wifiの設定 | AT+CWMODE | 1:ステーション 子機2:アクセスポイント親機3:ステーション、アクセスポイント  例 AT+CWMODE=1|
 | アクセスポイント一覧 | AT+CWLAP | SSID名,電波強度,Macアドレス,0:キーなし 2:WPA 3:WPA2  4:WPA_WPA2  |
 | アクセスポイントに接続| AT+CWJAP="SSID名","パスワード" | WIFI CONNECTED |
 | アクセスポイントの切断| AT+CWQAP |WIF IDISCONNECTED|
@@ -48,12 +58,13 @@ Serialコネクタに接続します。
 |  |コマンド名  | 正常レスポンス |
 | -- | -- | -- |
 | IPアドレスの確認 | AT+CIFSR | +CIFSR:STAIP,"IPアドレス"　+CIFSR:STAMAC,"Macアドレス"|
-| TCPまたは、UDPコネクション開始 | AT+CIPSTART | CONNECT OK|
-| データの送信 | AT+CIPMODE=0 |OK　＞　が表示される|
-| データの送信 | AT+CIPSEND=バイト数 |SEND OK|
-| データの送信 | AT+CIPSEND |OK　＞　が表示される|
-
-
+| TCPまたは、UDP接続開始 | AT+CIPSTART="プロトコル名","URL",ポート数 | CONNECT OK|
+| 転送設定 | AT+CIPMODE=送信数字 |AT+CIPMODE=0　非透過モード　AT+CIPMODE=1 透過モード（トランスペアレントモード）|
+| データ送信（透過） | AT+CIPSEND=バイト数|---|
+| データ送信（非透過） | AT+CIPSEND |OK　＞　が表示される　参考：データ送信後、+++入力で終了|
+| コネクションモード設定 | AT+CIPMUX |---|
+| ファームウェア更新 | AT+CIUPDATE |---|
+| IP,IPDの表示 | AT+CIPDINFO |---|
 
 
 ##Wifiモジュールの動作確認
