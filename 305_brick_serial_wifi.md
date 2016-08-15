@@ -39,7 +39,7 @@ Serialコネクタに接続します。
 | リセット | AT+RST | Ready |
 | ファームウェアのバーション表示 | AT+GMR | バーション表示 |
 | コマンドエコー設定 | ATE1 | OK |
-| UART通信設定 | AT+UART_DEF | -- |
+| UART通信設定 | AT+UART_DEF=通信速度（９６００bps）,データビット（８ビット）,ストップビット（１）,パリティビット(０),フロー制御（０） | -- |
 | TX Power設定 | AT+RFPOWER | -- |
 | スリープモード設定 | AT+SLEEP | -- |
 | 工場設定 | AT+RESTORE | -- |
