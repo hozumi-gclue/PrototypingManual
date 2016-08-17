@@ -60,7 +60,8 @@ Serialコネクタに接続します。
 | IPアドレスの確認 | AT+CIFSR | +CIFSR:STAIP,"IPアドレス"　+CIFSR:STAMAC,"Macアドレス"|
 | TCPまたは、UDP接続開始 | AT+CIPSTART="プロトコル名","URL",ポート数 | CONNECT OK|
 | 転送設定 | AT+CIPMODE=数字 |AT+CIPMODE=0　非透過モード　AT+CIPMODE=1 透過モード（トランスペアレントモード）|
-| データ送信（１）　| AT+CIPSEND=バイト数|---|
+| データ送信（１）　| AT+CIPSEND=転送接続ID,バイト数(2048バイトまで)|---|
+| データ送信（１）　| AT+CIPSEND=バイト数(2048バイトまで)|---|
 | データ送信（２）　| AT+CIPSEND |OK　＞　が表示される　参考：データ送信後、+++入力で終了|
 | ファームウェア更新 | AT+CIUPDATE |---|
 | IP,IPDの表示 | AT+CIPDINFO |---|
