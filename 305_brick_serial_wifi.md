@@ -48,7 +48,7 @@ Serialコネクタに接続します。
 
 |  |コマンド名  | 正常レスポンス |
 | -- | -- | -- |
-| Wifiの設定 | AT+CWMODE | 1:ステーション 子機2:アクセスポイント親機3:ステーション、アクセスポイント  例 AT+CWMODE=1|
+| Wifiの設定 | AT+CWMODE | 1:ステーション(STA) 子機2:アクセスポイント親機3:ステーション、アクセスポイント  例 AT+CWMODE=1|
 | アクセスポイント一覧 | AT+CWLAP | SSID名,電波強度,Macアドレス,0:キーなし 2:WPA 3:WPA2  4:WPA_WPA2  |
 | アクセスポイントに接続| AT+CWJAP="SSID名","パスワード" | WIFI CONNECTED |
 | アクセスポイントの切断| AT+CWQAP |WIF IDISCONNECTED|
@@ -59,13 +59,14 @@ Serialコネクタに接続します。
 | -- | -- | -- |
 | IPアドレスの確認 | AT+CIFSR | +CIFSR:STAIP,"IPアドレス"　+CIFSR:STAMAC,"Macアドレス"|
 | TCPまたは、UDP接続開始 | AT+CIPSTART="プロトコル名","URL",ポート数 | CONNECT OK|
-| 転送設定 | AT+CIPMODE=送信数字 |AT+CIPMODE=0　非透過モード　AT+CIPMODE=1 透過モード（トランスペアレントモード）|
-| データ送信（透過） | AT+CIPSEND=バイト数|---|
-| データ送信（非透過） | AT+CIPSEND |OK　＞　が表示される　参考：データ送信後、+++入力で終了|
-| コネクションモード設定 | AT+CIPMUX |---|
+| 転送設定 | AT+CIPMODE=数字 |AT+CIPMODE=0　非透過モード　AT+CIPMODE=1 透過モード（トランスペアレントモード）|
+| データ送信（１）　| AT+CIPSEND=バイト数|---|
+| データ送信（２）　| AT+CIPSEND |OK　＞　が表示される　参考：データ送信後、+++入力で終了|
 | ファームウェア更新 | AT+CIUPDATE |---|
 | IP,IPDの表示 | AT+CIPDINFO |---|
-
+| コネクション設定 | AT+CIPMUX=数字 |0:シングル接続 1:多重接続（最大４まで）|
+| コネクション設定確認 | AT+CIPMUX? |----|
+| サーバの設定 | AT+CIPSERVER=モード数字、ポート数字 |モード 0:サーバー削除、1:サーバー作成　ポート　デフォルト３３３|
 
 ##Wifiモジュールの動作確認
 AT+CWMODE=1及びAT+CIFSRコマンドをArduinoのシリアルモニタから入力し、IPアドレス(例：192.168.10.8)を確認する。次にパソコンにターミナルからPingコマンドを実行する。
