@@ -13,9 +13,9 @@
 ![](/img/100_analog/connect/102_buzzer_connect.jpg)
 
 ## Support
-|Arduino|IchigoJam|
-|:--:|:--:|
-|◯|◯|
+|Arduino|RaspberryPI|IchigoJam|
+|:--:|:--:|:--:|
+|◯|◯|◯|
 
 ## Schematic
 ![](/img/100_analog/schematic/102_buzzer.png)
@@ -65,6 +65,53 @@ tone関数にて出力できる音階と周波数は下記のようになりま�
 その他の音階については下記をご参照下さい。
 
 https://www.arduino.cc/en/Tutorial/ToneMelody?from=Tutorial.Tone
+
+### for Raspberry PI
+GPIO4コネクタにBuzzer Brickを接続し、ビープ音を鳴らしています。
+
+```python
+# coding: utf-8
+# FaBo Brick Sample
+# #102 Buzzer Brick
+
+import RPi.GPIO as GPIO
+import time
+
+BUZZER_PIN = 4
+DURATION = 0.5
+DUTY = 50 # 0 - 100
+
+DO = 262
+RE = 294
+MI = 330
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(BUZZER_PIN, GPIO.OUT)
+
+buzzer = GPIO.PWM(BUZZER_PIN, 1000)
+
+try:
+    while True:
+        buzzer.ChangeFrequency(DO)
+        buzzer.start(DUTY)
+        time.sleep(DURATION)
+
+        buzzer.ChangeFrequency(RE)
+        buzzer.start(DUTY)
+        time.sleep(DURATION)
+
+        buzzer.ChangeFrequency(MI)
+        buzzer.start(DUTY)
+        time.sleep(DURATION)
+
+        buzzer.stop()
+        time.sleep(DURATION)
+
+except KeyboardInterrupt:
+
+    buzzer.stop()
+    GPIO.cleanup()
+```
 
 ### for IchigoJam
 シールドのSOUNDコネクタにBUZZER Brickを接続する。
