@@ -52,6 +52,8 @@ Serialコネクタに接続します。
 | アクセスポイント一覧 | AT+CWLAP | SSID名,電波強度,Macアドレス,0:キーなし 2:WPA 3:WPA2  4:WPA_WPA2  |
 | アクセスポイントに接続| AT+CWJAP="SSID名","パスワード" | WIFI CONNECTED |
 | アクセスポイントの切断| AT+CWQAP |WIF IDISCONNECTED|
+| アクセスポイントの設定| AT+CWSAP |AT+CWSAP=SSID名,６４バイトまでのパスワード,チャンネル,暗号(0:オープン2:WPA_PSK 3:WPA2_PSK 4:WPA_WPA2_PSK)|
+| アクセスポイントの確認| AT+CWSAP? |---|
 
 ####ATコマンド(IPコマンド）
 
@@ -79,7 +81,13 @@ ping 192.168.10.8
 64 bytes from 192.168.10.8: icmp_seq=3 ttl=255 time=6.434 ms
 などのレスポンスが返ってきたら成功です。
 
-
+###WifiBrickのファームウェアの不具合などに備えて、SSID,Macアドレスを控えておきましょう。
+SSIDを調べる。
+AT+CWSAP?
+Macアドレス(ステーション)を調べる。
+AT+CIPSTAMAC?
+Macアドレス（アクセスポイント）を調べる。
+AT+CIPAPMAC?
 
 ## Sample Code
 ### for Arduino(サンプル１)
