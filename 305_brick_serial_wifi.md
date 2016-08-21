@@ -89,8 +89,8 @@ AT+CIPSTAMAC?
 Macアドレス（アクセスポイント）を調べる。
 AT+CIPAPMAC?
 
-## Sample Code
-### for Arduino(サンプル１)
+# Sample Code
+## for Arduino(サンプル１)
 サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。WifiモジュールはArduino（SoftSerial使用）においてデフォルトの通信速度は115200bpsなのでを9600bpsにする。サンプル２（9600bpsに設定）を実効後、サンプル１（コマンド入力可能）を実効してください。サンプル３でIoTプラットフォームであるIFTTTを使います。サンプル１を実行後、ArduinoIDEのシリアルモニタを開き、CL及びLF,9600bpsに設定する。シリアルモニタのテキストボックスにATコマンドを入力し送信ボタンかエンターキーでATコマンドが入力できます。ATと入力し、OKが返ってきたらシリアル通信は正常です。
 
 
@@ -132,7 +132,7 @@ void loop() // run over and over
 }
 ```
 
-### for Arduino（サンプル２）
+## for Arduino（サンプル２）
 
 ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行っています。115200bps（デフォルト）では文字化けしやすいので、＃305 Wifi BrickとArduinoShield間の通信速度を9600bpsに変更し、Ardunoとパソコン間のハードウェアシリアル通信は9600pbsとします。
 
@@ -189,7 +189,7 @@ void loop()
 }
 ```
 
-### for Arduino(サンプル３)
+## for Arduino(サンプル３)
 IFTTTを使い、Fabo#115Humidity Brickセンサーで取得したデータをMakerで受け、Googleドライブのスプレッドシートにレコードを追加します。#115Humidity BrickをA0に接続します。
 ##IFTTTのアカウント(SingUP)を作る。
 IFTTTのWebサイトにアクセス。右上の画面にあるSingUPをクリックしてアカウントを作成。Welcome to IFTTTというメールが送られてくるので、Get Startedをクリックして登録完了。
