@@ -338,7 +338,7 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.jsonを代入しOKし
 ツール->ボード->ボードマネージャからesp8622 by ESP8266 Communityを選択してインストールします。**参照先以外のファームウェアは、電波法に抵触する可能性があります。絶対に参照または、使用しないでください。**
 次にツール->ボード->Generic ESP8266 Moduleを選択します。
 ツール->ボード->Flash Size:"4M(3M SPIFFS)"を選択します。
-繋がっている任意のポートを選択して、/dev/usbserial*******(Macの場合)、COM**(Windowsの場合)を選択し、WifiBrickのRESETボタンとIO0ボタンを同時に押して、RESETボタンを離します。ArduinoIDEを使ってマイコンボードに書き込みをします。完了で終了となりIO0ボタンを離します。
+繋がっている任意のポートを選択して、/dev/usbserial*******(Macの場合)、COM**(Windowsの場合)を選択し、WifiBrickのRESETボタンとIO0ボタンを同時に押して、RESETボタンを離します。ArduinoIDEを使ってマイコンボードに書き込みをします。ArduinoIDEの１００％の表示が出たら完了です。IO0ボタンを離します。
 
 ## Parts
 - ESP-WROOM-02
