@@ -332,12 +332,12 @@ void loop() {
 ```
 
 ##WifiBrickにスケッチを書き込む
-WifiBrickにスケッチを書き込むので、以後ATコマンドは使えなくなるのでご注意ください。
+これまではArduinoとWifiBrick間でシリアル通信していましたが、WifiBrickをArduinoのようにすることもできます。WifiBrickにスケッチを書き込むので、以後ATコマンドは使えなくなるのでご注意ください。
 WifiBrickと#304USB Brickを接続します。
 Arduino IDE(Arduino1.6.11の場合。)を起動します。Arduno->Preference-> 
 追加のボードマネージャのボックスに
 http://arduino.esp8266.com/stable/package_esp8266com_index.jsonを代入しOKします。
-ツール->ボード->ボードマネージャからesp8622 by ESP8266 Communityを選択してインストールします。**参照先以外のファームウェアは、電波法に触れる可能性があります。絶対に参照または、使用しないでください。**
+ツール->ボード->ボードマネージャからesp8622 by ESP8266 Communityを選択してインストールします。**参照先以外のファームウェアは、電波法に抵触する可能性があります。絶対に参照または、使用しないでください。**
 次にツール->ボード->Generic ESP8266 Moduleを選択します。
 ツール->ボード->Flash Size:"4M(3M SPIFFS)"を選択します。
 繋がっている任意のポートを選択して、/dev/usbserial*******(Macの場合)、COM**(Windowsの場合)を選択し、WifiBrickのRESETボタンとIO0ボタンを同時に押して、RESETボタンを離します。ArduinoIDEを使ってマイコンボードに書き込みをします。完了で終了となりIO0ボタンを離します。
