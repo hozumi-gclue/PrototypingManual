@@ -332,7 +332,7 @@ void loop() {
 ```
 
 ##WifiBrickにスケッチを書き込む
-これまではArduinoとWifiBrick間でシリアル通信していましたが、WifiBrickをArduinoのようにすることもできます。WifiBrickにスケッチを書き込むので、以後ATコマンドは使えなくなるのでご注意ください。
+これまではArduinoからWifiBrickをATコマンドを使ってWifiの通信をしていましたが、WifiBrickをArduinoのようにすることもできます。WifiBrickにスケッチを書き込むので、以後ATコマンドは使えなくなるのでご注意ください。
 WifiBrickと#304USB Brickを接続します。
 Arduino IDE(Arduino1.6.11の場合。)を起動します。Arduno->Preference-> 
 追加のボードマネージャのボックスに
