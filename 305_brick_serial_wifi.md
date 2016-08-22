@@ -331,7 +331,7 @@ void loop() {
 
 ##WifiBrickにスケッチを書き込む
 これまではArduinoからWifiBrickをATコマンドを使ってWifiの通信をしていましたが、WifiBrickをArduinoのようにすることもできます。WifiBrickにスケッチを書き込むので、以後ATコマンドは使えなくなるのでご注意ください。
-WifiBrickと#304USB Brickを接続します。
+WifiBrickと#304USB Brickを接続します。#304USB Brickのスイッチは電圧3.3Vにしてください。
 Arduino IDE(Arduino1.6.11の場合。)を起動します。Arduno->Preference-> 
 追加のボードマネージャのボックスに
 http://arduino.esp8266.com/stable/package_esp8266com_index.jsonを代入しOKします。
