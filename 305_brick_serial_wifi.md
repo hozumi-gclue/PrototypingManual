@@ -101,8 +101,8 @@ AT+CIPAPMAC?
 // Wifi Brick #305
 #include <SoftwareSerial.h>
 
-int bluetoothRx = 13;
-int bluetoothTx = 12;
+int bluetoothRx = 12;
+int bluetoothTx = 13;
 
 SoftwareSerial mySerial(bluetoothRx, bluetoothTx); // RX, TX
 
@@ -148,8 +148,8 @@ ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行�
 #define ComminucationSpeed_Arduino 9600
 #define ComminucationSpeed_bleShield 115200
 
-int bluetoothRx = 13;
-int bluetoothTx = 12;
+int bluetoothRx = 12;
+int bluetoothTx = 13;
 
 SoftwareSerial bleShield(bluetoothRx, bluetoothTx);
 
@@ -221,8 +221,8 @@ GoogleDriveでIFTTTというフォルダができているので、クリック�
 #include <ArduinoJson.h>
 #include "DHT.h"
 
-#define bluetoothRx   13
-#define bluetoothTx   12
+#define bluetoothRx   12
+#define bluetoothTx   13
 
 const String ssid     = "ssid";
 const String password = "password";
@@ -333,6 +333,7 @@ void loop() {
 
 ##WifiBrickにスケッチを書き込む
 WifiBrickにスケッチを書き込むので、以後ATコマンドは使えなくなるのでご注意ください。
+WifiBrickと#304USB Brickを接続します。
 Arduino IDE(Arduino1.6.11の場合。)を起動します。Arduno->Preference-> 
 追加のボードマネージャのボックスに
 http://arduino.esp8266.com/stable/package_esp8266com_index.jsonを代入しOKします。
