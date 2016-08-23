@@ -93,7 +93,7 @@ M3-35ネジで固定して完成です。
 
 ![](/img/kit/manual/dodai4.jpg)
 
-### 3.底版をセットします。
+### 3.底板をセットします。
 
 ![](/img/kit/manual/dodai5.jpg)
 
