@@ -340,5 +340,79 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.jsonを代入しOKし
 ツール->ボード->Flash Size:"4M(3M SPIFFS)"を選択します。
 繋がっている任意のポートを選択して、/dev/usbserial*******(Macの場合)、COM**(Windowsの場合)を選択し、WifiBrickのRESETボタンとIO0ボタンを同時に押して、RESETボタンを離します。ArduinoIDEを使ってマイコンボードに書き込みをします。ArduinoIDEの１００％の表示が出たら完了です。IO0ボタンを離します。
 
+以下のサンプルは、WiFiBrickがWebサーバーになるサンプルプログラムです。１０秒ごとにサーバーから
+メッセージが表示されるようにしました。
+
+```
+//Fabo Sample WebServerTest
+#include <ESP8266WiFi.h>
+#include <WiFiClient.h>
+#include <ESP8266WebServer.h>
+#include <ESP8266mDNS.h>
+//所属するネットワークSSIDとパスワードを上書きする。
+const char *ssid = "aterm-183bcf-g";
+const char *password = "20581032413be";
+
+char count = 0;
+
+ESP8266WebServer server ( 80 );
+
+//メッセージを用意　１０秒ごとに変わる。
+char *g[] = {"Good morning!","Good afternoon!","Good evening!"};
+
+void handleRoot() {
+  char temp[400];
+  
+  snprintf ( temp, 400,
+
+"<html>\
+  <head>\
+    <meta http-equiv='refresh' content='10'/>\
+    <title>WifiBrick_Test</title>\
+    <style>\
+      body { background-color: #ff0000; font-family: Arial, Helvetica, Sans-Serif; Color: #ffffff; }\
+    </style>\
+  </head>\
+  <body>\
+    <h1>FROM #305WiFiBrick WebServer!</h1>\
+    <h1>Sucess!</h1>\
+    <h1>%s</h1>\
+  </body>\
+</html>",g[count % 3]
+  );
+  server.send ( 200, "text/html", temp );
+  count++;
+}
+
+void setup ( void ) {
+//指定されたSSIDのネットワークに接続する。
+  Serial.begin ( 9600 );
+  WiFi.begin ( ssid, password );
+  Serial.println ( "" );
+//接続を待機する。
+  while ( WiFi.status() != WL_CONNECTED ) {
+    delay ( 500 );
+    Serial.print ( "." );
+  }
+//接続先の情報を表示する。
+  Serial.println ( "" );
+  Serial.print ( "SSID=" );
+  Serial.println ( ssid );
+  Serial.print ( "IP=" );
+  Serial.println ( WiFi.localIP() );
+
+  if ( MDNS.begin ( "esp8266" ) ) {
+    Serial.println ( "MDNS responder started" );
+  }
+//サーバー始動
+  server.on ( "/", handleRoot );
+  server.begin();
+  Serial.println ( "HTTP server started" );
+}
+
+void loop ( void ) {
+  server.handleClient();
+}
+```
 ## Parts
 - ESP-WROOM-02
