@@ -350,8 +350,8 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.jsonを代入しOKし
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 //所属するネットワークSSIDとパスワードを上書きする。
-const char *ssid = "aterm-183bcf-g";
-const char *password = "20581032413be";
+const char *ssid = "ssid";
+const char *password = "password";
 
 char count = 0;
 
