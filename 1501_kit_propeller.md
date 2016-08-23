@@ -76,7 +76,7 @@ Propeller Kitは、Arduinoなどから制御できる扇風機のキットです
 
 ![](/img/kit/manual/dodai4.jpg)
 
-### 3.底版をセットします。
+### 3.底板をセットします。
 
 ![](/img/kit/manual/dodai5.jpg)
 
