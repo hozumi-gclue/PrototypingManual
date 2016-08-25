@@ -69,12 +69,12 @@ I2CコネクタにLCD mini I2C Brickを接続し、LCD上に文字を表示さ�
 450 GOTO 420
 
 600 'LCD OUT Row 1
-610 A=i2cw(D,#801,1,#802,1):'set cursol
+610 A=i2cw(D,#801,1,#802,1):'set cursor
 620 A=i2cw(D,#800,1,#810,8):'set FaBoTest
 630 return
 
 700 'LCD OUT Row 2
-710 A=i2cw(D,#801,1,#803,1):'set cursol
+710 A=i2cw(D,#801,1,#803,1):'set cursor
 720 A=i2cw(D,#800,1,#820,1):'set Input key
 730 return
 ```
