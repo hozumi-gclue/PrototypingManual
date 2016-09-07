@@ -23,6 +23,8 @@ Raspberry Pi本体、およびRaspberry Piケースは含まれません。別�
 
 SPI接続の10bit ADコンバータがシールド上に実装されています。
 
+具体的な使用方法は、Analog Brickの各ページをご参照ください。
+
 ### GPIOコネクタ(3pin)
 - GPIO4
 - GPIO5
@@ -38,9 +40,13 @@ SPI接続の10bit ADコンバータがシールド上に実装されています
 - GPIO22
 
 ### Servoコネクタ(3pin)
-- サーボモータ接続用コネクタ(2.54mmピッチピンヘッダ)
+- GPIO23
+- GPIO24
+- GPIO25
+- GPIO26
+- GPIO27
 
-GPIO23/GPIO24/GPIO25/GPIO26/GPIO27
+サーボモータ接続用コネクタ(2.54mmピッチピンヘッダ)
 
 ### シリアルコネクタ(4pin)
 
