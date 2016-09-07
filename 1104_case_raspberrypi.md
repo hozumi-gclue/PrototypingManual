@@ -40,18 +40,19 @@ Raspberry PI2 model B用のアクリル製ケースです。
 4.マイコンボードをセットし、被せるように(7)を重ねます。
 
 ![](/img/1100_case/manual/raspb2b_04.jpg)
+![](/img/1100_case/manual/raspb2b_05.jpg)
 
 注意　細い部分があります。
 
 5.(8)、(9)、(10)を順番に重ねます。
 
-![](/img/1100_case/manual/raspb2b_05.jpg)
+![](/img/1100_case/manual/raspb2b_06.jpg)
 
 3パーツとも同じ形です。順番はどちらが先でも構いません。
 
 6.(11)、(12)を重ねます。
-![](/img/1100_case/manual/raspi2b_07.jpg)
-![](/img/1100_case/manual/raspi2b_08.jpg)
+![](/img/1100_case/manual/raspb2b_07.jpg)
+![](/img/1100_case/manual/raspb2b_08.jpg)
 
 7.４本のネジをナットで固定、２本のネジを本締めします。
 
