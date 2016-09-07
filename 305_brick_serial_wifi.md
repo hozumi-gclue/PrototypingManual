@@ -24,14 +24,15 @@ Serialコネクタに接続します。
 ![](/img/300_serial/schematic/305_wifi.png)
 
 
-####ATコマンド（構文）
+## ATコマンド（構文）
+
 |  |コマンド名  |
 | -- | -- |
 | コマンドを実行する  |AT+コマンド  |
 | コマンドの内容表示 | AT+コマンド? |
 | コマンド実行引数 | AT+コマンド=引数 |
 
-####ATコマンド（基本コマンド）
+## ATコマンド（基本コマンド）
 
 |  |コマンド名  | レスポンス |
 | -- | -- | -- |
@@ -44,7 +45,7 @@ Serialコネクタに接続します。
 | スリープモード設定 | AT+SLEEP | -- |
 | 工場設定 | AT+RESTORE | -- |
 
-####ATコマンド(Wifiコマンド）
+## ATコマンド(Wifiコマンド）
 
 |  |コマンド名  | 正常レスポンス |
 | -- | -- | -- |
@@ -55,7 +56,7 @@ Serialコネクタに接続します。
 | アクセスポイントの設定| AT+CWSAP |AT+CWSAP=SSID名,６４バイトまでのパスワード,チャンネル,暗号(0:オープン2:WPA_PSK 3:WPA2_PSK 4:WPA_WPA2_PSK)|
 | アクセスポイントの確認| AT+CWSAP? |---|
 
-####ATコマンド(IPコマンド）
+## ATコマンド(IPコマンド）
 
 |  |コマンド名  | 正常レスポンス |
 | -- | -- | -- |
@@ -71,26 +72,29 @@ Serialコネクタに接続します。
 | コネクション設定確認 | AT+CIPMUX? |----|
 | サーバの設定 | AT+CIPSERVER=モード数字、ポート数字 |モード 0:サーバー削除、1:サーバー作成　ポート　デフォルト３３３|
 
-##Arduino接続
+## Arduino接続
+
 WiFiBrickを4pinケーブルを使い、ソフトウェアシリアルとハードウェアシリアルのいずれかに接続します。
 
-##Wifiモジュールの動作確認
-WiFiBrickをハードウェアシリアルに接続し、ArduinoIDEを起動。シリアルモニタを開き設定は、改行コードはCR+LF,通信速度を115200bpsに設定します。AT+CWMODE=1（子機）を入力し、送信、次に、AT+CWJAPAT="SSID","パスワード"を送信し、LANに接続する。AT+CIFSRコマンドを送信。IPアドレス(例：192.168.10.8)を確認する。次に同じLANネットワークに属するパソコンのターミナルからPingコマンドを実行する。
+## Wifiモジュールの動作確認
 
+WiFiBrickをハードウェアシリアルに接続し、ArduinoIDEを起動。シリアルモニタを開き設定は、改行コードはCR+LF,通信速度を115200bpsに設定します。AT+CWMODE=1（子機）を入力し、送信、次に、AT+CWJAPAT="SSID","パスワード"を送信し、LANに接続する。AT+CIFSRコマンドを送信。IPアドレス(例：192.168.10.8)を確認する。次に同じLANネットワークに属するパソコンのターミナルからPingコマンドを実行する。
 ping 192.168.10.8
 64 bytes from 192.168.10.8: icmp_seq=3 ttl=255 time=6.434 ms
 などのレスポンスが返ってきたら成功です。
+WifiBrickのファームウェアの不具合などに備えて、SSID,Macアドレスを控えておきましょう。
 
-###WifiBrickのファームウェアの不具合などに備えて、SSID,Macアドレスを控えておきましょう。
 ```
 AT+CWSAP?
 AT+CIPSTAMAC?
 AT+CIPAPMAC?
 ```
-# Sample Code
-## for Arduino(サンプル１)
-サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。WifiモジュールはArduino（SoftSerial使用）においてデフォルトの通信速度は115200bpsなのでを9600bpsにする。サンプル２（9600bpsに設定）を実効後、サンプル１（コマンド入力可能）を実効してください。サンプル３でIoTプラットフォームであるIFTTTを使います。サンプル１を実行後、ArduinoIDEのシリアルモニタを開き、CL及びLF,9600bpsに設定する。シリアルモニタのテキストボックスにATコマンドを入力し送信ボタンかエンターキーでATコマンドが入力できます。ATと入力し、OKが返ってきたらシリアル通信は正常です。
 
+## Sample Code
+
+### for Arduino サンプル1
+
+サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。サンプル１は、Arduino IDEでコマンド入力できる。9600bpsでの通信。WifiモジュールはArduino（SoftSerial使用）においてデフォルトの通信速度は115200bpsなのでを9600bpsにする。サンプル２（9600bpsに設定）を実効後、サンプル１（コマンド入力可能）を実効してください。サンプル３でIoTプラットフォームであるIFTTTを使います。サンプル１を実行後、ArduinoIDEのシリアルモニタを開き、CL及びLF,9600bpsに設定する。シリアルモニタのテキストボックスにATコマンドを入力し送信ボタンかエンターキーでATコマンドが入力できます。ATと入力し、OKが返ってきたらシリアル通信は正常です。
 
 ```
 //
@@ -130,10 +134,9 @@ void loop() // run over and over
 }
 ```
 
-## for Arduino（サンプル２）
+### for Arduino サンプル2
 
 ArduinoUNOとWifiBruckとの通信はソフトウェアシリアル通信を行っています。115200bps（デフォルト）では文字化けしやすいので、＃305 Wifi BrickとArduinoShield間の通信速度を9600bpsに変更し、Ardunoとパソコン間のハードウェアシリアル通信は9600pbsとします。
-
 
 ```
 //
@@ -150,8 +153,6 @@ int bluetoothRx = 12;
 int bluetoothTx = 13;
 
 SoftwareSerial bleShield(bluetoothRx, bluetoothTx);
-
-
 
 void setup()
 {
@@ -187,27 +188,15 @@ void loop()
 }
 ```
 
-## for Arduino(サンプル３)
+### for Arduino サンプル3
+
 IFTTTを使い、Fabo#115Humidity Brickセンサーで取得したデータをMakerで受け、Googleドライブのスプレッドシートにレコードを追加します。#115Humidity BrickをA0に接続します。
-##IFTTTのアカウント(SingUP)を作る。
+####IFTTTのアカウント(SingUP)を作る。
 IFTTTのWebサイトにアクセス。右上の画面にあるSingUPをクリックしてアカウントを作成。Welcome to IFTTTというメールが送られてくるので、Get Startedをクリックして登録完了。
-##IFTTTのレシピを作成。
-IFTTTに再びアクセスし、Thisを選択。Search ChannnelボックスにMakerで検索。create trigger画面が出る。Receive a web requestをクリックします。
-Event Nameを入力　例：115_Humidityと入力します。
-thatを選択。Choose Action Channel画面が出る。GoogleDriveで検索する。
-GoogleDriveの許可を与える。(Googleアカウントがない方はアカウントを作ります。)
-Choose an Actionの画面が出たら、”Add row to spredsheet"を選択。(１ファイル2000行まで記録できる。2000行を超えると別ファイルが生成される)
-次に、Complete Action Fields画面が表示される。ファイル名、列の設定、パスの設定ができる。しかし、今回の例の場合は、何も変更しないでCreate Actionボタンを押す。
-すると、Create and connect画面が現れ、レシピのタイトルが確認できる。確認ができたら、Create Recipeボタンを押す。
-次に画面右上にあるChannelをクリックします。Makerで検索します。
-Maker Channnel画面が出たら、クリックしkeyをコピーしてサンプルコードに貼り付けます。
-
-
-サンプルコードに接続したいSSIDとWifiのパスワードを入力、Event NameとKeyを入力しコンパイルします。
-GoogleDriveでIFTTTというフォルダができているので、クリックし任意のスプレッシートにデータが書き込まれているのか確認します。無事に書き込まれているなら成功です。
+####IFTTTのレシピを作成。
+IFTTTに再びアクセスし、Thisを選択。Search ChannnelボックスにMakerで検索。create trigger画面が出る。Receive a web requestをクリックします。Event Nameを入力　例：115_Humidityと入力します。thatを選択。Choose Action Channel画面が出る。GoogleDriveで検索する。GoogleDriveの許可を与える。(Googleアカウントがない方はアカウントを作ります。)Choose an Actionの画面が出たら、”Add row to spredsheet"を選択。(１ファイル2000行まで記録できる。2000行を超えると別ファイルが生成される)次に、Complete Action Fields画面が表示される。ファイル名、列の設定、パスの設定ができる。しかし、今回の例の場合は、何も変更しないでCreate Actionボタンを押す。すると、Create and connect画面が現れ、レシピのタイトルが確認できる。確認ができたら、Create Recipeボタンを押す。次に画面右上にあるChannelをクリックします。Makerで検索します。Maker Channnel画面が出たら、クリックしkeyをコピーしてサンプルコードに貼り付けます。サンプルコードに接続したいSSIDとWifiのパスワードを入力、Event NameとKeyを入力しコンパイルします。GoogleDriveでIFTTTというフォルダができているので、クリックし任意のスプレッシートにデータが書き込まれているのか確認します。無事に書き込まれているなら成功です。
 
 必要なライブラリは[#115Humidity Brick](http://www.fabo.io/115.html)を参考にしてください。
-
 
 ```
 //
@@ -329,16 +318,9 @@ void loop() {
 }
 ```
 
-##WifiBrickにスケッチを書き込む
-これまではArduinoからWifiBrickをATコマンドを使ってWifiの通信をしていましたが、WifiBrickをArduinoのようにすることもできます。WifiBrickにスケッチを書き込むので、以後ATコマンドは使えなくなるのでご注意ください。
-WifiBrickと#304USB Brickを接続します。#304USB Brickのスイッチは電圧3.3Vにしてください。
-Arduino IDE(Arduino1.6.11の場合。)を起動します。Arduno->Preference-> 
-追加のボードマネージャのボックスに
-http://arduino.esp8266.com/stable/package_esp8266com_index.jsonを代入しOKします。
-ツール->ボード->ボードマネージャからesp8622 by ESP8266 Communityを選択してインストールします。**参照先以外のファームウェアは、電波法に抵触する可能性があります。絶対に参照または、使用しないでください。**
-次にツール->ボード->Generic ESP8266 Moduleを選択します。
-ツール->ボード->Flash Size:"4M(3M SPIFFS)"を選択します。
-繋がっている任意のポートを選択して、/dev/usbserial*******(Macの場合)、COM**(Windowsの場合)を選択し、WifiBrickのRESETボタンとIO0ボタンを同時に押して、RESETボタンを離します。ArduinoIDEを使ってマイコンボードに書き込みをします。ArduinoIDEの１００％の表示が出たら完了です。IO0ボタンを離します。
+## WifiBrickにスケッチを書き込む
+
+これまではArduinoからWifiBrickをATコマンドを使ってWifiの通信をしていましたが、WifiBrickをArduinoのようにすることもできます。WifiBrickにスケッチを書き込むので、以後ATコマンドは使えなくなるのでご注意ください。WifiBrickと#304USB Brickを接続します。#304USB Brickのスイッチは電圧3.3Vにしてください。Arduino IDE(Arduino1.6.11の場合。)を起動します。Arduno->Preference->追加のボードマネージャのボックスにhttp://arduino.esp8266.com/stable/package_esp8266com_index.jsonを代入しOKします。ツール->ボード->ボードマネージャからesp8622 by ESP8266 Communityを選択してインストールします。**参照先以外のファームウェアは、電波法に抵触する可能性があります。絶対に参照または、使用しないでください。**次にツール->ボード->Generic ESP8266 Moduleを選択します。ツール->ボード->Flash Size:"4M(3M SPIFFS)"を選択します。繋がっている任意のポートを選択して、/dev/usbserial*******(Macの場合)、COM**(Windowsの場合)を選択し、WifiBrickのRESETボタンとIO0ボタンを同時に押して、RESETボタンを離します。ArduinoIDEを使ってマイコンボードに書き込みをします。ArduinoIDEの１００％の表示が出たら完了です。IO0ボタンを離します。
 
 以下のサンプルは、WiFiBrickがWebサーバーになるサンプルプログラムです。１０秒ごとにサーバーから
 メッセージが表示されるようにしました。
