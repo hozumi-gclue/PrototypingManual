@@ -49,7 +49,7 @@ Raspberry PI2 model B用のアクリル製ケースです。
 
 ![](/img/1100_case/manual/raspb2b_06.jpg)
 
-3パーツとも同じ形です。順番はどちらが先でも構いません。
+3パーツとも同じ形です。
 
 6.(11)、(12)を重ねます。
 ![](/img/1100_case/manual/raspb2b_07.jpg)
