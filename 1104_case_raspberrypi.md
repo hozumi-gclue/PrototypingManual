@@ -14,7 +14,7 @@ Raspberry PI2 model B用のアクリル製ケースです。
 
 ## ケース構成
 
-![](/img/1100_case/manual/raspi2b_00.jpg)
+![](/img/1100_case/manual/raspb2b_00.jpg)
 
 使用ネジはM3-30プラネジ４本とM3-12プラネジ２本です。
 
@@ -22,14 +22,14 @@ Raspberry PI2 model B用のアクリル製ケースです。
 
 ## 組み立て方法
 1.(1)の下からネジを図のようにセットします。
-![](/img/1100_case/manual/raspi2b_01.jpg)
+![](/img/1100_case/manual/raspb2b_01.jpg)
 
 注意　４角が長いネジ、ほか２箇所は短いネジです。
 
 ナットでの固定はしません。
 
 2.手順１でセットしたネジに合わせて、図のようにパーツ(2)、(3)を重ねます。
-![](/img/1100_case/manual/raspi2b_01a.jpg)
+![](/img/1100_case/manual/raspb2b_02.jpg)
 
 3.続けて(4)、(5)、(6)を重ね、(5)と(6)をナットで軽く固定します。
 ![](/img/1100_case/manual/raspi2b_02.jpg)
