@@ -4,7 +4,7 @@
 <!--COLORME-->
 
 ## Overview
-Wifi通信ができるBrickです。TCPクライアントやアクセスポイント、HTTPサーバになることができます。他にもWifiBrick間で１対１で接続ができます。また、WifiBrickだけでArduinoとして単体で活用できます。
+Wifi通信ができるBrickです。TCPクライアントやアクセスポイント、HTTPサーバになることができます。他にもWifiBrick間で１対１で接続ができます。また、WifiBrickだけでArduinoとして単体で活用できます。使用できるWifi規格はIEEE 802.11 b/g/nとなっております。
 
 ## Connecting
 Serialコネクタに接続します。
