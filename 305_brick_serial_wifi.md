@@ -4,7 +4,7 @@
 <!--COLORME-->
 
 ## Overview
-Wifi通信ができるBrickです。
+Wifi通信ができるBrickです。TCPクライアントやアクセスポイント、HTTPサーバになることができます。他にもWifiBrick間で１対１で接続ができます。また、WifiBrickだけでArduinoとして単体で活用できます。
 
 ## Connecting
 Serialコネクタに接続します。
@@ -23,6 +23,8 @@ Serialコネクタに接続します。
 ## Schematic
 ![](/img/300_serial/schematic/305_wifi.png)
 
+##ATコマンドとは？
+ATコマンドは、電話回線（モデム）に対して制御するのに開発され、現在でも使われております。WiFiBrickには、あらかじめファームウェアがインストール済みで、ATコマンドの文字列の信号をこのBrickに送信することにより命令ができるようになっています。
 
 ## ATコマンド（構文）
 
