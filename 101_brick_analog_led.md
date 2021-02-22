@@ -21,7 +21,7 @@ GPIOコネクタのいずれかに接続します。
 OUTコネクタのいずれかに接続します。
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
